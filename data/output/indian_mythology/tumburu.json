@@ -1,0 +1,104 @@
+{
+    "name": "Tumburu",
+    "domain": "indian_mythology",
+    "entity_type": "Gandharva",
+    "alternative_names": [
+        "Tuṃburu"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Ramayana",
+        "Bhagavata Purana",
+        "Adbhuta Ramayana",
+        "Kathasaritsagara"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with a horse-like face",
+        "distinctive_features": [
+            "Horse-faced appearance",
+            "Holds a veena",
+            "Holds wooden cymbals"
+        ],
+        "color_palette": [
+            "Golden",
+            "Brown",
+            "White"
+        ],
+        "texture": "Smooth skin with a celestial glow",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Anthropomorphic with equine facial features",
+        "domain_specific_visual": {
+            "MUSICAL_INSTRUMENT": "Veena",
+            "CULTURAL_ATTIRE": "Traditional celestial garments"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Celestial musician and singer",
+        "secondary_functions": [
+            "Courtier of Indra and Kubera",
+            "Preceptor of Rambha"
+        ],
+        "domain_specific_functional": {
+            "LEADS_GANDHARVAS": "Leads the gandharvas in music and singing",
+            "REPRESENTS_MUSIC": "Symbolizes the art of music and singing in Hindu mythology"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Kashyapa",
+                "description": "Son of Sage Kashyapa"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Pradha",
+                "description": "Son of Pradha"
+            },
+            {
+                "type": "HAS_RIVALRY",
+                "target": "Narada",
+                "description": "Rivalry in musical talent"
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Rambha",
+                "description": "Sometimes described as wedded to the apsara Rambha"
+            },
+            {
+                "type": "HAS_CHILDREN",
+                "target": "Manovatī and Sukeśā",
+                "description": "Father of two daughters who ride the Sun's chariot"
+            }
+        ],
+        "associated_entities": [
+            "Kubera",
+            "Indra",
+            "Vishnu",
+            "Rambha",
+            "Narada"
+        ],
+        "symbolic_items": [
+            "Veena",
+            "Wooden cymbals"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents the pinnacle of musical talent among celestial beings",
+        "primary_sources": [
+            "Mahabharata",
+            "Ramayana",
+            "Bhagavata Purana",
+            "Adbhuta Ramayana",
+            "Kathasaritsagara"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human musician",
+        "NOT without a horse-like face",
+        "NOT without a veena and cymbals"
+    ]
+}

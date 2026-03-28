@@ -1,0 +1,110 @@
+{
+    "name": "Kartikeya",
+    "domain": "indian_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Skanda",
+        "Subrahmanya",
+        "Shanmukha",
+        "Kataragama Deviyo",
+        "Muruga",
+        "Murugan",
+        "Kumara",
+        "Swaminatha",
+        "Saravaṇabhava",
+        "Arumukha",
+        "Shanmukha",
+        "Dhanadapani",
+        "Kandha"
+    ],
+    "primary_sources": [
+        "Skanda Purana",
+        "Mahabharata",
+        "Ramayana",
+        "Shiva Purana",
+        "Kanda Puranam",
+        "Kumarasambhava"
+    ],
+    "visual_attributes": {
+        "morphology": "Ever-youthful man",
+        "distinctive_features": [
+            "Six heads",
+            "Riding or near an Indian peafowl",
+            "Emblem of a rooster on his banner",
+            "Wields a spear called the vel"
+        ],
+        "color_palette": [
+            "Blue",
+            "Gold",
+            "Red"
+        ],
+        "texture": "Smooth",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Six heads arranged in a circular pattern",
+        "domain_specific_visual": {
+            "WEAPON": "Spear (Vel)",
+            "MOUNT": "Indian peafowl (Paravani)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of war",
+        "secondary_functions": [
+            "Patron deity of Tamil language",
+            "Philosopher teaching ethical life"
+        ],
+        "domain_specific_functional": {
+            "LEADS_ARMY": "Leads the army of the devas",
+            "DESTROYS_ASURAS": "Destroys asuras including Tarakasura and Surapadma"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Shiva",
+                "description": "Kartikeya is the son of Shiva."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Parvati",
+                "description": "Kartikeya is the son of Parvati."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Ganesha",
+                "description": "Kartikeya is the brother of Ganesha."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Parvati",
+            "Ganesha",
+            "Agni",
+            "Ganga"
+        ],
+        "symbolic_items": [
+            "Spear (Vel)",
+            "Rooster emblem",
+            "Peafowl (Paravani)"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Mentions date back to fifth century BCE",
+        "geographic_range": "Worshipped in India, Sri Lanka, Southeast Asia, and countries with Tamil populations",
+        "cultural_significance": "Important deity in Hinduism, especially in Tamil culture",
+        "primary_sources": [
+            "Skanda Purana",
+            "Mahabharata",
+            "Ramayana",
+            "Shiva Purana",
+            "Kanda Puranam",
+            "Kumarasambhava"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic warrior",
+        "NOT without six heads",
+        "NOT without a peafowl mount"
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "name": "Shiva",
+    "domain": "indian_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Mahadeva",
+        "Hara",
+        "Adiyogi",
+        "Viswanatha",
+        "Mahesha",
+        "Shankara",
+        "Rudra",
+        "Trilochana",
+        "Neelakanta"
+    ],
+    "primary_sources": [
+        "Rig Veda",
+        "Mahabharata",
+        "Puranas",
+        "Shiva Sahasranama",
+        "Shri Rudram Chamakam"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic with divine features",
+        "distinctive_features": [
+            "Third eye on forehead",
+            "Serpent king Vasuki around neck",
+            "Crescent moon on head",
+            "Holy river Ganga flowing from matted hair",
+            "Trident (Trishula) as weapon",
+            "Damaru (drum)"
+        ],
+        "color_palette": [
+            "Ashen white",
+            "Blue",
+            "Gold"
+        ],
+        "texture": "Smooth with divine glow",
+        "size_and_scale": "Larger than life, towering presence",
+        "structural_arrangement": "Seated in lotus position or standing with trident",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Lingam form worship",
+            "ATTIRE": "Tiger skin and rudraksha beads"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Supreme Being, Creator, Protector, and Transformer",
+        "secondary_functions": [
+            "Destroyer of evil",
+            "Patron of yoga and meditation",
+            "God of arts"
+        ],
+        "domain_specific_functional": {
+            "TRIMURTI_ROLE": "The Destroyer",
+            "SHAIVISM_ROLE": "Supreme Lord"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Parvati",
+                "description": "Shiva's consort and equal partner"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Ganesha",
+                "description": "Son of Shiva, remover of obstacles"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Kartikeya",
+                "description": "Son of Shiva, god of war"
+            },
+            {
+                "type": "PART_OF_TRIMURTI",
+                "target": "Brahma",
+                "description": "Part of the Hindu trinity with Brahma and Vishnu"
+            },
+            {
+                "type": "PART_OF_TRIMURTI",
+                "target": "Vishnu",
+                "description": "Part of the Hindu trinity with Brahma and Shiva"
+            }
+        ],
+        "associated_entities": [
+            "Parvati",
+            "Ganesha",
+            "Kartikeya",
+            "Brahma",
+            "Vishnu"
+        ],
+        "symbolic_items": [
+            "Trishula",
+            "Damaru",
+            "Lingam"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Vedic to present",
+        "geographic_range": "India, Nepal, Sri Lanka, Southeast Asia",
+        "cultural_significance": "Central deity in Hinduism, especially in Shaivism",
+        "primary_sources": [
+            "Rig Veda",
+            "Mahabharata",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Zeus",
+        "NOT without third eye",
+        "NOT Greek mythology context"
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "name": "Arjuna",
+    "domain": "indian_mythology",
+    "entity_type": "Divine Hero",
+    "alternative_names": [
+        "Dhanañjaya",
+        "Guḍākesha",
+        "Vijaya",
+        "Savyasāchī",
+        "Shvetavāhana",
+        "Bībhatsu",
+        "Kirīṭī",
+        "Jiṣṇu",
+        "Phālguṇa",
+        "Mahābāhu",
+        "Gāṇḍīvadhārī",
+        "Pārtha",
+        "Kaunteya",
+        "Pāṇḍuputra",
+        "Pāṇḍava",
+        "Kṛṣṇa",
+        "Bṛhannalā"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Bhagavad Gita",
+        "Aṣṭādhyāyī",
+        "Puranas"
+    ],
+    "visual_attributes": {
+        "morphology": "Human with divine features",
+        "distinctive_features": [
+            "Celestial diadem",
+            "Milky white horses",
+            "Celestial bow Gandiva"
+        ],
+        "color_palette": [
+            "Dark complexion",
+            "Silver",
+            "White"
+        ],
+        "texture": "Smooth skin",
+        "size_and_scale": "Tall and muscular",
+        "structural_arrangement": "Symmetrical and athletic build",
+        "domain_specific_visual": {
+            "WEAPON": "Gandiva bow",
+            "CHARIOT": "White chariot with white horses"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Warrior and archer",
+        "secondary_functions": [
+            "Spiritual seeker",
+            "Musician and dancer"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_EPIC": "Central character in Mahabharata",
+            "SPIRITUAL_GUIDANCE": "Disciple of Krishna"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Indra",
+                "description": "Arjuna is the son of Indra, the king of the gods."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Kunti",
+                "description": "Arjuna is the son of Kunti, wife of King Pandu."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Yudhishthira",
+                "description": "Arjuna's elder brother and the eldest Pandava."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Bhima",
+                "description": "Arjuna's elder brother and the second Pandava."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Nakula",
+                "description": "Arjuna's younger brother and the fourth Pandava."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Sahadeva",
+                "description": "Arjuna's youngest brother and the fifth Pandava."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Draupadi",
+                "description": "Arjuna's wife, shared with his brothers."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Subhadra",
+                "description": "Arjuna's wife and sister of Krishna."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Ulupi",
+                "description": "Arjuna's wife, a Naga princess."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Chitrangada",
+                "description": "Arjuna's wife, a princess of Manipur."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Abhimanyu",
+                "description": "Arjuna's son with Subhadra."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Babhruvahana",
+                "description": "Arjuna's son with Chitrangada."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Iravan",
+                "description": "Arjuna's son with Ulupi."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Shrutakarma",
+                "description": "Arjuna's son with Draupadi."
+            },
+            {
+                "type": "FRIEND_OF",
+                "target": "Krishna",
+                "description": "Arjuna's cousin and spiritual guide."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Karna",
+                "description": "Arjuna's main rival and elder half-brother."
+            }
+        ],
+        "associated_entities": [
+            "Pandavas",
+            "Kauravas",
+            "Krishna"
+        ],
+        "symbolic_items": [
+            "Gandiva bow",
+            "Celestial diadem"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Ancient India, around 400 BCE",
+        "geographic_range": "Primarily Northern India",
+        "cultural_significance": "Epitome of heroism, chivalry, and devotion in Hindu tradition",
+        "primary_sources": [
+            "Mahabharata",
+            "Bhagavad Gita"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic warrior",
+        "NOT without celestial diadem",
+        "NOT without Gandiva bow"
+    ]
+}

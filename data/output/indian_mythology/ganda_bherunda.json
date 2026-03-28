@@ -1,0 +1,86 @@
+{
+    "name": "Ganda Bherunda",
+    "domain": "indian_mythology",
+    "entity_type": "Mythological Creature",
+    "alternative_names": [
+        "Gaṇḍabheruṇḍa"
+    ],
+    "primary_sources": [
+        "Hindu scriptures",
+        "Vaishnava and Shaiva texts"
+    ],
+    "visual_attributes": {
+        "morphology": "Double-headed eagle",
+        "distinctive_features": [
+            "Two heads",
+            "Holding elephants in claws and beaks",
+            "Long tail feathers like a peafowl"
+        ],
+        "color_palette": [
+            "Golden",
+            "Brown",
+            "Green"
+        ],
+        "texture": "Feathery",
+        "size_and_scale": "Enormous, capable of holding elephants",
+        "structural_arrangement": "Symmetrical with two heads and expansive wings",
+        "domain_specific_visual": {
+            "SYMBOLIC_ITEMS": "Holds a snake in its beak in some depictions",
+            "CULTURAL_EMBLEM": "Used as an emblem in Karnataka"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Subdue Sharabha, a form of Shiva",
+        "secondary_functions": [
+            "Symbol of power and protection",
+            "Emblem of the Kingdom of Mysore"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "Form of Vishnu to control Narasimha's fury",
+            "HISTORICAL_USAGE": "Used in coins and emblems by rulers"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_CONSORT",
+                "target": "Narasimhi",
+                "description": "Ganda Bherunda is worshipped along with Narasimhi, a fierce form of Lakshmi."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Sharabha",
+                "description": "Fought and subdued Sharabha, a form of Shiva."
+            },
+            {
+                "type": "FORM_OF",
+                "target": "Narasimha",
+                "description": "Ganda Bherunda is a form of Narasimha, an avatar of Vishnu."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Shiva",
+            "Hiranyakashipu"
+        ],
+        "symbolic_items": [
+            "Elephants",
+            "Snake"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "Indian subcontinent, primarily Karnataka",
+        "cultural_significance": "Represents power and protection; used as a state emblem",
+        "primary_sources": [
+            "Hindu scriptures",
+            "Vaishnava and Shaiva texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic eagle",
+        "NOT a single-headed bird",
+        "NOT unrelated to Hindu mythology"
+    ]
+}

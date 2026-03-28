@@ -1,0 +1,96 @@
+{
+    "name": "Kali",
+    "domain": "indian_mythology",
+    "entity_type": "goddess",
+    "alternative_names": [
+        "Kalika",
+        "Kali Mata",
+        "Chamunda"
+    ],
+    "primary_sources": [
+        "Devi Mahatmya",
+        "Devi Bhagavata Purana",
+        "Linga Purana",
+        "Vamana Purana",
+        "Kalika Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "terrifying emaciated woman",
+        "distinctive_features": [
+            "black or dark blue skin",
+            "long tangled hair",
+            "red eyes",
+            "long lolling tongue",
+            "necklace of skulls or freshly decapitated heads",
+            "skirt of severed arms",
+            "jewelry made from corpses of infants"
+        ],
+        "color_palette": [
+            "black",
+            "dark blue",
+            "red"
+        ],
+        "texture": "wild and unrestrained",
+        "size_and_scale": "human-sized but imposing",
+        "structural_arrangement": "often depicted standing on the corpse of Shiva",
+        "domain_specific_visual": {
+            "iconography": "depicted in a cremation ground or battlefield",
+            "avatar_forms": "four-armed form and ten-armed Mahakali avatar"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "goddess of time, death, and destruction",
+        "secondary_functions": [
+            "protector",
+            "bestower of liberation (moksha)"
+        ],
+        "domain_specific_functional": {
+            "role_in_tantric_traditions": "preeminent deity in Hindu tantric and Kalikula worship traditions",
+            "symbolic_role": "embodiment of divine feminine energy"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CONSORT_OF",
+                "target": "Shiva",
+                "description": "Kali is the consort of Shiva, often depicted standing on his corpse."
+            },
+            {
+                "type": "MANIFESTATION_OF",
+                "target": "Durga",
+                "description": "Kali is a personification of goddess Durga's rage."
+            },
+            {
+                "type": "SLAYER_OF",
+                "target": "Raktabija",
+                "description": "Kali defeats the demon Raktabija by consuming his blood."
+            }
+        ],
+        "associated_entities": [
+            "Durga",
+            "Shiva",
+            "Raktabija"
+        ],
+        "symbolic_items": [
+            "sword",
+            "noose",
+            "tiger skin sari"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "pre-Vedic and Vedic era",
+        "geographic_range": "primarily worshipped in Bengal",
+        "cultural_significance": "symbol of divine feminine energy and liberation",
+        "primary_sources": [
+            "Devi Mahatmya",
+            "Devi Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a benign or friendly goddess",
+        "NOT depicted without her distinctive wild and terrifying features",
+        "NOT a generic depiction of a Hindu goddess without specific iconography"
+    ]
+}

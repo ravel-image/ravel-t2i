@@ -1,0 +1,109 @@
+{
+    "name": "Hanuman",
+    "domain": "indian_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Maruti",
+        "Bajrangabali",
+        "Anjaneya",
+        "Anjaniputra",
+        "Kesari Nandana",
+        "Vayuputra",
+        "Pavanputra",
+        "Vajrang Bali",
+        "Sankata Mochana",
+        "Māruti",
+        "Kapeeshwara",
+        "Rama Doota",
+        "Mahakaya",
+        "Vira",
+        "Mahavira",
+        "Mahabala",
+        "Vanarkulathin Thondaiman",
+        "Panchavaktra",
+        "Mukhya Prana Devaru"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Mahabharata",
+        "Puranas",
+        "Ramcharitmanas"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic monkey-like figure",
+        "distinctive_features": [
+            "Monkey face",
+            "Long tail",
+            "Muscular build",
+            "Disfigured jaw"
+        ],
+        "color_palette": [
+            "Gray",
+            "White",
+            "Orange"
+        ],
+        "texture": "Smooth skin with fur-like texture",
+        "size_and_scale": "Gigantic",
+        "structural_arrangement": "Humanoid with simian features",
+        "domain_specific_visual": {
+            "WEAPON": "Gada (mace)",
+            "ATTIRE": "Traditional dhoti and ornaments"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Devotee and helper of Rama",
+        "secondary_functions": [
+            "Protector",
+            "Messenger",
+            "Warrior"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Strength and devotion",
+            "ROLE_IN_EPICS": "Central figure in Ramayana"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DEVOTED_TO",
+                "target": "Rama",
+                "description": "Hanuman is a devoted companion and servant of Rama."
+            },
+            {
+                "type": "SON_OF",
+                "target": "Vayu",
+                "description": "Hanuman is considered the spiritual son of the wind deity Vayu."
+            },
+            {
+                "type": "INCARNATION_OF",
+                "target": "Shiva",
+                "description": "In some traditions, Hanuman is regarded as an incarnation of Shiva."
+            }
+        ],
+        "associated_entities": [
+            "Rama",
+            "Vayu",
+            "Shiva"
+        ],
+        "symbolic_items": [
+            "Gada (mace)",
+            "Sacred thread"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Vedic to modern era",
+        "geographic_range": "Primarily India",
+        "cultural_significance": "Symbol of devotion, strength, and self-control",
+        "primary_sources": [
+            "Ramayana",
+            "Mahabharata",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic monkey",
+        "NOT without a gada (mace)",
+        "NOT a mere animal deity"
+    ]
+}

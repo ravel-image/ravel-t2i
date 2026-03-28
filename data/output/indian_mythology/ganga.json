@@ -1,0 +1,84 @@
+{
+    "name": "Ganga",
+    "domain": "indian_mythology",
+    "entity_type": "Goddess/River",
+    "alternative_names": [
+        "Ganges",
+        "Padma"
+    ],
+    "primary_sources": [
+        "Hindu scriptures",
+        "Puranas",
+        "Mahabharata",
+        "Ramayana"
+    ],
+    "visual_attributes": {
+        "morphology": "Flowing river with divine feminine form",
+        "distinctive_features": [
+            "Matted locks of Shiva",
+            "Flowing water with divine aura",
+            "Presence of sacred confluences"
+        ],
+        "color_palette": [
+            "Blue",
+            "White",
+            "Silver"
+        ],
+        "texture": "Smooth and flowing",
+        "size_and_scale": "2,525 kilometers long",
+        "structural_arrangement": "Originates from the Himalayas, flows through plains, and empties into the Bay of Bengal",
+        "domain_specific_visual": {
+            "SACRED_CONFLUENCES": "Panch Prayag",
+            "DIVINE_ORIGIN": "Gangotri Glacier"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Sacred river and goddess",
+        "secondary_functions": [
+            "Purification",
+            "Sustenance for millions"
+        ],
+        "domain_specific_functional": {
+            "SYMBOL_OF_PURITY": "Worshipped for spiritual cleansing",
+            "LIFELINE": "Supports biodiversity and human life"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Shiva",
+                "description": "Ganga is mythologically said to reside in the matted locks of Shiva."
+            },
+            {
+                "type": "HAS_CONFLUENCE_WITH",
+                "target": "Yamuna",
+                "description": "Ganga meets Yamuna at the Triveni Sangam, a holy confluence."
+            }
+        ],
+        "associated_entities": [
+            "Yamuna",
+            "Bhagirathi",
+            "Alaknanda"
+        ],
+        "symbolic_items": [
+            "Lotus",
+            "Conch shell"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Himalayas, India",
+        "historical_period": "Ancient",
+        "geographic_range": "India and Bangladesh",
+        "cultural_significance": "Most sacred river in Hinduism, symbolizing purity and life",
+        "primary_sources": [
+            "Hindu scriptures",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic river",
+        "NOT devoid of divine attributes",
+        "NOT a non-sacred water body"
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "name": "Ravana",
+    "domain": "indian_mythology",
+    "entity_type": "Rakshasa King",
+    "alternative_names": [
+        "Dasis Ravana",
+        "Dasis Sakvithi Maha Ravana",
+        "Dashaanan",
+        "Ravula",
+        "Lankapati",
+        "Lankeshwara",
+        "Ravanasura",
+        "Ravanaeshwara"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Lankavatara Sutra",
+        "Jain Ramayanas",
+        "Bhagavata Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with ten heads and twenty arms",
+        "distinctive_features": [
+            "Ten heads",
+            "Twenty arms",
+            "Veena made from his head and hands"
+        ],
+        "color_palette": [
+            "Dark complexion",
+            "Golden armor",
+            "Red eyes"
+        ],
+        "texture": "Smooth skin with a regal appearance",
+        "size_and_scale": "Giant stature, towering over humans",
+        "structural_arrangement": "Heads arranged in a single row or stacked vertically",
+        "domain_specific_visual": {
+            "WEAPONRY": "Carries a variety of celestial weapons",
+            "CROWN": "Wears a crown symbolizing his kingship"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Antagonist in the Ramayana, symbolizing arrogance and power",
+        "secondary_functions": [
+            "Devotee of Shiva",
+            "Scholar of the Vedas and Shastras"
+        ],
+        "domain_specific_functional": {
+            "KINGSHIP": "Ruler of Lanka",
+            "DEVOTEE": "Revered devotee of Lord Shiva"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Vishrava",
+                "description": "Ravana is the son of sage Vishrava."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Kaikasi",
+                "description": "Ravana is the son of the Daitya princess Kaikasi."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Rama",
+                "description": "Ravana abducted Rama's wife, Sita, leading to a war."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Kumbhakarna",
+                "description": "Ravana's brother, also a powerful Rakshasa."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Vibhishana",
+                "description": "Ravana's brother who sided with Rama."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Mandodari",
+                "description": "Ravana's chief queen."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Vishnu",
+            "Sita",
+            "Sugriva"
+        ],
+        "symbolic_items": [
+            "Veena",
+            "Chariot",
+            "Celestial weapons"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Lanka (present-day Sri Lanka)",
+        "historical_period": "Treta Yuga",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents the complexities of dharma and adharma in Hindu mythology",
+        "primary_sources": [
+            "Ramayana",
+            "Lankavatara Sutra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT a single-headed entity",
+        "NOT a purely evil character without depth"
+    ]
+}

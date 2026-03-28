@@ -1,0 +1,92 @@
+{
+    "name": "Ganesha",
+    "domain": "indian_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Ganapati",
+        "Vinayaka",
+        "Pillaiyar",
+        "Vighneshvara",
+        "Ekadanta",
+        "Lambodara",
+        "Gajanana"
+    ],
+    "primary_sources": [
+        "Ganesha Purana",
+        "Mudgala Purana",
+        "Ganapati Atharvasirsha"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic figure with an elephant head and a human body",
+        "distinctive_features": [
+            "Elephant head",
+            "Four arms",
+            "Single tusk",
+            "Large belly"
+        ],
+        "color_palette": [
+            "Grey",
+            "Red",
+            "Gold"
+        ],
+        "texture": "Smooth skin with ornate decorations",
+        "size_and_scale": "Varies from small statues to large temple idols",
+        "structural_arrangement": "Typically seated or dancing, with trunk turned towards a sweet",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Holds an axe or goad, a noose, a broken tusk, and a sweet",
+            "MUDRA": "Abhaya mudra in some depictions"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Remover of obstacles",
+        "secondary_functions": [
+            "Bringer of good luck",
+            "Patron of arts and sciences",
+            "Deva of logic, intellect, and wisdom"
+        ],
+        "domain_specific_functional": {
+            "RITUAL_ROLE": "Honored at the start of rites and ceremonies",
+            "EDUCATIONAL_ROLE": "Invoked during writing sessions as a patron of letters and learning"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Parvati",
+                "description": "Ganesha is the son of Parvati"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Shiva",
+                "description": "Ganesha is the son of Shiva"
+            }
+        ],
+        "associated_entities": [
+            "Parvati",
+            "Shiva"
+        ],
+        "symbolic_items": [
+            "Axe",
+            "Noose",
+            "Broken tusk",
+            "Sweet"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "1st century BCE to 2nd century CE",
+        "geographic_range": "India, Southeast Asia",
+        "cultural_significance": "Widely revered as a deity across Hindu, Jain, and Buddhist traditions",
+        "primary_sources": [
+            "Ganesha Purana",
+            "Mudgala Purana",
+            "Ganapati Atharvasirsha"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic elephant",
+        "NOT a deity without an elephant head",
+        "NOT a non-Hindu cultural figure"
+    ]
+}

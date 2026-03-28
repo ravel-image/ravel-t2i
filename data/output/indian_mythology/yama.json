@@ -1,1 +1,104 @@
-
+{
+    "name": "Yama",
+    "domain": "indian_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Kala",
+        "Dharmaraja",
+        "Pashi",
+        "Dharmadeva"
+    ],
+    "primary_sources": [
+        "Upanishads",
+        "Ramayana",
+        "Mahabharata",
+        "Puranas",
+        "Rigveda"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic deity with four arms",
+        "distinctive_features": [
+            "Dark complexion resembling storm clouds",
+            "Protruding fangs",
+            "Garland of flames",
+            "Rides a water-buffalo"
+        ],
+        "color_palette": [
+            "Dark blue",
+            "Red",
+            "Yellow",
+            "Blue"
+        ],
+        "texture": "Smooth skin with a wrathful expression",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Four arms holding a noose, mace, or sword",
+        "domain_specific_visual": {
+            "LOKAPALA": "Guardian of the south direction",
+            "SYMBOLIC_ITEMS": "Noose, mace, danda (staff)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of death and justice",
+        "secondary_functions": [
+            "Judge of the dead",
+            "Protector of the south direction"
+        ],
+        "domain_specific_functional": {
+            "DISPENSATION_OF_LAW": "Responsible for law and punishment of sinners",
+            "RULER_OF_NARAKA": "Oversees the realm of the dead"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Yami",
+                "description": "Twin sister of Yama"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Surya",
+                "description": "Son of the sun god Surya"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Sanjna",
+                "description": "Son of Sanjna"
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Dhumorna",
+                "description": "Married to Dhumorna"
+            }
+        ],
+        "associated_entities": [
+            "Dharmadeva",
+            "Yudhishthira",
+            "Shraddhadeva Manu",
+            "Shani"
+        ],
+        "symbolic_items": [
+            "Noose",
+            "Mace",
+            "Danda"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Vedic tradition",
+        "historical_period": "Vedic period",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents death, justice, and moral order",
+        "primary_sources": [
+            "Upanishads",
+            "Ramayana",
+            "Mahabharata",
+            "Puranas",
+            "Rigveda"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic angel of death",
+        "NOT depicted without a buffalo",
+        "NOT a Western grim reaper"
+    ]
+}
