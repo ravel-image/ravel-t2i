@@ -1,0 +1,81 @@
+{
+    "name": "Red Ginger",
+    "domain": "biology",
+    "entity_type": "flowering plant",
+    "alternative_names": [
+        "Alpinia purpurata",
+        "ostrich plume",
+        "pink cone ginger"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "botanical databases"
+    ],
+    "visual_attributes": {
+        "morphology": "rhizomatous plant with leafy vertical stems",
+        "distinctive_features": [
+            "showy inflorescences with bright magenta- to red-hued bracts",
+            "bracts resembling flowers but are modified leaves",
+            "actual flowers are small and located inside the bracts"
+        ],
+        "color_palette": [
+            "magenta",
+            "red",
+            "green"
+        ],
+        "texture": "smooth and waxy",
+        "size_and_scale": "up to 3 meters tall",
+        "structural_arrangement": "horizontal rhizome with vertical stems and inflorescences",
+        "domain_specific_visual": {
+            "BRACHS": "modified leaves that protect and resemble flowers",
+            "INFLORESCENCE": "showy and colorful, attracting pollinators"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "attract pollinators",
+        "secondary_functions": [
+            "ornamental use",
+            "floral arrangements"
+        ],
+        "domain_specific_functional": {
+            "POLLINATION": "by crawling insects like ants or beetles",
+            "CULTIVATION": "grown in tropical and subtropical regions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Maluku and southwest Pacific islands",
+                "description": "native to these regions"
+            },
+            {
+                "type": "CULTIVATED_IN",
+                "target": "Hawaii",
+                "description": "grown commercially for sale"
+            }
+        ],
+        "associated_entities": [
+            "A. purpurata 'Jungle King'",
+            "A. purpurata 'Jungle Queen'"
+        ],
+        "symbolic_items": [
+            "graveyard flowers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Maluku and southwest Pacific islands",
+        "historical_period": "not specified",
+        "geographic_range": "tropical and subtropical regions worldwide",
+        "cultural_significance": "national flower of Samoa, used in floral arrangements",
+        "primary_sources": [
+            "Wikipedia",
+            "botanical databases"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common ginger plant",
+        "NOT lacking bracts",
+        "NOT solely a culinary herb"
+    ]
+}

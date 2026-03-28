@@ -1,0 +1,90 @@
+{
+    "name": "Dhole",
+    "domain": "biology",
+    "entity_type": "canid",
+    "alternative_names": [
+        "Cuon alpinus",
+        "Asian wild dog",
+        "Asiatic wild dog",
+        "Indian wild dog",
+        "whistling dog",
+        "red dog",
+        "red wolf"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Merriam-Webster Dictionary"
+    ],
+    "visual_attributes": {
+        "morphology": "medium-sized canid with a convex skull profile",
+        "distinctive_features": [
+            "convex skull",
+            "lack of third lower molar",
+            "single cusp on upper molars"
+        ],
+        "color_palette": [
+            "reddish-brown",
+            "white",
+            "black"
+        ],
+        "texture": "smooth fur",
+        "size_and_scale": "body length 90 cm, tail length 40 cm",
+        "structural_arrangement": "compact body with bushy tail",
+        "domain_specific_visual": {
+            "dentition": "single cusped upper molars",
+            "skull_shape": "convex profile"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "predator of large and medium-sized ungulates",
+        "secondary_functions": [
+            "social pack behavior",
+            "territorial marking"
+        ],
+        "domain_specific_functional": {
+            "social_structure": "lives in large clans without rigid dominance hierarchies",
+            "hunting_strategy": "diurnal pack hunter"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "COMPETES_WITH",
+                "target": "Panthera tigris",
+                "description": "competes with tigers for prey in tropical forests"
+            },
+            {
+                "type": "COMPETES_WITH",
+                "target": "Panthera pardus",
+                "description": "competes with leopards for prey in tropical forests"
+            },
+            {
+                "type": "HAS_GENETIC_ADMIXTURE",
+                "target": "Lycaon pictus",
+                "description": "ancient genetic admixture with African wild dog"
+            }
+        ],
+        "associated_entities": [
+            "Panthera tigris",
+            "Panthera pardus",
+            "Lycaon pictus"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "South, East, and Southeast Asia",
+        "historical_period": "Pleistocene to present",
+        "geographic_range": "South, East, and Southeast Asia; historically wider range including Europe",
+        "cultural_significance": "endangered species with ecological importance as a predator",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a domestic dog",
+        "NOT a wolf",
+        "NOT a fox"
+    ]
+}

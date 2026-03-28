@@ -1,0 +1,81 @@
+{
+    "name": "Quagga",
+    "domain": "biology",
+    "entity_type": "extinct subspecies of plains zebra",
+    "alternative_names": [
+        "Equus quagga quagga",
+        "Equus quagga",
+        "Equus burchellii quagga"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "DNA studies",
+        "historical taxonomic records"
+    ],
+    "visual_attributes": {
+        "morphology": "Equid with zebra-like front and horse-like rear",
+        "distinctive_features": [
+            "Brown and white stripes primarily on the front part of the body",
+            "Brown rear without stripes",
+            "Horse-like appearance in the rear"
+        ],
+        "color_palette": [
+            "brown",
+            "white"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "257 cm (8 ft 5 in) long, 125–135 cm (4 ft 1 in – 4 ft 5 in) tall at the shoulders",
+        "structural_arrangement": "Stripes boldest on head and neck, fading towards the rear",
+        "domain_specific_visual": {
+            "striping_pattern": "Limited to front, fading towards rear",
+            "body_proportion": "Mares longer and slightly taller than stallions"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Herbivore, grazed on grasses",
+        "secondary_functions": [
+            "Part of the ecosystem as prey",
+            "Contributed to biodiversity"
+        ],
+        "domain_specific_functional": {
+            "ecological_role": "Competed with domesticated animals for forage",
+            "social_behavior": "Gathered in herds of 30–50"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SUBSPECIES_OF",
+                "target": "Plains Zebra",
+                "description": "The quagga is a subspecies of the plains zebra."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Burchell's Zebra",
+                "description": "Shared similar striping patterns with the extinct southernmost population of Burchell's zebra."
+            }
+        ],
+        "associated_entities": [
+            "Plains Zebra",
+            "Burchell's Zebra"
+        ],
+        "symbolic_items": [
+            "Quagga Project"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "South Africa",
+        "historical_period": "Extinct by late 19th century",
+        "geographic_range": "Karoo of Cape Province and southern Orange Free State, South Africa",
+        "cultural_significance": "Symbol of extinction and conservation efforts",
+        "primary_sources": [
+            "DNA analysis studies",
+            "Historical records"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common zebra",
+        "NOT fully striped like a typical zebra",
+        "NOT a horse"
+    ]
+}

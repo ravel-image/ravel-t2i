@@ -1,0 +1,85 @@
+{
+    "name": "Baiji",
+    "domain": "biology",
+    "entity_type": "river dolphin",
+    "alternative_names": [
+        "Chinese river dolphin",
+        "Yangtze river dolphin",
+        "Yangtze dolphin",
+        "whitefin dolphin",
+        "Goddess of the Yangtze"
+    ],
+    "primary_sources": [
+        "IUCN Red List",
+        "Conservation Action Plan for Cetaceans of the Yangtze River",
+        "baiji.org Foundation"
+    ],
+    "visual_attributes": {
+        "morphology": "streamlined body with a long, slightly upturned beak",
+        "distinctive_features": [
+            "low triangular dorsal fin resembling a light-colored flag",
+            "small eyes compared to oceanic dolphins",
+            "31–36 conical teeth on either jaw"
+        ],
+        "color_palette": [
+            "pale blue",
+            "grey",
+            "white"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "2.3 to 2.7 meters in length, weighing 135–230 kilograms",
+        "structural_arrangement": "dorsal side pale blue to grey, ventral side white",
+        "domain_specific_visual": {
+            "SONAR_SYSTEM": "highly directed sound emission with peak frequencies between 70 kHz and 100 kHz",
+            "EYE_SIZE": "smaller than oceanic dolphins"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "navigation and social interaction using sonar",
+        "secondary_functions": [
+            "predator avoidance",
+            "group coordination"
+        ],
+        "domain_specific_functional": {
+            "ECOLOGICAL_ROLE": "indicator of river ecosystem health",
+            "CULTURAL_ROLE": "symbol of protection for local fishermen"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Yangtze River",
+                "description": "Native to the Yangtze river system in China"
+            },
+            {
+                "type": "HAS_CLOSE_RELATIVE",
+                "target": "Parapontoporia",
+                "description": "Closest known relative from the Miocene and Pliocene"
+            }
+        ],
+        "associated_entities": [
+            "Chinese paddlefish",
+            "Dabry's sturgeon"
+        ],
+        "symbolic_items": [
+            "flag",
+            "sonar"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Yangtze River, China",
+        "historical_period": "Miocene to present",
+        "geographic_range": "Middle and lower reaches of the Yangtze River",
+        "cultural_significance": "Regarded as a goddess of protection by local fishermen",
+        "primary_sources": [
+            "IUCN Red List",
+            "Conservation Action Plan for Cetaceans of the Yangtze River"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Chinese white dolphin",
+        "NOT finless porpoise",
+        "NOT oceanic dolphin"
+    ]
+}

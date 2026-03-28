@@ -1,0 +1,77 @@
+{
+    "name": "Bleeding Tooth Fungus",
+    "domain": "biology",
+    "entity_type": "fungus",
+    "alternative_names": [
+        "Hydnellum peckii",
+        "strawberries and cream",
+        "bleeding Hydnellum",
+        "red-juice tooth",
+        "Devil's tooth",
+        "Peck's hydnum"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "scientific descriptions by Howard James Banker",
+        "Pier Andrea Saccardo",
+        "Walter Henry Snell and Esther Amelia Dick"
+    ],
+    "visual_attributes": {
+        "morphology": "funnel-shaped cap with a short, thick stem",
+        "distinctive_features": [
+            "bright red guttation droplets on young fruit bodies",
+            "teeth-like projections on the underside of the cap",
+            "hairy, velvety texture on young caps"
+        ],
+        "color_palette": [
+            "white",
+            "bright red",
+            "brown"
+        ],
+        "texture": "velvety when young, smooth when mature",
+        "size_and_scale": "cap width 4 to 20 cm, height up to 10.5 cm",
+        "structural_arrangement": "cap atop a short stem, with spines hanging from the cap's underside",
+        "domain_specific_visual": {
+            "spore_print": "brown",
+            "spines": "slender, cylindrical, tapering"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mycorrhizal association with coniferous trees",
+        "secondary_functions": [
+            "produces anticoagulant pigment atromentin"
+        ],
+        "domain_specific_functional": {
+            "ectomycorrhizal_association": "exchanges soil nutrients for carbon from host trees"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MYCORRHIZAL_ASSOCIATION_WITH",
+                "target": "coniferous trees",
+                "description": "Forms mutualistic relationships with coniferous trees, exchanging nutrients."
+            }
+        ],
+        "associated_entities": [
+            "Picea abies",
+            "Pinus sylvestris"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "North America",
+        "historical_period": "described in 1913",
+        "geographic_range": "North America, Europe, Iran, Korea",
+        "cultural_significance": "known for its unusual appearance and inedibility",
+        "primary_sources": [
+            "scientific descriptions by Howard James Banker",
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common edible mushroom",
+        "NOT lacking red guttation droplets",
+        "NOT a smooth-capped fungus without spines"
+    ]
+}

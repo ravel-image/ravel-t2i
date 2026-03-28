@@ -1,1 +1,86 @@
-
+{
+    "name": "Saola",
+    "domain": "biology",
+    "entity_type": "bovid",
+    "alternative_names": [
+        "Pseudoryx nghetinhensis",
+        "spindlehorn",
+        "Asian unicorn",
+        "Vu Quang bovid"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "World Wide Fund for Nature"
+    ],
+    "visual_attributes": {
+        "morphology": "quadrupedal with a robust body and long, pointed horns",
+        "distinctive_features": [
+            "nearly parallel long horns present on both sexes",
+            "chocolate brown coat with white patches on face, throat, and neck",
+            "black dorsal stripe from shoulders to tail"
+        ],
+        "color_palette": [
+            "chocolate brown",
+            "white",
+            "black"
+        ],
+        "texture": "soft and thin hair, woolly on the insides of forelegs and belly",
+        "size_and_scale": "84 cm at the shoulder, 150 cm in body length",
+        "structural_arrangement": "elevated back, slightly taller than shoulder height",
+        "domain_specific_visual": {
+            "HORN_SHAPE": "long and pointed, nearly parallel",
+            "COAT_PATTERN": "chocolate brown with white patches and black dorsal stripe"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "forest-dwelling herbivore",
+        "secondary_functions": [
+            "indicator of biodiversity",
+            "subject of conservation efforts"
+        ],
+        "domain_specific_functional": {
+            "ECOLOGICAL_ROLE": "part of the forest ecosystem in the Annamite Range",
+            "CONSERVATION_STATUS": "critically endangered"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSEST_RELATIVES",
+                "target": "buffalo and cattle",
+                "description": "The saola is the earliest diverging member of the tribe Bovini, closely related to buffalo and cattle."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Annamite Range",
+                "description": "The saola is native to the Annamite Range in Vietnam and Laos."
+            }
+        ],
+        "associated_entities": [
+            "buffalo",
+            "cattle",
+            "bison",
+            "yaks"
+        ],
+        "symbolic_items": [
+            "unicorn",
+            "spinning-wheel post horn"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Annamite Range, Vietnam and Laos",
+        "historical_period": "discovered in 1992",
+        "geographic_range": "restricted to high-altitude wet evergreen forests in Vietnam and Laos",
+        "cultural_significance": "referred to as 'Asian unicorn' due to rarity and gentle nature",
+        "primary_sources": [
+            "Vu Quang National Park survey",
+            "WWF announcement"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common antelope",
+        "NOT without distinctive long, parallel horns",
+        "NOT associated with Western unicorn myths"
+    ]
+}

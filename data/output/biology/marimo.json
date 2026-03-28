@@ -1,0 +1,88 @@
+{
+    "name": "Marimo",
+    "domain": "biology",
+    "entity_type": "filamentous green algae",
+    "alternative_names": [
+        "Cladophora ball",
+        "moss ball",
+        "moss ball pet",
+        "lake ball",
+        "Aegagropila brownii",
+        "Aegagropila linnaei",
+        "Cladophora aegagropila",
+        "Cladophora sauteri"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Anton E. Sauter",
+        "Friedrich T. Kützing",
+        "Takiya Kawakami"
+    ],
+    "visual_attributes": {
+        "morphology": "spherical aggregation of densely packed algal filaments",
+        "distinctive_features": [
+            "velvety appearance",
+            "green all the way round",
+            "no kernel inside"
+        ],
+        "color_palette": [
+            "green"
+        ],
+        "texture": "velvety",
+        "size_and_scale": "up to 20–30 cm (8–12 in) in diameter",
+        "structural_arrangement": "filaments radiate from the center",
+        "domain_specific_visual": {
+            "growth_form": "spherical ball",
+            "internal_structure": "packed with dormant chloroplasts"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "photosynthesis",
+        "secondary_functions": [
+            "environmental education",
+            "aquarium decoration"
+        ],
+        "domain_specific_functional": {
+            "ecological_role": "adaptation to low light conditions",
+            "cultural_role": "symbol of environmental conservation"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Lake Akan",
+                "description": "Marimo is native to Lake Akan in Japan where it is protected."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Lake Mývatn",
+                "description": "Marimo was once abundant in Lake Mývatn, Iceland."
+            }
+        ],
+        "associated_entities": [
+            "Ainu people",
+            "Zoro from One Piece"
+        ],
+        "symbolic_items": [
+            "Marimokkori stuffed toy"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japan",
+        "historical_period": "first described in the 1820s",
+        "geographic_range": "Japan, Northern Europe, Iceland, North America, Australia",
+        "cultural_significance": "represents environmental conservation and is celebrated in festivals",
+        "primary_sources": [
+            "Wikipedia",
+            "Anton E. Sauter",
+            "Friedrich T. Kützing",
+            "Takiya Kawakami"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT moss",
+        "NOT a simple green ball",
+        "NOT unrelated to algae"
+    ]
+}

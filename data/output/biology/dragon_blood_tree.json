@@ -1,0 +1,80 @@
+{
+    "name": "Dragon Blood Tree",
+    "domain": "biology",
+    "entity_type": "tree",
+    "alternative_names": [
+        "Dracaena cinnabari",
+        "Socotra dragon tree"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "CITES Appendix II",
+        "Socotra Archipelago World Heritage Site documentation"
+    ],
+    "visual_attributes": {
+        "morphology": "tree with an umbrella-shaped crown",
+        "distinctive_features": [
+            "upturned, densely packed crown",
+            "dark red resin known as dragon's blood",
+            "dichotomous branching pattern"
+        ],
+        "color_palette": [
+            "dark green",
+            "brown",
+            "red"
+        ],
+        "texture": "smooth trunk with stiff leaves",
+        "size_and_scale": "up to 9 m (30 ft) in height and 12 m (39 ft) across the crown",
+        "structural_arrangement": "leaves in dense rosettes at branch ends, branches divide into two sections",
+        "domain_specific_visual": {
+            "leaf_length": "up to 60 cm (24 in)",
+            "leaf_width": "3 cm (1.2 in)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "provides shade and reduces evaporation in arid conditions",
+        "secondary_functions": [
+            "produces dragon's blood resin",
+            "supports local biodiversity"
+        ],
+        "domain_specific_functional": {
+            "seed_dispersal": "dispersed by birds",
+            "growth_pattern": "secondary growth with scattered vascular strands"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Socotra Archipelago",
+                "description": "native to the Socotra archipelago, part of Yemen"
+            },
+            {
+                "type": "POLLINATED_BY",
+                "target": "birds",
+                "description": "fruits are eaten and dispersed by birds"
+            }
+        ],
+        "associated_entities": [
+            "Onychognatus species"
+        ],
+        "symbolic_items": [
+            "dragon's blood resin"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Socotra Archipelago, Yemen",
+        "historical_period": "Mio-Pliocene era",
+        "geographic_range": "Socotra Archipelago",
+        "cultural_significance": "national tree of Yemen, important for conservation efforts",
+        "primary_sources": [
+            "Wikipedia",
+            "Socotra Archipelago World Heritage Site documentation"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic palm tree",
+        "NOT a tree with continuous growth rings",
+        "NOT a tree from a non-arid environment"
+    ]
+}

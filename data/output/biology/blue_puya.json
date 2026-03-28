@@ -1,0 +1,73 @@
+{
+    "name": "Blue Puya",
+    "domain": "biology",
+    "entity_type": "natural hybrid plant",
+    "alternative_names": [
+        "Puya × berteroniana"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Chilean species revision studies"
+    ],
+    "visual_attributes": {
+        "morphology": "rarely branching plant with long, slender leaves",
+        "distinctive_features": [
+            "spined leaf margins",
+            "tall flower stalk"
+        ],
+        "color_palette": [
+            "unknown",
+            "blue-green (misidentified)"
+        ],
+        "texture": "spined",
+        "size_and_scale": "up to 4.5 m (15 ft) in height",
+        "structural_arrangement": "flower stalk up to 3 m (10 ft) tall",
+        "domain_specific_visual": {
+            "LEAF_SHAPE": "slender with spined margins",
+            "FLOWER_STALK_HEIGHT": "up to 3 m"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ornamental plant",
+        "secondary_functions": [
+            "ecological role in native habitat"
+        ],
+        "domain_specific_functional": {
+            "HYBRID_ORIGIN": "between Puya alpestris subsp. zoellneri and Puya venusta"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HYBRID_OF",
+                "target": "Puya alpestris subsp. zoellneri",
+                "description": "One of the parent species of the hybrid."
+            },
+            {
+                "type": "HYBRID_OF",
+                "target": "Puya venusta",
+                "description": "One of the parent species of the hybrid."
+            }
+        ],
+        "associated_entities": [
+            "Puya alpestris",
+            "Puya venusta"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "central Chile",
+        "historical_period": "modern botanical classification",
+        "geographic_range": "endemic to central Chile",
+        "cultural_significance": "rare and unique hybrid in its native ecosystem",
+        "primary_sources": [
+            "Wikipedia",
+            "Chilean species revision studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Puya alpestris",
+        "NOT generic blue-green flowers",
+        "NOT misidentified as a common Puya species"
+    ]
+}

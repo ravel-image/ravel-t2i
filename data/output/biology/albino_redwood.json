@@ -1,0 +1,79 @@
+{
+    "name": "Albino Redwood",
+    "domain": "biology",
+    "entity_type": "mutant redwood tree",
+    "alternative_names": [
+        "white redwood",
+        "albino Sequoia sempervirens"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Davis, D. F.; Holderman, D. F. (1980). The white redwoods: ghosts of the forest. Naturegraph Publishers."
+    ],
+    "visual_attributes": {
+        "morphology": "tree with a tall, slender trunk and needle-like leaves",
+        "distinctive_features": [
+            "white or pale-colored needles",
+            "lack of chlorophyll",
+            "root grafting with normal redwoods"
+        ],
+        "color_palette": [
+            "white",
+            "bright yellow",
+            "pale green"
+        ],
+        "texture": "smooth bark with soft, needle-like leaves",
+        "size_and_scale": "up to 20 meters (66 feet) tall",
+        "structural_arrangement": "can be basal or aerial, with needles arranged in clusters",
+        "domain_specific_visual": {
+            "phenotype_variation": "white, bright yellow, cellular virescent green, pale green, mottled, nonchimeric variegated"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "survival through parasitic relationship with normal redwoods",
+        "secondary_functions": [
+            "storage of toxic heavy metals",
+            "potential ecological role in heavy metal detoxification"
+        ],
+        "domain_specific_functional": {
+            "root_grafting": "obtains nutrients from neighboring redwoods",
+            "metal_accumulation": "accumulates more metals due to defective stomata"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CONNECTED_TO",
+                "target": "normal redwood trees",
+                "description": "Albino redwoods graft their roots to normal redwoods to obtain nutrients."
+            },
+            {
+                "type": "HAS_VARIANT",
+                "target": "chimeric redwoods",
+                "description": "Chimeric redwoods have a mosaic of albino and normal tissues."
+            }
+        ],
+        "associated_entities": [
+            "normal redwood trees",
+            "chimeric redwoods"
+        ],
+        "symbolic_items": [
+            "cleansing ceremonies of the Pomo people"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "California, USA",
+        "historical_period": "documented in Native American legends",
+        "geographic_range": "Henry Cowell Redwoods State Park, Humboldt Redwoods State Park, San Francisco Botanical Garden, Huddart Park, The Santa Lucia Preserve",
+        "cultural_significance": "important in Native American legends and cleansing ceremonies",
+        "primary_sources": [
+            "Wikipedia",
+            "Davis, D. F.; Holderman, D. F. (1980). The white redwoods: ghosts of the forest. Naturegraph Publishers."
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a typical green redwood",
+        "NOT a non-grafted tree",
+        "NOT a tree with full chlorophyll production"
+    ]
+}

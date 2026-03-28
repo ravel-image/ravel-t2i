@@ -1,0 +1,86 @@
+{
+    "name": "Rose Mallow",
+    "domain": "biology",
+    "entity_type": "Flowering Plant",
+    "alternative_names": [
+        "Abelmoschus moschatus",
+        "Lavatera trimestris",
+        "Hibiscus grandiflorus",
+        "Hibiscus lasiocarpos",
+        "Hibiscus moscheutos",
+        "Hibiscus syriacus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Botanical Texts",
+        "Plant Databases"
+    ],
+    "visual_attributes": {
+        "morphology": "Herbaceous plant with large, showy flowers",
+        "distinctive_features": [
+            "Large, trumpet-shaped flowers",
+            "Prominent stamens",
+            "Broad, lobed leaves"
+        ],
+        "color_palette": [
+            "Pink",
+            "White",
+            "Red"
+        ],
+        "texture": "Smooth petals with slightly hairy stems",
+        "size_and_scale": "1 to 2 meters in height",
+        "structural_arrangement": "Flowers arranged singly or in clusters at the ends of branches",
+        "domain_specific_visual": {
+            "LEAF_SHAPE": "Lobed",
+            "FLOWER_SIZE": "Up to 20 cm in diameter"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Ornamental plant",
+        "secondary_functions": [
+            "Attracts pollinators",
+            "Used in traditional medicine"
+        ],
+        "domain_specific_functional": {
+            "POLLINATION": "By insects such as bees and butterflies",
+            "MEDICINAL_USE": "Seeds used for their aromatic properties"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "BELONGS_TO_GENUS",
+                "target": "Hibiscus",
+                "description": "Rose Mallow is a common name for several species within the Hibiscus genus."
+            },
+            {
+                "type": "NATIVE_TO",
+                "target": "Asia and Australia",
+                "description": "Abelmoschus moschatus is native to these regions."
+            }
+        ],
+        "associated_entities": [
+            "Bees",
+            "Butterflies"
+        ],
+        "symbolic_items": [
+            "Flower arrangements",
+            "Herbal remedies"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Asia and Australia",
+        "historical_period": "Not specific to a historical period",
+        "geographic_range": "Widely cultivated in temperate and tropical regions",
+        "cultural_significance": "Symbolizes beauty and delicate charm in various cultures",
+        "primary_sources": [
+            "Wikipedia",
+            "Botanical Texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Hibiscus",
+        "NOT Small, inconspicuous flowers",
+        "NOT Exclusively tropical framing"
+    ]
+}

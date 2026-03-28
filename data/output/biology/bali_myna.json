@@ -1,0 +1,85 @@
+{
+    "name": "Bali Myna",
+    "domain": "biology",
+    "entity_type": "bird",
+    "alternative_names": [
+        "Rothschild's mynah",
+        "Bali starling",
+        "Bali mynah",
+        "jalak Bali",
+        "Leucopsar rothschildi"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "CITES",
+        "Begawan Foundation reports"
+    ],
+    "visual_attributes": {
+        "morphology": "medium-sized, stocky myna with a long, drooping crest",
+        "distinctive_features": [
+            "almost wholly white plumage",
+            "blue bare skin around the eyes",
+            "black tips on wings and tail"
+        ],
+        "color_palette": [
+            "white",
+            "black",
+            "blue"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "up to 25 cm (9.8 in) long",
+        "structural_arrangement": "long crest, black-tipped wings and tail, blue eye skin",
+        "domain_specific_visual": {
+            "bill_color": "brown and yellow",
+            "leg_color": "greyish"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "seed disperser and insect control",
+        "secondary_functions": [
+            "symbol of conservation efforts",
+            "cultural emblem of Bali"
+        ],
+        "domain_specific_functional": {
+            "breeding_behavior": "nests in tree cavities, lays 2-3 eggs",
+            "social_behavior": "gathers in groups when young"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Bali",
+                "description": "The Bali myna is the only vertebrate species endemic to the island of Bali."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Sturnia",
+                "description": "The Bali myna is closely related to the genus Sturnia."
+            }
+        ],
+        "associated_entities": [
+            "West Bali National Park",
+            "Begawan Foundation",
+            "Friends of National Parks Foundation"
+        ],
+        "symbolic_items": [
+            "Indonesian 200 rupiah coin"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Bali, Indonesia",
+        "historical_period": "formally described in 1912",
+        "geographic_range": "northwest Bali and its offshore islands",
+        "cultural_significance": "faunal emblem of Bali, featured on currency",
+        "primary_sources": [
+            "Wikipedia",
+            "Begawan Foundation reports"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic starling",
+        "NOT without blue eye skin",
+        "NOT without black-tipped wings and tail"
+    ]
+}
