@@ -1,0 +1,96 @@
+{
+    "name": "The Minotaur",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "Asterion",
+        "Asterius",
+        "Μινώταυρος",
+        "Minotaurus",
+        "Θevrumineš"
+    ],
+    "primary_sources": [
+        "Ovid's Metamorphoses",
+        "Sophocles's Trachiniai",
+        "Virgil's Aeneid",
+        "Catullus's writings",
+        "Pausanias's accounts"
+    ],
+    "visual_attributes": {
+        "morphology": "Body of a man with the head and tail of a bull",
+        "distinctive_features": [
+            "Bull's head",
+            "Bull's tail",
+            "Human torso and limbs"
+        ],
+        "color_palette": [
+            "Brown",
+            "Black",
+            "White"
+        ],
+        "texture": "Smooth human skin with coarse bull hair on the head and tail",
+        "size_and_scale": "Approximately 7 feet tall",
+        "structural_arrangement": "Human body with bull head and tail attached",
+        "domain_specific_visual": {
+            "Labyrinth_location": "Center of the Labyrinth",
+            "Classical_art_representation": "Often depicted at the center of the Labyrinth"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Devourer of sacrificial victims",
+        "secondary_functions": [
+            "Symbol of punishment",
+            "Guardian of the Labyrinth"
+        ],
+        "domain_specific_functional": {
+            "Mythological_role": "Represents the consequences of defying the gods",
+            "Cultural_symbolism": "Embodiment of monstrosity and human-animal hybridity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Pasiphaë",
+                "description": "Born from Pasiphaë and a bull due to Poseidon's curse"
+            },
+            {
+                "type": "CONFINED_IN",
+                "target": "Labyrinth",
+                "description": "Held within the Labyrinth constructed by Daedalus"
+            },
+            {
+                "type": "SLAIN_BY",
+                "target": "Theseus",
+                "description": "Killed by the hero Theseus with the help of Ariadne"
+            }
+        ],
+        "associated_entities": [
+            "King Minos",
+            "Daedalus",
+            "Ariadne"
+        ],
+        "symbolic_items": [
+            "Thread of Ariadne",
+            "Sword of Theseus"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Classical antiquity",
+        "geographic_range": "Island of Crete",
+        "cultural_significance": "Represents the dangers of hubris and the consequences of divine retribution",
+        "primary_sources": [
+            "Ovid's Metamorphoses",
+            "Sophocles's Trachiniai",
+            "Virgil's Aeneid",
+            "Catullus's writings",
+            "Pausanias's accounts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a centaur",
+        "NOT a full bull",
+        "NOT a creature with a human head and bull body"
+    ]
+}

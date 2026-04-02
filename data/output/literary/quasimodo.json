@@ -1,0 +1,85 @@
+{
+    "name": "Quasimodo",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "The Hunchback of Notre-Dame"
+    ],
+    "primary_sources": [
+        "The Hunchback of Notre-Dame by Victor Hugo"
+    ],
+    "visual_attributes": {
+        "morphology": "hunchbacked human with severe deformities",
+        "distinctive_features": [
+            "severe hunchback",
+            "bushy eyebrow covering left eye",
+            "right eye hidden behind a giant wart",
+            "broken teeth with one protruding over the mouth"
+        ],
+        "color_palette": [
+            "pale skin",
+            "dark hair",
+            "ragged clothing"
+        ],
+        "texture": "rough and unkempt",
+        "size_and_scale": "average human size but hunched",
+        "structural_arrangement": "asymmetrical due to deformities",
+        "domain_specific_visual": {
+            "historical_costume": "15th-century Parisian attire",
+            "environment": "Notre Dame Cathedral setting"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "bell-ringer of Notre Dame Cathedral",
+        "secondary_functions": [
+            "protector of Esmeralda",
+            "symbol of inner beauty"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "tragic hero",
+            "symbolism": "contrast between inner and outer beauty"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ADOPTED_BY",
+                "target": "Claude Frollo",
+                "description": "Quasimodo is adopted by Frollo, who raises him in Notre Dame."
+            },
+            {
+                "type": "IN_LOVE_WITH",
+                "target": "Esmeralda",
+                "description": "Quasimodo falls in love with Esmeralda, whom he protects."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Phoebus de Châteaupers",
+                "description": "Phoebus is a rival for Esmeralda's affection."
+            }
+        ],
+        "associated_entities": [
+            "Esmeralda",
+            "Claude Frollo",
+            "Phoebus de Châteaupers"
+        ],
+        "symbolic_items": [
+            "Notre Dame Cathedral",
+            "bell tower"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "French literature",
+        "historical_period": "15th century",
+        "geographic_range": "Paris, France",
+        "cultural_significance": "represents themes of beauty, acceptance, and love",
+        "primary_sources": [
+            "The Hunchback of Notre-Dame by Victor Hugo"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic handsome hero",
+        "NOT without deformities",
+        "NOT set outside of 15th-century Paris"
+    ]
+}

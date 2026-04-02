@@ -1,0 +1,85 @@
+{
+    "name": "Yeti",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "Abominable Snowman",
+        "Michê",
+        "Dzu-teh",
+        "Migoi",
+        "Mi-go",
+        "Bun Manchi",
+        "Mirka",
+        "Kang Admi",
+        "Jungli Admi",
+        "Xueren",
+        "Chuchuna"
+    ],
+    "primary_sources": [
+        "Sherpa folklore",
+        "Tibetan lore",
+        "Mount Everest The Reconnaissance, 1921",
+        "Journal of the Asiatic Society of Bengal"
+    ],
+    "visual_attributes": {
+        "morphology": "large, bipedal ape-like creature",
+        "distinctive_features": [
+            "covered with brown, grey, or white hair",
+            "large, sharp teeth"
+        ],
+        "color_palette": [
+            "brown",
+            "grey",
+            "white"
+        ],
+        "texture": "hairy",
+        "size_and_scale": "varies from 3 to 15 feet tall",
+        "structural_arrangement": "upright, bipedal stance",
+        "domain_specific_visual": {
+            "fur_variation": "Nyalmo with black fur, Chuti with grey fur, Rang Shim Bombo with reddish-brown fur"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian against evil spirits",
+        "secondary_functions": [
+            "enforcer of Dharma",
+            "helper and disciple to religious figures"
+        ],
+        "domain_specific_functional": {
+            "spiritual_role": "considered a nonhuman animal in Tibetan Buddhism",
+            "cultural_role": "worshipped as a God of the Hunt by Lepcha people"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "COMPARED_TO",
+                "target": "Bigfoot",
+                "description": "Often compared to Bigfoot due to similar physical descriptions"
+            }
+        ],
+        "associated_entities": [
+            "Bigfoot",
+            "Almastis"
+        ],
+        "symbolic_items": [
+            "large stone weapon"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Himalayan mountain range",
+        "historical_period": "pre-Buddhist beliefs",
+        "geographic_range": "Himalayas, Siberia",
+        "cultural_significance": "symbolizes a guardian and enforcer of spiritual beliefs",
+        "primary_sources": [
+            "Sherpa folklore",
+            "Tibetan lore",
+            "Mount Everest The Reconnaissance, 1921"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a bear",
+        "NOT a human",
+        "NOT a generic ape"
+    ]
+}

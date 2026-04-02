@@ -1,0 +1,87 @@
+{
+    "name": "Basilisk",
+    "domain": "literary",
+    "entity_type": "legendary creature",
+    "alternative_names": [
+        "Serpent King",
+        "Basiliscus",
+        "Basilicok",
+        "Cockatrice"
+    ],
+    "primary_sources": [
+        "Naturalis Historia by Pliny the Elder",
+        "Canterbury Tales by Geoffrey Chaucer",
+        "Schedula diversarum artium by Theophilus Presbyter",
+        "De animalibus by Albertus Magnus",
+        "Leonardo da Vinci's Bestiary"
+    ],
+    "visual_attributes": {
+        "morphology": "A small snake-like creature with a crown-shaped crest on its head.",
+        "distinctive_features": [
+            "Crown-shaped crest resembling a diadem",
+            "Upright and erect movement",
+            "White spot on the head"
+        ],
+        "color_palette": [
+            "Green",
+            "Brown",
+            "White"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Approximately 12 inches in length",
+        "structural_arrangement": "Serpentine body with a prominent head crest",
+        "domain_specific_visual": {
+            "MYTHOLOGICAL_ICONOGRAPHY": "Crown-shaped crest symbolizes its status as 'king of serpents'",
+            "ALCHEMICAL_SYMBOLISM": "Associated with transformation and poison"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Causes death with its lethal gaze and venomous presence",
+        "secondary_functions": [
+            "Guardian of treasures",
+            "Symbol of destruction"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "Represents ultimate danger and power",
+            "ALCHEMICAL_ROLE": "Used in alchemical recipes for transformation"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Weasel",
+                "description": "The weasel's odor is fatal to the basilisk."
+            },
+            {
+                "type": "HATCHED_FROM",
+                "target": "Egg of a serpent or toad",
+                "description": "Believed to be hatched by a cockerel from such an egg."
+            }
+        ],
+        "associated_entities": [
+            "Weasel",
+            "Cockerel",
+            "Mongoose"
+        ],
+        "symbolic_items": [
+            "Mirror",
+            "Spear"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "European mythology",
+        "historical_period": "Ancient to Medieval Europe",
+        "geographic_range": "Primarily Europe, with influences from Asiatic and African snake accounts",
+        "cultural_significance": "Symbolizes lethal power and is a guardian of treasures",
+        "primary_sources": [
+            "Naturalis Historia by Pliny the Elder",
+            "Leonardo da Vinci's Bestiary"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common snake",
+        "NOT a dragon",
+        "NOT a purely fictional creature without mythological roots"
+    ]
+}

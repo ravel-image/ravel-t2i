@@ -1,0 +1,79 @@
+{
+    "name": "The Wendigo",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "wiindigoo",
+        "wīhtikōw",
+        "wiindigoo",
+        "Whitego"
+    ],
+    "primary_sources": [
+        "Algonquian folklore",
+        "The Wendigo by Algernon Blackwood"
+    ],
+    "visual_attributes": {
+        "morphology": "giant humanoid",
+        "distinctive_features": [
+            "emaciated, gaunt appearance",
+            "desiccated skin pulled tightly over bones",
+            "eyes deep in sockets",
+            "heart of ice"
+        ],
+        "color_palette": [
+            "ash-gray",
+            "bloody red",
+            "dark brown"
+        ],
+        "texture": "decayed, decomposing",
+        "size_and_scale": "many times larger than human beings",
+        "structural_arrangement": "skeletal structure with bones protruding",
+        "domain_specific_visual": {
+            "olfactory_cue": "foul stench of decay",
+            "temperature_cue": "sudden unseasonable chill"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "embodiment of gluttony and greed",
+        "secondary_functions": [
+            "cause insatiable hunger",
+            "possess humans"
+        ],
+        "domain_specific_functional": {
+            "cannibalistic_tendency": "grows in proportion to the meal it consumes",
+            "communication_ability": "can speak and taunt victims"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SIMILAR_TO",
+                "target": "Wechuge",
+                "description": "Both are cannibalistic spirits in indigenous folklore"
+            }
+        ],
+        "associated_entities": [
+            "Swift Runner",
+            "Jack Fiddler"
+        ],
+        "symbolic_items": [
+            "knife",
+            "drum"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Algonquian folklore",
+        "historical_period": "pre-colonial to present",
+        "geographic_range": "North America, particularly northern regions",
+        "cultural_significance": "warns against greed and cannibalism",
+        "primary_sources": [
+            "Algonquian folklore",
+            "The Wendigo by Algernon Blackwood"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic zombie",
+        "NOT a werewolf",
+        "NOT a European vampire"
+    ]
+}

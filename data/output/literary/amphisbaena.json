@@ -1,0 +1,82 @@
+{
+    "name": "Amphisbaena",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Amphisbaenae",
+        "Amphisbaenia"
+    ],
+    "primary_sources": [
+        "Pharsalia by Lucan",
+        "Naturalis Historia by Pliny the Elder",
+        "Pseudodoxia Epidemica by Thomas Browne",
+        "The Book of Beasts by T.H. White"
+    ],
+    "visual_attributes": {
+        "morphology": "serpent with a head at each end",
+        "distinctive_features": [
+            "twin heads, one at each end",
+            "glowing eyes like candles or lightning",
+            "circular gliding movement"
+        ],
+        "color_palette": [
+            "green",
+            "brown",
+            "black"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "length varies, typically snake-sized",
+        "structural_arrangement": "heads at both ends, capable of moving in either direction",
+        "domain_specific_visual": {
+            "mythological_variations": "sometimes depicted with chicken feet, feathered wings, or as a horned dragon-like creature"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mythological symbol and creature",
+        "secondary_functions": [
+            "used in folk medicine and magical remedies",
+            "symbol of duality and perplexity"
+        ],
+        "domain_specific_functional": {
+            "literary_symbolism": "represents the animal by which the Fall was caused in Paradise Lost"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SPAWNED_FROM",
+                "target": "Medusa",
+                "description": "Spawned from the blood of Medusa's head"
+            },
+            {
+                "type": "ENCOUNTERED_BY",
+                "target": "Cato's army",
+                "description": "Encountered by Cato's army in Libya"
+            }
+        ],
+        "associated_entities": [
+            "Medusa",
+            "Perseus",
+            "Cato's army"
+        ],
+        "symbolic_items": [
+            "live amphisbaena for safe pregnancies",
+            "amphisbaena skin for curing ailments"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greek and Roman times",
+        "geographic_range": "Libyan Desert, referenced in Greek and Roman texts",
+        "cultural_significance": "Symbol of duality, used in folk medicine",
+        "primary_sources": [
+            "Pharsalia by Lucan",
+            "Naturalis Historia by Pliny the Elder"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common snake",
+        "NOT a single-headed serpent",
+        "NOT a purely fictional creature without mythological context"
+    ]
+}

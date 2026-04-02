@@ -1,0 +1,81 @@
+{
+    "name": "The Time Machine",
+    "domain": "literary",
+    "entity_type": "novella",
+    "alternative_names": [
+        "Time Traveller's Journey",
+        "The Time Traveller"
+    ],
+    "primary_sources": [
+        "The Time Machine by H.G. Wells",
+        "The Chronic Argonauts by H.G. Wells"
+    ],
+    "visual_attributes": {
+        "morphology": "book",
+        "distinctive_features": [
+            "Victorian-era cover design",
+            "Illustrations depicting futuristic and dystopian landscapes",
+            "Depictions of the Eloi and Morlocks"
+        ],
+        "color_palette": [
+            "sepia",
+            "dark green",
+            "gold"
+        ],
+        "texture": "smooth, with embossed lettering",
+        "size_and_scale": "approximately 20 cm x 13 cm x 2 cm",
+        "structural_arrangement": "bound pages with a hardcover",
+        "domain_specific_visual": {
+            "cover_art": "Victorian scientist with a time machine",
+            "illustrations": "scenes from the future and time travel"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "exploration of time travel",
+        "secondary_functions": [
+            "social commentary",
+            "speculative evolution"
+        ],
+        "domain_specific_functional": {
+            "literary_genre": "science fiction",
+            "thematic_concerns": "class division, future history"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INSPIRED_BY",
+                "target": "The Chronic Argonauts",
+                "description": "The Time Machine was developed from Wells's earlier work, The Chronic Argonauts."
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "News from Nowhere",
+                "description": "The depiction of the Eloi was inspired by the utopic romance novel News from Nowhere."
+            }
+        ],
+        "associated_entities": [
+            "Eloi",
+            "Morlocks"
+        ],
+        "symbolic_items": [
+            "time machine",
+            "Victorian laboratory"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Victorian England",
+        "historical_period": "late 19th century",
+        "geographic_range": "primarily England, with future settings",
+        "cultural_significance": "pioneered the concept of time travel in literature",
+        "primary_sources": [
+            "The Time Machine by H.G. Wells",
+            "The Chronic Argonauts by H.G. Wells"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic science fiction novel",
+        "NOT a modern time travel story",
+        "NOT a purely utopian or dystopian narrative"
+    ]
+}

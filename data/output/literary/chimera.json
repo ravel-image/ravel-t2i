@@ -1,0 +1,90 @@
+{
+    "name": "Chimera",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Chimaera",
+        "Chimæra",
+        "Khimaira"
+    ],
+    "primary_sources": [
+        "Iliad by Homer",
+        "Theogony by Hesiod",
+        "Bibliotheca by Pseudo-Apollodorus",
+        "Fabulae by Hyginus",
+        "Metamorphoses by Ovid"
+    ],
+    "visual_attributes": {
+        "morphology": "A hybrid creature with a lion's body, a goat's head protruding from its back, and a tail ending with a snake's head.",
+        "distinctive_features": [
+            "Fire-breathing goat head",
+            "Lion's body",
+            "Snake-headed tail"
+        ],
+        "color_palette": [
+            "golden",
+            "brown",
+            "green"
+        ],
+        "texture": "scaly and furry",
+        "size_and_scale": "large, comparable to a lion",
+        "structural_arrangement": "Lion's body with a goat's head on the back and a snake's head as the tail",
+        "domain_specific_visual": {
+            "iconography": "Depicted in Greek vase paintings and Etruscan wall paintings",
+            "winged_variation": "Sometimes depicted with dragon's wings"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbol of chaos and destruction",
+        "secondary_functions": [
+            "Omen of disaster",
+            "Challenge for heroes"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "Slain by the hero Bellerophon",
+            "cultural_symbolism": "Represents a monstrous challenge"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OFFSPRING_OF",
+                "target": "Typhon and Echidna",
+                "description": "Chimera is the child of Typhon and Echidna."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Cerberus and Lernaean Hydra",
+                "description": "Chimera shares parentage with other mythological monsters."
+            },
+            {
+                "type": "SLAIN_BY",
+                "target": "Bellerophon",
+                "description": "Bellerophon, with the help of Pegasus, killed the Chimera."
+            }
+        ],
+        "associated_entities": [
+            "Pegasus",
+            "Bellerophon"
+        ],
+        "symbolic_items": [
+            "fire",
+            "chaos"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology, specifically from Lycia, Asia Minor",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Depicted in Greek and Etruscan art",
+        "cultural_significance": "Represents a formidable challenge and chaos",
+        "primary_sources": [
+            "Iliad by Homer",
+            "Theogony by Hesiod"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic lion",
+        "NOT a simple dragon",
+        "NOT a purely fictional modern creature"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "name": "The Phantom",
+    "domain": "literary",
+    "entity_type": "Gothic horror character",
+    "alternative_names": [
+        "Erik",
+        "Opera Ghost",
+        "Angel of Music"
+    ],
+    "primary_sources": [
+        "The Phantom of the Opera by Gaston Leroux"
+    ],
+    "visual_attributes": {
+        "morphology": "Human with severe facial deformities",
+        "distinctive_features": [
+            "Skull-like face",
+            "Wears a mask to cover deformities",
+            "Elegant opera attire"
+        ],
+        "color_palette": [
+            "Pale skin",
+            "Black",
+            "White"
+        ],
+        "texture": "Smooth mask, rough skin",
+        "size_and_scale": "Average human male size",
+        "structural_arrangement": "Human anatomy with concealed face",
+        "domain_specific_visual": {
+            "COSTUME": "Victorian-era opera attire",
+            "MASK": "White half-face mask"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Antagonist with tragic backstory",
+        "secondary_functions": [
+            "Mentor to Christine",
+            "Architect of the opera house"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_OPERA": "Ghostly presence haunting the opera house",
+            "MUSICAL_TALENT": "Skilled musician and ventriloquist"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OBSESSED_WITH",
+                "target": "Christine Daaé",
+                "description": "Erik is obsessively infatuated with Christine."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Vicomte Raoul de Chagny",
+                "description": "Raoul is Christine's love interest and rival to Erik."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "The Persian",
+                "description": "The Persian is a mysterious figure from Erik's past."
+            }
+        ],
+        "associated_entities": [
+            "Christine Daaé",
+            "Vicomte Raoul de Chagny",
+            "The Persian"
+        ],
+        "symbolic_items": [
+            "White mask",
+            "Ring given to Christine"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "French Gothic literature",
+        "historical_period": "Late 19th century",
+        "geographic_range": "Paris, France",
+        "cultural_significance": "Represents themes of beauty, obsession, and tragedy",
+        "primary_sources": [
+            "The Phantom of the Opera by Gaston Leroux"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost",
+        "NOT a typical romantic hero",
+        "NOT a modern-day setting"
+    ]
+}

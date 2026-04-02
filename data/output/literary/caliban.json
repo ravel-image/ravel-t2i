@@ -1,0 +1,82 @@
+{
+    "name": "Caliban",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "mooncalf",
+        "freckled monster"
+    ],
+    "primary_sources": [
+        "The Tempest by William Shakespeare"
+    ],
+    "visual_attributes": {
+        "morphology": "half human, half monster",
+        "distinctive_features": [
+            "freckled skin",
+            "deformed or beast-like appearance",
+            "sometimes depicted with fish-like or tortoise features"
+        ],
+        "color_palette": [
+            "earthy tones",
+            "freckled patterns"
+        ],
+        "texture": "rough, possibly scaly or leathery",
+        "size_and_scale": "human-sized, but with monstrous proportions",
+        "structural_arrangement": "asymmetrical, with exaggerated limbs or features",
+        "domain_specific_visual": {
+            "depiction_variability": "can range from wild man to beast man"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "servant and antagonist",
+        "secondary_functions": [
+            "symbol of colonial oppression",
+            "representation of the 'noble savage'"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "serves as a foil to Prospero and Miranda",
+            "symbolic_role": "embodies themes of nature vs. nurture"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Sycorax",
+                "description": "Caliban is the son of the sea witch Sycorax."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Prospero",
+                "description": "Caliban resents Prospero for enslaving him."
+            },
+            {
+                "type": "SERVANT_OF",
+                "target": "Stephano",
+                "description": "Caliban temporarily serves Stephano, mistaking him for a god."
+            }
+        ],
+        "associated_entities": [
+            "Miranda",
+            "Setebos"
+        ],
+        "symbolic_items": [
+            "wood",
+            "island"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "mythological island in The Tempest",
+        "historical_period": "early 17th century",
+        "geographic_range": "fictional island setting",
+        "cultural_significance": "represents themes of colonialism and the 'other'",
+        "primary_sources": [
+            "The Tempest by William Shakespeare"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human",
+        "NOT a typical monster without human traits",
+        "NOT a culturally specific creature like a werewolf or vampire"
+    ]
+}

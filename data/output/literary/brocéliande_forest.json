@@ -1,0 +1,89 @@
+{
+    "name": "Brocéliande Forest",
+    "domain": "literary",
+    "entity_type": "legendary enchanted forest",
+    "alternative_names": [
+        "Brécheliant",
+        "Brécilien"
+    ],
+    "primary_sources": [
+        "Roman de Rou by Wace",
+        "Le Chevalier au lion by Chrétien de Troyes",
+        "Merlin by Robert de Boron",
+        "Vulgate Cycle (Lancelot-Grail)"
+    ],
+    "visual_attributes": {
+        "morphology": "vast, dense forest with mystical and ancient appearance",
+        "distinctive_features": [
+            "magical Vale of No Return",
+            "faery fountain of Barenton",
+            "Merlin's tomb"
+        ],
+        "color_palette": [
+            "deep green",
+            "mystical blue",
+            "earthy brown"
+        ],
+        "texture": "lush and verdant with an ethereal glow",
+        "size_and_scale": "expansive, covering a large area",
+        "structural_arrangement": "interwoven trees and clearings with mystical landmarks",
+        "domain_specific_visual": {
+            "Arthurian_elements": "presence of mythical and magical features",
+            "weather": "unusual and unpredictable, often stormy"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "setting for magical and mythical events",
+        "secondary_functions": [
+            "shelter for mythical creatures",
+            "site of legendary battles and events"
+        ],
+        "domain_specific_functional": {
+            "Arthurian_role": "central to stories involving Merlin and Morgan le Fay",
+            "mythical_significance": "symbol of mystery and enchantment"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_MYTHICAL_ASSOCIATION",
+                "target": "Merlin",
+                "description": "Merlin is said to have been imprisoned or died here."
+            },
+            {
+                "type": "HAS_MYTHICAL_ASSOCIATION",
+                "target": "Morgan le Fay",
+                "description": "Morgan's Vale of No Return is located here."
+            },
+            {
+                "type": "HAS_MYTHICAL_ASSOCIATION",
+                "target": "Arthurian Knights",
+                "description": "Site of various adventures and battles involving knights."
+            }
+        ],
+        "associated_entities": [
+            "Merlin",
+            "Morgan le Fay",
+            "Arthurian Knights"
+        ],
+        "symbolic_items": [
+            "fountain of Barenton",
+            "Vale of No Return"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Brittany, France",
+        "historical_period": "Medieval",
+        "geographic_range": "mythically located in Brittany, often identified with Paimpont forest",
+        "cultural_significance": "central to Arthurian legends and medieval European imagination",
+        "primary_sources": [
+            "Roman de Rou by Wace",
+            "Le Chevalier au lion by Chrétien de Troyes"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic forest",
+        "NOT devoid of mythical elements",
+        "NOT a modern or urban setting"
+    ]
+}

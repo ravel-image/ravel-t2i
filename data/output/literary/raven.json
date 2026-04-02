@@ -1,0 +1,84 @@
+{
+    "name": "Raven",
+    "domain": "literary",
+    "entity_type": "mythological_bird",
+    "alternative_names": [
+        "Corvus",
+        "Common Raven",
+        "Thick-billed Raven"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "mythological texts",
+        "folklore references"
+    ],
+    "visual_attributes": {
+        "morphology": "large-bodied passerine bird",
+        "distinctive_features": [
+            "thick bill",
+            "shaggy throat feathers",
+            "wedge-shaped tail"
+        ],
+        "color_palette": [
+            "black",
+            "iridescent blue",
+            "dark gray"
+        ],
+        "texture": "glossy and smooth feathers",
+        "size_and_scale": "up to 67 cm in length",
+        "structural_arrangement": "robust body with strong legs and feet",
+        "domain_specific_visual": {
+            "mythological_aura": "mysterious and ominous presence",
+            "cultural_decorations": "often depicted with mystical symbols"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of mystery and intelligence",
+        "secondary_functions": [
+            "messenger in myths",
+            "trickster figure"
+        ],
+        "domain_specific_functional": {
+            "literary_role": "often represents death or prophecy",
+            "cultural_role": "associated with deities and folklore"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_MYTHOLOGICAL_ASSOCIATION",
+                "target": "Odin",
+                "description": "Ravens are associated with Odin in Norse mythology as his messengers."
+            },
+            {
+                "type": "HAS_MYTHOLOGICAL_ASSOCIATION",
+                "target": "Apollo",
+                "description": "In Greek mythology, ravens are associated with Apollo as symbols of prophecy."
+            }
+        ],
+        "associated_entities": [
+            "Odin",
+            "Apollo"
+        ],
+        "symbolic_items": [
+            "mystical symbols",
+            "prophetic scrolls"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Northern Hemisphere",
+        "historical_period": "ancient to modern times",
+        "geographic_range": "widespread across the Northern Hemisphere",
+        "cultural_significance": "represents mystery, intelligence, and prophecy in various cultures",
+        "primary_sources": [
+            "Norse mythology",
+            "Greek mythology",
+            "folklore"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Crow",
+        "NOT small or delicate bird",
+        "NOT purely scientific depiction without mythological context"
+    ]
+}

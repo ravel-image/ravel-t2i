@@ -1,0 +1,93 @@
+{
+    "name": "Yvain",
+    "domain": "literary",
+    "entity_type": "Arthurian Knight",
+    "alternative_names": [
+        "Ywain",
+        "Owain",
+        "Iwein"
+    ],
+    "primary_sources": [
+        "Yvain, the Knight of the Lion by Chrétien de Troyes",
+        "Iwein by Hartmann von Aue",
+        "Owain, or the Lady of the Fountain from the Mabinogion"
+    ],
+    "visual_attributes": {
+        "morphology": "Human male knight in medieval armor",
+        "distinctive_features": [
+            "Accompanied by a lion",
+            "Wears medieval knight armor",
+            "Carries a sword and shield"
+        ],
+        "color_palette": [
+            "silver",
+            "gold",
+            "red"
+        ],
+        "texture": "metallic and smooth for armor, furry for the lion",
+        "size_and_scale": "Average human male height, approximately 6 feet tall",
+        "structural_arrangement": "Knight in armor with a lion by his side",
+        "domain_specific_visual": {
+            "armor_style": "12th-century French knight armor",
+            "lion_position": "Standing or walking beside the knight"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Knight-errant performing heroic deeds",
+        "secondary_functions": [
+            "Avenger of his cousin",
+            "Husband seeking redemption"
+        ],
+        "domain_specific_functional": {
+            "symbol_of_virtue": "Represents knightly virtue and loyalty",
+            "narrative_role": "Protagonist in a chivalric romance"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_WIFE",
+                "target": "Laudine",
+                "description": "Yvain's wife whom he seeks to win back"
+            },
+            {
+                "type": "HAS_COMPANION",
+                "target": "Lion",
+                "description": "A loyal lion that accompanies Yvain on his adventures"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Esclados",
+                "description": "The knight Yvain defeats to avenge his cousin"
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Lunete",
+                "description": "Laudine's servant who helps Yvain win back his wife"
+            }
+        ],
+        "associated_entities": [
+            "Calogrenant",
+            "Gawain"
+        ],
+        "symbolic_items": [
+            "Sword",
+            "Shield"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "French Arthurian romance",
+        "historical_period": "12th century",
+        "geographic_range": "Medieval Europe",
+        "cultural_significance": "Represents the ideals of chivalry and knightly virtue",
+        "primary_sources": [
+            "Yvain, the Knight of the Lion by Chrétien de Troyes",
+            "Iwein by Hartmann von Aue"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic medieval knight without a lion",
+        "NOT a modern knight with contemporary armor",
+        "NOT a character from non-Arthurian legends"
+    ]
+}

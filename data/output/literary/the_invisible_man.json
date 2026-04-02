@@ -1,0 +1,80 @@
+{
+    "name": "The Invisible Man",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Griffin"
+    ],
+    "primary_sources": [
+        "The Invisible Man by H. G. Wells",
+        "Pearson's Weekly 1897 serialization",
+        "Project Gutenberg eBook"
+    ],
+    "visual_attributes": {
+        "morphology": "human form, but invisible",
+        "distinctive_features": [
+            "invisibility",
+            "bandaged face with prosthetic nose when visible",
+            "wide-brimmed hat and long-sleeved coat"
+        ],
+        "color_palette": [
+            "transparent",
+            "white (bandages)",
+            "black (coat and hat)"
+        ],
+        "texture": "smooth (skin when visible), fabric (bandages and clothing)",
+        "size_and_scale": "average human male size",
+        "structural_arrangement": "human skeletal and muscular structure",
+        "domain_specific_visual": {
+            "optical_invisibility": "refractive index matching air"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "scientific experiment subject",
+        "secondary_functions": [
+            "antagonist",
+            "symbol of unchecked scientific ambition"
+        ],
+        "domain_specific_functional": {
+            "symbol_of_invisibility": "represents the consequences of invisibility"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Dr. Kemp",
+                "description": "Griffin sees Kemp as a threat and plans to kill him."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Thomas Marvel",
+                "description": "Griffin coerces Marvel to assist him in his plans."
+            }
+        ],
+        "associated_entities": [
+            "Dr. Kemp",
+            "Thomas Marvel",
+            "Colonel Adye"
+        ],
+        "symbolic_items": [
+            "notebooks with experiments",
+            "iron bar"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "English village of Iping, West Sussex",
+        "historical_period": "late 19th century",
+        "geographic_range": "primarily England",
+        "cultural_significance": "explores themes of invisibility and moral consequences",
+        "primary_sources": [
+            "The Invisible Man by H. G. Wells",
+            "Project Gutenberg eBook"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost",
+        "NOT a visible human without bandages",
+        "NOT a superhero with invisibility powers"
+    ]
+}

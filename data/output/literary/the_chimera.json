@@ -1,0 +1,103 @@
+{
+    "name": "The Chimera",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Chimaera",
+        "Chimæra",
+        "Khimaira"
+    ],
+    "primary_sources": [
+        "Iliad by Homer",
+        "Theogony by Hesiod",
+        "Bibliotheca by Pseudo-Apollodorus",
+        "Fabulae by Hyginus",
+        "Metamorphoses by Ovid"
+    ],
+    "visual_attributes": {
+        "morphology": "A hybrid creature with a lion's body, a goat's head protruding from its back, and a tail ending with a snake's head.",
+        "distinctive_features": [
+            "Fire-breathing goat head",
+            "Lion's body",
+            "Snake-headed tail",
+            "Occasionally depicted with dragon's wings"
+        ],
+        "color_palette": [
+            "golden",
+            "brown",
+            "green"
+        ],
+        "texture": "scaly and furry",
+        "size_and_scale": "larger than a lion, approximately 10 feet long",
+        "structural_arrangement": "Lion's body at the front, goat's head in the middle, snake's head at the tail",
+        "domain_specific_visual": {
+            "Greek_vase_painting_style": "Proto-Corinthian and Corinthian styles",
+            "Etruscan_art_influence": "Orientalizing period motifs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbol of chaos and destruction",
+        "secondary_functions": [
+            "Omen of disaster",
+            "Challenge for heroes"
+        ],
+        "domain_specific_functional": {
+            "Mythological_role": "Slain by Bellerophon with the help of Pegasus",
+            "Cultural_symbolism": "Embodiment of raw nature's deceptive forces"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OFFSPRING_OF",
+                "target": "Typhon",
+                "description": "The Chimera is the offspring of Typhon and Echidna."
+            },
+            {
+                "type": "OFFSPRING_OF",
+                "target": "Echidna",
+                "description": "The Chimera is the offspring of Typhon and Echidna."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Cerberus",
+                "description": "The Chimera is a sibling of Cerberus."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Lernaean Hydra",
+                "description": "The Chimera is a sibling of the Lernaean Hydra."
+            },
+            {
+                "type": "SLAIN_BY",
+                "target": "Bellerophon",
+                "description": "The Chimera was slain by the hero Bellerophon."
+            }
+        ],
+        "associated_entities": [
+            "Pegasus",
+            "Bellerophon"
+        ],
+        "symbolic_items": [
+            "Fire",
+            "Lion",
+            "Goat",
+            "Snake"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Lycia, Asia Minor",
+        "cultural_significance": "Represents chaos and the blending of different elements",
+        "primary_sources": [
+            "Iliad by Homer",
+            "Theogony by Hesiod"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a single-headed creature",
+        "NOT a purely benevolent symbol"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "name": "The Jabberwock",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "Jabberwocky"
+    ],
+    "primary_sources": [
+        "Through the Looking-Glass by Lewis Carroll",
+        "Illustrations by John Tenniel"
+    ],
+    "visual_attributes": {
+        "morphology": "dragon-like creature",
+        "distinctive_features": [
+            "leathery wings similar to a pterodactyl",
+            "long scaly neck and tail resembling a sauropod",
+            "fearsome jaws with sharp teeth"
+        ],
+        "color_palette": [
+            "dark green",
+            "gray",
+            "black"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, towering over humans",
+        "structural_arrangement": "bipedal with wings and a long tail",
+        "domain_specific_visual": {
+            "Victorian_influence": "reflects Victorian fascination with natural history and paleontology"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "antagonist in a nonsense poem",
+        "secondary_functions": [
+            "symbol of fear",
+            "subject of a heroic quest"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "represents the unknown and the absurd in a dreamscape"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "The Hero",
+                "description": "The Jabberwock is slain by the hero in the poem."
+            }
+        ],
+        "associated_entities": [
+            "The Hero",
+            "The Bandersnatch",
+            "The Jubjub Bird"
+        ],
+        "symbolic_items": [
+            "Vorpal Sword"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "fictional world of the Looking-Glass",
+        "historical_period": "Victorian era",
+        "geographic_range": "dreamscape within the Looking-Glass world",
+        "cultural_significance": "represents the whimsical and nonsensical elements of Carroll's work",
+        "primary_sources": [
+            "Through the Looking-Glass by Lewis Carroll",
+            "Illustrations by John Tenniel"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a dinosaur",
+        "NOT a real-world animal"
+    ]
+}

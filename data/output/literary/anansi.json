@@ -1,0 +1,112 @@
+{
+    "name": "Anansi",
+    "domain": "literary",
+    "entity_type": "folklore character",
+    "alternative_names": [
+        "Ananse",
+        "Kwaku Ananse",
+        "Anancy",
+        "Ba Anansi",
+        "Kompa Nanzi",
+        "Nanzi",
+        "Nancy",
+        "Aunt Nancy",
+        "Sis' Nancy"
+    ],
+    "primary_sources": [
+        "Akan folklore",
+        "Ashanti oral tradition",
+        "Caribbean folklore",
+        "A Story a Story by Gail E. Haley"
+    ],
+    "visual_attributes": {
+        "morphology": "anthropomorphic spider",
+        "distinctive_features": [
+            "human face on a spider body",
+            "eight legs",
+            "ability to transform between human and spider forms"
+        ],
+        "color_palette": [
+            "black",
+            "brown",
+            "gold"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "varies from small spider to human size",
+        "structural_arrangement": "spider body with human facial features",
+        "domain_specific_visual": {
+            "cultural_attire": "traditional Akan clothing when in human form",
+            "symbolic_items": "webs representing stories and wisdom"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "trickster",
+        "secondary_functions": [
+            "storyteller",
+            "symbol of resistance"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "embodiment of wit and cunning",
+            "narrative_role": "protagonist and antagonist in stories"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Okonore Yaa",
+                "description": "Anansi's long-suffering wife"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Ntikuma",
+                "description": "Anansi's firstborn son"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Tikelenkelen",
+                "description": "Anansi's big-headed son"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Nankonhwea",
+                "description": "Anansi's son with a spindly neck and legs"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Afudohwedohwe",
+                "description": "Anansi's pot-bellied son"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Anansewa",
+                "description": "Anansi's beautiful daughter"
+            }
+        ],
+        "associated_entities": [
+            "Odomankoma",
+            "Bobowissi",
+            "Tano Akora"
+        ],
+        "symbolic_items": [
+            "web",
+            "stories"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Akan culture, Ghana",
+        "historical_period": "pre-colonial to present",
+        "geographic_range": "West Africa, Caribbean, Americas",
+        "cultural_significance": "symbol of wisdom, cunning, and resistance",
+        "primary_sources": [
+            "Akan folklore",
+            "Ashanti oral tradition",
+            "Caribbean folklore"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic spider",
+        "NOT a purely human figure",
+        "NOT a Western trickster archetype"
+    ]
+}

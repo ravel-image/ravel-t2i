@@ -1,0 +1,78 @@
+{
+    "name": "Cthulhu",
+    "domain": "literary",
+    "entity_type": "cosmic entity",
+    "alternative_names": [
+        "Tulu",
+        "Katulu",
+        "Kutulu"
+    ],
+    "primary_sources": [
+        "The Call of Cthulhu",
+        "The Dunwich Horror",
+        "At the Mountains of Madness"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic humanoid with octopus-like head and dragon-like features",
+        "distinctive_features": [
+            "octopus-like head with numerous tentacles",
+            "scaly, rubbery-looking body",
+            "prodigious claws on hind and fore feet",
+            "long, narrow wings"
+        ],
+        "color_palette": [
+            "green"
+        ],
+        "texture": "scaly and rubbery",
+        "size_and_scale": "hundreds of meters tall",
+        "structural_arrangement": "humanoid form with webbed arms and legs, tentacled head, and wings",
+        "domain_specific_visual": {
+            "cosmic_appearance": "eldritch and otherworldly",
+            "mythological_influence": "combination of octopus, dragon, and human caricature"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "cosmic entity worshipped by cultists",
+        "secondary_functions": [
+            "source of subconscious anxiety",
+            "object of worship"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "Great Old One",
+            "narrative_role": "central figure in Lovecraftian Mythos"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Hastur the Unspeakable",
+                "description": "Cthulhu is engaged in an age-old rivalry with Hastur, an air elemental."
+            }
+        ],
+        "associated_entities": [
+            "Deep Ones",
+            "Mi-Go"
+        ],
+        "symbolic_items": [
+            "statues",
+            "carvings"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Lovecraftian Mythos",
+        "historical_period": "1928 onwards",
+        "geographic_range": "R'lyeh, South Pacific",
+        "cultural_significance": "symbol of cosmic horror and existential dread",
+        "primary_sources": [
+            "The Call of Cthulhu",
+            "The Dunwich Horror",
+            "At the Mountains of Madness"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a typical octopus",
+        "NOT a human-like deity"
+    ]
+}

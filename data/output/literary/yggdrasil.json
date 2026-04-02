@@ -1,0 +1,88 @@
+{
+    "name": "Yggdrasil",
+    "domain": "literary",
+    "entity_type": "sacred tree",
+    "alternative_names": [
+        "Hoddmímis holt",
+        "Mímameiðr",
+        "Læraðr"
+    ],
+    "primary_sources": [
+        "Poetic Edda",
+        "Prose Edda"
+    ],
+    "visual_attributes": {
+        "morphology": "immense ash tree",
+        "distinctive_features": [
+            "branches extend far into the heavens",
+            "supported by three roots reaching different realms",
+            "inhabited by various mythical creatures"
+        ],
+        "color_palette": [
+            "green",
+            "brown",
+            "gray"
+        ],
+        "texture": "bark-like, rough",
+        "size_and_scale": "immense, central to the cosmos",
+        "structural_arrangement": "branches extend upwards, roots extend downwards into three different locations",
+        "domain_specific_visual": {
+            "cosmological_position": "central to the Nine Worlds",
+            "creature_inhabitants": "dragon Níðhöggr, squirrel Ratatoskr, hawk Veðrfölnir, stags Dáinn, Dvalinn, Duneyrr, Duraþrór"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "central axis of the cosmos",
+        "secondary_functions": [
+            "meeting place for gods",
+            "support for the Nine Worlds"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "sacred tree in Norse cosmology",
+            "ceremonial_role": "site of divine assemblies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_ROOT_IN",
+                "target": "Urðarbrunnr",
+                "description": "One of Yggdrasil's roots extends to this well in the heavens."
+            },
+            {
+                "type": "HAS_ROOT_IN",
+                "target": "Hvergelmir",
+                "description": "One of Yggdrasil's roots extends to this spring."
+            },
+            {
+                "type": "HAS_ROOT_IN",
+                "target": "Mímisbrunnr",
+                "description": "One of Yggdrasil's roots extends to this well."
+            }
+        ],
+        "associated_entities": [
+            "Odin",
+            "Heimdallr",
+            "Mímir"
+        ],
+        "symbolic_items": [
+            "Gjallarhorn",
+            "sacred runes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Norse mythology",
+        "historical_period": "13th century compilations",
+        "geographic_range": "Scandinavia",
+        "cultural_significance": "central to Norse cosmology and mythology",
+        "primary_sources": [
+            "Poetic Edda",
+            "Prose Edda"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic tree",
+        "NOT a small or ordinary-sized tree",
+        "NOT devoid of mythical creatures"
+    ]
+}

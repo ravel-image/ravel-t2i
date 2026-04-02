@@ -1,0 +1,72 @@
+{
+    "name": "Moby Dick",
+    "domain": "literary",
+    "entity_type": "fictional whale",
+    "alternative_names": [
+        "The White Whale"
+    ],
+    "primary_sources": [
+        "Moby-Dick; or, The Whale by Herman Melville"
+    ],
+    "visual_attributes": {
+        "morphology": "massive, elongated body typical of a sperm whale",
+        "distinctive_features": [
+            "albino coloration",
+            "enormous size",
+            "scarred and battle-worn appearance"
+        ],
+        "color_palette": [
+            "white"
+        ],
+        "texture": "smooth, with visible scars",
+        "size_and_scale": "larger than typical sperm whales, approximately 85 feet in length",
+        "structural_arrangement": "typical sperm whale anatomy with a large head and narrow lower jaw",
+        "domain_specific_visual": {
+            "literary_symbolism": "represents the unconquerable and mysterious forces of nature",
+            "narrative_role": "antagonist in Captain Ahab's quest for vengeance"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of nature's power and mystery",
+        "secondary_functions": [
+            "object of Captain Ahab's obsession",
+            "central figure in the narrative"
+        ],
+        "domain_specific_functional": {
+            "literary_role": "drives the plot and themes of obsession and revenge",
+            "symbolic_function": "represents the futility of human struggle against nature"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Captain Ahab",
+                "description": "Moby Dick is the object of Ahab's vengeful pursuit."
+            }
+        ],
+        "associated_entities": [
+            "Captain Ahab",
+            "Ishmael",
+            "Pequod"
+        ],
+        "symbolic_items": [
+            "Ahab's prosthetic leg",
+            "doubloon nailed to the mast"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "fictional representation inspired by real-life albino whale Mocha Dick",
+        "historical_period": "19th century",
+        "geographic_range": "various oceans, primarily the Pacific",
+        "cultural_significance": "represents the ultimate challenge and mystery of the sea",
+        "primary_sources": [
+            "Moby-Dick; or, The Whale by Herman Melville"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic sperm whale",
+        "NOT a non-albino whale",
+        "NOT a benign or friendly creature"
+    ]
+}

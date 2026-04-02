@@ -1,0 +1,86 @@
+{
+    "name": "Quetzalcoatl",
+    "domain": "literary",
+    "entity_type": "deity",
+    "alternative_names": [
+        "Feathered Serpent",
+        "Quetzalcōhuātl",
+        "Kukulkan",
+        "Gukumatz"
+    ],
+    "primary_sources": [
+        "Aztec codices",
+        "Mesoamerican iconography",
+        "Spanish colonial records"
+    ],
+    "visual_attributes": {
+        "morphology": "Serpent with feathers",
+        "distinctive_features": [
+            "Feathered body",
+            "Beak-like mask",
+            "Ehēcacōzcatl (spirally voluted wind jewel)"
+        ],
+        "color_palette": [
+            "green",
+            "blue",
+            "gold"
+        ],
+        "texture": "feathery and scaly",
+        "size_and_scale": "gigantic, spanning the sky",
+        "structural_arrangement": "serpent body with feathered wings",
+        "domain_specific_visual": {
+            "iconography": "depicted in codices with human features and serpent body",
+            "cultural_artifacts": "represented in temple carvings and murals"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "god of wind and wisdom",
+        "secondary_functions": [
+            "patron of the priesthood",
+            "symbol of learning and intelligence"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "guide and road sweeper of the rain gods",
+            "cultural_role": "associated with rulership and priestly office"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ALLY_OF",
+                "target": "Tlaloc",
+                "description": "Both are represented by the planet Venus and associated with rain and water."
+            },
+            {
+                "type": "TWIN_OF",
+                "target": "Xolotl",
+                "description": "Both are associated with Venus and depicted wearing the wind jewel."
+            }
+        ],
+        "associated_entities": [
+            "Tlaloc",
+            "Xolotl",
+            "Huitzilopochtli",
+            "Tezcatlipoca"
+        ],
+        "symbolic_items": [
+            "conch shell necklace",
+            "wind jewel"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mesoamerica",
+        "historical_period": "Late Preclassic to Postclassic period (400 BC – 1519 AD)",
+        "geographic_range": "Central Mexico, Maya area",
+        "cultural_significance": "Represents wisdom, learning, and the wind; central to Aztec and Toltec mythology",
+        "primary_sources": [
+            "Aztec codices",
+            "Spanish colonial records"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT a dragon",
+        "NOT solely a human figure"
+    ]
+}

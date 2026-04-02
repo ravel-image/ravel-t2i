@@ -1,0 +1,84 @@
+{
+    "name": "Tatterhood",
+    "domain": "literary",
+    "entity_type": "fairy tale character",
+    "alternative_names": [
+        "Lurvehette"
+    ],
+    "primary_sources": [
+        "Norwegian fairy tale collected by Peter Christen Asbjørnsen and Jørgen Moe",
+        "A Book of Witches",
+        "A Choice of Magic by Ruth Manning-Sanders"
+    ],
+    "visual_attributes": {
+        "morphology": "human female with distinctive features",
+        "distinctive_features": [
+            "tattered hood",
+            "wooden spoon in hand",
+            "rides a goat"
+        ],
+        "color_palette": [
+            "black",
+            "brown",
+            "gold"
+        ],
+        "texture": "ragged and rustic",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "wears a hood over unruly hair, holds a spoon, rides a goat",
+        "domain_specific_visual": {
+            "CLOTHING_STYLE": "tattered and ragged",
+            "TRANSPORTATION": "rides a goat"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protagonist in a fairy tale",
+        "secondary_functions": [
+            "protector of her sister",
+            "transformer of appearances"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_TALE": "drives away trolls, restores sister's head",
+            "SYMBOLISM": "chooses appearance, inner beauty"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SISTER",
+                "target": "younger sister",
+                "description": "Tatterhood is the elder sister who protects and restores her sister."
+            },
+            {
+                "type": "MARRIED_TO",
+                "target": "prince",
+                "description": "Tatterhood marries the prince after transforming her appearance."
+            }
+        ],
+        "associated_entities": [
+            "queen (mother)",
+            "king (father)",
+            "prince (husband)"
+        ],
+        "symbolic_items": [
+            "wooden spoon",
+            "tattered hood",
+            "goat"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Norwegian folklore",
+        "historical_period": "19th century",
+        "geographic_range": "Scandinavia, particularly Norway",
+        "cultural_significance": "represents themes of inner beauty and transformation",
+        "primary_sources": [
+            "Norwegian fairy tale collected by Peter Christen Asbjørnsen and Jørgen Moe",
+            "A Book of Witches",
+            "A Choice of Magic by Ruth Manning-Sanders"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic princess",
+        "NOT without a goat",
+        "NOT without a wooden spoon"
+    ]
+}

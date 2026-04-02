@@ -1,0 +1,72 @@
+{
+    "name": "Jabberwock",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "the Jabberwock"
+    ],
+    "primary_sources": [
+        "Through the Looking-Glass by Lewis Carroll",
+        "The Annotated Alice by Martin Gardner"
+    ],
+    "visual_attributes": {
+        "morphology": "dragon-like creature",
+        "distinctive_features": [
+            "leathery wings of a pterodactyl",
+            "long scaly neck and tail of a sauropod",
+            "fearsome jaws"
+        ],
+        "color_palette": [
+            "dark green",
+            "gray",
+            "black"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, comparable to a dinosaur",
+        "structural_arrangement": "quadrupedal with wings",
+        "domain_specific_visual": {
+            "Victorian_influence": "reflects Victorian obsession with natural history"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "antagonist in a nonsense poem",
+        "secondary_functions": [
+            "symbol of fear",
+            "subject of a heroic quest"
+        ],
+        "domain_specific_functional": {
+            "nonsense_poetry": "embodies the whimsical and nonsensical nature of the poem"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "heroic protagonist",
+                "description": "The Jabberwock is slain by the protagonist in the poem."
+            }
+        ],
+        "associated_entities": [
+            "Bandersnatch",
+            "Borogove"
+        ],
+        "symbolic_items": [
+            "vorpal sword"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "fictional world of the Looking-Glass",
+        "historical_period": "Victorian era",
+        "geographic_range": "dreamscape within the Looking-Glass world",
+        "cultural_significance": "represents the whimsical and nonsensical elements of Carroll's work",
+        "primary_sources": [
+            "Through the Looking-Glass by Lewis Carroll",
+            "The Annotated Alice by Martin Gardner"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a dinosaur without wings",
+        "NOT a creature from traditional mythology"
+    ]
+}

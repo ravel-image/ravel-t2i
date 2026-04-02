@@ -1,0 +1,84 @@
+{
+    "name": "Wyvern",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "wivern",
+        "vouivre",
+        "guivre",
+        "lindworm"
+    ],
+    "primary_sources": [
+        "medieval bestiaries",
+        "The Great, Parliamentary, or Banneret's Roll of 1312",
+        "Display of Heraldrie by John Guillim"
+    ],
+    "visual_attributes": {
+        "morphology": "two-legged dragon with wings and a pointed tail",
+        "distinctive_features": [
+            "two legs",
+            "bat-like wings",
+            "serpentine tail"
+        ],
+        "color_palette": [
+            "green",
+            "silver",
+            "sable"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, comparable to a dragon",
+        "structural_arrangement": "bipedal with wings attached to the back, tail often depicted as long and pointed",
+        "domain_specific_visual": {
+            "heraldic_position": "often depicted resting on legs and tail or with claws in the air supported by tail",
+            "wing_variation": "sometimes depicted wingless or with wings expanded"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbolic representation in heraldry",
+        "secondary_functions": [
+            "mascot for schools and teams",
+            "creature in fantasy literature"
+        ],
+        "domain_specific_functional": {
+            "heraldic_role": "used as a charge, supporter, or crest in heraldry",
+            "literary_role": "appears in fantasy fiction and video games"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "dragon",
+                "description": "Wyverns are a type of dragon but distinct due to having two legs."
+            },
+            {
+                "type": "SYMBOLIZES",
+                "target": "disease",
+                "description": "In the arms of the Worshipful Society of Apothecaries, a wyvern symbolizes disease."
+            }
+        ],
+        "associated_entities": [
+            "dragon",
+            "lindworm"
+        ],
+        "symbolic_items": [
+            "coat of arms",
+            "heraldic crest"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "European mythology and heraldry",
+        "historical_period": "medieval to modern",
+        "geographic_range": "primarily Europe, especially in the UK, France, and Germany",
+        "cultural_significance": "represents a distinct type of dragon in heraldry and literature",
+        "primary_sources": [
+            "medieval bestiaries",
+            "The Great, Parliamentary, or Banneret's Roll of 1312"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a four-legged dragon",
+        "NOT fire-breathing",
+        "NOT a generic snake or serpent"
+    ]
+}

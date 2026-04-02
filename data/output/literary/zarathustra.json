@@ -1,0 +1,75 @@
+{
+    "name": "Zarathustra",
+    "domain": "literary",
+    "entity_type": "philosophical character",
+    "alternative_names": [
+        "Zoroaster"
+    ],
+    "primary_sources": [
+        "Thus Spoke Zarathustra by Friedrich Nietzsche",
+        "The Gay Science by Friedrich Nietzsche"
+    ],
+    "visual_attributes": {
+        "morphology": "human-like figure with a commanding presence",
+        "distinctive_features": [
+            "long flowing beard",
+            "piercing eyes",
+            "aura of wisdom and authority"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "deep blue",
+            "golden accents"
+        ],
+        "texture": "smooth skin with a slightly rugged appearance",
+        "size_and_scale": "average human height, approximately 6 feet tall",
+        "structural_arrangement": "upright posture with a contemplative stance",
+        "domain_specific_visual": {
+            "philosophical_aura": "emanates an aura of deep thought and introspection",
+            "symbolic_garments": "wears robes that symbolize philosophical wisdom"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "philosophical discourse and teaching",
+        "secondary_functions": [
+            "symbol of the Übermensch",
+            "challenger of traditional morality"
+        ],
+        "domain_specific_functional": {
+            "philosophical_representative": "represents Nietzsche's philosophical ideas",
+            "moral_challenger": "questions and deconstructs traditional moral values"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INSPIRED_BY",
+                "target": "Friedrich Nietzsche",
+                "description": "Zarathustra is a character created by Nietzsche to convey his philosophical ideas."
+            }
+        ],
+        "associated_entities": [
+            "Übermensch",
+            "Eternal Recurrence"
+        ],
+        "symbolic_items": [
+            "philosopher's staff",
+            "scrolls of wisdom"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "philosophical fiction by Friedrich Nietzsche",
+        "historical_period": "19th century",
+        "geographic_range": "conceptual, not tied to a specific location",
+        "cultural_significance": "represents a radical rethinking of morality and philosophy",
+        "primary_sources": [
+            "Thus Spoke Zarathustra by Friedrich Nietzsche",
+            "Ecce Homo by Friedrich Nietzsche"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a historical Zoroaster",
+        "NOT a generic wise old man",
+        "NOT tied to a specific cultural or religious context"
+    ]
+}

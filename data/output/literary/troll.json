@@ -1,0 +1,81 @@
+{
+    "name": "Troll",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "jötunn",
+        "þurs",
+        "risi",
+        "trow",
+        "Huldrefolk"
+    ],
+    "primary_sources": [
+        "Norse mythology",
+        "Scandinavian folklore",
+        "Prose Edda",
+        "Beowulf"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with varying size and features",
+        "distinctive_features": [
+            "Can be extremely old and strong",
+            "May turn to stone upon sunlight exposure",
+            "Sometimes indistinguishable from humans"
+        ],
+        "color_palette": [
+            "gray",
+            "earth tones",
+            "stone-like"
+        ],
+        "texture": "Rough, rocky, or earthy",
+        "size_and_scale": "Varies from human-sized to giant",
+        "structural_arrangement": "Humanoid structure with exaggerated features",
+        "domain_specific_visual": {
+            "landmark_association": "Associated with rocks, mountains, and caves",
+            "sunlight_effect": "Turns to stone in sunlight"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Nature being, often antagonistic to humans",
+        "secondary_functions": [
+            "Kidnapping",
+            "Guarding treasures"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "Represents untamed nature and non-Christian beliefs",
+            "narrative_role": "Antagonist in folklore and mythology"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Thor",
+                "description": "Thor is known to fight trolls and jötnar in mythology"
+            }
+        ],
+        "associated_entities": [
+            "jötnar",
+            "Huldrefolk"
+        ],
+        "symbolic_items": [
+            "boulders",
+            "mountains"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Nordic folklore and Norse mythology",
+        "historical_period": "Medieval Scandinavian era",
+        "geographic_range": "Scandinavia",
+        "cultural_significance": "Symbolizes the dangers of the wild and the unknown",
+        "primary_sources": [
+            "Prose Edda",
+            "Scandinavian folktales"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic giant",
+        "NOT purely evil demon",
+        "NOT modern internet troll"
+    ]
+}

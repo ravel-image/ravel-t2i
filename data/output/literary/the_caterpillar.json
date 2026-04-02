@@ -1,0 +1,79 @@
+{
+    "name": "The Caterpillar",
+    "domain": "literary",
+    "entity_type": "experimental film",
+    "alternative_names": [
+        "キャタピラ"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Project Gutenberg"
+    ],
+    "visual_attributes": {
+        "morphology": "abstract and surreal visual style",
+        "distinctive_features": [
+            "hyperactive, handheld camerawork",
+            "stop-motion photography",
+            "experimental and underground film aesthetics"
+        ],
+        "color_palette": [
+            "black and white",
+            "monochrome"
+        ],
+        "texture": "grainy and raw film texture",
+        "size_and_scale": "short film, approximately 10-20 minutes",
+        "structural_arrangement": "non-linear narrative structure",
+        "domain_specific_visual": {
+            "film_technique": "experimental and avant-garde",
+            "camera_movement": "dynamic and erratic"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "experimental exploration of visual storytelling",
+        "secondary_functions": [
+            "showcase of underground film techniques",
+            "artistic expression"
+        ],
+        "domain_specific_functional": {
+            "cultural_influence": "part of Japanese underground cinema",
+            "influence_on_others": "inspired by and related to Tetsuo: The Iron Man"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Shozin Fukui",
+                "description": "Directed and created by Japanese filmmaker Shozin Fukui"
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Tetsuo: The Iron Man",
+                "description": "Shares similar filmmaking techniques with Tetsuo: The Iron Man"
+            }
+        ],
+        "associated_entities": [
+            "Shozin Fukui",
+            "Tetsuo: The Iron Man"
+        ],
+        "symbolic_items": [
+            "handheld camera",
+            "stop-motion equipment"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japan",
+        "historical_period": "1980s",
+        "geographic_range": "primarily Japan",
+        "cultural_significance": "represents the Japanese underground film movement",
+        "primary_sources": [
+            "Wikipedia",
+            "Project Gutenberg"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a traditional narrative film",
+        "NOT a color film",
+        "NOT a mainstream cinematic production"
+    ]
+}

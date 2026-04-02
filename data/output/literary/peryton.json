@@ -1,0 +1,73 @@
+{
+    "name": "Peryton",
+    "domain": "literary",
+    "entity_type": "fictional hybrid animal",
+    "alternative_names": [],
+    "primary_sources": [
+        "Book of Imaginary Beings by Jorge Luis Borges"
+    ],
+    "visual_attributes": {
+        "morphology": "Hybrid of stag and bird",
+        "distinctive_features": [
+            "Head, neck, forelegs, and antlers of a stag",
+            "Plumage, wings, and hindquarters of a large bird",
+            "Casts the shadow of a human until it kills one"
+        ],
+        "color_palette": [
+            "varied stag coloration",
+            "bird plumage colors"
+        ],
+        "texture": "feathery and furry",
+        "size_and_scale": "Size of a large bird with stag features",
+        "structural_arrangement": "Stag features at the front, bird features at the back",
+        "domain_specific_visual": {
+            "HERALDRY_INFLUENCE": "Winged stag as heraldic support"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Mythical creature with symbolic significance",
+        "secondary_functions": [
+            "Symbol of downfall",
+            "Heraldic inspiration"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_SHADOW": "Casts human shadow until it kills"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INSPIRED_BY",
+                "target": "Heraldry of King Charles VI of France",
+                "description": "Winged stags used as heraldic supports"
+            },
+            {
+                "type": "PROPHESIED_BY",
+                "target": "Sibyl",
+                "description": "Prophesied to lead to the downfall of Rome"
+            }
+        ],
+        "associated_entities": [
+            "Atlantis",
+            "Rome"
+        ],
+        "symbolic_items": [
+            "Medieval manuscript",
+            "Heraldic standard"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Atlantis",
+        "historical_period": "Medieval-inspired",
+        "geographic_range": "Mythical locations",
+        "cultural_significance": "Symbol of downfall and transformation",
+        "primary_sources": [
+            "Book of Imaginary Beings by Jorge Luis Borges"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Griffin",
+        "NOT purely stag or purely bird",
+        "NOT modern scientific context"
+    ]
+}

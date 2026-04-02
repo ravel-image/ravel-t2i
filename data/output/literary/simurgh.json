@@ -1,0 +1,95 @@
+{
+    "name": "Simurgh",
+    "domain": "literary",
+    "entity_type": "mythological bird",
+    "alternative_names": [
+        "senmurv",
+        "simorgh",
+        "simorg",
+        "simurg",
+        "simoorg",
+        "simorq",
+        "simourv"
+    ],
+    "primary_sources": [
+        "Shahnameh",
+        "Conference of the Birds",
+        "Masnavi"
+    ],
+    "visual_attributes": {
+        "morphology": "winged creature in the shape of a bird",
+        "distinctive_features": [
+            "gigantic size capable of carrying an elephant or whale",
+            "peacock-like body with the head of a dog or human",
+            "claws of a lion"
+        ],
+        "color_palette": [
+            "copper",
+            "orange",
+            "rust"
+        ],
+        "texture": "feathery with possible metallic sheen",
+        "size_and_scale": "gigantic",
+        "structural_arrangement": "bird-like with mammalian features",
+        "domain_specific_visual": {
+            "iconography": "appears in Iranian art and literature",
+            "cultural_influence": "found in Persian, Georgian, Armenian, and Eastern Roman iconography"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "benevolent protector and healer",
+        "secondary_functions": [
+            "mediator between Earth and sky",
+            "purifier of land and waters"
+        ],
+        "domain_specific_functional": {
+            "symbolism": "union between Earth and sky",
+            "mythological_role": "possessor of all knowledge and wisdom"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RAISED",
+                "target": "Zal",
+                "description": "The Simurgh raised Zal after he was abandoned by his father."
+            },
+            {
+                "type": "ASSISTED",
+                "target": "Rudaba",
+                "description": "The Simurgh assisted in the birth of Rudaba's child, Rostam."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "snakes",
+                "description": "The Simurgh has an enmity towards snakes."
+            }
+        ],
+        "associated_entities": [
+            "Zal",
+            "Rudaba",
+            "Rostam",
+            "Esfandiyar"
+        ],
+        "symbolic_items": [
+            "golden feathers",
+            "Tree of Life (Gaokerena)"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Persian mythology",
+        "historical_period": "ancient to medieval periods",
+        "geographic_range": "Persia, Georgia, Armenia, Eastern Roman Empire",
+        "cultural_significance": "symbol of divine glory and wisdom",
+        "primary_sources": [
+            "Shahnameh",
+            "Conference of the Birds",
+            "Masnavi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic phoenix",
+        "NOT a simple peacock",
+        "NOT a purely avian creature without mammalian features"
+    ]
+}

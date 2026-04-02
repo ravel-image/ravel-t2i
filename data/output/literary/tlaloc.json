@@ -1,0 +1,84 @@
+{
+    "name": "Tláloc",
+    "domain": "literary",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Chaac",
+        "Olmec Storm God"
+    ],
+    "primary_sources": [
+        "Aztec Codices",
+        "Teotihuacan Murals",
+        "Mayan Inscriptions"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic figure with exaggerated facial features",
+        "distinctive_features": [
+            "Fangs, typically two or four",
+            "Ringed eyes",
+            "Bifurcated tongue",
+            "Mustache-shaped lips"
+        ],
+        "color_palette": [
+            "Blue",
+            "Green",
+            "White"
+        ],
+        "texture": "Smooth stone or painted surfaces",
+        "size_and_scale": "Varies from small figurines to colossal statues",
+        "structural_arrangement": "Often depicted with a headdress and carrying a water vessel",
+        "domain_specific_visual": {
+            "iconography": "Butterflies, jaguars, serpents, maize, lightning"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of rain and fertility",
+        "secondary_functions": [
+            "Controller of thunder and lightning",
+            "Symbol of life and sustenance"
+        ],
+        "domain_specific_functional": {
+            "ritual_role": "Central figure in rain and fertility ceremonies",
+            "sacrificial_association": "Linked to human and animal sacrifices"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Cerro Tláloc",
+                "description": "Primary shrine location for rituals dedicated to Tláloc"
+            },
+            {
+                "type": "DERIVED_FROM",
+                "target": "Maya God Chaac",
+                "description": "Shares characteristics with the Maya rain deity"
+            }
+        ],
+        "associated_entities": [
+            "Jaguars",
+            "Serpents",
+            "Butterflies"
+        ],
+        "symbolic_items": [
+            "Water vessel",
+            "Lightning bolt wand",
+            "Cornstalk"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Aztec and broader Mesoamerican cultures",
+        "historical_period": "Pre-Columbian era",
+        "geographic_range": "Central Mexico, Teotihuacan, Mesoamerica",
+        "cultural_significance": "Represents life-giving rain and fertility; integral to Aztec and Mesoamerican identity",
+        "primary_sources": [
+            "Aztec Codices",
+            "Teotihuacan Murals"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic storm god",
+        "NOT without fangs or ringed eyes",
+        "NOT solely a Mayan deity"
+    ]
+}

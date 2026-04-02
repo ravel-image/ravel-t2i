@@ -1,0 +1,88 @@
+{
+    "name": "The Martians",
+    "domain": "literary",
+    "entity_type": "fictional characters",
+    "alternative_names": [
+        "Ares 3 Crew",
+        "Mark Watney and Crew"
+    ],
+    "primary_sources": [
+        "The Martian by Andy Weir",
+        "The Martian film adaptation"
+    ],
+    "visual_attributes": {
+        "morphology": "human astronauts in space suits",
+        "distinctive_features": [
+            "NASA space suits with mission patches",
+            "Martian habitat and rover equipment",
+            "Martian landscape with red soil and dust storms"
+        ],
+        "color_palette": [
+            "white",
+            "red",
+            "orange"
+        ],
+        "texture": "smooth and metallic for suits, rocky and dusty for Mars",
+        "size_and_scale": "human-sized, approximately 1.8 meters tall",
+        "structural_arrangement": "group of astronauts with individual roles",
+        "domain_specific_visual": {
+            "spacesuit_design": "NASA Ares mission suits",
+            "habitat_structure": "Martian Hab with airlocks and solar panels"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "survival and exploration on Mars",
+        "secondary_functions": [
+            "scientific research",
+            "engineering problem-solving"
+        ],
+        "domain_specific_functional": {
+            "mission_role": "Ares 3 mission crew members",
+            "scientific_specialties": "botany, engineering, geology, chemistry"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_COMMANDER",
+                "target": "Melissa Lewis",
+                "description": "Commander of the Ares 3 mission"
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Mark Watney",
+                "description": "Astrobotanist and mechanical engineer stranded on Mars"
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Rick Martinez",
+                "description": "Pilot of the Ares 3 mission"
+            }
+        ],
+        "associated_entities": [
+            "NASA",
+            "Ares 3 Mission",
+            "Hermes spacecraft"
+        ],
+        "symbolic_items": [
+            "Mars Ascent Vehicle",
+            "Martian habitat",
+            "rover"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "science fiction novel set on Mars",
+        "historical_period": "future year 2035",
+        "geographic_range": "Mars, specifically Acidalia Planitia and Schiaparelli crater",
+        "cultural_significance": "symbolizes human ingenuity and survival",
+        "primary_sources": [
+            "The Martian by Andy Weir",
+            "The Martian film adaptation"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic aliens",
+        "NOT traditional Martian depictions with green skin",
+        "NOT set in a past or present time period"
+    ]
+}

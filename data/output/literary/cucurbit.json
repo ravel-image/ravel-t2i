@@ -1,0 +1,87 @@
+{
+    "name": "Cucurbit",
+    "domain": "literary",
+    "entity_type": "plant family",
+    "alternative_names": [
+        "Cucurbitaceae",
+        "gourd family"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Neo-Latin taxonomy references"
+    ],
+    "visual_attributes": {
+        "morphology": "annual vines, woody lianas, thorny shrubs, or trees",
+        "distinctive_features": [
+            "large yellow or white flowers",
+            "hairy and pentangular stems",
+            "tendrils at 90° to leaf petioles"
+        ],
+        "color_palette": [
+            "green",
+            "yellow",
+            "white"
+        ],
+        "texture": "hairy",
+        "size_and_scale": "varies from small vines to large shrubs or trees",
+        "structural_arrangement": "alternate, simple palmately lobed or palmately compound leaves",
+        "domain_specific_visual": {
+            "flower_type": "unisexual with male and female flowers on different or same plants",
+            "fruit_type": "modified berry called a pepo"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "source of food and ornamental use",
+        "secondary_functions": [
+            "source of loofah scrubbing sponge",
+            "ornamental caudiciform plant"
+        ],
+        "domain_specific_functional": {
+            "ecological_role": "early cultivated plants in Old and New Worlds",
+            "economic_importance": "high percentage of species used as human food"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_GENUS",
+                "target": "Cucurbita",
+                "description": "Includes squash, pumpkin, zucchini, and some gourds"
+            },
+            {
+                "type": "HAS_GENUS",
+                "target": "Lagenaria",
+                "description": "Includes calabash and ornamental gourds"
+            },
+            {
+                "type": "HAS_GENUS",
+                "target": "Citrullus",
+                "description": "Includes watermelon and other species"
+            }
+        ],
+        "associated_entities": [
+            "Cucurbita",
+            "Lagenaria",
+            "Citrullus"
+        ],
+        "symbolic_items": [
+            "gourds",
+            "loofah"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Neo-Latin, from Classical Latin 'cucurbita'",
+        "historical_period": "Paleocene epoch for fossil history",
+        "geographic_range": "tropics and temperate areas worldwide",
+        "cultural_significance": "among earliest cultivated plants",
+        "primary_sources": [
+            "Wikipedia",
+            "Frank Hall Knowlton's fossil description"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic vine",
+        "NOT smooth stems",
+        "NOT non-flowering plant"
+    ]
+}

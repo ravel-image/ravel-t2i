@@ -1,0 +1,79 @@
+{
+    "name": "The Headless Horseman",
+    "domain": "literary",
+    "entity_type": "supernatural entity",
+    "alternative_names": [
+        "Galloping Hessian",
+        "Headless Rider"
+    ],
+    "primary_sources": [
+        "The Legend of Sleepy Hollow by Washington Irving"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid figure on horseback, lacking a head",
+        "distinctive_features": [
+            "headless appearance",
+            "carries a pumpkin or a spectral head",
+            "rides a black horse"
+        ],
+        "color_palette": [
+            "black",
+            "dark brown",
+            "ghostly white"
+        ],
+        "texture": "ethereal and shadowy",
+        "size_and_scale": "human-sized, approximately 6 feet tall",
+        "structural_arrangement": "headless rider seated on a horse, often holding a pumpkin or spectral head in hand",
+        "domain_specific_visual": {
+            "attire": "Revolutionary War-era military uniform",
+            "horse": "large, muscular, and dark-colored"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "haunting and instilling fear",
+        "secondary_functions": [
+            "symbol of unresolved conflict",
+            "embodiment of local legend"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "antagonist or spectral presence in the story",
+            "cultural_role": "Halloween icon and symbol of American folklore"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Ichabod Crane",
+                "description": "The Headless Horseman is perceived as a threat to Ichabod Crane during his ride home."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Brom Bones",
+                "description": "Brom Bones is suspected of impersonating the Headless Horseman to scare Ichabod Crane."
+            }
+        ],
+        "associated_entities": [
+            "Ichabod Crane",
+            "Brom Bones"
+        ],
+        "symbolic_items": [
+            "pumpkin",
+            "spectral head"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "American folklore with European influences",
+        "historical_period": "post-American Revolutionary War era",
+        "geographic_range": "Sleepy Hollow, New York",
+        "cultural_significance": "represents the blending of American and European folklore, symbolizing fear of the unknown and the supernatural",
+        "primary_sources": [
+            "The Legend of Sleepy Hollow by Washington Irving"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost",
+        "NOT a living soldier",
+        "NOT a modern-day figure"
+    ]
+}

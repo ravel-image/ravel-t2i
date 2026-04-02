@@ -1,0 +1,85 @@
+{
+    "name": "Kappa",
+    "domain": "literary",
+    "entity_type": "yōkai",
+    "alternative_names": [
+        "kawatarō",
+        "kawako",
+        "gatarō",
+        "enkō",
+        "suiko",
+        "kawauso",
+        "game",
+        "komahiki"
+    ],
+    "primary_sources": [
+        "Butsurui shōko (1775)",
+        "Honzōkōmoku keimō (1803)",
+        "Rōō sawa (1742)",
+        "Yamato honzō (1709)"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with turtle-like features",
+        "distinctive_features": [
+            "webbed hands and feet",
+            "turtle-like carapace on back",
+            "depression on head called 'dish' or 'sara'"
+        ],
+        "color_palette": [
+            "green",
+            "yellow-blue",
+            "red"
+        ],
+        "texture": "slimy or scaly",
+        "size_and_scale": "child-sized",
+        "structural_arrangement": "humanoid form with a turtle-like shell and a head depression",
+        "domain_specific_visual": {
+            "HEAD_DISH": "indentation on top of the head to retain water",
+            "LONG_HAIR": "strands of long hair hanging from the bald depression"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mischievous water spirit",
+        "secondary_functions": [
+            "sumo wrestling",
+            "revealing secret medicinal recipes"
+        ],
+        "domain_specific_functional": {
+            "WATER_DEPENDENCY": "strength depends on water retained in head dish",
+            "CULTURAL_ROLE": "engages in pranks and sometimes helps humans"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "apes",
+                "description": "Kappa and apes are considered mortal enemies in some regions."
+            }
+        ],
+        "associated_entities": [
+            "hyōsube",
+            "medochi",
+            "kenmun"
+        ],
+        "symbolic_items": [
+            "cucumber",
+            "shirikodama"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japanese folklore",
+        "historical_period": "Edo Period",
+        "geographic_range": "Japan",
+        "cultural_significance": "Represents mischievousness and the dangers of water bodies",
+        "primary_sources": [
+            "Butsurui shōko (1775)",
+            "Honzōkōmoku keimō (1803)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic turtle",
+        "NOT a generic human child",
+        "NOT a Western water sprite"
+    ]
+}

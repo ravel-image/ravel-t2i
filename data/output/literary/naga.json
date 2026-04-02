@@ -1,0 +1,98 @@
+{
+    "name": "Naga",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Nāga",
+        "Nagini",
+        "Nagin",
+        "Phaṇin",
+        "Sarpá"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Ramayana",
+        "Puranas",
+        "Devi Bhagavata Purana",
+        "Kamba Ramayana"
+    ],
+    "visual_attributes": {
+        "morphology": "half-human, half-serpent",
+        "distinctive_features": [
+            "cobra hoods behind the head",
+            "scaly serpent body",
+            "human upper torso"
+        ],
+        "color_palette": [
+            "green",
+            "gold",
+            "black"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "varies from human size to large serpent",
+        "structural_arrangement": "serpent body with human torso and head",
+        "domain_specific_visual": {
+            "iconography": "often depicted with jewels and treasures",
+            "environment": "associated with water bodies and underground realms"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of treasures and water bodies",
+        "secondary_functions": [
+            "protector of regions",
+            "benevolent protagonist in myths"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "semi-divine beings with powers over water and treasures",
+            "cultural_role": "worshipped in rituals and folk traditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Kashyapa and Kadru",
+                "description": "Nāgas are the children of the sage Kashyapa and Kadru."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Garuḍa",
+                "description": "Garuḍa is the eternal archrival of the Nāgas."
+            },
+            {
+                "type": "RULED_BY",
+                "target": "Nagaraja",
+                "description": "Nagaraja is the king of the Nāgas."
+            }
+        ],
+        "associated_entities": [
+            "Vasuki",
+            "Shesha",
+            "Takshaka",
+            "Airavata",
+            "Karkotaka",
+            "Ulupi"
+        ],
+        "symbolic_items": [
+            "treasures",
+            "gems",
+            "gold"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "South Asian and Southeast Asian mythologies",
+        "historical_period": "ancient",
+        "geographic_range": "South Asia, Southeast Asia",
+        "cultural_significance": "Nāgas hold cultural significance in Hinduism and Buddhism as divine or semi-divine beings.",
+        "primary_sources": [
+            "Mahabharata",
+            "Ramayana",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic snake",
+        "NOT purely human",
+        "NOT devoid of cultural and mythological context"
+    ]
+}

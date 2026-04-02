@@ -1,0 +1,85 @@
+{
+    "name": "Kitsune",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Fox Spirit",
+        "Yōkai",
+        "Tamamo-no-mae",
+        "Kuzunoha"
+    ],
+    "primary_sources": [
+        "Nihon ryōiki",
+        "Nihon Shoki",
+        "Shin'yaku Kegonkyō Ongi Shiki"
+    ],
+    "visual_attributes": {
+        "morphology": "fox-like with multiple tails",
+        "distinctive_features": [
+            "multiple tails, up to nine",
+            "ability to shapeshift",
+            "fox jewel or tama"
+        ],
+        "color_palette": [
+            "golden",
+            "white",
+            "black"
+        ],
+        "texture": "furred",
+        "size_and_scale": "similar to a fox, but can vary with shapeshifting",
+        "structural_arrangement": "fox-like body with multiple tails extending from the rear",
+        "domain_specific_visual": {
+            "iconography": "often depicted with fox-fire or kitsunebi",
+            "cultural_artifacts": "associated with Inari shrines"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "shapeshifting and bewitching",
+        "secondary_functions": [
+            "guardian spirit",
+            "messenger of Inari"
+        ],
+        "domain_specific_functional": {
+            "trickster_role": "leads travelers astray",
+            "spiritual_possession": "capable of kitsunetsuki"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Inari",
+                "description": "Kitsune serve as messengers for the Shinto deity Inari."
+            },
+            {
+                "type": "TRANSFORMS_INTO",
+                "target": "Tamamo-no-mae",
+                "description": "A famous nine-tailed kitsune who transformed into a human."
+            }
+        ],
+        "associated_entities": [
+            "Inari",
+            "Tamamo-no-mae",
+            "Abe no Seimei"
+        ],
+        "symbolic_items": [
+            "fox jewel",
+            "kitsunebi"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japanese folklore",
+        "historical_period": "ancient to present",
+        "geographic_range": "Japan",
+        "cultural_significance": "symbolizes intelligence, trickery, and spiritual power",
+        "primary_sources": [
+            "Nihon ryōiki",
+            "Nihon Shoki"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular fox",
+        "NOT a Western-style werewolf",
+        "NOT a purely malevolent spirit"
+    ]
+}

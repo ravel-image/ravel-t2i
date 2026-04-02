@@ -1,0 +1,74 @@
+{
+    "name": "Yahoos",
+    "domain": "literary",
+    "entity_type": "legendary creature",
+    "alternative_names": [
+        "brutes",
+        "primitive humans"
+    ],
+    "primary_sources": [
+        "Gulliver's Travels by Jonathan Swift"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with exaggerated brutish features",
+        "distinctive_features": [
+            "filthy appearance",
+            "unkempt hair",
+            "coarse skin"
+        ],
+        "color_palette": [
+            "muddy brown",
+            "dull grey",
+            "earthy tones"
+        ],
+        "texture": "rough and dirty",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "bipedal with hunched posture",
+        "domain_specific_visual": {
+            "literary_exaggeration": "grotesque human features",
+            "satirical_emphasis": "overemphasized brutishness"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "satirical representation of human flaws",
+        "secondary_functions": [
+            "symbol of materialism",
+            "embodiment of ignorance"
+        ],
+        "domain_specific_functional": {
+            "satirical_target": "commentary on European society",
+            "narrative_role": "contrast to Houyhnhnms"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CONTRASTS_WITH",
+                "target": "Houyhnhnms",
+                "description": "Yahoos are contrasted with the rational and calm Houyhnhnms."
+            }
+        ],
+        "associated_entities": [
+            "Houyhnhnms",
+            "Lemuel Gulliver"
+        ],
+        "symbolic_items": [
+            "pretty stones",
+            "mud"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Gulliver's Travels by Jonathan Swift",
+        "historical_period": "18th century",
+        "geographic_range": "fictional lands in Gulliver's Travels",
+        "cultural_significance": "critique of human nature and society",
+        "primary_sources": [
+            "Gulliver's Travels by Jonathan Swift"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic human",
+        "NOT clean or well-groomed",
+        "NOT modern or contemporary setting"
+    ]
+}

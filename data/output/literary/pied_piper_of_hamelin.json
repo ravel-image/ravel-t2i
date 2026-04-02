@@ -1,0 +1,85 @@
+{
+    "name": "Pied Piper of Hamelin",
+    "domain": "literary",
+    "entity_type": "legendary_character",
+    "alternative_names": [
+        "Pan Piper",
+        "Rat-Catcher of Hamelin",
+        "der Rattenfänger von Hameln"
+    ],
+    "primary_sources": [
+        "Johann Wolfgang von Goethe",
+        "Brothers Grimm",
+        "Robert Browning",
+        "Lüneburg manuscript",
+        "Decan Lude chorus book"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid figure",
+        "distinctive_features": [
+            "multicoloured clothing",
+            "silver pipe",
+            "hunter-like green attire during second appearance"
+        ],
+        "color_palette": [
+            "multicoloured",
+            "green",
+            "silver"
+        ],
+        "texture": "smooth fabric for clothing",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "clothing arranged in a pied pattern",
+        "domain_specific_visual": {
+            "musical_instrument": "silver pipe",
+            "clothing_style": "medieval European"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "luring rats and children with music",
+        "secondary_functions": [
+            "symbol of hope",
+            "metaphor for charisma or false promises"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "antagonist and savior",
+            "symbolism": "retribution and consequence"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "citizens of Hamelin",
+                "description": "The Pied Piper retaliates against the citizens for not paying him."
+            },
+            {
+                "type": "SAVIOR_OF",
+                "target": "town of Hamelin",
+                "description": "He initially saves the town from a rat infestation."
+            }
+        ],
+        "associated_entities": [
+            "children of Hamelin",
+            "rats of Hamelin"
+        ],
+        "symbolic_items": [
+            "silver pipe",
+            "multicoloured clothing"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hamelin, Lower Saxony, Germany",
+        "historical_period": "Middle Ages, specifically 1284",
+        "geographic_range": "Hamelin and surrounding regions",
+        "cultural_significance": "Represents themes of betrayal, retribution, and the consequences of broken promises",
+        "primary_sources": [
+            "stained-glass window in Church of Hamelin",
+            "Rattenfängerhaus inscription"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic medieval minstrel",
+        "NOT without multicoloured clothing",
+        "NOT a modern-day musician"
+    ]
+}

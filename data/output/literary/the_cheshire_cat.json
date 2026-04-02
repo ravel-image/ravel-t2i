@@ -1,0 +1,84 @@
+{
+    "name": "The Cheshire Cat",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Cheshire Puss"
+    ],
+    "primary_sources": [
+        "Alice's Adventures in Wonderland by Lewis Carroll"
+    ],
+    "visual_attributes": {
+        "morphology": "cat-like with a distinctive grin",
+        "distinctive_features": [
+            "mischievous grin",
+            "ability to disappear gradually leaving only the grin",
+            "striped fur pattern"
+        ],
+        "color_palette": [
+            "purple",
+            "pink",
+            "white"
+        ],
+        "texture": "smooth fur",
+        "size_and_scale": "medium-sized cat",
+        "structural_arrangement": "head and body can appear and disappear independently",
+        "domain_specific_visual": {
+            "grin": "iconic and remains visible even when the rest of the body disappears",
+            "disappearance": "gradual, often starting with the body and ending with the grin"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "to provide philosophical insights and create confusion",
+        "secondary_functions": [
+            "to amuse Alice",
+            "to challenge the Queen of Hearts"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "enigmatic guide and trickster",
+            "symbolic_role": "represents the absurdity and unpredictability of Wonderland"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "BELONGS_TO",
+                "target": "The Duchess",
+                "description": "The Cheshire Cat is associated with the Duchess in the story."
+            },
+            {
+                "type": "INTERACTS_WITH",
+                "target": "Alice",
+                "description": "Engages Alice in conversation and philosophical debates."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Queen of Hearts",
+                "description": "Challenges the authority of the Queen of Hearts."
+            }
+        ],
+        "associated_entities": [
+            "Alice",
+            "The Duchess",
+            "Queen of Hearts"
+        ],
+        "symbolic_items": [
+            "grin",
+            "disappearing body"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Cheshire, England",
+        "historical_period": "Victorian era",
+        "geographic_range": "fictional Wonderland",
+        "cultural_significance": "symbolizes the whimsical and nonsensical nature of Wonderland",
+        "primary_sources": [
+            "Alice's Adventures in Wonderland by Lewis Carroll"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic domestic cat",
+        "NOT without a grin",
+        "NOT a non-disappearing entity"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "March Hare",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Haigha"
+    ],
+    "primary_sources": [
+        "Alice's Adventures in Wonderland",
+        "Through the Looking-Glass"
+    ],
+    "visual_attributes": {
+        "morphology": "anthropomorphic hare",
+        "distinctive_features": [
+            "straw on head",
+            "delirious expression",
+            "often depicted with a teacup"
+        ],
+        "color_palette": [
+            "brown",
+            "white",
+            "pink"
+        ],
+        "texture": "furry",
+        "size_and_scale": "approximately 3 feet tall",
+        "structural_arrangement": "bipedal stance with elongated ears",
+        "domain_specific_visual": {
+            "Victorian_madness_symbol": "straw on head",
+            "tea_party_attire": "Victorian-style clothing"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "comic relief",
+        "secondary_functions": [
+            "symbol of madness",
+            "participant in tea party"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "companion to the Mad Hatter",
+            "cultural_reference": "British proverb 'mad as a March hare'"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FRIEND_OF",
+                "target": "Mad Hatter",
+                "description": "Companion at the tea party and shares similar madness."
+            },
+            {
+                "type": "MESSENGER_TO",
+                "target": "White King",
+                "description": "Acts as a messenger in Through the Looking-Glass."
+            }
+        ],
+        "associated_entities": [
+            "Alice",
+            "Dormouse",
+            "Cheshire Cat"
+        ],
+        "symbolic_items": [
+            "teacup",
+            "straw hat"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "British literature",
+        "historical_period": "Victorian era",
+        "geographic_range": "fictional Wonderland",
+        "cultural_significance": "Embodies the whimsical and nonsensical aspects of Wonderland.",
+        "primary_sources": [
+            "Alice's Adventures in Wonderland",
+            "Through the Looking-Glass"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a real hare",
+        "NOT a generic rabbit",
+        "NOT a modern depiction of madness"
+    ]
+}

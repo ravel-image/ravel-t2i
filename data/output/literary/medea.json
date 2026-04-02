@@ -1,0 +1,101 @@
+{
+    "name": "Medea",
+    "domain": "literary",
+    "entity_type": "mythological character",
+    "alternative_names": [
+        "Mḗdeia",
+        "planner",
+        "schemer"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Euripides's Medea",
+        "Apollonius of Rhodes's Argonautica"
+    ],
+    "visual_attributes": {
+        "morphology": "human female with divine ancestry",
+        "distinctive_features": [
+            "sorceress attire",
+            "symbols of Hecate",
+            "golden fleece"
+        ],
+        "color_palette": [
+            "gold",
+            "dark purple",
+            "emerald green"
+        ],
+        "texture": "smooth skin with flowing robes",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "often depicted with magical artifacts or in ritualistic settings",
+        "domain_specific_visual": {
+            "magical_aura": "glowing or shimmering effect",
+            "divine_ancestry": "halo or light emanating from her"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "sorceress and helper-maiden",
+        "secondary_functions": [
+            "vengeful wife",
+            "mother"
+        ],
+        "domain_specific_functional": {
+            "magical_abilities": "pharmakeía, potion-making, spell-casting",
+            "narrative_role": "aids Jason in obtaining the Golden Fleece"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DAUGHTER_OF",
+                "target": "King Aeëtes",
+                "description": "Medea is the daughter of King Aeëtes of Colchis."
+            },
+            {
+                "type": "GRANDDAUGHTER_OF",
+                "target": "Helios",
+                "description": "Medea is the granddaughter of the sun god Helios."
+            },
+            {
+                "type": "WIFE_OF",
+                "target": "Jason",
+                "description": "Medea marries Jason after helping him obtain the Golden Fleece."
+            },
+            {
+                "type": "NIECE_OF",
+                "target": "Circe",
+                "description": "Medea is the niece of the enchantress goddess Circe."
+            },
+            {
+                "type": "MOTHER_OF",
+                "target": "Medus",
+                "description": "Medea is the mother of Medus, who becomes an ancestor of the Medes."
+            }
+        ],
+        "associated_entities": [
+            "Hecate",
+            "Creusa",
+            "Aegeus"
+        ],
+        "symbolic_items": [
+            "Golden Fleece",
+            "poisoned crown",
+            "robes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Colchis",
+        "historical_period": "Ancient Greek mythology",
+        "geographic_range": "Greece, Colchis, Corinth, Athens",
+        "cultural_significance": "Represents the archetype of the powerful, vengeful woman in Greek mythology",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Euripides's Medea",
+            "Apollonius of Rhodes's Argonautica"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic witch",
+        "NOT a modern sorceress",
+        "NOT a non-Greek mythological figure"
+    ]
+}

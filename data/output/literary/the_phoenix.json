@@ -1,0 +1,85 @@
+{
+    "name": "The Phoenix",
+    "domain": "literary",
+    "entity_type": "mythological bird",
+    "alternative_names": [
+        "phenix",
+        "Bennu"
+    ],
+    "primary_sources": [
+        "Greek mythology",
+        "Egyptian mythology",
+        "Persian mythology",
+        "Motif-Index of Folk-Literature"
+    ],
+    "visual_attributes": {
+        "morphology": "bird-like form similar to an eagle",
+        "distinctive_features": [
+            "halo or nimbus with seven rays",
+            "crest of feathers on its head",
+            "peacock-like coloring"
+        ],
+        "color_palette": [
+            "red",
+            "gold",
+            "blue"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "similar to or larger than an eagle, possibly larger than an ostrich",
+        "structural_arrangement": "wings spread wide, often depicted in a rising or flying posture",
+        "domain_specific_visual": {
+            "SUN_ASSOCIATION": "halo or nimbus",
+            "REGENERATION_SYMBOL": "rising from ashes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of renewal and resurrection",
+        "secondary_functions": [
+            "symbol of the Sun",
+            "symbol of time and eternity"
+        ],
+        "domain_specific_functional": {
+            "CHRISTIAN_SYMBOLISM": "symbol of Christ's resurrection",
+            "ROMAN_EMPIRE_SYMBOL": "symbol of the Roman Empire"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SYMBOLIZES",
+                "target": "Sun",
+                "description": "The phoenix is associated with the Sun due to its regenerative cycle."
+            },
+            {
+                "type": "SYMBOLIZES",
+                "target": "Christ",
+                "description": "In Christian symbolism, the phoenix represents Christ's resurrection."
+            }
+        ],
+        "associated_entities": [
+            "Helios",
+            "Christ"
+        ],
+        "symbolic_items": [
+            "ashes",
+            "myrrh"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mediterranean, Egypt, Persia",
+        "cultural_significance": "Represents renewal, immortality, and resurrection across various cultures",
+        "primary_sources": [
+            "Herodotus",
+            "Pliny the Elder",
+            "Ovid",
+            "Isidore of Seville"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bird",
+        "NOT a dragon",
+        "NOT a modern fictional creature"
+    ]
+}

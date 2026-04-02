@@ -1,0 +1,86 @@
+{
+    "name": "Banshee",
+    "domain": "literary",
+    "entity_type": "mythological spirit",
+    "alternative_names": [
+        "bean sí",
+        "ben síde",
+        "fairy woman",
+        "woman of the fairy mound"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Project Gutenberg",
+        "Irish Wonders by D. R. McAnally"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid female spirit",
+        "distinctive_features": [
+            "long streaming hair",
+            "red eyes from continual weeping",
+            "grey cloak over a green dress",
+            "sometimes dressed in white with red hair"
+        ],
+        "color_palette": [
+            "grey",
+            "green",
+            "red",
+            "white"
+        ],
+        "texture": "ethereal and ghostly",
+        "size_and_scale": "short, between one foot and four feet tall",
+        "structural_arrangement": "often seen crouched beneath trees or flying past in the moonlight",
+        "domain_specific_visual": {
+            "hair_combing": "seen combing her hair while keening",
+            "shrouded_appearance": "appears as a shrouded woman with a veiled face"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "heralds the death of a family member",
+        "secondary_functions": [
+            "predictor of death",
+            "warns of impending doom"
+        ],
+        "domain_specific_functional": {
+            "keening": "wails a lament to signal death",
+            "family_association": "associated with specific ancient Irish families"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Milesian families",
+                "description": "Laments the descendants of ancient Irish families"
+            },
+            {
+                "type": "SIMILAR_TO",
+                "target": "bean nighe",
+                "description": "Similar creature in Scottish folklore"
+            }
+        ],
+        "associated_entities": [
+            "bean nighe",
+            "cyhyraeth"
+        ],
+        "symbolic_items": [
+            "death coach",
+            "hair comb"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Irish folklore",
+        "historical_period": "mentions as far back as 1380",
+        "geographic_range": "Ireland and parts of Scotland",
+        "cultural_significance": "symbolizes impending death and is a part of mourning traditions",
+        "primary_sources": [
+            "Cathreim Thoirdhealbhaigh",
+            "Irish-English dictionary by John O'Brien"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost",
+        "NOT a living human woman",
+        "NOT a creature from non-Celtic folklore"
+    ]
+}

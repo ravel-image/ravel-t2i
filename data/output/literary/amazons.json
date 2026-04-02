@@ -1,1 +1,92 @@
-
+{
+    "name": "Amazons",
+    "domain": "literary",
+    "entity_type": "mythological female warriors",
+    "alternative_names": [
+        "Androktones",
+        "Androleteirai",
+        "Antianeirai",
+        "Styganor",
+        "Oiorpata"
+    ],
+    "primary_sources": [
+        "Labours of Heracles",
+        "Argonautica",
+        "Iliad",
+        "Aethiopis",
+        "Histories by Herodotus"
+    ],
+    "visual_attributes": {
+        "morphology": "Athletic and muscular female warriors",
+        "distinctive_features": [
+            "Archery equipment including bows and quivers",
+            "Horseback riding gear",
+            "Armor and helmets"
+        ],
+        "color_palette": [
+            "bronze",
+            "leather brown",
+            "dark green"
+        ],
+        "texture": "Smooth skin with leather and metal armor",
+        "size_and_scale": "Average human female height, approximately 5'6\" to 6'0\"",
+        "structural_arrangement": "Equipped with weapons and armor, often depicted on horseback",
+        "domain_specific_visual": {
+            "Cultural_Artifacts": "Golden headdresses",
+            "Combat_Style": "Archery and horseback riding"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Warriors and hunters",
+        "secondary_functions": [
+            "Founders of cities",
+            "Temple builders"
+        ],
+        "domain_specific_functional": {
+            "Societal_Role": "Matriarchal society with no men",
+            "Military_Expeditions": "Conducted raids and military campaigns"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Greek Heroes",
+                "description": "Fought against Greek heroes in various myths"
+            },
+            {
+                "type": "ALLIED_WITH",
+                "target": "Trojans",
+                "description": "Assisted Trojans during the Trojan War"
+            }
+        ],
+        "associated_entities": [
+            "Penthesilea",
+            "Otrera",
+            "Ares"
+        ],
+        "symbolic_items": [
+            "Bow and arrow",
+            "Spear",
+            "Shield"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece, prior to and during the Trojan War",
+        "geographic_range": "Pontus, Scythia, Thrace, Asia Minor, Aegean Islands",
+        "cultural_significance": "Symbol of female strength and independence",
+        "primary_sources": [
+            "Labours of Heracles",
+            "Argonautica",
+            "Iliad",
+            "Aethiopis",
+            "Histories by Herodotus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic female warriors",
+        "NOT modern military attire",
+        "NOT contemporary cultural settings"
+    ]
+}

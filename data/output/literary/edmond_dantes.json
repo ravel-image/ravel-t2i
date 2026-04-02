@@ -1,0 +1,97 @@
+{
+    "name": "Edmond Dantès",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "The Count of Monte Cristo",
+        "Abbé Busoni",
+        "Lord Wilmore",
+        "Sinbad the Sailor"
+    ],
+    "primary_sources": [
+        "The Count of Monte Cristo by Alexandre Dumas"
+    ],
+    "visual_attributes": {
+        "morphology": "human male, athletic build",
+        "distinctive_features": [
+            "sharp, intelligent eyes",
+            "noble and dignified posture",
+            "often depicted with a beard as the Count"
+        ],
+        "color_palette": [
+            "dark hair",
+            "pale skin",
+            "elegant dark clothing"
+        ],
+        "texture": "smooth skin, well-groomed appearance",
+        "size_and_scale": "approximately 6 feet tall",
+        "structural_arrangement": "broad shoulders, lean physique",
+        "domain_specific_visual": {
+            "attire": "elegant 19th-century French aristocratic clothing",
+            "accessories": "often seen with a cane or a sword"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protagonist seeking revenge",
+        "secondary_functions": [
+            "mentor",
+            "benefactor"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "Byronic hero",
+            "symbolic_role": "embodiment of justice and vengeance"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Gérard de Villefort",
+                "description": "Villefort falsely imprisoned Edmond to protect his own interests."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Fernand Mondego",
+                "description": "Mondego betrayed Edmond and married his fiancée Mercédès."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Danglars",
+                "description": "Danglars falsely accused Edmond out of jealousy."
+            },
+            {
+                "type": "FRIEND_OF",
+                "target": "Abbé Faria",
+                "description": "Faria was Edmond's mentor and fellow prisoner."
+            },
+            {
+                "type": "LOVER_OF",
+                "target": "Mercédès",
+                "description": "Mercédès was Edmond's fiancée before his imprisonment."
+            }
+        ],
+        "associated_entities": [
+            "Haydée",
+            "Gaspard Caderousse",
+            "M. Morrel"
+        ],
+        "symbolic_items": [
+            "treasure of Monte Cristo",
+            "letter from Napoléon"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "French",
+        "historical_period": "early 19th century",
+        "geographic_range": "France, Mediterranean region",
+        "cultural_significance": "represents themes of justice, revenge, and redemption",
+        "primary_sources": [
+            "The Count of Monte Cristo by Alexandre Dumas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic pirate",
+        "NOT a modern-day businessman",
+        "NOT a character from a non-European setting"
+    ]
+}

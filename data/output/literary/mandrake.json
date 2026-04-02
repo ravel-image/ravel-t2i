@@ -1,0 +1,89 @@
+{
+    "name": "Mandrake",
+    "domain": "literary",
+    "entity_type": "mythical plant",
+    "alternative_names": [
+        "Mandragora",
+        "Alraun",
+        "Alraune",
+        "Galgenmännlein",
+        "Thieves' root",
+        "Pisdiefje",
+        "Pisduiveltje"
+    ],
+    "primary_sources": [
+        "Historia Plantarum by Theophrastus",
+        "De materia medica by Dioscorides",
+        "Pliny the Elder's writings",
+        "Genesis 30:14–16",
+        "Song of Songs 7:12-13"
+    ],
+    "visual_attributes": {
+        "morphology": "Man-shaped root structure",
+        "distinctive_features": [
+            "Human-like root shape",
+            "Thick, gnarled roots",
+            "Leaves resembling nightshade"
+        ],
+        "color_palette": [
+            "Brown",
+            "Green",
+            "Dark green"
+        ],
+        "texture": "Rough and gnarled",
+        "size_and_scale": "Approximately 30-60 cm in height",
+        "structural_arrangement": "Roots resembling human limbs with a leafy top",
+        "domain_specific_visual": {
+            "FOLKLORE_ASSOCIATION": "Often depicted with a humanoid form",
+            "MAGICAL_AURA": "Surrounded by a mystical or eerie glow"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Used in magic rituals and folk remedies",
+        "secondary_functions": [
+            "Hallucinogenic properties",
+            "Narcotic and anesthetic uses"
+        ],
+        "domain_specific_functional": {
+            "APHRODISIAC": "Believed to enhance fertility",
+            "PROTECTIVE_CHARM": "Used as a talisman in folklore"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Nightshade family",
+                "description": "Belongs to the Solanaceae family, similar to other nightshades"
+            },
+            {
+                "type": "MENTIONED_IN",
+                "target": "Biblical texts",
+                "description": "Referenced in Genesis and Song of Songs"
+            }
+        ],
+        "associated_entities": [
+            "Nightshade",
+            "Tropane alkaloids"
+        ],
+        "symbolic_items": [
+            "Sword for harvesting",
+            "Love potion"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mediterranean region",
+        "historical_period": "Ancient Greco-Roman era",
+        "geographic_range": "Mediterranean and European folklore",
+        "cultural_significance": "Symbol of magic and fertility in folklore",
+        "primary_sources": [
+            "Historia Plantarum by Theophrastus",
+            "De materia medica by Dioscorides"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Carrot",
+        "NOT Smooth root structure",
+        "NOT Modern pharmaceutical context"
+    ]
+}

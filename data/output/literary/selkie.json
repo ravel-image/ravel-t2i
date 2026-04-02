@@ -1,0 +1,85 @@
+{
+    "name": "Selkie",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "silkies",
+        "sylkies",
+        "selchies",
+        "selkie folk",
+        "seal folk",
+        "maighdeann-ròin"
+    ],
+    "primary_sources": [
+        "Celtic and Norse mythology",
+        "Oral traditions of the Northern Isles of Scotland"
+    ],
+    "visual_attributes": {
+        "morphology": "Shapeshifting creature with both seal and human forms",
+        "distinctive_features": [
+            "Ability to remove or don seal skin to transform",
+            "Attractive and seductive appearance in human form",
+            "Webbed hands in offspring"
+        ],
+        "color_palette": [
+            "Grey",
+            "Brown",
+            "White"
+        ],
+        "texture": "Smooth and sleek in seal form, human-like skin in human form",
+        "size_and_scale": "Seal form similar to large seals like the Greenland or hooded seal",
+        "structural_arrangement": "Seal skin can be removed to reveal human form underneath",
+        "domain_specific_visual": {
+            "Cultural_Iconography": "Often depicted near the sea or ocean",
+            "Transformation_Motif": "Visual emphasis on the dual nature of seal and human"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Shapeshifting between seal and human forms",
+        "secondary_functions": [
+            "Romantic or sexual relationships with humans",
+            "Longing for the sea"
+        ],
+        "domain_specific_functional": {
+            "Narrative_Role": "Symbolizes the tension between freedom and captivity",
+            "Cultural_Motif": "Represents the allure and danger of the sea"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_COUNTERPART",
+                "target": "Mermaids",
+                "description": "Selkies are sometimes confused with mermaids due to their seal-like attributes"
+            },
+            {
+                "type": "HAS_COUNTERPART",
+                "target": "Finfolk",
+                "description": "Selkies are sometimes conflated with finfolk in Shetland traditions"
+            }
+        ],
+        "associated_entities": [
+            "Mermaids",
+            "Finfolk"
+        ],
+        "symbolic_items": [
+            "Seal skin",
+            "Ocean"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Celtic and Norse mythology",
+        "historical_period": "Ancient to medieval folklore",
+        "geographic_range": "Northern Isles of Scotland, Orkney, Shetland",
+        "cultural_significance": "Represents the connection and conflict between land and sea",
+        "primary_sources": [
+            "Oral traditions",
+            "Folktales from Orkney and Shetland"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Mermaids",
+        "NOT Fish-like tails",
+        "NOT Exclusively aquatic"
+    ]
+}

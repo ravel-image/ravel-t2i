@@ -1,0 +1,86 @@
+{
+    "name": "Lamia",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Lámia",
+        "lamiai",
+        "Mormo",
+        "Gello"
+    ],
+    "primary_sources": [
+        "Greek mythology",
+        "Aristotle's Nicomachean Ethics",
+        "Philostratus's Life of Apollonius of Tyana",
+        "Apuleius's The Golden Ass"
+    ],
+    "visual_attributes": {
+        "morphology": "half-woman, half-snake",
+        "distinctive_features": [
+            "serpentine lower body",
+            "removable eyes",
+            "sharp claws"
+        ],
+        "color_palette": [
+            "pale skin",
+            "dark scales",
+            "red eyes"
+        ],
+        "texture": "scaly and smooth",
+        "size_and_scale": "human-sized upper body with a long serpentine tail",
+        "structural_arrangement": "upper body of a woman with a snake-like lower body",
+        "domain_specific_visual": {
+            "mythological_aura": "haunting and ethereal presence",
+            "transformative_ability": "can shapeshift into a beautiful woman"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "child-devourer",
+        "secondary_functions": [
+            "seductress",
+            "prophetess"
+        ],
+        "domain_specific_functional": {
+            "cursed_insomnia": "unable to sleep due to Hera's curse",
+            "prophetic_ability": "gifted by Zeus to foresee the future"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Hera",
+                "description": "Hera cursed Lamia out of jealousy for her affair with Zeus."
+            },
+            {
+                "type": "GIFTED_BY",
+                "target": "Zeus",
+                "description": "Zeus granted Lamia the power of prophecy and removable eyes."
+            }
+        ],
+        "associated_entities": [
+            "Zeus",
+            "Hera",
+            "Apollonius of Tyana"
+        ],
+        "symbolic_items": [
+            "removable eyes",
+            "serpentine tail"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Ancient Greek mythology",
+        "historical_period": "Classical Antiquity",
+        "geographic_range": "Greece, Libya",
+        "cultural_significance": "Symbol of fear and seduction, used as a bogeyman to frighten children",
+        "primary_sources": [
+            "Greek mythology",
+            "Aristotle's Nicomachean Ethics"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT a typical vampire",
+        "NOT a purely human figure"
+    ]
+}

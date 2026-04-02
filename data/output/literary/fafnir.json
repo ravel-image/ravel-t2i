@@ -1,0 +1,93 @@
+{
+    "name": "Fafnir",
+    "domain": "literary",
+    "entity_type": "mythological dragon",
+    "alternative_names": [
+        "Fáfnir",
+        "the embracer",
+        "the fathomer"
+    ],
+    "primary_sources": [
+        "Völsung Cycle",
+        "Poetic Edda",
+        "Prose Edda",
+        "Beowulf",
+        "Nibelunglied"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine dragon",
+        "distinctive_features": [
+            "snake-like body",
+            "flightless",
+            "shoulders suggesting legs or wings"
+        ],
+        "color_palette": [
+            "dark green",
+            "gold",
+            "black"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "massive, many fathoms in length",
+        "structural_arrangement": "elongated body coiling around treasure",
+        "domain_specific_visual": {
+            "treasure_guardian": "coiled around a hoard of gold",
+            "helm_of_fear": "wearing the ægishjálmr"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of treasure",
+        "secondary_functions": [
+            "symbol of greed",
+            "cautionary tale"
+        ],
+        "domain_specific_functional": {
+            "shapeshifter": "transformed from dwarf to dragon",
+            "curse_bearer": "associated with cursed treasure"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_BROTHER",
+                "target": "Regin",
+                "description": "Fafnir's brother who assists Sigurð in killing him"
+            },
+            {
+                "type": "KILLED_BY",
+                "target": "Sigurð",
+                "description": "Slain by Sigurð as part of the Völsung saga"
+            },
+            {
+                "type": "SON_OF",
+                "target": "Hreiðmarr",
+                "description": "Fafnir's father whom he kills for treasure"
+            }
+        ],
+        "associated_entities": [
+            "Sigurð",
+            "Regin",
+            "Hreiðmarr",
+            "Andvari"
+        ],
+        "symbolic_items": [
+            "Andvaranaut",
+            "ægishjálmr"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Nordic mythology",
+        "historical_period": "medieval",
+        "geographic_range": "Scandinavia, British Isles",
+        "cultural_significance": "represents greed and the destructive nature of wealth",
+        "primary_sources": [
+            "Völsung Cycle",
+            "Poetic Edda",
+            "Prose Edda"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon with wings",
+        "NOT a flying creature",
+        "NOT a modern fantasy dragon with fire-breathing abilities"
+    ]
+}

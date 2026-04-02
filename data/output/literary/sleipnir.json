@@ -1,0 +1,90 @@
+{
+    "name": "Sleipnir",
+    "domain": "literary",
+    "entity_type": "mythological horse",
+    "alternative_names": [
+        "The Slipper",
+        "Slippy"
+    ],
+    "primary_sources": [
+        "Poetic Edda",
+        "Prose Edda",
+        "Hervarar saga ok Heiðreks",
+        "Völsunga saga",
+        "Gesta Danorum"
+    ],
+    "visual_attributes": {
+        "morphology": "horse with eight legs",
+        "distinctive_features": [
+            "eight legs",
+            "grey color",
+            "best of all horses"
+        ],
+        "color_palette": [
+            "grey"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "larger than a typical horse",
+        "structural_arrangement": "four pairs of legs symmetrically arranged",
+        "domain_specific_visual": {
+            "mythological_decor": "often depicted with a saddle for Odin"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Odin's steed",
+        "secondary_functions": [
+            "transport to Hel",
+            "ancestor of the horse Grani"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "symbolizes speed and strength"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Loki",
+                "description": "Sleipnir is the offspring of Loki and Svaðilfari"
+            },
+            {
+                "type": "RIDDEN_BY",
+                "target": "Odin",
+                "description": "Sleipnir is primarily ridden by Odin"
+            },
+            {
+                "type": "ANCESTOR_OF",
+                "target": "Grani",
+                "description": "Sleipnir is the ancestor of the horse Grani"
+            }
+        ],
+        "associated_entities": [
+            "Odin",
+            "Loki",
+            "Svaðilfari",
+            "Grani"
+        ],
+        "symbolic_items": [
+            "saddle",
+            "Bifröst bridge"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Norse mythology",
+        "historical_period": "13th century compilations",
+        "geographic_range": "Scandinavia",
+        "cultural_significance": "represents the ultimate horse in Norse mythology, associated with shamanic practices",
+        "primary_sources": [
+            "Poetic Edda",
+            "Prose Edda",
+            "Hervarar saga ok Heiðreks",
+            "Völsunga saga",
+            "Gesta Danorum"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular four-legged horse",
+        "NOT any color other than grey",
+        "NOT a modern or non-mythological horse"
+    ]
+}

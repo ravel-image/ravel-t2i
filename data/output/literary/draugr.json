@@ -1,0 +1,82 @@
+{
+    "name": "Draugr",
+    "domain": "literary",
+    "entity_type": "revenant",
+    "alternative_names": [
+        "draug",
+        "draugur",
+        "dreygur",
+        "drög",
+        "dröger",
+        "rávga"
+    ],
+    "primary_sources": [
+        "Icelandic sagas",
+        "Norwegian folklore",
+        "The New Perlustration of Greenland",
+        "An Icelandic-English dictionary"
+    ],
+    "visual_attributes": {
+        "morphology": "corporeal undead creature",
+        "distinctive_features": [
+            "animated corpse",
+            "often guarding treasure in burial mounds",
+            "sometimes depicted with seaweed instead of a head"
+        ],
+        "color_palette": [
+            "pale",
+            "gray",
+            "earthy tones"
+        ],
+        "texture": "decayed, rough",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "humanoid form with decayed features",
+        "domain_specific_visual": {
+            "burial_context": "often found in graves or burial mounds",
+            "sea_context": "sometimes depicted in sea clothes, sailing in half a boat"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guarding treasure",
+        "secondary_functions": [
+            "haunting",
+            "foretelling doom"
+        ],
+        "domain_specific_functional": {
+            "revenant_role": "reanimated corpse with malevolent intent",
+            "narrative_role": "symbolizes the fear of the dead returning"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "living humans",
+                "description": "Draugr often pose a threat to the living, especially those who disturb their graves."
+            }
+        ],
+        "associated_entities": [
+            "Kárr inn gamli",
+            "Glámr"
+        ],
+        "symbolic_items": [
+            "treasure",
+            "seaweed"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Nordic folklore",
+        "historical_period": "medieval",
+        "geographic_range": "Scandinavia, particularly Iceland and Norway",
+        "cultural_significance": "represents the fear of the dead and the supernatural",
+        "primary_sources": [
+            "Icelandic sagas",
+            "Norwegian folklore"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT ghost",
+        "NOT modern zombie",
+        "NOT purely spiritual entity"
+    ]
+}

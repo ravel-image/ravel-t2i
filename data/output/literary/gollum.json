@@ -1,0 +1,86 @@
+{
+    "name": "Gollum",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Sméagol",
+        "Trahald"
+    ],
+    "primary_sources": [
+        "The Hobbit",
+        "The Lord of the Rings"
+    ],
+    "visual_attributes": {
+        "morphology": "small, hunched, humanoid creature",
+        "distinctive_features": [
+            "large, lamp-like eyes",
+            "thin, wiry frame",
+            "pale, sickly skin"
+        ],
+        "color_palette": [
+            "pale",
+            "sickly green",
+            "grey"
+        ],
+        "texture": "slimy",
+        "size_and_scale": "approximately 3 to 4 feet tall",
+        "structural_arrangement": "hunched posture with elongated limbs",
+        "domain_specific_visual": {
+            "eye_glow": "sickly pale light",
+            "facial_expression": "twisted, conflicted"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Ring-bearer and seeker",
+        "secondary_functions": [
+            "guide",
+            "spy"
+        ],
+        "domain_specific_functional": {
+            "psychological_duality": "split personality between Gollum and Sméagol",
+            "narrative_role": "catalyst for the destruction of the One Ring"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Frodo Baggins",
+                "description": "Gollum seeks to reclaim the One Ring from Frodo."
+            },
+            {
+                "type": "FORMER_FRIEND_OF",
+                "target": "Déagol",
+                "description": "Gollum, as Sméagol, was once friends with Déagol before murdering him for the Ring."
+            },
+            {
+                "type": "SERVANT_OF",
+                "target": "Shelob",
+                "description": "Gollum serves Shelob by bringing her food and acting as her spy."
+            }
+        ],
+        "associated_entities": [
+            "Bilbo Baggins",
+            "Samwise Gamgee",
+            "Sauron"
+        ],
+        "symbolic_items": [
+            "One Ring"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Middle-earth",
+        "historical_period": "Third Age",
+        "geographic_range": "Misty Mountains, Mordor",
+        "cultural_significance": "Represents the corrupting influence of power and the internal struggle between good and evil.",
+        "primary_sources": [
+            "The Hobbit",
+            "The Lord of the Rings"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic goblin",
+        "NOT a healthy, robust hobbit",
+        "NOT a purely evil creature without complexity"
+    ]
+}

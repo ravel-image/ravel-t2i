@@ -1,0 +1,92 @@
+{
+    "name": "The Sandman",
+    "domain": "literary",
+    "entity_type": "mythical character",
+    "alternative_names": [
+        "Ole Lukøje",
+        "John Blund",
+        "Jon Blund",
+        "Klaas Vaak",
+        "Moș Ene",
+        "Bonhomme Sept Heures"
+    ],
+    "primary_sources": [
+        "E. T. A. Hoffmann's 'Der Sandmann'",
+        "Hans Christian Andersen's 'Ole Lukøje'",
+        "Scandinavian folklore",
+        "Germanic folklore"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid figure",
+        "distinctive_features": [
+            "carries sand or dust",
+            "often depicted with an umbrella",
+            "silken coat that changes color"
+        ],
+        "color_palette": [
+            "green",
+            "red",
+            "blue"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "humanoid with accessories like umbrellas and sand",
+        "domain_specific_visual": {
+            "CULTURAL_ATTIRE": "silken coat",
+            "ACCESSORY": "umbrella with pictures"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "induces sleep and dreams",
+        "secondary_functions": [
+            "tells stories",
+            "symbolizes sleep"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "bringer of dreams",
+            "CULTURAL_FUNCTION": "children's bedtime stories"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_VARIANT",
+                "target": "Ole Lukøje",
+                "description": "Danish version of the Sandman"
+            },
+            {
+                "type": "HAS_VARIANT",
+                "target": "John Blund",
+                "description": "Norwegian and Swedish version of the Sandman"
+            },
+            {
+                "type": "HAS_VARIANT",
+                "target": "Klaas Vaak",
+                "description": "Dutch version of the Sandman"
+            }
+        ],
+        "associated_entities": [
+            "Coppelius",
+            "Nounours"
+        ],
+        "symbolic_items": [
+            "sand",
+            "umbrella"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Germanic and Scandinavian folklore",
+        "historical_period": "pre-19th century",
+        "geographic_range": "Europe",
+        "cultural_significance": "represents the transition to sleep and dreams in folklore",
+        "primary_sources": [
+            "E. T. A. Hoffmann's 'Der Sandmann'",
+            "Hans Christian Andersen's 'Ole Lukøje'"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human",
+        "NOT a modern-day figure",
+        "NOT a purely sinister character"
+    ]
+}

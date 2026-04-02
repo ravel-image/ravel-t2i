@@ -1,0 +1,92 @@
+{
+    "name": "Cerberus",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "hound of Hades"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Homer's Odyssey",
+        "Virgil's Aeneid",
+        "Ovid's Metamorphoses",
+        "Apollodorus' Bibliotheca"
+    ],
+    "visual_attributes": {
+        "morphology": "multi-headed dog",
+        "distinctive_features": [
+            "three dog heads",
+            "serpent for a tail",
+            "snakes protruding from body"
+        ],
+        "color_palette": [
+            "dark",
+            "black",
+            "brown"
+        ],
+        "texture": "scaly and furry",
+        "size_and_scale": "large, imposing",
+        "structural_arrangement": "three heads aligned at the front, snake tail at the rear",
+        "domain_specific_visual": {
+            "mythological_influence": "Greek",
+            "artistic_representations": "often depicted with two visible dog heads, sometimes with snakes around neck"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guard the gates of the underworld",
+        "secondary_functions": [
+            "prevent the dead from leaving",
+            "symbol of the boundary between life and death"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "captured by Heracles as part of his twelve labors",
+            "symbolic_association": "represents the fearsome nature of the underworld"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OFFSPRING_OF",
+                "target": "Echidna",
+                "description": "Cerberus is the offspring of the monster Echidna."
+            },
+            {
+                "type": "OFFSPRING_OF",
+                "target": "Typhon",
+                "description": "Cerberus is the offspring of the monster Typhon."
+            },
+            {
+                "type": "CAPTURED_BY",
+                "target": "Heracles",
+                "description": "Cerberus was captured by Heracles as part of his twelve labors."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Hades",
+            "Echidna",
+            "Typhon"
+        ],
+        "symbolic_items": [
+            "gates of the underworld"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "mythological underworld",
+        "cultural_significance": "symbolizes the fearsome and impenetrable nature of the underworld",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Homer's Odyssey",
+            "Virgil's Aeneid",
+            "Ovid's Metamorphoses",
+            "Apollodorus' Bibliotheca"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular dog",
+        "NOT a single-headed creature",
+        "NOT a non-mythological animal"
+    ]
+}

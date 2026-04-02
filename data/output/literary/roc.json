@@ -1,0 +1,90 @@
+{
+    "name": "Saint Roch",
+    "domain": "literary",
+    "entity_type": "historical religious figure",
+    "alternative_names": [
+        "Rock",
+        "Rollox",
+        "São Roque",
+        "Sant Roc",
+        "San Roque",
+        "San Rocco",
+        "Sveti Rok",
+        "Sveti Roko"
+    ],
+    "primary_sources": [
+        "Golden Legend",
+        "Vita Sancti Rochi by Francesco Diedo",
+        "Catholic Church Martyrology"
+    ],
+    "visual_attributes": {
+        "morphology": "human figure in pilgrim attire",
+        "distinctive_features": [
+            "red cross birthmark on chest",
+            "plague sore or bubo on thigh",
+            "accompanied by a dog carrying a loaf of bread"
+        ],
+        "color_palette": [
+            "earth tones",
+            "red",
+            "gold"
+        ],
+        "texture": "fabric of pilgrim's tunic, smooth skin",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "standing or walking posture, often lifting tunic to show sore",
+        "domain_specific_visual": {
+            "iconography": "depicted with a staff and pilgrim's hat",
+            "artistic_style": "Renaissance religious art"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "patron saint invoked against the plague",
+        "secondary_functions": [
+            "patron of dogs",
+            "patron of invalids",
+            "patron of falsely accused people"
+        ],
+        "domain_specific_functional": {
+            "role_in_hagiography": "miracle worker and healer",
+            "role_in_catholicism": "venerated as a saint and protector"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PATRONAGE_OVER",
+                "target": "Dolo, Parma, Casamassima, Cisterna di Latina, Palagiano, Arboleas, Albanchez, Deba",
+                "description": "Saint Roch is the patron saint of these towns."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Gottardo Pallastrelli",
+                "description": "Gottardo Pallastrelli's dog helped Saint Roch during his illness."
+            }
+        ],
+        "associated_entities": [
+            "Virgin Mary",
+            "Gottardo Pallastrelli"
+        ],
+        "symbolic_items": [
+            "staff",
+            "pilgrim's hat",
+            "loaf of bread"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Montpellier, France",
+        "historical_period": "14th century",
+        "geographic_range": "Europe, particularly Italy, France, Spain",
+        "cultural_significance": "symbol of protection against plagues and epidemics",
+        "primary_sources": [
+            "Golden Legend",
+            "Vita Sancti Rochi by Francesco Diedo"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic medieval pilgrim",
+        "NOT without the red cross birthmark",
+        "NOT without the dog carrying bread"
+    ]
+}

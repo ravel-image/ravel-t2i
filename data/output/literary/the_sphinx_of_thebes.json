@@ -1,0 +1,76 @@
+{
+    "name": "The Sphinx of Thebes",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "Greek Sphinx",
+        "Theban Sphinx"
+    ],
+    "primary_sources": [
+        "Oedipus Rex by Sophocles",
+        "Greek mythology texts"
+    ],
+    "visual_attributes": {
+        "morphology": "creature with the head of a woman, body of a lion, and wings of a bird",
+        "distinctive_features": [
+            "head of a woman",
+            "haunches of a lion",
+            "wings of a bird"
+        ],
+        "color_palette": [
+            "golden",
+            "brown",
+            "white"
+        ],
+        "texture": "smooth and fur-covered",
+        "size_and_scale": "large, comparable to a lion",
+        "structural_arrangement": "head positioned on a lion's body with wings extending from the back",
+        "domain_specific_visual": {
+            "mythological_context": "associated with riddles and treachery",
+            "cultural_artifacts": "often depicted in Greek art and literature"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian and riddler",
+        "secondary_functions": [
+            "symbol of treachery",
+            "embodiment of mystery"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "challenges travelers with riddles",
+            "narrative_function": "antagonist in the story of Oedipus"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Oedipus",
+                "description": "Oedipus solves the riddle of the Sphinx, leading to her demise"
+            }
+        ],
+        "associated_entities": [
+            "Oedipus",
+            "Greek gods"
+        ],
+        "symbolic_items": [
+            "riddle",
+            "lion's body"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Classical Greece",
+        "geographic_range": "Thebes, Greece",
+        "cultural_significance": "represents the dangers of hubris and the power of intellect",
+        "primary_sources": [
+            "Oedipus Rex by Sophocles",
+            "Greek mythology texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Egyptian Sphinx",
+        "NOT benevolent guardian",
+        "NOT male figure"
+    ]
+}

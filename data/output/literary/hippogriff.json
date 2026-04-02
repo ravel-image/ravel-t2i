@@ -1,0 +1,91 @@
+{
+    "name": "Hippogriff",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "ippogrifo",
+        "hippogryph",
+        "Griffith horse"
+    ],
+    "primary_sources": [
+        "Orlando Furioso by Ludovico Ariosto",
+        "Legends of Charlemagne by Thomas Bulfinch",
+        "Dungeons & Dragons",
+        "Harry Potter series by J.K. Rowling"
+    ],
+    "visual_attributes": {
+        "morphology": "Front half of an eagle and hind half of a horse",
+        "distinctive_features": [
+            "Eagle's head with sharp beak",
+            "Horse's body with hooves",
+            "Feathered wings"
+        ],
+        "color_palette": [
+            "brown",
+            "white",
+            "gold"
+        ],
+        "texture": "feathery and smooth",
+        "size_and_scale": "large, comparable to a horse",
+        "structural_arrangement": "Eagle's head and wings at the front, horse's body and legs at the back",
+        "domain_specific_visual": {
+            "heraldic_representation": "Not used in British heraldic tradition",
+            "artistic_influence": "19th-century visual art by Gustave Doré"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Steed for mythical heroes",
+        "secondary_functions": [
+            "Symbol of love",
+            "Representation of dual nature"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "Used by characters like Ruggiero and Astolfo in Orlando Furioso",
+            "symbolic_role": "Represents Christ's dual nature in some traditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Ludovico Ariosto",
+                "description": "Invented by Ariosto in Orlando Furioso"
+            },
+            {
+                "type": "OWNED_BY",
+                "target": "Atlantes",
+                "description": "Originally owned by the sorcerer Atlantes"
+            },
+            {
+                "type": "RIDDEN_BY",
+                "target": "Ruggiero",
+                "description": "Ruggiero uses the hippogriff to free Angelica"
+            }
+        ],
+        "associated_entities": [
+            "Griffin",
+            "Mare",
+            "Ruggiero",
+            "Atlantes"
+        ],
+        "symbolic_items": [
+            "Moon",
+            "Love"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Italian literary tradition",
+        "historical_period": "16th century",
+        "geographic_range": "Imaginary, associated with North Africa in Orlando Furioso",
+        "cultural_significance": "Symbol of impossible love and duality",
+        "primary_sources": [
+            "Orlando Furioso by Ludovico Ariosto",
+            "Legends of Charlemagne by Thomas Bulfinch"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Griffin",
+        "NOT purely horse or eagle",
+        "NOT a real animal"
+    ]
+}

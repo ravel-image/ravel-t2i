@@ -1,0 +1,83 @@
+{
+    "name": "The Green Knight",
+    "domain": "literary",
+    "entity_type": "mythical character",
+    "alternative_names": [
+        "Den grønne Ridder"
+    ],
+    "primary_sources": [
+        "Danish Fairy Tales by Svend Grundtvig",
+        "Eventyr fra Jylland by Evald Tang Kristensen",
+        "The Olive Fairy Book by Andrew Lang",
+        "Sir Gawayne and the Green Knight"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with bird-like features",
+        "distinctive_features": [
+            "green skin or armor",
+            "bird-like wings or feathers",
+            "handsome young man appearance"
+        ],
+        "color_palette": [
+            "green",
+            "gold",
+            "silver"
+        ],
+        "texture": "smooth and feathered",
+        "size_and_scale": "tall, human-sized",
+        "structural_arrangement": "humanoid form with avian elements",
+        "domain_specific_visual": {
+            "armor_style": "medieval knight armor",
+            "bird_features": "feathers and possibly a beak"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of nature and mystery",
+        "secondary_functions": [
+            "romantic interest",
+            "protector of the forest"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "enigmatic figure who tests characters",
+            "symbolic_role": "represents the unknown and the supernatural"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Stepmother",
+                "description": "The stepmother tries to harm the Green Knight through the princess."
+            },
+            {
+                "type": "LOVER_OF",
+                "target": "Princess",
+                "description": "The Green Knight is romantically involved with the princess."
+            }
+        ],
+        "associated_entities": [
+            "Princess",
+            "King",
+            "Stepmother"
+        ],
+        "symbolic_items": [
+            "green book",
+            "casket with portrait"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Danish folklore",
+        "historical_period": "medieval",
+        "geographic_range": "Northern Europe",
+        "cultural_significance": "represents the intersection of human and nature, and the trials of love",
+        "primary_sources": [
+            "Danish Fairy Tales by Svend Grundtvig",
+            "Eventyr fra Jylland by Evald Tang Kristensen"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic medieval knight",
+        "NOT lacking bird-like features",
+        "NOT solely a human figure without supernatural elements"
+    ]
+}

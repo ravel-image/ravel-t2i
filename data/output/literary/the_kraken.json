@@ -1,0 +1,92 @@
+{
+    "name": "The Kraken",
+    "domain": "literary",
+    "entity_type": "legendary sea monster",
+    "alternative_names": [
+        "horven",
+        "søe-horv",
+        "søe-krake",
+        "kraxe",
+        "krabbe",
+        "anker-trold"
+    ],
+    "primary_sources": [
+        "Norwegian glossary by Christen Jensøn (1646)",
+        "Travelogue by Francesco Negri (1700)",
+        "Account by Hans Egede (1734)",
+        "Description by Erik Pontoppidan (1753)",
+        "Works by Denys-Montfort (19th century)",
+        "Victor Hugo's novel (1866)",
+        "Jules Verne's depiction"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic cephalopod-like creature",
+        "distinctive_features": [
+            "multiple arms or tentacles",
+            "enormous size capable of pulling down ships",
+            "many-headed and clawed appearance"
+        ],
+        "color_palette": [
+            "dark grey",
+            "deep blue",
+            "black"
+        ],
+        "texture": "smooth and rubbery",
+        "size_and_scale": "up to 10.5 meters (34 feet) in length",
+        "structural_arrangement": "central body with radiating tentacles",
+        "domain_specific_visual": {
+            "nautical_association": "often depicted near or attacking ships",
+            "mythological_aura": "surrounded by an aura of mystery and danger"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "legendary sea monster that terrorizes sailors",
+        "secondary_functions": [
+            "symbol of the unknown and fearsome power of the sea",
+            "attracts fish with its secretions"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "represents the dangers of the ocean",
+            "cultural_symbolism": "embodies the fear of the unknown"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "hafgufa",
+                "description": "The kraken is equated with the hafgufa in medieval lore."
+            },
+            {
+                "type": "INSPIRED_BY",
+                "target": "giant squid",
+                "description": "The kraken legend may have originated from sightings of giant squid."
+            }
+        ],
+        "associated_entities": [
+            "hafgufa",
+            "giant squid"
+        ],
+        "symbolic_items": [
+            "grapnel anchor",
+            "primitive anchors"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Norwegian Sea, off the coast of Norway",
+        "historical_period": "17th century to present",
+        "geographic_range": "Norwegian Sea",
+        "cultural_significance": "A symbol of maritime folklore and the fearsome power of the sea",
+        "primary_sources": [
+            "Norwegian glossary by Christen Jensøn (1646)",
+            "Travelogue by Francesco Negri (1700)",
+            "Account by Hans Egede (1734)",
+            "Description by Erik Pontoppidan (1753)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic octopus",
+        "NOT a small or harmless sea creature",
+        "NOT a modern or scientifically accurate depiction"
+    ]
+}

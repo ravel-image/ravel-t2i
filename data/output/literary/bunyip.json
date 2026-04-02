@@ -1,0 +1,79 @@
+{
+    "name": "Bunyip",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Mulyawonk",
+        "water spirit"
+    ],
+    "primary_sources": [
+        "Aboriginal mythology",
+        "The Sydney Gazette",
+        "The Geelong Advertiser",
+        "Aborigines of Victoria by Robert Brough Smyth"
+    ],
+    "visual_attributes": {
+        "morphology": "amphibious creature with varying forms",
+        "distinctive_features": [
+            "seal-like body with shaggy black or brown coat",
+            "long neck with small head resembling a horse or emu",
+            "large ears and small tusks"
+        ],
+        "color_palette": [
+            "black",
+            "brown"
+        ],
+        "texture": "shaggy, fur-like",
+        "size_and_scale": "4 to 15 feet long",
+        "structural_arrangement": "seal-dog variety with round head and whiskers; long-necked variety with elongated neck and horse-like tail",
+        "domain_specific_visual": {
+            "water_dwelling": "inhabits lakes, rivers, swamps, and billabongs",
+            "nocturnal": "active at night"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "water spirit",
+        "secondary_functions": [
+            "protector of waterways",
+            "predator of humans in some legends"
+        ],
+        "domain_specific_functional": {
+            "cultural_teaching": "warns against overfishing and approaching water bodies carelessly",
+            "ecological_role": "symbolizes the dangers of water bodies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SYMBOLIZES",
+                "target": "Ngarrindjeri cultural teachings",
+                "description": "Represents the consequences of taking more than one's fair share from nature"
+            }
+        ],
+        "associated_entities": [
+            "Bunjil",
+            "Mihirung paringmal"
+        ],
+        "symbolic_items": [
+            "platypus nests",
+            "stingray barbs"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Aboriginal mythology of southeastern Australia",
+        "historical_period": "pre-contact Aboriginal era",
+        "geographic_range": "southeastern Australia, particularly Victoria and New South Wales",
+        "cultural_significance": "embodies care for country and its people, teaching practical survival means",
+        "primary_sources": [
+            "Aboriginal mythology",
+            "The Sydney Gazette",
+            "The Geelong Advertiser",
+            "Aborigines of Victoria by Robert Brough Smyth"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic seal",
+        "NOT a common aquatic animal",
+        "NOT a European mythological creature"
+    ]
+}

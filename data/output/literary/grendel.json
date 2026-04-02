@@ -1,0 +1,89 @@
+{
+    "name": "Grendel",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "eoten",
+        "þyrs",
+        "shadow walker",
+        "night goer"
+    ],
+    "primary_sources": [
+        "Beowulf",
+        "Nowell Codex"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid but monstrous",
+        "distinctive_features": [
+            "impenetrable scales",
+            "horny growths",
+            "large severed head"
+        ],
+        "color_palette": [
+            "dark",
+            "shadowy",
+            "earthy tones"
+        ],
+        "texture": "scaly and rough",
+        "size_and_scale": "gigantic, larger than a human",
+        "structural_arrangement": "humanoid structure with exaggerated features",
+        "domain_specific_visual": {
+            "mythological_influence": "resembles jötnar from Norse mythology",
+            "environmental_context": "marsh-dwelling, associated with fens"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "antagonist in Beowulf",
+        "secondary_functions": [
+            "symbol of chaos",
+            "embodiment of darkness"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "descendant of Cain, cursed being",
+            "narrative_function": "sets the stage for Beowulf's heroism"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Beowulf",
+                "description": "Grendel is the primary antagonist whom Beowulf defeats."
+            },
+            {
+                "type": "DESCENDANT_OF",
+                "target": "Cain",
+                "description": "Grendel is described as a descendant of the Biblical Cain."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Grendel's Mother",
+                "description": "Grendel's mother seeks revenge for his death."
+            }
+        ],
+        "associated_entities": [
+            "Beowulf",
+            "Grendel's Mother",
+            "King Hroðgar"
+        ],
+        "symbolic_items": [
+            "Grendel's arm",
+            "Grendel's head"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Anglo-Saxon mythology",
+        "historical_period": "700–1000 AD",
+        "geographic_range": "Scandinavia, Northern Europe",
+        "cultural_significance": "represents the embodiment of evil and chaos",
+        "primary_sources": [
+            "Beowulf",
+            "Nowell Codex"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic giant",
+        "NOT a dragon",
+        "NOT a purely human figure"
+    ]
+}

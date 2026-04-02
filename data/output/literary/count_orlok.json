@@ -1,0 +1,87 @@
+{
+    "name": "Count Orlok",
+    "domain": "literary",
+    "entity_type": "fictional vampire character",
+    "alternative_names": [
+        "Graf Orlok",
+        "Contele Orlok",
+        "Orlok gróf",
+        "Nosferatu"
+    ],
+    "primary_sources": [
+        "Nosferatu (1922 film)",
+        "Nosferatu the Vampyre (1979 film)",
+        "Vampire in Venice (1988 film)"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with exaggerated features",
+        "distinctive_features": [
+            "bald head",
+            "beaklike nose",
+            "hollowed-out eyes",
+            "pointed ears",
+            "sharp fingernails",
+            "front-positioned fangs like a rat"
+        ],
+        "color_palette": [
+            "pale skin",
+            "black coat",
+            "dark eyes"
+        ],
+        "texture": "smooth, pale skin",
+        "size_and_scale": "tall and gaunt",
+        "structural_arrangement": "skeletal limbs tightly wrapped in funereal clothes",
+        "domain_specific_visual": {
+            "attire": "long black coat and tight pants",
+            "gait": "slow and labored"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "spread plague and vampirism",
+        "secondary_functions": [
+            "command rats",
+            "telepathic connection with victims"
+        ],
+        "domain_specific_functional": {
+            "vulnerability": "fatally vulnerable to sunlight",
+            "habitat": "dwells in dank caves, tombs, and coffins"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_EMPLOYEE",
+                "target": "Knock",
+                "description": "Forms a pact with Knock for acquiring property in Wisborg."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Ellen Hutter",
+                "description": "Ellen sacrifices herself to destroy Orlok."
+            }
+        ],
+        "associated_entities": [
+            "Thomas Hutter",
+            "Ellen Hutter"
+        ],
+        "symbolic_items": [
+            "coffins filled with soil",
+            "letters with Enochian symbols"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Transylvania",
+        "historical_period": "Biedermeier period, 1838",
+        "geographic_range": "Carpathian Mountains, Wisborg in Germany",
+        "cultural_significance": "Represents the fear of the unknown and the spread of disease",
+        "primary_sources": [
+            "Nosferatu (1922 film)",
+            "Nosferatu the Vampyre (1979 film)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a suave or charming vampire like Dracula",
+        "NOT a humanized or relatable figure",
+        "NOT a vampire with elongated canine fangs"
+    ]
+}

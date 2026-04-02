@@ -1,0 +1,89 @@
+{
+    "name": "Dagon",
+    "domain": "literary",
+    "entity_type": "ancient deity",
+    "alternative_names": [
+        "Dagan",
+        "dda-gan",
+        "Dāgān"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "The God Dagan in Bronze Age Syria by Lluís Feliu"
+    ],
+    "visual_attributes": {
+        "morphology": "anthropomorphic figure with divine attributes",
+        "distinctive_features": [
+            "depicted with a chariot and a mace",
+            "often associated with grain symbolism",
+            "sometimes equated with Enlil or Kumarbi"
+        ],
+        "color_palette": [
+            "gold",
+            "bronze",
+            "earth tones"
+        ],
+        "texture": "smooth, metallic",
+        "size_and_scale": "larger-than-life, monumental",
+        "structural_arrangement": "central figure in a pantheon setting",
+        "domain_specific_visual": {
+            "divine_iconography": "symbols of kingship and prosperity",
+            "temple_association": "E-kisiga, the silent place"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "god of prosperity and royal legitimacy",
+        "secondary_functions": [
+            "father of gods",
+            "source of abundant harvests"
+        ],
+        "domain_specific_functional": {
+            "role_in_governance": "bestows kingship upon rulers",
+            "funerary_connection": "associated with funerary offerings"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Shalash",
+                "description": "Shalash is Dagon's wife, well attested in Tuttul"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Hadad",
+                "description": "Hadad is considered a child of Dagon and Shalash"
+            },
+            {
+                "type": "EQUATED_WITH",
+                "target": "Enlil",
+                "description": "Dagon is equated with Enlil as a father of gods"
+            }
+        ],
+        "associated_entities": [
+            "Shalash",
+            "Hadad",
+            "Enlil",
+            "Kumarbi"
+        ],
+        "symbolic_items": [
+            "chariot",
+            "mace"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient Syria, middle Euphrates region",
+        "historical_period": "Bronze Age",
+        "geographic_range": "Syria, Mesopotamia, Ugarit",
+        "cultural_significance": "symbol of prosperity and royal legitimacy",
+        "primary_sources": [
+            "Wikipedia",
+            "The God Dagan in Bronze Age Syria by Lluís Feliu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a fish-like deity",
+        "NOT a weather god",
+        "NOT solely a Mesopotamian deity"
+    ]
+}

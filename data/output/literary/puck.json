@@ -1,0 +1,87 @@
+{
+    "name": "Hockey Puck",
+    "domain": "literary",
+    "entity_type": "sports equipment",
+    "alternative_names": [
+        "biscuit"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Montreal Gazette",
+        "Original Hockey Hall of Fame"
+    ],
+    "visual_attributes": {
+        "morphology": "short cylinder",
+        "distinctive_features": [
+            "flat surfaces",
+            "silkscreened logos",
+            "frozen before use"
+        ],
+        "color_palette": [
+            "black",
+            "blue",
+            "red"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "1 inch thick, 3 inches in diameter",
+        "structural_arrangement": "solid disk with flat top and bottom",
+        "domain_specific_visual": {
+            "material": "vulcanized rubber",
+            "variation": "open or closed disk"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "used in ice hockey to score goals",
+        "secondary_functions": [
+            "training tool",
+            "visibility enhancement"
+        ],
+        "domain_specific_functional": {
+            "role_in_game": "serves the same function as a ball in ball games",
+            "training_variants": "heavier or lighter pucks for skill development"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "USED_IN",
+                "target": "Ice Hockey",
+                "description": "Primary equipment used to play the game"
+            },
+            {
+                "type": "HAS_VARIANT",
+                "target": "Firepuck",
+                "description": "A variant designed for better visibility on TV"
+            },
+            {
+                "type": "HAS_VARIANT",
+                "target": "Smart Puck",
+                "description": "A variant with electronics for tracking on TV"
+            }
+        ],
+        "associated_entities": [
+            "Ice Hockey",
+            "Firepuck",
+            "Smart Puck"
+        ],
+        "symbolic_items": [
+            "goal",
+            "net"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Canada",
+        "historical_period": "19th century",
+        "geographic_range": "global",
+        "cultural_significance": "central to the sport of ice hockey",
+        "primary_sources": [
+            "Montreal Gazette",
+            "Original Hockey Hall of Fame"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a ball",
+        "NOT a ringette ring",
+        "NOT a generic sports disk"
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "name": "Uncle Wiggily Longears",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Uncle Wiggily"
+    ],
+    "primary_sources": [
+        "Uncle Wiggily's Story Book",
+        "Uncle Wiggily's Airship",
+        "Uncle Wiggily's Automobile",
+        "Uncle Wiggily on the Farm",
+        "Uncle Wiggily's Travels"
+    ],
+    "visual_attributes": {
+        "morphology": "anthropomorphic rabbit",
+        "distinctive_features": [
+            "lame from rheumatism",
+            "red, white, and blue crutch striped like a barber-pole",
+            "candy-striped walking cane"
+        ],
+        "color_palette": [
+            "gray",
+            "red",
+            "white",
+            "blue"
+        ],
+        "texture": "furry",
+        "size_and_scale": "approximately 3 feet tall",
+        "structural_arrangement": "upright posture, walks on two legs",
+        "domain_specific_visual": {
+            "clothing": "often depicted in a suit or formal attire",
+            "accessories": "carries a satchel with various items"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protagonist in children's stories",
+        "secondary_functions": [
+            "mentor to young animals",
+            "adventurer"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "often helps friends out of predicaments",
+            "symbolic_role": "represents wisdom and kindness"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_RELATIVE",
+                "target": "Sammie Littletail",
+                "description": "Uncle Wiggily's young nephew"
+            },
+            {
+                "type": "HAS_RELATIVE",
+                "target": "Susie Littletail",
+                "description": "Uncle Wiggily's young niece"
+            },
+            {
+                "type": "HAS_FRIEND",
+                "target": "Nurse Jane Fuzzy Wuzzy",
+                "description": "his muskrat housekeeper"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Pipsisewah",
+                "description": "an unsavory bully who often causes trouble"
+            }
+        ],
+        "associated_entities": [
+            "Dr. Possum",
+            "Lulu Wibblewobble",
+            "Skillery Skallery Alligator"
+        ],
+        "symbolic_items": [
+            "crutch",
+            "satchel"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "American children's literature",
+        "historical_period": "early 20th century",
+        "geographic_range": "primarily United States",
+        "cultural_significance": "a beloved character in American children's stories, symbolizing adventure and moral lessons",
+        "primary_sources": [
+            "Uncle Wiggily's Story Book",
+            "Uncle Wiggily's Airship"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic rabbit",
+        "NOT without a crutch or cane",
+        "NOT a modern or realistic setting"
+    ]
+}

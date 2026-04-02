@@ -1,0 +1,76 @@
+{
+    "name": "The Golem of Prague",
+    "domain": "literary",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "Josef",
+        "Yossele"
+    ],
+    "primary_sources": [
+        "Jewish folklore",
+        "Legends of Rabbi Judah Loew ben Bezalel"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid figure made of clay",
+        "distinctive_features": [
+            "inscription on forehead",
+            "large, imposing stature",
+            "absence of facial expressions"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "gray",
+            "dull red"
+        ],
+        "texture": "rough, clay-like surface",
+        "size_and_scale": "approximately 7 feet tall",
+        "structural_arrangement": "solid, monolithic form with human-like limbs",
+        "domain_specific_visual": {
+            "inscription_location": "forehead",
+            "activation_symbol": "Hebrew letters forming the word 'emet'"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protector of the Jewish community",
+        "secondary_functions": [
+            "servant",
+            "defender against antisemitic attacks"
+        ],
+        "domain_specific_functional": {
+            "activation_method": "Hebrew incantations and rituals",
+            "deactivation_method": "removal of the shem"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Rabbi Judah Loew ben Bezalel",
+                "description": "The Golem was created by Rabbi Loew to protect the Jewish community in Prague."
+            }
+        ],
+        "associated_entities": [
+            "Rabbi Judah Loew ben Bezalel",
+            "Rudolf II, Holy Roman Emperor"
+        ],
+        "symbolic_items": [
+            "shem",
+            "Hebrew letters"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Prague, Czech Republic",
+        "historical_period": "late 16th century",
+        "geographic_range": "Prague, specifically the Jewish ghetto",
+        "cultural_significance": "Symbol of protection and resilience for the Jewish community",
+        "primary_sources": [
+            "Jewish folklore",
+            "Legends of Rabbi Judah Loew ben Bezalel"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic clay statue",
+        "NOT a modern robot or automaton",
+        "NOT a creature from non-Jewish mythology"
+    ]
+}

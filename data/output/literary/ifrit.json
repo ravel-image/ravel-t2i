@@ -1,0 +1,86 @@
+{
+    "name": "Ifrit",
+    "domain": "literary",
+    "entity_type": "Chthonic Demon",
+    "alternative_names": [
+        "Efreet",
+        "Afrit",
+        "Afreet"
+    ],
+    "primary_sources": [
+        "Quran",
+        "Hadith",
+        "Mi'raj narrations",
+        "Nizami Ganjavi's Haft Peykar"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with monstrous deformities",
+        "distinctive_features": [
+            "Flaming eyes",
+            "Claw-like or thorny hands",
+            "Seven heads"
+        ],
+        "color_palette": [
+            "Dark red",
+            "Black",
+            "Fiery orange"
+        ],
+        "texture": "Smoky and fiery",
+        "size_and_scale": "Larger than a human, towering presence",
+        "structural_arrangement": "Humanoid form with exaggerated monstrous features",
+        "domain_specific_visual": {
+            "Chthonic_association": "Emerging from smoke and fire",
+            "Underworld_affiliation": "Surrounded by shadows and flames"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Powerful and malicious spirit",
+        "secondary_functions": [
+            "Guardian of the underworld",
+            "Agent of vengeance"
+        ],
+        "domain_specific_functional": {
+            "Role_in_folklore": "Can be compelled by sorcerers",
+            "Narrative_function": "Tests and torments humans"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Prophet Muhammad",
+                "description": "Attempted to interrupt Muhammad's prayers"
+            },
+            {
+                "type": "SUBORDINATE_TO",
+                "target": "God",
+                "description": "Carries out God's purpose despite being ruthless"
+            }
+        ],
+        "associated_entities": [
+            "Jinn",
+            "Shaytan",
+            "Iblis"
+        ],
+        "symbolic_items": [
+            "Magical ring",
+            "Heavy stones"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Islamic culture",
+        "historical_period": "Post-Quranic era",
+        "geographic_range": "Middle East, North Africa",
+        "cultural_significance": "Represents fear of the unknown and the power of the underworld",
+        "primary_sources": [
+            "Quran",
+            "Hadith",
+            "Nizami Ganjavi's Haft Peykar"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic jinn",
+        "NOT a benevolent spirit",
+        "NOT a Western demon"
+    ]
+}

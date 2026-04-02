@@ -1,0 +1,84 @@
+{
+    "name": "Huldra",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "skogsrå",
+        "Tallemaja",
+        "ulda",
+        "völva",
+        "Huld",
+        "Holda"
+    ],
+    "primary_sources": [
+        "Norwegian folktales of Peter Christen Asbjørnsen and Jørgen Moe",
+        "Hellström 1985:15"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with animalistic features",
+        "distinctive_features": [
+            "animal's hairy legs and tail, usually a cow's or a fox's",
+            "back resembling a hollowed-out tree"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "forest green",
+            "natural wood tones"
+        ],
+        "texture": "smooth skin with rough, bark-like back",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "humanoid form with animal tail and tree-like back",
+        "domain_specific_visual": {
+            "CLOTHING_STYLE": "long clothing to disguise inhuman features",
+            "HAIR_STYLE": "long, flowing hair"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "forest guardian",
+        "secondary_functions": [
+            "protector of charcoal burners",
+            "seductive enchantress"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_FOLKLORE": "keeper or warden of the forest",
+            "INTERACTION_WITH_HUMANS": "kind to those who respect her"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "tusser",
+                "description": "closely related to other underground dwellers"
+            },
+            {
+                "type": "HAS_MALE_COUNTERPART",
+                "target": "huldrekall",
+                "description": "male version of the hulder"
+            }
+        ],
+        "associated_entities": [
+            "sjörå",
+            "bergsrå"
+        ],
+        "symbolic_items": [
+            "charcoal kilns",
+            "provisions left by humans"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Scandinavian folklore",
+        "historical_period": "ancient folklore",
+        "geographic_range": "Scandinavia, including Norway, Sweden, and Sámi regions",
+        "cultural_significance": "symbolizes the hidden and mysterious aspects of nature",
+        "primary_sources": [
+            "Norwegian folktales of Peter Christen Asbjørnsen and Jørgen Moe",
+            "Hellström 1985:15"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic fairy",
+        "NOT without animalistic features",
+        "NOT a purely human figure"
+    ]
+}

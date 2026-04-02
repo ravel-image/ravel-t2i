@@ -1,0 +1,111 @@
+{
+    "name": "Leshy",
+    "domain": "literary",
+    "entity_type": "tutelary deity",
+    "alternative_names": [
+        "Borovoi",
+        "Gayevoi",
+        "Leshak",
+        "Lesnik",
+        "Lesovik",
+        "Lesovoi",
+        "Lesun",
+        "Mežainis",
+        "Miškinis",
+        "Miško velnias",
+        "Vir'ava",
+        "He",
+        "He himself",
+        "Les chestnoi",
+        "Les pravedniy",
+        "Lesnoi dedushka",
+        "Lesnoi dukh",
+        "Lesnoi dyadya",
+        "Lesnoi khozyain",
+        "Lesnoi zhitel'",
+        "Lesnoi muzhik"
+    ],
+    "primary_sources": [
+        "Slavic mythology",
+        "Russian folklore"
+    ],
+    "visual_attributes": {
+        "morphology": "phytoanthropomorphic being",
+        "distinctive_features": [
+            "long, tangled green hair resembling tree branches",
+            "beard made of lichen",
+            "skin the color and texture of bark"
+        ],
+        "color_palette": [
+            "green",
+            "gray",
+            "red"
+        ],
+        "texture": "bark-like",
+        "size_and_scale": "variable, from giant to average-sized man",
+        "structural_arrangement": "humanoid with plant and animal features",
+        "domain_specific_visual": {
+            "animalistic_features": "claws, hooves, tail, wings",
+            "headgear": "wide-brimmed hat, pointed cap"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of the forest",
+        "secondary_functions": [
+            "misguiding wanderers",
+            "abducting young ones"
+        ],
+        "domain_specific_functional": {
+            "disguise_ability": "can change size and appearance",
+            "temperamental_nature": "varies based on human interaction with the forest"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Leshachikha",
+                "description": "Leshy is said to have a wife named Leshachikha."
+            },
+            {
+                "type": "HAS_CHILDREN",
+                "target": "leshonki",
+                "description": "Leshy is said to have children known as leshonki."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Porewit",
+                "description": "Leshy may be related to the Slavic god Porewit."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Chort",
+                "description": "Leshy shares traits with Chort, leading some to perceive him as malevolent."
+            }
+        ],
+        "associated_entities": [
+            "Leshachikha",
+            "Porewit",
+            "Chort"
+        ],
+        "symbolic_items": [
+            "club",
+            "wand"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Slavic mythology",
+        "historical_period": "pagan era",
+        "geographic_range": "Eastern Europe",
+        "cultural_significance": "represents the spirit and protector of the forest",
+        "primary_sources": [
+            "Slavic mythology",
+            "Russian folklore"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic forest spirit",
+        "NOT a purely human figure",
+        "NOT a benign fairy tale character"
+    ]
+}

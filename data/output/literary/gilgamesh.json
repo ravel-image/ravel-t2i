@@ -1,0 +1,90 @@
+{
+    "name": "Gilgamesh",
+    "domain": "literary",
+    "entity_type": "mythological hero",
+    "alternative_names": [
+        "Izdubar",
+        "Bilgamesh"
+    ],
+    "primary_sources": [
+        "The Epic of Gilgamesh",
+        "Sumerian Poems",
+        "Old Babylonian Tablets",
+        "Standard Babylonian Version"
+    ],
+    "visual_attributes": {
+        "morphology": "muscular human form with regal bearing",
+        "distinctive_features": [
+            "crown symbolizing kingship",
+            "heroic stature",
+            "often depicted with a lion or bull"
+        ],
+        "color_palette": [
+            "bronze",
+            "gold",
+            "earth tones"
+        ],
+        "texture": "smooth skin with ornate armor or robes",
+        "size_and_scale": "larger than average human, approximately 7 feet tall",
+        "structural_arrangement": "upright, commanding posture",
+        "domain_specific_visual": {
+            "attire": "ancient Mesopotamian royal garments",
+            "accessories": "scepter or weapon, often a sword or axe"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "heroic king and adventurer",
+        "secondary_functions": [
+            "seeker of immortality",
+            "friend and companion"
+        ],
+        "domain_specific_functional": {
+            "symbolizes": "the quest for knowledge and understanding of mortality",
+            "role_in_epic": "protagonist of foundational heroic saga"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FRIEND_OF",
+                "target": "Enkidu",
+                "description": "Enkidu is Gilgamesh's close companion and ally in adventures."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Humbaba",
+                "description": "Gilgamesh slays Humbaba, the guardian of the Cedar Forest."
+            },
+            {
+                "type": "REJECTED_BY",
+                "target": "Ishtar",
+                "description": "Gilgamesh spurns the advances of the goddess Ishtar."
+            }
+        ],
+        "associated_entities": [
+            "Enkidu",
+            "Humbaba",
+            "Ishtar",
+            "Utnapishtim"
+        ],
+        "symbolic_items": [
+            "Cedar wood",
+            "Bull of Heaven"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mesopotamia",
+        "historical_period": "circa 2100 BCE to 1000 BCE",
+        "geographic_range": "ancient Mesopotamia, primarily Uruk",
+        "cultural_significance": "prototype of the epic hero, foundational to Mesopotamian literature",
+        "primary_sources": [
+            "The Epic of Gilgamesh",
+            "Sumerian Poems"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic medieval knight",
+        "NOT a modern superhero",
+        "NOT a figure from Greek mythology"
+    ]
+}

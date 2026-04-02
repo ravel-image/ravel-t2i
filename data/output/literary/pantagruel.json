@@ -1,0 +1,80 @@
+{
+    "name": "Pantagruel",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "King of the Dipsodes",
+        "Son of the Great Giant Gargantua"
+    ],
+    "primary_sources": [
+        "The Five Books of the Lives and Deeds of Gargantua and Pantagruel by François Rabelais"
+    ],
+    "visual_attributes": {
+        "morphology": "giant humanoid",
+        "distinctive_features": [
+            "enormous size",
+            "ability to shelter an army with his tongue",
+            "mouth large enough for a person to travel into"
+        ],
+        "color_palette": [
+            "flesh tone",
+            "dark hair",
+            "earthy clothing colors"
+        ],
+        "texture": "smooth skin",
+        "size_and_scale": "gigantic, towering over regular humans",
+        "structural_arrangement": "proportional to a human but on a much larger scale",
+        "domain_specific_visual": {
+            "literary_exaggeration": "features exaggerated for comedic and satirical effect",
+            "historical_costume": "16th-century European attire"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protagonist in a satirical narrative",
+        "secondary_functions": [
+            "symbol of excess and humor",
+            "vehicle for social and political commentary"
+        ],
+        "domain_specific_functional": {
+            "satirical_role": "embodies the absurdity of human nature and society",
+            "narrative_function": "drives the plot through adventures and interactions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Gargantua",
+                "description": "Pantagruel is the son of Gargantua, another giant."
+            },
+            {
+                "type": "COMPANION_OF",
+                "target": "Panurge",
+                "description": "Pantagruel travels with Panurge on various adventures."
+            }
+        ],
+        "associated_entities": [
+            "Gargantua",
+            "Panurge",
+            "Morgan le Fay"
+        ],
+        "symbolic_items": [
+            "Divine Bottle",
+            "giant tongue"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "French folklore and literature",
+        "historical_period": "16th century",
+        "geographic_range": "fictional lands within the narrative",
+        "cultural_significance": "represents the human condition through satire and humor",
+        "primary_sources": [
+            "The Five Books of the Lives and Deeds of Gargantua and Pantagruel"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular human",
+        "NOT a modern giant like those in fantasy films",
+        "NOT a creature from non-European folklore"
+    ]
+}

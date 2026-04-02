@@ -1,0 +1,86 @@
+{
+    "name": "Dullahan",
+    "domain": "literary",
+    "entity_type": "legendary creature",
+    "alternative_names": [
+        "Dubhlachan",
+        "Dulachan",
+        "Durrachan",
+        "Colainn Gan Cheann",
+        "Headless Coach",
+        "Soundless Coach",
+        "Cóiste Gan Cheann",
+        "Cóiste Bodhar"
+    ],
+    "primary_sources": [
+        "Croker's Fairy Legends and Traditions of the South of Ireland",
+        "Tony Locke's accounts",
+        "Robert Lynd's accounts",
+        "William Butler Yeats' explanations"
+    ],
+    "visual_attributes": {
+        "morphology": "headless horseman",
+        "distinctive_features": [
+            "carries own head",
+            "head with ashy pale skin and fiery eyes",
+            "mouth with razor-sharp teeth forming a wide grin",
+            "rides a black horse",
+            "drives a horse-drawn carriage made of human bones"
+        ],
+        "color_palette": [
+            "black",
+            "ashy pale",
+            "fiery red"
+        ],
+        "texture": "mouldy cheese-like consistency",
+        "size_and_scale": "human-sized rider on a large horse",
+        "structural_arrangement": "head carried in hand or under arm, seated on horse or driving a carriage",
+        "domain_specific_visual": {
+            "carriage_material": "human spine and thigh bones",
+            "lanterns": "hollow skulls with candles"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "harbinger of death",
+        "secondary_functions": [
+            "foreshadows misfortune",
+            "disappears when confronted with gold"
+        ],
+        "domain_specific_functional": {
+            "sight_ability": "uses severed head to scan for mortals about to die",
+            "whip": "uses a human spine as a whip"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DRIVES",
+                "target": "Headless Coach",
+                "description": "The Dullahan is the driver of the Headless Coach, a harbinger of death."
+            }
+        ],
+        "associated_entities": [
+            "Headless Coach",
+            "Cóiste Bodhar"
+        ],
+        "symbolic_items": [
+            "human spine whip",
+            "hollow skull lanterns"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Irish folklore",
+        "historical_period": "unknown, part of oral tradition",
+        "geographic_range": "Ireland",
+        "cultural_significance": "symbolizes death and misfortune in Irish folklore",
+        "primary_sources": [
+            "Croker's Fairy Legends and Traditions of the South of Ireland",
+            "Tony Locke's accounts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic headless horseman",
+        "NOT modern horror depiction",
+        "NOT culturally detached from Irish folklore"
+    ]
+}

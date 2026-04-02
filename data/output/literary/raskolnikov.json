@@ -1,0 +1,94 @@
+{
+    "name": "Rodion Romanovich Raskolnikov",
+    "domain": "literary",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Rodya",
+        "Raskolnikov"
+    ],
+    "primary_sources": [
+        "Crime and Punishment by Fyodor Dostoyevsky"
+    ],
+    "visual_attributes": {
+        "morphology": "young adult male, slender build",
+        "distinctive_features": [
+            "handsome yet gaunt appearance",
+            "intelligent eyes with a troubled expression",
+            "unkempt hair reflecting his poverty"
+        ],
+        "color_palette": [
+            "pale skin",
+            "dark hair",
+            "worn clothing"
+        ],
+        "texture": "rough, due to worn and old clothing",
+        "size_and_scale": "average height for a young adult male",
+        "structural_arrangement": "often seen in a hunched posture due to stress and poverty",
+        "domain_specific_visual": {
+            "clothing": "old, threadbare garments",
+            "living_space": "tiny, cramped garret"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protagonist of a moral and psychological exploration",
+        "secondary_functions": [
+            "symbol of existential struggle",
+            "representation of moral ambiguity"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "explores themes of guilt, redemption, and morality",
+            "psychological_conflict": "internal struggle with pride and morality"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SISTER",
+                "target": "Avdotya Romanovna Raskolnikova",
+                "description": "Raskolnikov is devoted to his sister, Dunya."
+            },
+            {
+                "type": "HAS_MOTHER",
+                "target": "Pulkheria Alexandrovna Raskolnikova",
+                "description": "Raskolnikov is devoted to his mother."
+            },
+            {
+                "type": "KILLS",
+                "target": "Alyona Ivanovna",
+                "description": "Raskolnikov murders the pawnbroker."
+            },
+            {
+                "type": "KILLS",
+                "target": "Lizaveta Ivanovna",
+                "description": "Raskolnikov accidentally kills her as a witness."
+            },
+            {
+                "type": "CONFESSES_TO",
+                "target": "Sofya Semyonovna Marmeladova",
+                "description": "Raskolnikov confesses his crime to Sonia."
+            }
+        ],
+        "associated_entities": [
+            "Pyotr Petrovitch Luzhin",
+            "Semyon Zakharovich Marmeladov"
+        ],
+        "symbolic_items": [
+            "small purse",
+            "rock where purse is hidden"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Saint Petersburg, Russia",
+        "historical_period": "19th century",
+        "geographic_range": "Russia",
+        "cultural_significance": "explores the psychological and moral dilemmas of crime and punishment",
+        "primary_sources": [
+            "Crime and Punishment by Fyodor Dostoyevsky"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic student",
+        "NOT well-dressed or affluent",
+        "NOT a character without moral conflict"
+    ]
+}

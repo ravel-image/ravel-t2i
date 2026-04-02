@@ -1,0 +1,85 @@
+{
+    "name": "Golem",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Yossele",
+        "Josef"
+    ],
+    "primary_sources": [
+        "Talmud",
+        "Sefer Yetzirah",
+        "Sode Raza",
+        "Megillas Sefer"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid form made from clay or mud",
+        "distinctive_features": [
+            "inscription on forehead",
+            "large and imposing stature",
+            "absence of facial expressions"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "gray",
+            "dull red"
+        ],
+        "texture": "rough and clay-like",
+        "size_and_scale": "larger than an average human, approximately 7-8 feet tall",
+        "structural_arrangement": "solid, bulky limbs with a robust torso",
+        "domain_specific_visual": {
+            "inscription_location": "forehead or mouth",
+            "activation_symbol": "Hebrew letters forming divine names"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "servant or protector",
+        "secondary_functions": [
+            "defender of Jewish communities",
+            "performer of menial tasks"
+        ],
+        "domain_specific_functional": {
+            "activation_method": "Hebrew incantations and divine names",
+            "deactivation_method": "removal of specific letters or symbols"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Rabbi Judah Loew ben Bezalel",
+                "description": "The Golem of Prague was created by Rabbi Loew to protect the Jewish community."
+            },
+            {
+                "type": "CREATED_BY",
+                "target": "Rabbi Eliyahu Baal Shem",
+                "description": "The Golem of Chełm was created by Rabbi Eliyahu for household chores."
+            }
+        ],
+        "associated_entities": [
+            "Rabbi Judah Loew ben Bezalel",
+            "Rabbi Eliyahu Baal Shem"
+        ],
+        "symbolic_items": [
+            "shem",
+            "Hebrew letters"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Jewish folklore",
+        "historical_period": "Middle Ages to 16th century",
+        "geographic_range": "Central and Eastern Europe",
+        "cultural_significance": "Symbol of protection, community, and the power of creation",
+        "primary_sources": [
+            "Talmud",
+            "Sefer Yetzirah",
+            "Sode Raza",
+            "Megillas Sefer"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a robot",
+        "NOT made of metal or mechanical parts",
+        "NOT a modern automaton"
+    ]
+}

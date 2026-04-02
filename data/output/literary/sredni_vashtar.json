@@ -1,0 +1,78 @@
+{
+    "name": "Sredni Vashtar",
+    "domain": "literary",
+    "entity_type": "fictional deity",
+    "alternative_names": [
+        "The Ferret God"
+    ],
+    "primary_sources": [
+        "The Chronicles of Clovis by Saki"
+    ],
+    "visual_attributes": {
+        "morphology": "ferret-like creature",
+        "distinctive_features": [
+            "dark wet stains around jaws and throat",
+            "sharp, predatory eyes"
+        ],
+        "color_palette": [
+            "brown",
+            "white",
+            "red"
+        ],
+        "texture": "sleek and smooth fur",
+        "size_and_scale": "approximately 50 cm in length",
+        "structural_arrangement": "elongated body with short legs",
+        "domain_specific_visual": {
+            "literary_symbolism": "god-like presence",
+            "ritualistic_elements": "surrounded by offerings of flowers and berries"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of rebellion and power",
+        "secondary_functions": [
+            "object of worship",
+            "instrument of vengeance"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "catalyst for plot resolution",
+            "psychological_symbol": "manifestation of Conradin's inner strength"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "WORSHIPPED_BY",
+                "target": "Conradin",
+                "description": "Conradin venerates Sredni Vashtar as a god."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Mrs De Ropp",
+                "description": "Sredni Vashtar indirectly causes the demise of Mrs De Ropp."
+            }
+        ],
+        "associated_entities": [
+            "Conradin",
+            "Mrs De Ropp"
+        ],
+        "symbolic_items": [
+            "flowers",
+            "berries",
+            "nutmeg"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "fictional setting in early 20th century England",
+        "historical_period": "early 1900s",
+        "geographic_range": "confined to Conradin's garden shed",
+        "cultural_significance": "represents the power of imagination and rebellion against oppression",
+        "primary_sources": [
+            "The Chronicles of Clovis by Saki"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ferret",
+        "NOT a domesticated pet",
+        "NOT a benign or harmless creature"
+    ]
+}

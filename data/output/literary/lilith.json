@@ -1,0 +1,92 @@
+{
+    "name": "Lilith",
+    "domain": "literary",
+    "entity_type": "mythological figure",
+    "alternative_names": [
+        "Lilit",
+        "Lilitu",
+        "Lilis"
+    ],
+    "primary_sources": [
+        "Talmud",
+        "Zohar",
+        "Alphabet of Sirach",
+        "Epic of Gilgamesh",
+        "Isaiah 34:14"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with demonic features",
+        "distinctive_features": [
+            "wings",
+            "bird-like feet",
+            "long flowing hair"
+        ],
+        "color_palette": [
+            "dark",
+            "red",
+            "black"
+        ],
+        "texture": "smooth skin with a fiery aura",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "wings extending from the back, bird-like feet",
+        "domain_specific_visual": {
+            "mythological_iconography": "often depicted with a serpent or owl"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "demon of the night",
+        "secondary_functions": [
+            "seductress",
+            "child-stealer"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "first wife of Adam, who refused to be subservient"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_CONFLICT_WITH",
+                "target": "Adam",
+                "description": "Lilith left Adam because she refused to be subservient to him."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Samael",
+                "description": "Lilith is said to have coupled with the archangel Samael."
+            },
+            {
+                "type": "SIMILAR_TO",
+                "target": "Lamashtu",
+                "description": "Lilith shares similar traits and a position in mythology with Lamashtu."
+            }
+        ],
+        "associated_entities": [
+            "Adam",
+            "Samael",
+            "Lamashtu"
+        ],
+        "symbolic_items": [
+            "serpent",
+            "owl"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mesopotamian and Jewish mythology",
+        "historical_period": "Late Antiquity to Middle Ages",
+        "geographic_range": "Mesopotamia, Jewish folklore",
+        "cultural_significance": "Symbol of female independence and rebellion",
+        "primary_sources": [
+            "Talmud",
+            "Zohar",
+            "Alphabet of Sirach",
+            "Epic of Gilgamesh",
+            "Isaiah 34:14"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic angelic figure",
+        "NOT a purely human woman",
+        "NOT a modern feminist icon without mythological context"
+    ]
+}

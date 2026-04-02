@@ -1,0 +1,76 @@
+{
+    "name": "Baba Yaga's Hut",
+    "domain": "literary",
+    "entity_type": "mythological dwelling",
+    "alternative_names": [
+        "Chicken-legged Hut",
+        "Hut on Chicken Legs"
+    ],
+    "primary_sources": [
+        "Slavic Folklore",
+        "Tales by Alexander Afanasyev"
+    ],
+    "visual_attributes": {
+        "morphology": "A small wooden hut elevated on chicken legs",
+        "distinctive_features": [
+            "Chicken legs supporting the structure",
+            "Ability to rotate or move",
+            "Rustic, wooden appearance"
+        ],
+        "color_palette": [
+            "Brown",
+            "Green",
+            "Gray"
+        ],
+        "texture": "Rough, wooden texture with natural imperfections",
+        "size_and_scale": "Approximately the size of a small cottage",
+        "structural_arrangement": "Elevated on two or more chicken legs, with a door and windows",
+        "domain_specific_visual": {
+            "folklore_element": "Rotating or moving in place",
+            "environment": "Located deep within a forest"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Dwelling place for Baba Yaga",
+        "secondary_functions": [
+            "Mystical barrier",
+            "Symbol of Baba Yaga's power"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "Acts as a threshold between worlds",
+            "cultural_symbolism": "Represents the boundary between the known and the unknown"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INHABITED_BY",
+                "target": "Baba Yaga",
+                "description": "The hut serves as the home of Baba Yaga, a witch from Slavic folklore."
+            }
+        ],
+        "associated_entities": [
+            "Baba Yaga",
+            "Slavic Forest"
+        ],
+        "symbolic_items": [
+            "Mortar and Pestle",
+            "Broom"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Slavic folklore",
+        "historical_period": "Pre-modern era",
+        "geographic_range": "Eastern Europe",
+        "cultural_significance": "Represents the mystical and unpredictable nature of the forest and its inhabitants",
+        "primary_sources": [
+            "Slavic Folklore",
+            "Tales by Alexander Afanasyev"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular wooden cabin",
+        "NOT a stationary structure",
+        "NOT a modern or contemporary house"
+    ]
+}

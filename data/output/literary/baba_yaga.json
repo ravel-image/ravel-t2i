@@ -1,0 +1,79 @@
+{
+    "name": "Baba Yaga",
+    "domain": "literary",
+    "entity_type": "folklore character",
+    "alternative_names": [
+        "Baba Yaga kostyanaya noga",
+        "Baba Yaga s zheleznymi zubami"
+    ],
+    "primary_sources": [
+        "Slavic folklore",
+        "Russian Grammar by Mikhail V. Lomonosov",
+        "Tales collected by Alexander Afanasyev"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with exaggerated features",
+        "distinctive_features": [
+            "bony legs",
+            "iron teeth",
+            "long nose that may stick into the ceiling",
+            "dwelling in a hut with chicken legs"
+        ],
+        "color_palette": [
+            "gray",
+            "brown",
+            "dark green"
+        ],
+        "texture": "wrinkled and aged skin",
+        "size_and_scale": "varies, often depicted as larger than life when stretched out over the stove",
+        "structural_arrangement": "often found stretched out over the stove, reaching from one corner of the hut to another",
+        "domain_specific_visual": {
+            "tools": "wooden mortar and pestle",
+            "dwelling": "hut with chicken legs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "witch with dual roles of helper and antagonist",
+        "secondary_functions": [
+            "guardian of the forest",
+            "initiator of quests"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "ambiguous figure who can either aid or hinder the hero",
+            "cultural_role": "symbol of the wild and untamed aspects of nature"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SISTER_OF",
+                "target": "other Baba Yagas",
+                "description": "Part of a trio of sisters sharing the same name"
+            }
+        ],
+        "associated_entities": [
+            "Ivan",
+            "Firebird"
+        ],
+        "symbolic_items": [
+            "mortar",
+            "pestle",
+            "broom"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Slavic folklore",
+        "historical_period": "pre-modern era, with attestations in 18th-century texts",
+        "geographic_range": "Eastern Europe, particularly Russia",
+        "cultural_significance": "represents the duality of nature and the unknown, often seen as a test for heroes",
+        "primary_sources": [
+            "Slavic folklore",
+            "Russian Grammar by Mikhail V. Lomonosov"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic witch",
+        "NOT a purely evil character",
+        "NOT a modern depiction of a grandmother"
+    ]
+}

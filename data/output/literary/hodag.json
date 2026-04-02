@@ -1,0 +1,81 @@
+{
+    "name": "Hodag",
+    "domain": "literary",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Selblatkey"
+    ],
+    "primary_sources": [
+        "The Hodag: And Other Tales of the Logging Camps",
+        "Paul Bunyan stories"
+    ],
+    "visual_attributes": {
+        "morphology": "A large, bull-horned carnivore with a frog-like head and a dinosaur-like back",
+        "distinctive_features": [
+            "Row of thick curved spines down its back",
+            "Grinning face of a giant elephant",
+            "Thick short legs with huge claws",
+            "Long tail with spears at the end"
+        ],
+        "color_palette": [
+            "dark green",
+            "black",
+            "gray"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "approximately the size of a large bull",
+        "structural_arrangement": "Head resembles a frog, body with dinosaur-like back, tail with spear-like end",
+        "domain_specific_visual": {
+            "horns": "large bull-like horns",
+            "spines": "thick and curved"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of local folklore and culture",
+        "secondary_functions": [
+            "mascot for Rhinelander High School",
+            "tourist attraction"
+        ],
+        "domain_specific_functional": {
+            "mythical_origin": "born from the ashes of cremated oxen",
+            "cultural_role": "represents the spirit of the logging camps"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Eugene Shepard",
+                "description": "Eugene Shepard was the creator of the Hodag myth"
+            },
+            {
+                "type": "SYMBOL_OF",
+                "target": "Rhinelander, Wisconsin",
+                "description": "The Hodag is the official symbol of Rhinelander"
+            }
+        ],
+        "associated_entities": [
+            "Paul Bunyan",
+            "Eugene Shepard"
+        ],
+        "symbolic_items": [
+            "fiberglass sculpture",
+            "chainsaw carving"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Rhinelander, Wisconsin",
+        "historical_period": "late 19th century",
+        "geographic_range": "primarily Wisconsin, USA",
+        "cultural_significance": "Represents local folklore and is a symbol of community identity",
+        "primary_sources": [
+            "The Hodag: And Other Tales of the Logging Camps",
+            "Paul Bunyan stories"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dinosaur",
+        "NOT a common bull",
+        "NOT a real animal"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "name": "Roc Bird",
+    "domain": "literary",
+    "entity_type": "mythological bird",
+    "alternative_names": [
+        "Rukh",
+        "Rukhkh",
+        "Rokh",
+        "Rukhk"
+    ],
+    "primary_sources": [
+        "One Thousand and One Nights",
+        "Marco Polo's Travels",
+        "Kebra Negast",
+        "Lingwai Daida"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic bird of prey",
+        "distinctive_features": [
+            "enormous size capable of carrying elephants",
+            "quills twelve paces long",
+            "talons strong enough to seize large animals"
+        ],
+        "color_palette": [
+            "brown",
+            "gray",
+            "white"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "enormous, capable of blocking out the sun",
+        "structural_arrangement": "eagle-like with massive wingspan",
+        "domain_specific_visual": {
+            "depicted_in_art": "often shown carrying elephants or destroying ships"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "legendary predator",
+        "secondary_functions": [
+            "symbol of power",
+            "narrative device in folklore"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "agent of divine or supernatural intervention"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FEATURED_IN",
+                "target": "One Thousand and One Nights",
+                "description": "Appears in tales such as Sinbad the Sailor"
+            },
+            {
+                "type": "INSPIRED_BY",
+                "target": "Garuda",
+                "description": "Shares mythological roots with the Indian solar bird"
+            }
+        ],
+        "associated_entities": [
+            "Sinbad the Sailor",
+            "Garuda",
+            "Simurgh"
+        ],
+        "symbolic_items": [
+            "Solomon's Temple wood",
+            "giant egg"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Middle Eastern mythology",
+        "historical_period": "ancient to medieval",
+        "geographic_range": "Middle East, Indian Ocean, Africa",
+        "cultural_significance": "represents immense power and mystery",
+        "primary_sources": [
+            "One Thousand and One Nights",
+            "Marco Polo's Travels"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a griffin",
+        "NOT a modern eagle",
+        "NOT a real bird species"
+    ]
+}

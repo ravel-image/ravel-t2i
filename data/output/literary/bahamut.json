@@ -1,0 +1,90 @@
+{
+    "name": "Bahamut",
+    "domain": "literary",
+    "entity_type": "cosmic creature",
+    "alternative_names": [
+        "Bahamoot",
+        "Balhūt",
+        "Lutīyā",
+        "Bahamūt"
+    ],
+    "primary_sources": [
+        "Zakariya al-Qazwini's cosmography",
+        "Edward Lane's transcriptions",
+        "Yaqut al-Hamawi's geographic work",
+        "Ibn al-Wardi's work",
+        "Al-Damiri's writings",
+        "Al-Tha'labi's Qiṣaṣ al-anbīyāʾ",
+        "Muḥammad al-Kisāʾī's Qiṣaṣ al-anbīyāʾ",
+        "Tafsir literature"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic fish or whale",
+        "distinctive_features": [
+            "immense size capable of holding the earth",
+            "supports a bull on its back",
+            "suspended in water for stability"
+        ],
+        "color_palette": [
+            "dark blue",
+            "gray",
+            "aquatic green"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "so large that all the seas of the world would fit in one nostril like a mustard seed",
+        "structural_arrangement": "fish-like body with a massive back supporting a bull",
+        "domain_specific_visual": {
+            "cosmological_position": "underpins the support structure of the earth",
+            "relationship_with_water": "suspended in water"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "supports the earth",
+        "secondary_functions": [
+            "stabilizes the cosmic structure",
+            "part of a layered cosmological system"
+        ],
+        "domain_specific_functional": {
+            "role_in_cosmology": "acts as a foundational layer in Islamic cosmography",
+            "interaction_with_other_entities": "supports a bull, which in turn supports a rock, an angel, and the earth"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SUPPORTS",
+                "target": "Kuyutha (the bull)",
+                "description": "Bahamut supports the bull on its back as part of the cosmic structure"
+            },
+            {
+                "type": "UNDERPINS",
+                "target": "Earth",
+                "description": "Bahamut is part of the foundational layers that support the earth"
+            }
+        ],
+        "associated_entities": [
+            "Kuyutha",
+            "angel",
+            "cosmic rock"
+        ],
+        "symbolic_items": [
+            "ruby rock",
+            "cosmic waters"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Islamic cosmography",
+        "historical_period": "pre-Islamic period to medieval Islamic era",
+        "geographic_range": "Middle Eastern literary and mythological texts",
+        "cultural_significance": "represents the vastness and mystery of the universe in Islamic cosmology",
+        "primary_sources": [
+            "Zakariya al-Qazwini's cosmography",
+            "Edward Lane's transcriptions"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic fish or whale",
+        "NOT a terrestrial creature",
+        "NOT a modern or Western mythological entity"
+    ]
+}

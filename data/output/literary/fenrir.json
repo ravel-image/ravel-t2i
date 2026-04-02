@@ -1,0 +1,108 @@
+{
+    "name": "Fenrir",
+    "domain": "literary",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Fenrisúlfr",
+        "Hróðvitnir",
+        "Vánagandr"
+    ],
+    "primary_sources": [
+        "Poetic Edda",
+        "Prose Edda",
+        "Heimskringla"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic wolf",
+        "distinctive_features": [
+            "monstrous size",
+            "sharp, menacing teeth",
+            "intense, fiery eyes"
+        ],
+        "color_palette": [
+            "dark grey",
+            "black",
+            "silver"
+        ],
+        "texture": "thick, coarse fur",
+        "size_and_scale": "enormous, towering over humans",
+        "structural_arrangement": "quadrupedal with a powerful, muscular build",
+        "domain_specific_visual": {
+            "mythological_aura": "ominous and fearsome presence",
+            "symbolic_representations": "depicted in chains or breaking free"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "harbinger of destruction during Ragnarök",
+        "secondary_functions": [
+            "father of Sköll and Hati",
+            "symbol of chaos"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "destined to kill Odin",
+            "narrative_significance": "central figure in Norse eschatology"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Loki",
+                "description": "Fenrir is the son of Loki."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Angrboða",
+                "description": "Fenrir is the son of the jötunn Angrboða."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Jörmungandr",
+                "description": "Fenrir is the sibling of the serpent Jörmungandr."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Hel",
+                "description": "Fenrir is the sibling of the being Hel."
+            },
+            {
+                "type": "HAS_OFFSPRING",
+                "target": "Sköll",
+                "description": "Fenrir is the father of the wolf Sköll."
+            },
+            {
+                "type": "HAS_OFFSPRING",
+                "target": "Hati Hróðvitnisson",
+                "description": "Fenrir is the father of the wolf Hati Hróðvitnisson."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Odin",
+                "description": "Fenrir is prophesied to kill Odin during Ragnarök."
+            }
+        ],
+        "associated_entities": [
+            "Týr",
+            "Víðarr"
+        ],
+        "symbolic_items": [
+            "Gleipnir",
+            "chains"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Norse mythology",
+        "historical_period": "13th century compilations",
+        "geographic_range": "Scandinavia",
+        "cultural_significance": "symbol of chaos and destruction in Norse eschatology",
+        "primary_sources": [
+            "Poetic Edda",
+            "Prose Edda"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular wolf",
+        "NOT a friendly or tame creature",
+        "NOT a modern or realistic depiction of a wolf"
+    ]
+}
