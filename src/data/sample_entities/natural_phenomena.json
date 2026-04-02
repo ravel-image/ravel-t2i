@@ -1,0 +1,582 @@
+[
+  {
+    "name": "Morning Glory Cloud",
+    "wiki_search": "Morning Glory cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Lenticular Cloud",
+    "wiki_search": "Lenticular cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Brinicle",
+    "wiki_search": "Brinicle",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Green Flash",
+    "wiki_search": "Green flash",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Catatumbo Lightning",
+    "wiki_search": "Catatumbo lightning",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Belt of Venus",
+    "wiki_search": "Belt of Venus",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Glory (optical phenomenon)",
+    "wiki_search": "Glory (optical phenomenon)",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Supercell Thunderstorm",
+    "wiki_search": "Supercell thunderstorm",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Polar Stratospheric Cloud",
+    "wiki_search": "Polar stratospheric cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Brocken Spectre",
+    "wiki_search": "Brocken spectre",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Fire Rainbow",
+    "wiki_search": "Fire rainbow",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Ball Lightning",
+    "wiki_search": "Ball lightning",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Kelvin-Helmholtz Cloud",
+    "wiki_search": "Kelvin-Helmholtz cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Fata Morgana",
+    "wiki_search": "Fata Morgana",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Dust Devil",
+    "wiki_search": "Dust devil",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Noctilucent Cloud",
+    "wiki_search": "Noctilucent cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Red Sprite",
+    "wiki_search": "Red sprite",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Anticrepuscular Rays",
+    "wiki_search": "Anticrepuscular rays",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Sundog",
+    "wiki_search": "Sundog",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Pele's Hair",
+    "wiki_search": "Pele's hair",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Moonbow",
+    "wiki_search": "Moonbow",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Diamond Dust",
+    "wiki_search": "Diamond dust",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Will-o'-the-Wisp",
+    "wiki_search": "Will-o'-the-wisp",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Haboob",
+    "wiki_search": "Haboob",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Zodiacal Light",
+    "wiki_search": "Zodiacal light",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Frost Flowers",
+    "wiki_search": "Frost flowers",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Volcanic Lightning",
+    "wiki_search": "Volcanic lightning",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Mammatus Clouds",
+    "wiki_search": "Mammatus cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Lenticular Clouds",
+    "wiki_search": "Lenticular cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Glory",
+    "wiki_search": "Glory (optical phenomenon)",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Light Pillars",
+    "wiki_search": "Light pillar",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Fog Bow",
+    "wiki_search": "Fog bow",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Noctilucent Clouds",
+    "wiki_search": "Noctilucent cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Aurora Australis",
+    "wiki_search": "Aurora Australis",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Kelvin-Helmholtz Clouds",
+    "wiki_search": "Kelvin-Helmholtz instability",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Red Sprites",
+    "wiki_search": "Red sprite",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Blue Jets",
+    "wiki_search": "Blue jet",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "St. Elmo's Fire",
+    "wiki_search": "St. Elmo's fire",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Crown Flash",
+    "wiki_search": "Crown flash",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Desert Rose (mineral)",
+    "wiki_search": "Desert rose (mineral)",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Maelstrom",
+    "wiki_search": "Maelstrom",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Fulgurite",
+    "wiki_search": "Fulgurite",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Mammatus Cloud",
+    "wiki_search": "Mammatus cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Kelvin-Helmholtz Instability",
+    "wiki_search": "Kelvin-Helmholtz instability clouds",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Sunglint",
+    "wiki_search": "Sunglint",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Penitentes",
+    "wiki_search": "Penitentes (snow formation)",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Bioluminescent Bay",
+    "wiki_search": "Bioluminescent bay",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Sprite Lightning",
+    "wiki_search": "Sprite lightning",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Snow Roller",
+    "wiki_search": "Snow roller",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Fire Whirl",
+    "wiki_search": "Fire whirl",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Katabatic Wind",
+    "wiki_search": "Katabatic wind",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Black Aurora",
+    "wiki_search": "Black aurora",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Yosemite Firefall",
+    "wiki_search": "Yosemite Firefall",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Ice Volcano",
+    "wiki_search": "Ice volcano",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Spray Ice",
+    "wiki_search": "Spray ice",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Waterspout",
+    "wiki_search": "Waterspout",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Halo",
+    "wiki_search": "Halo (optical phenomenon)",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  },
+  {
+    "name": "Cap Cloud",
+    "wiki_search": "Cap cloud",
+    "source_urls": [
+      "https://www.usgs.gov",
+      "https://www.noaa.gov",
+      "https://earthobservatory.nasa.gov",
+      "https://www.nationalgeographic.com/science"
+    ]
+  }
+]

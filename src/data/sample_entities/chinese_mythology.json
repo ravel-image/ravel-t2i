@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Huang Di",
+    "wiki_search": "Huang Di",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Nüwa",
+    "wiki_search": "Nüwa",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Zhu Rong",
+    "wiki_search": "Zhu Rong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Chiyou",
+    "wiki_search": "Chiyou",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Fuxi",
+    "wiki_search": "Fuxi",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Bai Ze",
+    "wiki_search": "Bai Ze",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Zhong Kui",
+    "wiki_search": "Zhong Kui",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Hou Yi",
+    "wiki_search": "Hou Yi",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Gun",
+    "wiki_search": "Gun (mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Jingwei",
+    "wiki_search": "Jingwei",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Xihe",
+    "wiki_search": "Xihe (mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Gong Gong",
+    "wiki_search": "Gong Gong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kuafu",
+    "wiki_search": "Kuafu",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Yinglong",
+    "wiki_search": "Yinglong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Jiutian Xuannü",
+    "wiki_search": "Jiutian Xuannü",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "He Bo",
+    "wiki_search": "He Bo",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Shen Nong",
+    "wiki_search": "Shen Nong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Peng",
+    "wiki_search": "Peng (mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Panhu",
+    "wiki_search": "Panhu",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Leigong",
+    "wiki_search": "Leigong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Xi Wangmu",
+    "wiki_search": "Xi Wangmu",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Wang Zhaojun",
+    "wiki_search": "Wang Zhaojun",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Fei Lian",
+    "wiki_search": "Fei Lian",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Yaoji",
+    "wiki_search": "Yaoji",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Meng Po",
+    "wiki_search": "Meng Po",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kui Xing",
+    "wiki_search": "Kui Xing",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Hebo",
+    "wiki_search": "Hebo (deity)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Huangdi",
+    "wiki_search": "Yellow Emperor",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Gonggong",
+    "wiki_search": "Gonggong (deity)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Xingtian",
+    "wiki_search": "Xingtian",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Chi You",
+    "wiki_search": "Chi You",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Ba Xian",
+    "wiki_search": "Eight Immortals",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Lei Gong",
+    "wiki_search": "Lei Gong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Chang'e",
+    "wiki_search": "Chang'e",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Zao Jun",
+    "wiki_search": "Zao Jun",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Huangtian Dadi",
+    "wiki_search": "Huangtian Dadi",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Bixia Yuanjun",
+    "wiki_search": "Bixia Yuanjun",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Nian",
+    "wiki_search": "Nian (Chinese mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Wangmu Niangniang",
+    "wiki_search": "Wangmu Niangniang",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Yan Luo Wang",
+    "wiki_search": "Yan Luo Wang",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Qilin",
+    "wiki_search": "Qilin",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Long Wang",
+    "wiki_search": "Dragon King",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Baize",
+    "wiki_search": "Baize",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Zhulong",
+    "wiki_search": "Zhulong (mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Jian Bird",
+    "wiki_search": "Jian (bird)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Xuanwu",
+    "wiki_search": "Xuanwu (god)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kui",
+    "wiki_search": "Kui (Chinese mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Fenghuang",
+    "wiki_search": "Fenghuang",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Taotie",
+    "wiki_search": "Taotie",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Huli Jing",
+    "wiki_search": "Huli Jing",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Zhenniao",
+    "wiki_search": "Zhenniao",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Pangu",
+    "wiki_search": "Pangu",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kaiming Shou",
+    "wiki_search": "Kaiming Shou",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Yao Grass",
+    "wiki_search": "Yao Grass",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kunlun Mountain",
+    "wiki_search": "Kunlun Mountain (mythology)",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Tianlong",
+    "wiki_search": "Tianlong",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Zhu Bajie",
+    "wiki_search": "Zhu Bajie",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Longma",
+    "wiki_search": "Longma",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Nine-tailed Fox",
+    "wiki_search": "Nine-tailed Fox Chinese mythology",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kua Fu",
+    "wiki_search": "Kua Fu Chinese mythology",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Di Jun",
+    "wiki_search": "Di Jun Chinese mythology",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Kirin",
+    "wiki_search": "Qilin Chinese mythology",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Fufei",
+    "wiki_search": "Fufei Chinese mythology",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  },
+  {
+    "name": "Jiuweihu",
+    "wiki_search": "Jiuweihu Chinese mythology",
+    "source_urls": [
+      "https://www.sacred-texts.com/cfu/index.htm",
+      "https://mythology.net/chinese",
+      "https://www.chinaknowledge.de/Literature/Mythology/mythology.html"
+    ]
+  }
+]

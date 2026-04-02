@@ -1,0 +1,772 @@
+[
+  {
+    "name": "Quangle Wangle Quee",
+    "wiki_search": "Quangle Wangle Quee",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Jabberwock",
+    "wiki_search": "Jabberwocky",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Bahamut",
+    "wiki_search": "Bahamut (mythology)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Mandrake",
+    "wiki_search": "Mandrake (folklore)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Cucurbit",
+    "wiki_search": "Cucurbit (alchemy)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Kitsune",
+    "wiki_search": "Kitsune",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Wyvern",
+    "wiki_search": "Wyvern",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Selkie",
+    "wiki_search": "Selkie",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Golem",
+    "wiki_search": "Golem",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Banshee",
+    "wiki_search": "Banshee",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Chimera",
+    "wiki_search": "Chimera (mythology)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Troll",
+    "wiki_search": "Troll (mythology)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Naga",
+    "wiki_search": "Naga (mythology)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Peryton",
+    "wiki_search": "Peryton",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Ifrit",
+    "wiki_search": "Ifrit",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Simurgh",
+    "wiki_search": "Simurgh",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Dullahan",
+    "wiki_search": "Dullahan",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Cthulhu",
+    "wiki_search": "Cthulhu",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Yeti",
+    "wiki_search": "Yeti",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Kappa",
+    "wiki_search": "Kappa (folklore)",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Basilisk",
+    "wiki_search": "Basilisk",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Amphisbaena",
+    "wiki_search": "Amphisbaena",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Fenrir",
+    "wiki_search": "Fenrir",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Hippogriff",
+    "wiki_search": "Hippogriff",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Alkonost",
+    "wiki_search": "Alkonost",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Baba Yaga",
+    "wiki_search": "Baba Yaga",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Green Knight",
+    "wiki_search": "The Green Knight",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Golem of Prague",
+    "wiki_search": "Golem of Prague",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Quetzalcoatl",
+    "wiki_search": "Quetzalcoatl",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Jabberwock",
+    "wiki_search": "Jabberwocky",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Huldra",
+    "wiki_search": "Huldra",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Tlaloc",
+    "wiki_search": "Tlaloc",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Bunyip",
+    "wiki_search": "Bunyip",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Anansi",
+    "wiki_search": "Anansi",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Wendigo",
+    "wiki_search": "Wendigo",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Brocéliande Forest",
+    "wiki_search": "Brocéliande",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Roc",
+    "wiki_search": "Roc mythological bird",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Yggdrasil",
+    "wiki_search": "Yggdrasil",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Cerberus",
+    "wiki_search": "Cerberus",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Sleipnir",
+    "wiki_search": "Sleipnir",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Amazons",
+    "wiki_search": "Amazons Greek mythology",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Leshy",
+    "wiki_search": "Leshy",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Draugr",
+    "wiki_search": "Draugr",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Zarathustra",
+    "wiki_search": "Thus Spoke Zarathustra",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Quasimodo",
+    "wiki_search": "Quasimodo from The Hunchback of Notre-Dame",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Grendel",
+    "wiki_search": "Grendel Beowulf",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Roc Bird",
+    "wiki_search": "Roc bird Arabian Nights",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Gilgamesh",
+    "wiki_search": "Epic of Gilgamesh",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Cheshire Cat",
+    "wiki_search": "Cheshire Cat Alice's Adventures in Wonderland",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Fafnir",
+    "wiki_search": "Fafnir Norse mythology",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Raskolnikov",
+    "wiki_search": "Raskolnikov Crime and Punishment",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Phoenix",
+    "wiki_search": "Phoenix mythology",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Minotaur",
+    "wiki_search": "Minotaur Greek mythology",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Yvain",
+    "wiki_search": "Yvain the Knight of the Lion",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Caliban",
+    "wiki_search": "Caliban The Tempest",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The White Whale",
+    "wiki_search": "Moby Dick",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Puck",
+    "wiki_search": "Puck A Midsummer Night's Dream",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Headless Horseman",
+    "wiki_search": "The Legend of Sleepy Hollow",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Kraken",
+    "wiki_search": "Kraken mythology",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Sandman",
+    "wiki_search": "The Sandman folklore",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Medea",
+    "wiki_search": "Medea Euripides",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Lamassu",
+    "wiki_search": "Lamassu Assyrian mythology",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Wendigo",
+    "wiki_search": "Wendigo Algonquian folklore",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Yahoos",
+    "wiki_search": "Yahoos Gulliver's Travels",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Sredni Vashtar",
+    "wiki_search": "Sredni Vashtar Saki",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "March Hare",
+    "wiki_search": "March Hare Alice in Wonderland",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Baba Yaga's Hut",
+    "wiki_search": "Baba Yaga's Hut",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Gollum",
+    "wiki_search": "Gollum The Hobbit",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Dagon",
+    "wiki_search": "Dagon Lovecraft",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Time Machine",
+    "wiki_search": "The Time Machine Wells",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Caterpillar",
+    "wiki_search": "Caterpillar Alice in Wonderland",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Count Orlok",
+    "wiki_search": "Count Orlok Nosferatu",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Phantom",
+    "wiki_search": "Phantom of the Opera",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Invisible Man",
+    "wiki_search": "Invisible Man Wells",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "Raven",
+    "wiki_search": "The Raven Poe",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Great A'Tuin",
+    "wiki_search": "Great A'Tuin Discworld",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  },
+  {
+    "name": "The Martians",
+    "wiki_search": "Martians War of the Worlds",
+    "source_urls": [
+      "https://www.gutenberg.org",
+      "https://www.sacred-texts.com",
+      "https://en.wikisource.org",
+      "https://www.poetryfoundation.org"
+    ]
+  }
+]
