@@ -1,0 +1,81 @@
+{
+    "name": "Wuzhiqi",
+    "domain": "chinese_mythology",
+    "entity_type": "supernatural being",
+    "alternative_names": [
+        "Guishan Shuimu",
+        "Sizhou Virgin",
+        "Water Ape Great Sage"
+    ],
+    "primary_sources": [
+        "Tangguoshi Bu",
+        "Taiping guangji",
+        "The Journey to the West"
+    ],
+    "visual_attributes": {
+        "morphology": "monkey-like aquatic demon",
+        "distinctive_features": [
+            "black body",
+            "white head",
+            "sometimes appears in the form of a woman"
+        ],
+        "color_palette": [
+            "black",
+            "white"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "humanoid with monkey-like features",
+        "domain_specific_visual": {
+            "aquatic_association": "resides in the Huai River",
+            "imprisonment_location": "under Turtle Mountain"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "demon residing in the Huai River",
+        "secondary_functions": [
+            "defeated by Yu the Great",
+            "inspiration for Sun Wukong"
+        ],
+        "domain_specific_functional": {
+            "role_in_flood_control": "imprisoned as part of controlling the Great Flood"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DEFEATED_BY",
+                "target": "Yu the Great",
+                "description": "Wuzhiqi was defeated and imprisoned by Yu the Great during his efforts to control the Great Flood."
+            },
+            {
+                "type": "INSPIRED",
+                "target": "Sun Wukong",
+                "description": "Wuzhiqi is considered a prototype for the character Sun Wukong in Journey to the West."
+            }
+        ],
+        "associated_entities": [
+            "Yu the Great",
+            "Sun Wukong"
+        ],
+        "symbolic_items": [
+            "cast-iron statue"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "9th century",
+        "geographic_range": "Huai River, Chuzhou, Turtle Mountain",
+        "cultural_significance": "Prototype for Sun Wukong; subject of cults in northern Anhui",
+        "primary_sources": [
+            "Tangguoshi Bu",
+            "Taiping guangji",
+            "The Journey to the West"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic monkey",
+        "NOT a terrestrial creature",
+        "NOT a purely fictional character without historical context"
+    ]
+}

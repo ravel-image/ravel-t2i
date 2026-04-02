@@ -1,0 +1,87 @@
+{
+    "name": "Jiangshi",
+    "domain": "chinese_mythology",
+    "entity_type": "undead creature",
+    "alternative_names": [
+        "Chinese hopping vampire",
+        "僵尸",
+        "殭屍"
+    ],
+    "primary_sources": [
+        "Yuewei Caotang Biji",
+        "Zi Bu Yu",
+        "Bencao Gangmu",
+        "Jingchu Suishi Ji"
+    ],
+    "visual_attributes": {
+        "morphology": "stiff, humanoid form",
+        "distinctive_features": [
+            "greenish-white skin",
+            "long hair",
+            "official garments from the Qing dynasty",
+            "stiff posture"
+        ],
+        "color_palette": [
+            "greenish-white",
+            "dark",
+            "earthy tones"
+        ],
+        "texture": "mouldy, decayed",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "upright, rigid limbs",
+        "domain_specific_visual": {
+            "QING_DYNASTY_GARMENTS": "traditional official attire",
+            "HOPPING_MOVEMENT": "legs bound together, causing hopping motion"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "reanimated corpse",
+        "secondary_functions": [
+            "devourer of life force",
+            "symbol of fear"
+        ],
+        "domain_specific_functional": {
+            "YANG_ENERGY_ABSORPTION": "gains power from absorbing yang energy",
+            "SPIRIT_POSSESSION": "can be animated by spirit possession"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "living humans",
+                "description": "Jiangshi prey on the living, particularly infants."
+            },
+            {
+                "type": "COUNTERED_BY",
+                "target": "Taoist talismans",
+                "description": "Taoist talismans can immobilize or repel Jiangshi."
+            }
+        ],
+        "associated_entities": [
+            "corpse-drivers",
+            "Taoist priests"
+        ],
+        "symbolic_items": [
+            "mirror",
+            "peach wood",
+            "rooster's call",
+            "glutinous rice"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese folklore and legends",
+        "historical_period": "Qing dynasty",
+        "geographic_range": "China, particularly Hunan province",
+        "cultural_significance": "represents fear of death and improper burial",
+        "primary_sources": [
+            "Yuewei Caotang Biji",
+            "Zi Bu Yu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Western vampire",
+        "NOT supple or graceful",
+        "NOT modern clothing"
+    ]
+}

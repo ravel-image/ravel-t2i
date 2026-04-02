@@ -1,0 +1,85 @@
+{
+    "name": "Xingtian",
+    "domain": "chinese_mythology",
+    "entity_type": "deity",
+    "alternative_names": [
+        "Hsing T'ien",
+        "Punishing Heaven"
+    ],
+    "primary_sources": [
+        "Classic of Mountains and Seas",
+        "Lushi",
+        "Huainanzi",
+        "Thirteen Poems upon Reading the Guideways through Mountains and Seas"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid, headless",
+        "distinctive_features": [
+            "nipples as eyes",
+            "navel as mouth",
+            "holds a shield in one hand",
+            "holds a battle axe in the other hand"
+        ],
+        "color_palette": [
+            "earthy tones",
+            "metallic grey",
+            "dark red"
+        ],
+        "texture": "flesh-like with metallic elements",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "headless torso with facial features on the chest",
+        "domain_specific_visual": {
+            "weaponry": "battle axe and shield",
+            "posture": "martial dance stance"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of resistance and defiance",
+        "secondary_functions": [
+            "martial prowess",
+            "spiritual resilience"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "inspiration for perseverance",
+            "mythological_role": "challenger of supreme divinity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Huangdi",
+                "description": "Xingtian fought against Huangdi for supremacy."
+            },
+            {
+                "type": "SERVANT_OF",
+                "target": "Yandi",
+                "description": "Xingtian was an official under Yandi."
+            }
+        ],
+        "associated_entities": [
+            "Yandi",
+            "Huangdi"
+        ],
+        "symbolic_items": [
+            "battle axe",
+            "shield"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "mythological locations such as Changyang Mountain",
+        "cultural_significance": "represents the indomitable spirit and will to resist",
+        "primary_sources": [
+            "Classic of Mountains and Seas",
+            "Lushi",
+            "Huainanzi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic headless figure",
+        "NOT without facial features on the torso",
+        "NOT without a martial stance or weaponry"
+    ]
+}

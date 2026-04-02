@@ -1,0 +1,86 @@
+{
+    "name": "Long Wang",
+    "domain": "chinese_mythology",
+    "entity_type": "Dragon King",
+    "alternative_names": [
+        "Dragon God",
+        "Ryū",
+        "Naga",
+        "Nāgarāja"
+    ],
+    "primary_sources": [
+        "Chinese folk-religion texts",
+        "Daoist scriptures",
+        "Asian mythology references"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine dragon with elongated body",
+        "distinctive_features": [
+            "long whiskers",
+            "horns resembling antlers",
+            "scales covering the body"
+        ],
+        "color_palette": [
+            "azure",
+            "red",
+            "white",
+            "black"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "massive, spanning several meters in length",
+        "structural_arrangement": "elongated body with a flowing mane and tail",
+        "domain_specific_visual": {
+            "elemental_association": "water",
+            "cultural_decorations": "traditional Chinese motifs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "dispenser of rain and ruler of water bodies",
+        "secondary_functions": [
+            "protector of the Dharma",
+            "symbol of good fortune"
+        ],
+        "domain_specific_functional": {
+            "weather_control": "manipulates weather and seasons",
+            "territorial_guardian": "serves as a tutelary deity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SUBORDINATE",
+                "target": "Dragon Kings of the Four Seas",
+                "description": "Long Wang commands the Dragon Kings of the Four Seas"
+            },
+            {
+                "type": "RECEIVES_ORDERS_FROM",
+                "target": "Jade Emperor",
+                "description": "Long Wang receives orders from the Jade Emperor in the Daoist pantheon"
+            }
+        ],
+        "associated_entities": [
+            "Jade Emperor",
+            "Tudigong",
+            "Houtu"
+        ],
+        "symbolic_items": [
+            "under-water palace",
+            "royal court system"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "East Asian cultures, particularly Chinese",
+        "historical_period": "Neolithic period to present",
+        "geographic_range": "East Asia, South Asia, Southeast Asia",
+        "cultural_significance": "represents wisdom, strength, and protection",
+        "primary_sources": [
+            "Chinese folk-religion texts",
+            "Daoist scriptures"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a Western dragon",
+        "NOT a fire-breathing creature",
+        "NOT a solitary entity without a court or subordinates"
+    ]
+}

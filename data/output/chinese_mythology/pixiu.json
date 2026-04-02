@@ -1,0 +1,86 @@
+{
+    "name": "Pixiu",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical hybrid creature",
+    "alternative_names": [
+        "Piyao",
+        "Bìxié",
+        "Tiānlù",
+        "Táo bá"
+    ],
+    "primary_sources": [
+        "Book of Han",
+        "Han dynasty stone carvings",
+        "Qing dynasty records"
+    ],
+    "visual_attributes": {
+        "morphology": "Hybrid creature with the head of a Chinese dragon and the body of a lion",
+        "distinctive_features": [
+            "Feathered wings",
+            "One or two antlers (one for male, two for female)",
+            "Protruding eyes and sharp teeth",
+            "Bifurcated tail"
+        ],
+        "color_palette": [
+            "Ashen white",
+            "Gold",
+            "Silver"
+        ],
+        "texture": "Scaly with some velvety parts",
+        "size_and_scale": "Large, comparable to a lion",
+        "structural_arrangement": "Wings on the back, antlers on the head, tail hanging low",
+        "domain_specific_visual": {
+            "ANTLER_COUNT": "One for male (Tiānlù), two for female (Bìxié)",
+            "WINGED": "Yes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Protector of wealth and souls",
+        "secondary_functions": [
+            "Ward off evil spirits",
+            "Attract wealth"
+        ],
+        "domain_specific_functional": {
+            "FENG_SHUI_ROLE": "Attracts wealth and protects against bad feng shui",
+            "MYTHOLOGICAL_ROLE": "Guardian of the heavens and earth"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Dragon King",
+                "description": "Pixiu is the youngest son of the Dragon King"
+            },
+            {
+                "type": "GUARDS",
+                "target": "Wealth",
+                "description": "Pixiu guards wealth and prevents it from flowing away"
+            }
+        ],
+        "associated_entities": [
+            "Dragon King",
+            "Tai Sui"
+        ],
+        "symbolic_items": [
+            "Gold",
+            "Silver",
+            "Jewels"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Han dynasty (206 BC–220 AD)",
+        "geographic_range": "China",
+        "cultural_significance": "Symbol of wealth, protection, and good fortune",
+        "primary_sources": [
+            "Book of Han",
+            "Han dynasty stone carvings"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a stone lion",
+        "NOT a qilin",
+        "NOT without wings"
+    ]
+}

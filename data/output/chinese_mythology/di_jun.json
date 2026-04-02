@@ -1,0 +1,94 @@
+{
+    "name": "Di Jun",
+    "domain": "chinese_mythology",
+    "entity_type": "ancient supreme deity",
+    "alternative_names": [
+        "Emperor Jun"
+    ],
+    "primary_sources": [
+        "Shanhaijing",
+        "Yang 2005",
+        "Birrell 1993"
+    ],
+    "visual_attributes": {
+        "morphology": "anthropomorphic deity with regal features",
+        "distinctive_features": [
+            "imperial robes",
+            "headdress signifying supreme status",
+            "aura of authority and wisdom"
+        ],
+        "color_palette": [
+            "gold",
+            "red",
+            "white"
+        ],
+        "texture": "smooth and ethereal",
+        "size_and_scale": "larger than life, towering presence",
+        "structural_arrangement": "symmetrical and balanced",
+        "domain_specific_visual": {
+            "regalia": "imperial crown",
+            "symbolic_items": "bow and arrows"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "supreme deity overseeing cosmic order",
+        "secondary_functions": [
+            "patron of agriculture",
+            "giver of divine gifts"
+        ],
+        "domain_specific_functional": {
+            "agricultural_influence": "progenitor of farming innovators",
+            "mythological_role": "giver of bow and arrows to Houyi"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_CONSORT",
+                "target": "Xihe",
+                "description": "One of Di Jun's wives"
+            },
+            {
+                "type": "HAS_CONSORT",
+                "target": "Changxi",
+                "description": "Another of Di Jun's wives"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Houji",
+                "description": "Progenitor of agricultural practices"
+            },
+            {
+                "type": "GAVE_ITEM_TO",
+                "target": "Houyi",
+                "description": "Gave a bow and arrows to the archer Houyi"
+            }
+        ],
+        "associated_entities": [
+            "Xihe",
+            "Changxi",
+            "Houji",
+            "Houyi"
+        ],
+        "symbolic_items": [
+            "bow",
+            "arrows"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient",
+        "geographic_range": "China",
+        "cultural_significance": "represents supreme authority and agricultural innovation",
+        "primary_sources": [
+            "Shanhaijing",
+            "Yang 2005",
+            "Birrell 1993"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic king or emperor",
+        "NOT without divine or ethereal features",
+        "NOT a modern or non-mythological figure"
+    ]
+}

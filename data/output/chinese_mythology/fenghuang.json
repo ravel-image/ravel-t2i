@@ -1,0 +1,87 @@
+{
+    "name": "Fenghuang",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological bird",
+    "alternative_names": [
+        "Chinese phoenix",
+        "Fènghuáng",
+        "Fèng",
+        "Huang"
+    ],
+    "primary_sources": [
+        "Erya",
+        "Classic of Mountains and Seas",
+        "Silk Painting of Human Figure with Dragon and Phoenix",
+        "Jiajing era artifacts"
+    ],
+    "visual_attributes": {
+        "morphology": "Composite bird with features from various animals",
+        "distinctive_features": [
+            "Beak of a rooster",
+            "Face of a swallow",
+            "Forehead of a fowl",
+            "Neck of a snake",
+            "Breast of a goose",
+            "Back of a tortoise",
+            "Hindquarters of a stag",
+            "Tail of a fish or peacock"
+        ],
+        "color_palette": [
+            "black",
+            "white",
+            "red",
+            "yellow",
+            "green"
+        ],
+        "texture": "Feathery with smooth and scaly elements",
+        "size_and_scale": "Large bird, comparable to a peacock",
+        "structural_arrangement": "Head of a golden pheasant, body of a mandarin duck, tail of a peacock, legs of a crane, mouth of a parrot, wings of a swallow",
+        "domain_specific_visual": {
+            "SYMBOLIZES_CELESTIAL_BODIES": "Head is the sky, eyes are the sun, back is the moon, wings are the wind, feet are the earth, tail is the planets",
+            "CARRIES_ITEMS": "Scrolls or a box with sacred books, sometimes depicted with a fireball"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbol of virtue and grace",
+        "secondary_functions": [
+            "Symbol of union of yin and yang",
+            "Symbol of imperial power"
+        ],
+        "domain_specific_functional": {
+            "APPEARS_IN_PEACEFUL_PLACES": "Only appears in areas blessed with utmost peace and prosperity",
+            "REPRESENTS_CONFUCIAN_VIRTUES": "Represents benevolence, honesty, knowledge, faithfulness, and propriety"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PAIRED_WITH",
+                "target": "Chinese dragon",
+                "description": "Represents the feminine counterpart to the masculine dragon"
+            }
+        ],
+        "associated_entities": [
+            "Chinese dragon",
+            "Empress of China"
+        ],
+        "symbolic_items": [
+            "Fenghuang hairpins",
+            "Imperial decorations"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Sinosphere, particularly China",
+        "historical_period": "7th millennium BC to present",
+        "geographic_range": "China, Japan, Korea",
+        "cultural_significance": "Represents imperial power, virtue, and the union of yin and yang",
+        "primary_sources": [
+            "Erya",
+            "Classic of Mountains and Seas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Western phoenix",
+        "NOT purely fire-associated",
+        "NOT solely masculine"
+    ]
+}

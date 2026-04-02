@@ -1,0 +1,102 @@
+{
+    "name": "Huang Di",
+    "domain": "chinese_mythology",
+    "entity_type": "legendary sovereign and culture hero",
+    "alternative_names": [
+        "Yellow Emperor",
+        "Yellow Thearch",
+        "Xuanyuan",
+        "Youxiong",
+        "Gongsun",
+        "Ji",
+        "Yellow God",
+        "Great Emperor of the Central Peak",
+        "Yellow Emperor with Four Faces"
+    ],
+    "primary_sources": [
+        "Records of the Grand Historian",
+        "Huangdi Neijing",
+        "Huangdi Sijing",
+        "Shuowen Jiezi",
+        "Lüshi Chunqiu",
+        "Classic of Mountains and Seas"
+    ],
+    "visual_attributes": {
+        "morphology": "human-like with divine features",
+        "distinctive_features": [
+            "yellow dragon form",
+            "four faces",
+            "association with light and thunder"
+        ],
+        "color_palette": [
+            "yellow",
+            "gold",
+            "earth tones"
+        ],
+        "texture": "radiant and luminous",
+        "size_and_scale": "larger than life, cosmic scale",
+        "structural_arrangement": "central figure with a commanding presence",
+        "domain_specific_visual": {
+            "COSMIC_ASSOCIATION": "center of the Five Phases",
+            "ANIMAL_FORM": "Yellow Dragon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "initiator of Chinese culture",
+        "secondary_functions": [
+            "cosmic ruler",
+            "patron of esoteric arts"
+        ],
+        "domain_specific_functional": {
+            "INNOVATIONS": [
+                "traditional Chinese calendar",
+                "Taoism",
+                "wooden houses",
+                "boats",
+                "carts",
+                "compass needle",
+                "early writing",
+                "cuju"
+            ],
+            "SYMBOLIC_ROLE": "central figure in Chinese nationalism"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PART_OF",
+                "target": "Five Regions Highest Deities",
+                "description": "Huang Di is revered as part of this group in Chinese folk religion."
+            },
+            {
+                "type": "HAS_FORM",
+                "target": "Yellow Dragon",
+                "description": "Huang Di is associated with the Yellow Dragon as his animal form."
+            }
+        ],
+        "associated_entities": [
+            "Shangdi",
+            "Thunder God",
+            "Five Sacred Mountains"
+        ],
+        "symbolic_items": [
+            "compass needle",
+            "cuju ball"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Warring States period to early Han dynasty",
+        "geographic_range": "China",
+        "cultural_significance": "symbol of Chinese culture and nationalism",
+        "primary_sources": [
+            "Records of the Grand Historian",
+            "Huangdi Neijing"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic emperor",
+        "NOT a purely historical figure",
+        "NOT limited to a single human form"
+    ]
+}

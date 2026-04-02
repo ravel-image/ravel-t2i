@@ -1,0 +1,72 @@
+{
+    "name": "Jian Bird",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_bird",
+    "alternative_names": [
+        "Jiān",
+        "Jianjian"
+    ],
+    "primary_sources": [
+        "Shanhaijing",
+        "Questions to Heaven"
+    ],
+    "visual_attributes": {
+        "morphology": "one-eyed bird with one wing",
+        "distinctive_features": [
+            "one eye",
+            "one wing",
+            "inseparable pair when depicted as Jianjian"
+        ],
+        "color_palette": [
+            "unknown"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "medium-sized bird",
+        "structural_arrangement": "as Jianjian, depicted as a pair that is inseparable",
+        "domain_specific_visual": {
+            "SYMBOL_OF": "husband and wife"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of conjugal love and unity",
+        "secondary_functions": [
+            "representing inseparability",
+            "symbolizing partnership"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS": "essential bond between partners"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SYMBOL_OF",
+                "target": "husband and wife",
+                "description": "Represents the inseparable bond between husband and wife."
+            }
+        ],
+        "associated_entities": [
+            "husband",
+            "wife"
+        ],
+        "symbolic_items": [
+            "linked wing bird",
+            "talisman for good fortune"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient",
+        "geographic_range": "China",
+        "cultural_significance": "Represents the essential bond between partners and conjugal love.",
+        "primary_sources": [
+            "Shanhaijing",
+            "Questions to Heaven"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common bird with two eyes and two wings",
+        "NOT a solitary bird",
+        "NOT unrelated to conjugal love or partnership"
+    ]
+}

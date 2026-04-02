@@ -1,0 +1,83 @@
+{
+    "name": "Gun",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological weapon",
+    "alternative_names": [
+        "fire lance",
+        "hand cannon",
+        "huochong"
+    ],
+    "primary_sources": [
+        "History of Yuan",
+        "silk paintings from the 10th century",
+        "Joseph Needham's works"
+    ],
+    "visual_attributes": {
+        "morphology": "cylindrical barrel with a flared muzzle",
+        "distinctive_features": [
+            "metal barrel",
+            "decorative engravings typical of Yuan dynasty",
+            "wooden or metal stock"
+        ],
+        "color_palette": [
+            "dark metallic",
+            "bronze",
+            "wooden brown"
+        ],
+        "texture": "smooth metal with engraved patterns",
+        "size_and_scale": "approximately 1 meter in length",
+        "structural_arrangement": "barrel mounted on a wooden stock with a handle",
+        "domain_specific_visual": {
+            "decorative_motifs": "Yuan dynasty symbols",
+            "barrel_material": "cast bronze or iron"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "projectile weapon using gunpowder",
+        "secondary_functions": [
+            "ceremonial display",
+            "symbol of military power"
+        ],
+        "domain_specific_functional": {
+            "historical_use": "used in battles by Yuan dynasty",
+            "symbolic_role": "represents technological advancement in warfare"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EVOLVED_FROM",
+                "target": "fire lance",
+                "description": "The gun evolved from the earlier fire lance."
+            },
+            {
+                "type": "USED_BY",
+                "target": "Yuan dynasty soldiers",
+                "description": "Used by soldiers during the Yuan dynasty for warfare."
+            }
+        ],
+        "associated_entities": [
+            "Yuan dynasty",
+            "Mongol prince Nayan"
+        ],
+        "symbolic_items": [
+            "gunpowder",
+            "projectiles"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "China",
+        "historical_period": "late 13th century",
+        "geographic_range": "East Asia",
+        "cultural_significance": "Represents the early development of firearms in Chinese history.",
+        "primary_sources": [
+            "History of Yuan",
+            "silk paintings from the 10th century"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a modern firearm",
+        "NOT a generic cannon",
+        "NOT a Western-style gun"
+    ]
+}

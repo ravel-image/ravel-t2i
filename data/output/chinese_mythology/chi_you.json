@@ -1,0 +1,91 @@
+{
+    "name": "Chi You",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological being",
+    "alternative_names": [
+        "Chiyou",
+        "Txiv Yawg"
+    ],
+    "primary_sources": [
+        "Lushi",
+        "Records of the Grand Historian",
+        "Guoyu",
+        "Tale of Heike"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with bovine and bear features",
+        "distinctive_features": [
+            "bronze head with metal forehead",
+            "four eyes",
+            "six arms wielding weapons",
+            "bull head with two horns",
+            "bear-like hindquarters"
+        ],
+        "color_palette": [
+            "bronze",
+            "metallic grey",
+            "earthy brown"
+        ],
+        "texture": "metallic and furry",
+        "size_and_scale": "larger than an average human",
+        "structural_arrangement": "bovine head on human torso with bear hindquarters",
+        "domain_specific_visual": {
+            "WEAPONRY": "sharp weapons in each hand",
+            "HEADGEAR": "metallic forehead"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "demon god of war and chaos",
+        "secondary_functions": [
+            "protector of soldiers",
+            "symbol of rebellion"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_MANIPULATION": "ability to conjure fog and storms",
+            "ANCESTRAL_LEADER": "leader of the Nine Li tribe"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Yellow Emperor",
+                "description": "Fought against the Yellow Emperor in the Battle of Zhuolu"
+            },
+            {
+                "type": "DESCENDANT_OF",
+                "target": "Flame Emperor",
+                "description": "Considered a descendant of the Flame Emperor"
+            },
+            {
+                "type": "LEADER_OF",
+                "target": "Nine Li tribe",
+                "description": "Led the Nine Li tribe in ancient China"
+            }
+        ],
+        "associated_entities": [
+            "Yellow Emperor",
+            "Flame Emperor",
+            "Nüba"
+        ],
+        "symbolic_items": [
+            "Mount Tai shigandang",
+            "Taotie motif"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient China",
+        "historical_period": "Three Sovereigns and Five Emperors era",
+        "geographic_range": "Northern China",
+        "cultural_significance": "Symbol of war, chaos, and protection; revered by soldiers",
+        "primary_sources": [
+            "Lushi",
+            "Records of the Grand Historian"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT a purely human figure",
+        "NOT a peaceful deity"
+    ]
+}

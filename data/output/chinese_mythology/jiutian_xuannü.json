@@ -1,0 +1,92 @@
+{
+    "name": "Jiutian Xuannü",
+    "domain": "chinese_mythology",
+    "entity_type": "goddess",
+    "alternative_names": [
+        "Xuannü",
+        "Dark Lady",
+        "Mysterious Lady"
+    ],
+    "primary_sources": [
+        "Yongcheng Jixian Lu",
+        "Longyu Hetu",
+        "Lingbao Liuding Mifa",
+        "Huangting Jing",
+        "Baopuzi"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with divine features",
+        "distinctive_features": [
+            "rides a cinnabar phoenix",
+            "holds phosphors and clouds as reins",
+            "wears variegated kingfisher-feather garments of nine colors"
+        ],
+        "color_palette": [
+            "cinnabar",
+            "variegated colors",
+            "kingfisher blue"
+        ],
+        "texture": "feathery and ethereal",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "garments flow with nine distinct colors, reins made of clouds",
+        "domain_specific_visual": {
+            "HEAVENLY_AURA": "emanates a divine glow",
+            "PHOENIX_COMPANION": "rides a mythical bird"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "goddess of war, sex, and longevity",
+        "secondary_functions": [
+            "teacher of Huangdi",
+            "disciple of Xi Wangmu"
+        ],
+        "domain_specific_functional": {
+            "MARTIAL_MAGIC": "capable of invisibility and mobilizing stars",
+            "ALCHEMICAL_GUIDANCE": "associated with inner alchemy and elixirs"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SISTER",
+                "target": "Sunü",
+                "description": "Divine sister with whom she shares the Daoist arts of the bedchamber"
+            },
+            {
+                "type": "TEACHER_OF",
+                "target": "Huangdi",
+                "description": "Taught Huangdi during his conflict with Chiyou"
+            },
+            {
+                "type": "DISCIPLE_OF",
+                "target": "Xi Wangmu",
+                "description": "Disciple of the Queen Mother of the West"
+            }
+        ],
+        "associated_entities": [
+            "Huangdi",
+            "Xi Wangmu",
+            "Sunü"
+        ],
+        "symbolic_items": [
+            "cinnabar phoenix",
+            "phosphors",
+            "cloud reins"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Tang dynasty",
+        "geographic_range": "Ancient China",
+        "cultural_significance": "Represents martial prowess, sexual knowledge, and longevity in Daoism",
+        "primary_sources": [
+            "Yongcheng Jixian Lu",
+            "Longyu Hetu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic war deity",
+        "NOT without her phoenix companion",
+        "NOT devoid of Daoist symbolism"
+    ]
+}

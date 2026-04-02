@@ -1,0 +1,86 @@
+{
+    "name": "Zhulong",
+    "domain": "chinese_mythology",
+    "entity_type": "solar dragon deity",
+    "alternative_names": [
+        "Zhuyin",
+        "Torch Dragon",
+        "Torch Shade",
+        "Chuolong",
+        "Zhuolong"
+    ],
+    "primary_sources": [
+        "Classic of Mountains and Seas",
+        "Songs of Chu",
+        "Huainanzi",
+        "Records of Penetration into the Mysteries"
+    ],
+    "visual_attributes": {
+        "morphology": "giant dragon with a human face and snake's body",
+        "distinctive_features": [
+            "human face",
+            "snake's body",
+            "vertical eyes in a straight seam",
+            "torch-like illumination"
+        ],
+        "color_palette": [
+            "scarlet",
+            "red"
+        ],
+        "texture": "smooth, scaly",
+        "size_and_scale": "body is a thousand leagues long",
+        "structural_arrangement": "human face atop a long, serpentine body",
+        "domain_specific_visual": {
+            "EYE_FUNCTION": "creates day and night by opening and closing eyes",
+            "BREATH_FUNCTION": "creates seasonal winds by breathing"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "controls day and night",
+        "secondary_functions": [
+            "controls seasonal winds",
+            "illuminates darkness"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "solar power and illumination",
+            "REPRESENTS": "balance of yin and yang"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_MYTHOLOGICAL_PARALLEL",
+                "target": "Pangu",
+                "description": "Both are serpent-bodied celestial deities in Chinese folklore."
+            },
+            {
+                "type": "HAS_MYTHOLOGICAL_PARALLEL",
+                "target": "Fuxi",
+                "description": "Both are serpent-bodied celestial deities in Chinese folklore."
+            }
+        ],
+        "associated_entities": [
+            "Nüwa",
+            "Gonggong"
+        ],
+        "symbolic_items": [
+            "torch",
+            "herb of penetration into the mysteries"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Han dynasty (3rd century BCE – 3rd century CE)",
+        "geographic_range": "mythical regions beyond the northwest seas",
+        "cultural_significance": "represents the power of light and the balance of natural elements",
+        "primary_sources": [
+            "Classic of Mountains and Seas",
+            "Songs of Chu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic Western dragon",
+        "NOT a dragon with wings",
+        "NOT a creature with a purely animalistic face"
+    ]
+}

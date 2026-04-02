@@ -1,0 +1,95 @@
+{
+    "name": "Gonggong",
+    "domain": "chinese_mythology",
+    "entity_type": "water god",
+    "alternative_names": [
+        "共工",
+        "龔工",
+        "Kanghui",
+        "Kānghuí"
+    ],
+    "primary_sources": [
+        "Heavenly Questions (Tianwen)",
+        "Classic of Mountains and Seas",
+        "Records of the Grand Historian"
+    ],
+    "visual_attributes": {
+        "morphology": "Copper human head with an iron forehead and the body of a serpent",
+        "distinctive_features": [
+            "Copper human head",
+            "Iron forehead",
+            "Red hair",
+            "Serpent body"
+        ],
+        "color_palette": [
+            "copper",
+            "iron gray",
+            "red"
+        ],
+        "texture": "metallic and scaly",
+        "size_and_scale": "gigantic, mythological scale",
+        "structural_arrangement": "Human head and torso with a serpent tail",
+        "domain_specific_visual": {
+            "DEITY_TYPE": "Water God",
+            "COSMIC_CATASTROPHE": "Causes axial tilt and floods"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Causes cosmic catastrophes",
+        "secondary_functions": [
+            "Responsible for great floods",
+            "Engages in battles with other deities"
+        ],
+        "domain_specific_functional": {
+            "AXIAL_TILT": "Knocks Earth's axis off center",
+            "FLOOD_CAUSER": "Causes great floods with Xiangliu"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Zhurong",
+                "description": "Lost a struggle with Zhurong, the fire god"
+            },
+            {
+                "type": "HAS_MINISTER",
+                "target": "Xiangliu",
+                "description": "Works with Xiangliu to cause floods"
+            },
+            {
+                "type": "DESCENDANT_OF",
+                "target": "Flame Emperor",
+                "description": "Considered a descendant of the Flame Emperor"
+            },
+            {
+                "type": "DESCENDANT_OF",
+                "target": "Black Emperor",
+                "description": "Also said to be a descendant of the Black Emperor"
+            }
+        ],
+        "associated_entities": [
+            "Nüwa",
+            "Ao"
+        ],
+        "symbolic_items": [
+            "Buzhou Mountain"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Late Warring States period (before 221 BC)",
+        "geographic_range": "China",
+        "cultural_significance": "Explains natural phenomena like axial tilt and river flow",
+        "primary_sources": [
+            "Heavenly Questions (Tianwen)",
+            "Classic of Mountains and Seas",
+            "Records of the Grand Historian"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic serpent",
+        "NOT a generic human",
+        "NOT a peaceful deity"
+    ]
+}

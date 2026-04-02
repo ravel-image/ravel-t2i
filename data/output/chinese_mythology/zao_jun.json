@@ -1,0 +1,85 @@
+{
+    "name": "Zao Jun",
+    "domain": "chinese_mythology",
+    "entity_type": "domestic deity",
+    "alternative_names": [
+        "Stove God",
+        "Zao Shen",
+        "Zao kimjah",
+        "Cokimjah",
+        "Zhang Lang"
+    ],
+    "primary_sources": [
+        "Chinese folk religion",
+        "Chinese mythology",
+        "Taoism"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid figure often depicted in traditional Chinese attire",
+        "distinctive_features": [
+            "paper effigy or plaque above the fireplace",
+            "often depicted with his wife",
+            "sometimes shown with a fire poker, symbolizing 'Zhang Lang's Leg'"
+        ],
+        "color_palette": [
+            "red",
+            "gold",
+            "black"
+        ],
+        "texture": "smooth paper or wooden effigy",
+        "size_and_scale": "typically small, suitable for placement above a household stove",
+        "structural_arrangement": "effigy or plaque positioned above the kitchen hearth",
+        "domain_specific_visual": {
+            "associated_items": "fire poker, honey smeared on lips of effigy"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protector of the hearth and family",
+        "secondary_functions": [
+            "reporter of household activities to the Jade Emperor",
+            "symbol of morality and family conduct"
+        ],
+        "domain_specific_functional": {
+            "annual_ritual": "returns to Heaven to report to the Jade Emperor before Chinese New Year",
+            "festival_association": "Kitchen God festival or Little New Year"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REPORTS_TO",
+                "target": "Yu Huang Da Di",
+                "description": "Zao Jun reports the household's activities to the Jade Emperor annually."
+            },
+            {
+                "type": "HAS_WIFE",
+                "target": "Unnamed Wife",
+                "description": "Zao Jun's wife records the household's activities for his report."
+            }
+        ],
+        "associated_entities": [
+            "Yu Huang Da Di",
+            "Unnamed Wife"
+        ],
+        "symbolic_items": [
+            "fire poker",
+            "honey"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology and folk religion",
+        "historical_period": "origin stories date back to around the 2nd century BC",
+        "geographic_range": "Sinosphere, particularly China",
+        "cultural_significance": "central figure in household worship, symbolizing family unity and morality",
+        "primary_sources": [
+            "Chinese folk religion",
+            "Chinese mythology",
+            "Taoism"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic kitchen deity without specific cultural ties",
+        "NOT a deity associated with culinary arts",
+        "NOT a deity without a reporting function to a higher authority"
+    ]
+}

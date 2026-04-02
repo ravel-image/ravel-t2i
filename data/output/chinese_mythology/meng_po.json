@@ -1,0 +1,80 @@
+{
+    "name": "Meng Po",
+    "domain": "chinese_mythology",
+    "entity_type": "goddess",
+    "alternative_names": [
+        "Old Lady Meng",
+        "Meng-p'o"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Chinese mythology texts"
+    ],
+    "visual_attributes": {
+        "morphology": "Elderly woman with a gentle demeanor",
+        "distinctive_features": [
+            "Carries a bowl or ladle for serving soup",
+            "Wears traditional Chinese attire",
+            "Has an aura of wisdom and serenity"
+        ],
+        "color_palette": [
+            "gray",
+            "earthy tones",
+            "soft pastels"
+        ],
+        "texture": "Smooth and ethereal",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Typically depicted standing or sitting by a bridge",
+        "domain_specific_visual": {
+            "associated_with": "Bridge of Oblivion",
+            "holds": "Bowl of Five Flavored Soup"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Induces forgetfulness in souls before reincarnation",
+        "secondary_functions": [
+            "Guides souls across the Bridge of Oblivion"
+        ],
+        "domain_specific_functional": {
+            "creates": "Five Flavored Soup of oblivion",
+            "serves_in": "10th court of Diyu"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SERVES_IN",
+                "target": "Diyu",
+                "description": "Operates in the realm of the dead, specifically in the 10th court"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Lady Meng Jiang",
+                "description": "Some myths suggest Meng Po is the reincarnation of Lady Meng Jiang"
+            }
+        ],
+        "associated_entities": [
+            "Lady Meng Jiang",
+            "Diyu"
+        ],
+        "symbolic_items": [
+            "Five Flavored Soup",
+            "Bridge of Oblivion"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Ancient Chinese mythological era",
+        "geographic_range": "China",
+        "cultural_significance": "Symbolizes the cleansing of past burdens for reincarnation",
+        "primary_sources": [
+            "Wikipedia",
+            "Chinese mythology texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic old woman",
+        "NOT without a bowl or ladle",
+        "NOT a Western depiction of a goddess"
+    ]
+}

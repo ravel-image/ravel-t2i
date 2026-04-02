@@ -1,0 +1,92 @@
+{
+    "name": "Shenlong",
+    "domain": "chinese_mythology",
+    "entity_type": "spirit dragon",
+    "alternative_names": [
+        "神龙",
+        "神龍",
+        "Shinryū"
+    ],
+    "primary_sources": [
+        "Karl Shuker: Dragons. A Natural History. Simon & Schuster, New York 1995, ISBN 0-684-81443-9, p. 89"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine dragon with elongated body",
+        "distinctive_features": [
+            "azure scales",
+            "five-clawed feet",
+            "imperial regalia"
+        ],
+        "color_palette": [
+            "azure",
+            "gold",
+            "white"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, spanning several meters in length",
+        "structural_arrangement": "long, sinuous body with a flowing mane and whiskers",
+        "domain_specific_visual": {
+            "imperial_symbolism": "five claws represent imperial status",
+            "weather_control": "surrounded by storm clouds and rain"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "dragon god of the tempest and master of rain",
+        "secondary_functions": [
+            "governs storms",
+            "controls clouds"
+        ],
+        "domain_specific_functional": {
+            "agricultural_influence": "ensures rain for crops",
+            "weather_punishment": "causes droughts or floods if angered"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EQUAL_SIGNIFICANCE_TO",
+                "target": "Tianlong",
+                "description": "Both are significant dragons in Chinese mythology."
+            },
+            {
+                "type": "EQUAL_SIGNIFICANCE_TO",
+                "target": "Zhulong",
+                "description": "Both are significant dragons in Chinese mythology."
+            },
+            {
+                "type": "EQUAL_SIGNIFICANCE_TO",
+                "target": "Qinglong",
+                "description": "Both are significant dragons in Chinese mythology."
+            },
+            {
+                "type": "EQUAL_SIGNIFICANCE_TO",
+                "target": "Yinglong",
+                "description": "Both are significant dragons in Chinese mythology."
+            }
+        ],
+        "associated_entities": [
+            "Tianlong",
+            "Zhulong",
+            "Qinglong",
+            "Yinglong"
+        ],
+        "symbolic_items": [
+            "imperial robes",
+            "regalia"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "China, Japan, Korea, Vietnam",
+        "cultural_significance": "symbol of imperial power and agricultural prosperity",
+        "primary_sources": [
+            "Karl Shuker: Dragons. A Natural History. Simon & Schuster, New York 1995, ISBN 0-684-81443-9, p. 89"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a Western dragon",
+        "NOT a dragon without imperial symbolism",
+        "NOT a dragon without weather control attributes"
+    ]
+}

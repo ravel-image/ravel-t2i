@@ -1,0 +1,93 @@
+{
+    "name": "Xuanwu",
+    "domain": "chinese_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Xuandi",
+        "Zhenwu",
+        "Zhenwu Dadi",
+        "Heidi",
+        "Xuántiān Shàngdì"
+    ],
+    "primary_sources": [
+        "Journey to the West",
+        "Taoist texts",
+        "Chinese folklore"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid warrior with turtle and snake",
+        "distinctive_features": [
+            "Dark-colored imperial robes",
+            "Red face with bulging eyes",
+            "Right foot stepping on a snake, left leg extended stepping on a turtle",
+            "Holding a sword in the right hand",
+            "Holding a 'three mountain seal' in the left hand"
+        ],
+        "color_palette": [
+            "Dark",
+            "Red",
+            "Black"
+        ],
+        "texture": "Smooth fabric for robes, scaly for turtle and snake",
+        "size_and_scale": "Human-sized deity seated on a throne",
+        "structural_arrangement": "Seated on a throne with snake and turtle at feet",
+        "domain_specific_visual": {
+            "SYMBOL": "Turtle entwined with a snake",
+            "WEAPON": "Sword belonging to Lü Dongbin"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of the North and winter season",
+        "secondary_functions": [
+            "Patron of martial artists",
+            "Controller of elements"
+        ],
+        "domain_specific_functional": {
+            "AVATAR_OF": "Taishang Laojun",
+            "PATRON_GOD_OF": "Hebei, Henan, Manchuria, Mongolia"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_AVATAR",
+                "target": "Taishang Laojun",
+                "description": "Xuanwu is considered the 82nd avatar of Taishang Laojun."
+            },
+            {
+                "type": "HAS_SUBORDINATE",
+                "target": "Tortoise General",
+                "description": "Serves under Xuanwu as a general."
+            },
+            {
+                "type": "HAS_SUBORDINATE",
+                "target": "Snake General",
+                "description": "Serves under Xuanwu as a general."
+            }
+        ],
+        "associated_entities": [
+            "Lü Dongbin",
+            "Guanyin",
+            "Jade Emperor"
+        ],
+        "symbolic_items": [
+            "Three mountain seal",
+            "Sword"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Tang-Song era",
+        "geographic_range": "China, Indonesia, Thailand",
+        "cultural_significance": "Revered as a powerful god in Taoism, protector and patron deity",
+        "primary_sources": [
+            "Journey to the West",
+            "Taoist texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic warrior",
+        "NOT Without turtle and snake",
+        "NOT Non-Taoist deity"
+    ]
+}

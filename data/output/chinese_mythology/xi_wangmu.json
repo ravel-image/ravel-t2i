@@ -1,0 +1,95 @@
+{
+    "name": "Xi Wangmu",
+    "domain": "chinese_mythology",
+    "entity_type": "mother_goddess",
+    "alternative_names": [
+        "Queen Mother of the West",
+        "Yaochi Jinmu",
+        "Golden Mother of the Jade Pond",
+        "Lady Queen Mother",
+        "Wusheng Laomu",
+        "Wujimu",
+        "Golden Mother the First Ruler",
+        "Golden Mother of Tortoise Mountain",
+        "She of the Nine Numina and the Grand Marvel",
+        "Perfected Marvel of the Western Florescence and Ultimate Worthy of the Cavernous Darkness",
+        "Divine Mother",
+        "Amah"
+    ],
+    "primary_sources": [
+        "Shang dynasty oracle bone inscriptions",
+        "Classic of Mountains and Seas",
+        "Zhuangzi",
+        "Tu Kuang-ting's texts",
+        "Complete Tang Poems",
+        "Yung ch'eng chi hsien lu"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with divine features",
+        "distinctive_features": [
+            "distinctive headdress with Peaches of Immortality",
+            "surrounded by a female retinue of goddesses",
+            "often depicted in a palace setting on Mount Kunlun"
+        ],
+        "color_palette": [
+            "gold",
+            "jade",
+            "turquoise"
+        ],
+        "texture": "ethereal and divine",
+        "size_and_scale": "larger than life, majestic",
+        "structural_arrangement": "central figure in a paradisiacal court",
+        "domain_specific_visual": {
+            "SYMBOL": "Big Dipper",
+            "SETTING": "Mount Kunlun palace"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "dispenser of prosperity, longevity, and eternal bliss",
+        "secondary_functions": [
+            "ruler of female Transcendents",
+            "hostess of divine gatherings"
+        ],
+        "domain_specific_functional": {
+            "ASSOCIATED_WITH": "immortality",
+            "ROLE_IN_TAOISM": "high-ranking deity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_ENCOUNTERED",
+                "target": "Laozi",
+                "description": "Explicated the Scripture of Constant Purity and Quiet to Laozi"
+            },
+            {
+                "type": "RULES_OVER",
+                "target": "Jiutian Xuannü",
+                "description": "Authority over the goddess of war and sex"
+            }
+        ],
+        "associated_entities": [
+            "Laozi",
+            "Jiutian Xuannü"
+        ],
+        "symbolic_items": [
+            "Peaches of Immortality",
+            "Big Dipper"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Shang dynasty to present",
+        "geographic_range": "China, Japan, Korea, Vietnam",
+        "cultural_significance": "represents immortality and divine authority",
+        "primary_sources": [
+            "Shang dynasty oracle bone inscriptions",
+            "Classic of Mountains and Seas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic goddess",
+        "NOT without her distinctive headdress",
+        "NOT without her palace on Mount Kunlun"
+    ]
+}

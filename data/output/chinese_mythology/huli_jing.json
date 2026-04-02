@@ -1,0 +1,100 @@
+{
+    "name": "Huli Jing",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "fox spirit",
+        "huxian",
+        "hushen",
+        "husheng",
+        "huwang",
+        "huyao",
+        "huzu",
+        "jiuweihu"
+    ],
+    "primary_sources": [
+        "Shanhaijing",
+        "Baihutong",
+        "Lunheng",
+        "Baopuzi",
+        "Youyang Zazu",
+        "Fengshen Yanyi",
+        "Liaozhai Zhiyi",
+        "Journey to the West"
+    ],
+    "visual_attributes": {
+        "morphology": "fox-like creature with multiple tails",
+        "distinctive_features": [
+            "nine tails",
+            "ability to shapeshift into a human form",
+            "golden color in celestial form"
+        ],
+        "color_palette": [
+            "golden",
+            "white",
+            "red"
+        ],
+        "texture": "smooth fur",
+        "size_and_scale": "similar to a large fox",
+        "structural_arrangement": "four-legged with multiple tails extending from the rear",
+        "domain_specific_visual": {
+            "TAIL_COUNT": "nine",
+            "HUMAN_FORM": "beautiful woman or man"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "shapeshifting and transformation",
+        "secondary_functions": [
+            "omens of good or bad fortune",
+            "seduction and absorption of life essence"
+        ],
+        "domain_specific_functional": {
+            "AGE_TRANSFORMATION": "gains powers with age, becomes celestial at 1000 years",
+            "CULTURAL_ROLE": "worshiped and feared in folklore"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SERVES",
+                "target": "Nüwa",
+                "description": "Served Nüwa in the story of Daji"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Jiang Ziya",
+                "description": "Driven out by Jiang Ziya in the story of Daji"
+            }
+        ],
+        "associated_entities": [
+            "Daji",
+            "Yu the Great",
+            "Xi Wangmu"
+        ],
+        "symbolic_items": [
+            "skull for transformation",
+            "fu (talisman)"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology and folklore",
+        "historical_period": "Warring States period to Qing dynasty",
+        "geographic_range": "China, with cultural influences in Japan, Korea, and Vietnam",
+        "cultural_significance": "Symbolizes transformation, seduction, and duality of good and evil",
+        "primary_sources": [
+            "Shanhaijing",
+            "Baihutong",
+            "Lunheng",
+            "Baopuzi",
+            "Youyang Zazu",
+            "Fengshen Yanyi",
+            "Liaozhai Zhiyi",
+            "Journey to the West"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular fox",
+        "NOT a single-tailed fox",
+        "NOT purely benevolent or malevolent"
+    ]
+}

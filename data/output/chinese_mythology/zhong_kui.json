@@ -1,0 +1,91 @@
+{
+    "name": "Zhong Kui",
+    "domain": "chinese_mythology",
+    "entity_type": "Taoist deity",
+    "alternative_names": [
+        "Shōki (Japanese)"
+    ],
+    "primary_sources": [
+        "Supplementary Notes to Dream Pool Essays",
+        "Tianzhongji",
+        "Tang Yishi",
+        "Zhong Kui: The Complete Chronicles",
+        "The Tale of Quelling Ghosts",
+        "The Tale of Slaying Ghosts"
+    ],
+    "visual_attributes": {
+        "morphology": "Large man with a big black beard and bulging eyes",
+        "distinctive_features": [
+            "Wrathful expression",
+            "Battered cap",
+            "Blue robe with one sleeve stripped",
+            "Both legs bound in hide"
+        ],
+        "color_palette": [
+            "Black",
+            "Blue",
+            "Green"
+        ],
+        "texture": "Rough and rugged appearance",
+        "size_and_scale": "Larger than average human",
+        "structural_arrangement": "Robust and imposing figure with a commanding presence",
+        "domain_specific_visual": {
+            "DEMON_COMMANDER": "Able to command 80,000 demons",
+            "GUARDIAN_ICONOGRAPHY": "Often painted on household gates as a guardian spirit"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Vanquisher of ghosts and evil beings",
+        "secondary_functions": [
+            "Guardian spirit",
+            "Symbol of justice"
+        ],
+        "domain_specific_functional": {
+            "EVIL_REPELLING": "Used in New-Year Nuo rites to expel evil",
+            "FORTUNE_ASSOCIATION": "Associated with the five bats of fortune"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_FRIEND",
+                "target": "Du Ping",
+                "description": "Travelled with Du Ping to take part in the imperial examinations"
+            },
+            {
+                "type": "PAINTED_BY",
+                "target": "Wu Daozi",
+                "description": "Depicted by the Tang painter Wu Daozi based on Emperor Xuanzong's dream"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Xuhao",
+                "description": "Sworn to rid the world of Xuhao ghosts"
+            }
+        ],
+        "associated_entities": [
+            "Emperor Xuanzong",
+            "Yang Guifei"
+        ],
+        "symbolic_items": [
+            "Battered cap",
+            "Blue robe",
+            "Green robe"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology, Tang dynasty",
+        "historical_period": "Tang dynasty",
+        "geographic_range": "China, later spread to other East Asian countries",
+        "cultural_significance": "Symbol of justice and protection against evil",
+        "primary_sources": [
+            "Supplementary Notes to Dream Pool Essays",
+            "Tianzhongji"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost or demon",
+        "NOT a peaceful or serene expression",
+        "NOT a modern or Western guardian figure"
+    ]
+}

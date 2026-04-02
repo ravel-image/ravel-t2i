@@ -1,0 +1,124 @@
+{
+    "name": "Ba Xian",
+    "domain": "chinese_mythology",
+    "entity_type": "group_of_immortals",
+    "alternative_names": [
+        "Eight Immortals",
+        "八仙",
+        "Eight Genies",
+        "Jiu-zhong Ba Xian",
+        "Eight Drunken Immortals"
+    ],
+    "primary_sources": [
+        "The Eight Immortals Depart and Travel to the East",
+        "The Eight Immortals Cross the Sea",
+        "The Yellow-Millet Dream"
+    ],
+    "visual_attributes": {
+        "morphology": "group of eight distinct human figures, each with unique attributes",
+        "distinctive_features": [
+            "He Xiangu holding a lotus flower",
+            "Cao Guojiu with imperial robes",
+            "Li Tieguai with an iron crutch and calabash bottle",
+            "Lan Caihe with a basket of flowers",
+            "Lü Dongbin with a sword",
+            "Han Xiangzi with a flute",
+            "Zhang Guolao with a bamboo drum",
+            "Zhongli Quan with a fan"
+        ],
+        "color_palette": [
+            "vibrant colors",
+            "gold",
+            "jade green"
+        ],
+        "texture": "varied textures including silk robes and metallic accessories",
+        "size_and_scale": "life-sized human figures",
+        "structural_arrangement": "often depicted together in a harmonious group",
+        "domain_specific_visual": {
+            "TAOIST_SYMBOLS": "each immortal associated with a specific vessel or symbol",
+            "ISLANDS": "depicted on islands in the Bohai Sea"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbols of prosperity and longevity",
+        "secondary_functions": [
+            "bestow life",
+            "destroy evil"
+        ],
+        "domain_specific_functional": {
+            "TAOIST_REPRESENTATION": "represent Taoist ideals and virtues",
+            "CULTURAL_HEROES": "serve as folk heroes and saints"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_MEMBER",
+                "target": "He Xiangu",
+                "description": "He Xiangu is one of the Eight Immortals, often depicted holding a lotus flower."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Cao Guojiu",
+                "description": "Cao Guojiu is one of the Eight Immortals, related to a Song dynasty emperor."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Li Tieguai",
+                "description": "Li Tieguai is one of the Eight Immortals, known for his iron crutch and calabash bottle."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Lan Caihe",
+                "description": "Lan Caihe is one of the Eight Immortals, patron of florists and gardeners."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Lü Dongbin",
+                "description": "Lü Dongbin is one of the Eight Immortals, considered the leader of the group."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Han Xiangzi",
+                "description": "Han Xiangzi is one of the Eight Immortals, known for playing the flute."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Zhang Guolao",
+                "description": "Zhang Guolao is one of the Eight Immortals, symbol of longevity."
+            },
+            {
+                "type": "HAS_MEMBER",
+                "target": "Zhongli Quan",
+                "description": "Zhongli Quan is one of the Eight Immortals, associated with death and wealth."
+            }
+        ],
+        "associated_entities": [
+            "Three Stars",
+            "Queen Mother of the West"
+        ],
+        "symbolic_items": [
+            "lotus flower",
+            "imperial robes",
+            "iron crutch",
+            "flute",
+            "bamboo drum",
+            "fan"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Tang or Song Dynasty",
+        "geographic_range": "Bohai Sea, China",
+        "cultural_significance": "represent prosperity, longevity, and Taoist virtues",
+        "primary_sources": [
+            "The Eight Immortals Depart and Travel to the East",
+            "The Eight Immortals Cross the Sea"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic deities",
+        "NOT modern clothing",
+        "NOT unrelated cultural symbols"
+    ]
+}

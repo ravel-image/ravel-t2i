@@ -1,0 +1,79 @@
+{
+    "name": "Kui",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Kuiniu",
+        "Kui dragon",
+        "Kui demon"
+    ],
+    "primary_sources": [
+        "Shujing",
+        "Shanhaijing",
+        "Bencao Gangmu"
+    ],
+    "visual_attributes": {
+        "morphology": "one-legged creature resembling a dragon",
+        "distinctive_features": [
+            "one leg",
+            "human face",
+            "horns",
+            "dragon-like body"
+        ],
+        "color_palette": [
+            "green",
+            "brown",
+            "gold"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, comparable to a dragon or buffalo",
+        "structural_arrangement": "one-legged with a dragon-like elongated body and a human-like face",
+        "domain_specific_visual": {
+            "mythical_creature_type": "dragon",
+            "cultural_motif": "Zhou dynasty bronze patterns"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "rain-god",
+        "secondary_functions": [
+            "musician",
+            "dancer"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "bringer of rain and thunder",
+            "cultural_role": "symbol of music and dance"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_ROLE",
+                "target": "Shun",
+                "description": "Kui was appointed as the Music Minister by Emperor Shun."
+            }
+        ],
+        "associated_entities": [
+            "Shun",
+            "Long"
+        ],
+        "symbolic_items": [
+            "drum",
+            "bronze motifs"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient China",
+        "historical_period": "Warring States period",
+        "geographic_range": "regions of present-day Hubei and Sichuan",
+        "cultural_significance": "represents music, dance, and rain in Chinese mythology",
+        "primary_sources": [
+            "Shujing",
+            "Shanhaijing"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a walrus",
+        "NOT a common monkey"
+    ]
+}

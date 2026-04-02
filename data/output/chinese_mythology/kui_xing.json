@@ -1,0 +1,78 @@
+{
+    "name": "Kui Xing",
+    "domain": "chinese_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Kuixing",
+        "Chief Star"
+    ],
+    "primary_sources": [
+        "Records of Daily[-gained] Knowledge by Gu Yan-Wu",
+        "Daoist tradition",
+        "Grand Historian and Astronomer Sima Qian"
+    ],
+    "visual_attributes": {
+        "morphology": "Bent and hunchbacked figure resembling a calligraphy character",
+        "distinctive_features": [
+            "Right foot standing on a giant turtle or fish",
+            "Left foot supporting an inkpot",
+            "Holding a writing brush",
+            "Torso composed of stylized calligraphy"
+        ],
+        "color_palette": [
+            "Dark blue",
+            "Gold",
+            "Black"
+        ],
+        "texture": "Smooth with calligraphic elements",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Asymmetrical posture with one foot on a turtle or fish and the other on an inkpot",
+        "domain_specific_visual": {
+            "CALLIGRAPHY_INTEGRATION": "Torso composed of Confucian adages",
+            "AO_REFERENCE": "Standing on a giant turtle or fish"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of Examinations",
+        "secondary_functions": [
+            "Helper of Wenchang Wang",
+            "Personification of the Pole Star"
+        ],
+        "domain_specific_functional": {
+            "EXAMINATION_SUCCESS": "Venerated by students for success in Imperial Civil Service exams",
+            "YIN_YANG_SPLIT": "Associated with splitting Yin and Yang"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HELPER_OF",
+                "target": "Wenchang Wang",
+                "description": "Assists Wenchang Wang, the deification of Ursa Major"
+            }
+        ],
+        "associated_entities": [
+            "Wenchang Wang"
+        ],
+        "symbolic_items": [
+            "Inkpot",
+            "Writing brush",
+            "Giant turtle or fish"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Unknown, but veneration noted in late Ming Dynasty",
+        "geographic_range": "China",
+        "cultural_significance": "Symbol of success in examinations and human fortune",
+        "primary_sources": [
+            "Records of Daily[-gained] Knowledge by Gu Yan-Wu",
+            "Daoist tradition"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic star deity",
+        "NOT without calligraphic elements",
+        "NOT unrelated to examinations or academic success"
+    ]
+}

@@ -1,1 +1,81 @@
-
+{
+    "name": "Bai Ze",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical creature",
+    "alternative_names": [
+        "Hakutaku"
+    ],
+    "primary_sources": [
+        "Book of Song",
+        "SanCai TuHui",
+        "History of Yuan",
+        "Dunhuang manuscript",
+        "Tiandi ruixiang zhi"
+    ],
+    "visual_attributes": {
+        "morphology": "hybrid creature with features of a loong and tiger",
+        "distinctive_features": [
+            "green hair on a loong head",
+            "horn on top of the head",
+            "ability to fly",
+            "red mane",
+            "loong's body"
+        ],
+        "color_palette": [
+            "green",
+            "red"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, comparable to mythical creatures like dragons",
+        "structural_arrangement": "head of a tiger with a loong's body",
+        "domain_specific_visual": {
+            "head_shape": "tiger-like with a horn",
+            "body_type": "loong-like with scales"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protector against evil spirits",
+        "secondary_functions": [
+            "divination",
+            "warding off misfortune"
+        ],
+        "domain_specific_functional": {
+            "knowledge": "knows all matters concerning ghosts and gods",
+            "diagram_creation": "created diagrams of ghosts and spirits"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENTRUSTED_BY",
+                "target": "Yellow Emperor",
+                "description": "Bai Ze was entrusted by the Yellow Emperor to document ghosts and spirits."
+            }
+        ],
+        "associated_entities": [
+            "Yellow Emperor"
+        ],
+        "symbolic_items": [
+            "Bái Zé Tú",
+            "Hakutaku hi kai zu"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient China",
+        "historical_period": "Tang Dynasty introduction to Japan",
+        "geographic_range": "China and Japan",
+        "cultural_significance": "symbolizes protection and knowledge of the supernatural",
+        "primary_sources": [
+            "Book of Song",
+            "SanCai TuHui",
+            "History of Yuan",
+            "Dunhuang manuscript",
+            "Tiandi ruixiang zhi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a simple tiger",
+        "NOT a purely Japanese entity"
+    ]
+}

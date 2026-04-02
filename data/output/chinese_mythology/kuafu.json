@@ -1,0 +1,82 @@
+{
+    "name": "Kuafu",
+    "domain": "chinese_mythology",
+    "entity_type": "giant",
+    "alternative_names": [
+        "夸父",
+        "Kuafu-shi",
+        "Clan of Kuafu"
+    ],
+    "primary_sources": [
+        "Chinese mythology texts",
+        "Wikipedia"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid giant",
+        "distinctive_features": [
+            "enormous size",
+            "carrying a wooden club",
+            "depicted with a determined expression"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "sunlit gold",
+            "peach blossom pink"
+        ],
+        "texture": "rugged and earthy",
+        "size_and_scale": "gigantic, towering over landscapes",
+        "structural_arrangement": "upright, striding posture",
+        "domain_specific_visual": {
+            "associated_natural_elements": "sun, rivers, peach trees"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "chaser of the Sun",
+        "secondary_functions": [
+            "symbol of perseverance",
+            "creator of Deng Forest"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "represents human ambition and hubris"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_GRANDPARENT",
+                "target": "Houtu",
+                "description": "Kuafu is a grandson of Houtu."
+            },
+            {
+                "type": "ALLIED_WITH",
+                "target": "Chi You",
+                "description": "Kuafu's tribe allied with Chi You's tribes."
+            }
+        ],
+        "associated_entities": [
+            "Houtu",
+            "Chi You",
+            "Yan Emperor",
+            "Yellow Emperor"
+        ],
+        "symbolic_items": [
+            "wooden club",
+            "peach trees"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "mythological era",
+        "geographic_range": "Lingbao, China",
+        "cultural_significance": "symbolizes ambition and the limits of human capability",
+        "primary_sources": [
+            "Chinese mythology texts",
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular human",
+        "NOT a small or average-sized figure",
+        "NOT a modern or contemporary setting"
+    ]
+}

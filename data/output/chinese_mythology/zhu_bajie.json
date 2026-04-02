@@ -1,0 +1,93 @@
+{
+    "name": "Zhu Bajie",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological character",
+    "alternative_names": [
+        "Zhu Wuneng",
+        "Monk Pig",
+        "Pigsy",
+        "Pig",
+        "Piggy",
+        "Zhu Gāngliè",
+        "Tiānpéng",
+        "Marshal Tianpeng"
+    ],
+    "primary_sources": [
+        "Journey to the West",
+        "Buddhist texts",
+        "Chinese folklore"
+    ],
+    "visual_attributes": {
+        "morphology": "part-human, part-pig humanoid",
+        "distinctive_features": [
+            "pig-like face",
+            "humanoid body",
+            "nine-toothed rake as a weapon"
+        ],
+        "color_palette": [
+            "pink",
+            "brown",
+            "gold"
+        ],
+        "texture": "rough, bristly skin",
+        "size_and_scale": "large, bulky build",
+        "structural_arrangement": "humanoid with pig-like facial features",
+        "domain_specific_visual": {
+            "weapon": "nine-toothed rake",
+            "attire": "monk's robe"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "disciple of Tang Sanzang on a pilgrimage",
+        "secondary_functions": [
+            "naval warfare expert",
+            "comic relief"
+        ],
+        "domain_specific_functional": {
+            "role_in_pilgrimage": "atonement for past sins",
+            "patron_deity": "masseuses, hostesses, and prostitutes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DISCIPLE_OF",
+                "target": "Tang Sanzang",
+                "description": "One of the three disciples accompanying Tang Sanzang on his journey."
+            },
+            {
+                "type": "BROTHERLY_RIVALRY_WITH",
+                "target": "Sun Wukong",
+                "description": "Looks up to Sun Wukong as a big brother but often gets into conflicts with him."
+            },
+            {
+                "type": "RECRUITED_BY",
+                "target": "Guanyin",
+                "description": "Recruited by Bodhisattva Guanyin to join the pilgrimage."
+            }
+        ],
+        "associated_entities": [
+            "Sun Wukong",
+            "Sha Heshang",
+            "Guanyin"
+        ],
+        "symbolic_items": [
+            "nine-toothed rake"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "16th century",
+        "geographic_range": "China, East Asia",
+        "cultural_significance": "Represents human flaws and the potential for redemption.",
+        "primary_sources": [
+            "Journey to the West",
+            "Buddhist texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic pig",
+        "NOT a fully human monk",
+        "NOT a Western mythological creature"
+    ]
+}

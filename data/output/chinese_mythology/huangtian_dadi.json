@@ -1,0 +1,88 @@
+{
+    "name": "Huangtian Dadi",
+    "domain": "chinese_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Jade Emperor",
+        "Yu Huang Shangdi",
+        "Yu Huang Dadi",
+        "Heavenly Grandfather",
+        "Tiāngōng",
+        "Jade Lord",
+        "Highest Emperor"
+    ],
+    "primary_sources": [
+        "Chinese mythology texts",
+        "Taoist theology",
+        "Chinese Buddhist cosmology"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic figure with regal and divine features",
+        "distinctive_features": [
+            "Crown prince attire from the kingdom of Pure Felicity and Majestic Heavenly Lights and Ornaments",
+            "Emits a wondrous light",
+            "Regal robes with celestial motifs"
+        ],
+        "color_palette": [
+            "Gold",
+            "White",
+            "Jade Green"
+        ],
+        "texture": "Smooth and radiant",
+        "size_and_scale": "Larger than life, towering presence",
+        "structural_arrangement": "Seated on a celestial throne, surrounded by heavenly ornaments",
+        "domain_specific_visual": {
+            "HEAVENLY_AURA": "Radiates a divine glow",
+            "CELESTIAL_CROWN": "Wears a crown symbolizing supreme authority"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Supreme sovereign of all deities in heaven",
+        "secondary_functions": [
+            "Protector of the natural order",
+            "Vanquisher of evil"
+        ],
+        "domain_specific_functional": {
+            "CULTIVATOR_OF_TAO": "Achieved Golden Immortality through cultivation",
+            "CREATOR_OF_HUMANS": "Fashioned the first humans from clay"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_DAUGHTER",
+                "target": "Zhinü",
+                "description": "Father of Zhinü, the Weaver Girl"
+            },
+            {
+                "type": "ASSISTANT_TO",
+                "target": "Yuanshi Tianzun",
+                "description": "Assistant to one of the Three Pure Ones in Taoist theology"
+            }
+        ],
+        "associated_entities": [
+            "Yuanshi Tianzun",
+            "Zhinü",
+            "Celestial Queen Mother"
+        ],
+        "symbolic_items": [
+            "Celestial throne",
+            "Heavenly robe"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Primordial times",
+        "geographic_range": "Heaven and Earth",
+        "cultural_significance": "Represents supreme authority and benevolence in Chinese culture",
+        "primary_sources": [
+            "Chinese mythology texts",
+            "Taoist theology"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic king or emperor",
+        "NOT without a divine glow",
+        "NOT solely a Taoist figure without Buddhist connections"
+    ]
+}

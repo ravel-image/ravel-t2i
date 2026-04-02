@@ -1,0 +1,90 @@
+{
+    "name": "Hou Yi",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological archer",
+    "alternative_names": [
+        "Shen Yi",
+        "Yi",
+        "Lord Archer"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Chu Ci",
+        "Bamboo Annals"
+    ],
+    "visual_attributes": {
+        "morphology": "human male with athletic build",
+        "distinctive_features": [
+            "carrying a bow and arrows",
+            "often depicted with a stern expression",
+            "sometimes shown with a quiver of arrows"
+        ],
+        "color_palette": [
+            "earthy tones",
+            "gold",
+            "red"
+        ],
+        "texture": "smooth skin, traditional Chinese warrior attire",
+        "size_and_scale": "average human male height",
+        "structural_arrangement": "upright posture, often in a shooting stance",
+        "domain_specific_visual": {
+            "ARCHERY_EQUIPMENT": "traditional Chinese bow and arrows",
+            "ATTIRE": "ancient Chinese warrior clothing"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "archer tasked with shooting down suns",
+        "secondary_functions": [
+            "slayer of mythical beasts",
+            "reformer of people"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTH": "heroic figure who saved the earth from scorching",
+            "ARCHERY_SKILL": "unparalleled archer"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_WIFE",
+                "target": "Chang'e",
+                "description": "Chang'e is Hou Yi's wife who became immortal and flew to the moon."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "mythical beasts",
+                "description": "Hou Yi was tasked with slaying various mythical beasts."
+            },
+            {
+                "type": "HAS_MASTER",
+                "target": "Emperor Yao",
+                "description": "Emperor Yao tasked Hou Yi with shooting down the suns."
+            }
+        ],
+        "associated_entities": [
+            "Chang'e",
+            "Emperor Yao",
+            "Jade Emperor"
+        ],
+        "symbolic_items": [
+            "bow",
+            "arrows",
+            "pill of immortality"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "mythological China",
+        "cultural_significance": "symbol of heroism and archery skill",
+        "primary_sources": [
+            "Chu Ci",
+            "Bamboo Annals"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic archer",
+        "NOT without a bow and arrows",
+        "NOT a modern depiction of a warrior"
+    ]
+}

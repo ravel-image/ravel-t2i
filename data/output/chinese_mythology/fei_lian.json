@@ -1,0 +1,91 @@
+{
+    "name": "Fei Lian",
+    "domain": "chinese_mythology",
+    "entity_type": "wind spirit",
+    "alternative_names": [
+        "Fengbo",
+        "Phoenix",
+        "Dragon Sparrow"
+    ],
+    "primary_sources": [
+        "Li Sao by Qu Yuan",
+        "Shiji by Sima Qian",
+        "Huainanzi",
+        "Collected Works of Sun Zuoyun"
+    ],
+    "visual_attributes": {
+        "morphology": "chimeric creature with a deer's body, bird's head, and snake's tail",
+        "distinctive_features": [
+            "wings",
+            "horns",
+            "leopard-like spots",
+            "long fur"
+        ],
+        "color_palette": [
+            "brown",
+            "green",
+            "gold"
+        ],
+        "texture": "feathery and furry",
+        "size_and_scale": "large, comparable to a horse",
+        "structural_arrangement": "wings attached to the back, horns on the head, snake-like tail extending from the rear",
+        "domain_specific_visual": {
+            "CHIMERIC_APPEARANCE": "combination of deer, bird, and snake features",
+            "WIND_SYMBOLISM": "often depicted with wind motifs or carrying a bag of wind"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "control of the wind",
+        "secondary_functions": [
+            "granting immortality",
+            "assisting in mystical journeys"
+        ],
+        "domain_specific_functional": {
+            "WIND_CONTROL": "carries wind in a bag",
+            "MYTHICAL_GUIDE": "assists in journeys to the spirit world"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SUBSUMED_BY",
+                "target": "Fengbo",
+                "description": "Fei Lian was later identified with and subsumed under Fengbo, the primary wind deity."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Houyi",
+                "description": "Fei Lian is kept in check by Houyi, the heavenly archer."
+            },
+            {
+                "type": "CONTENDED_WITH",
+                "target": "Yellow Emperor",
+                "description": "Fei Lian contended against the Yellow Emperor under the leadership of Chiyou."
+            }
+        ],
+        "associated_entities": [
+            "Fengshi",
+            "Chiyou",
+            "Yellow Emperor"
+        ],
+        "symbolic_items": [
+            "bag of wind"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Southern China, Chu culture",
+        "historical_period": "Zhou dynasty, 300s to 200s BCE",
+        "geographic_range": "Southern China",
+        "cultural_significance": "Represents the power and control of wind, associated with immortality and mystical journeys.",
+        "primary_sources": [
+            "Li Sao by Qu Yuan",
+            "Shiji by Sima Qian",
+            "Huainanzi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a simple bird",
+        "NOT a purely benevolent spirit"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "Chang'e",
+    "domain": "chinese_mythology",
+    "entity_type": "goddess",
+    "alternative_names": [
+        "Heng'e",
+        "Chang Xi"
+    ],
+    "primary_sources": [
+        "Guicang",
+        "Classic of Mountains and Seas",
+        "Journey to the West",
+        "Strange Stories from a Chinese Studio"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with ethereal features",
+        "distinctive_features": [
+            "often depicted with flowing robes",
+            "accompanied by the Moon Rabbit",
+            "resides in the Moon Palace"
+        ],
+        "color_palette": [
+            "white",
+            "silver",
+            "blue"
+        ],
+        "texture": "smooth and ethereal",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "graceful and flowing attire",
+        "domain_specific_visual": {
+            "MOON_ASSOCIATION": "often depicted with a crescent moon or full moon backdrop",
+            "CELESTIAL_AURA": "surrounded by a soft glow or aura"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "goddess of the Moon",
+        "secondary_functions": [
+            "symbol of beauty",
+            "symbol of solitude"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "central figure in the Mid-Autumn Festival",
+            "CULTURAL_SYMBOLISM": "represents nostalgia and longing"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_HUSBAND",
+                "target": "Hou Yi",
+                "description": "Chang'e is the wife of Hou Yi, the great archer."
+            },
+            {
+                "type": "HAS_COMPANION",
+                "target": "Yu Tu",
+                "description": "Chang'e is accompanied by Yu Tu, the Moon Rabbit."
+            }
+        ],
+        "associated_entities": [
+            "Hou Yi",
+            "Yu Tu"
+        ],
+        "symbolic_items": [
+            "elixir of immortality",
+            "Moon Palace"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Zhou Dynasty to present",
+        "geographic_range": "China",
+        "cultural_significance": "Chang'e is a central figure in Chinese mythology and is celebrated during the Mid-Autumn Festival.",
+        "primary_sources": [
+            "Guicang",
+            "Classic of Mountains and Seas",
+            "Journey to the West",
+            "Strange Stories from a Chinese Studio"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic moon goddess from other mythologies",
+        "NOT depicted without the Moon Rabbit",
+        "NOT associated with Western lunar myths"
+    ]
+}

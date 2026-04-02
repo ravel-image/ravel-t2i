@@ -1,0 +1,93 @@
+{
+    "name": "Hebo",
+    "domain": "chinese_mythology",
+    "entity_type": "River God",
+    "alternative_names": [
+        "Bingyi",
+        "Lord of the River"
+    ],
+    "primary_sources": [
+        "Chu Ci",
+        "Zhuangzi",
+        "Huainanzi",
+        "Shizi",
+        "Oracle bone inscriptions"
+    ],
+    "visual_attributes": {
+        "morphology": "Human with a fish body",
+        "distinctive_features": [
+            "White face of a human",
+            "Body of a fish",
+            "Chariot pulled by two dragons"
+        ],
+        "color_palette": [
+            "White",
+            "Blue",
+            "Gold"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Human-sized upper body with elongated fish tail",
+        "structural_arrangement": "Upper body of a human seamlessly transitioning into a fish tail",
+        "domain_specific_visual": {
+            "TRANSPORTATION": "Chariot drawn by dragons",
+            "TRANSFORMATION": "Ability to transform into a white dragon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of the Yellow River",
+        "secondary_functions": [
+            "Personification of the Yellow River",
+            "Cultural symbol in literature and poetry"
+        ],
+        "domain_specific_functional": {
+            "ASSOCIATED_WITH": "Flood control and agricultural irrigation",
+            "WORSHIPED_AS": "Object of human and animal sacrifice"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_WIFE",
+                "target": "Luoshen",
+                "description": "Luoshen is considered to be the wife of Hebo."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Hou Yi",
+                "description": "Hou Yi shot Hebo, leading to a mythological conflict."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Yu the Great",
+                "description": "Hebo provided the River Diagram to Yu the Great to help end the Great Flood."
+            }
+        ],
+        "associated_entities": [
+            "Luoshen",
+            "Hou Yi",
+            "Yu the Great"
+        ],
+        "symbolic_items": [
+            "River Diagram",
+            "Chariot"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Yellow River, China",
+        "historical_period": "Shang dynasty to Han dynasty",
+        "geographic_range": "Northern China",
+        "cultural_significance": "Represents both the benevolence and destructiveness of the Yellow River; central to agricultural and cultural practices",
+        "primary_sources": [
+            "Chu Ci",
+            "Zhuangzi",
+            "Huainanzi",
+            "Shizi",
+            "Oracle bone inscriptions"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic river deity",
+        "NOT a purely benevolent figure",
+        "NOT a non-transformative entity"
+    ]
+}

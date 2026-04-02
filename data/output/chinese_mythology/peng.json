@@ -1,0 +1,76 @@
+{
+    "name": "Peng",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical bird",
+    "alternative_names": [
+        "Dapeng",
+        "Dapengniao",
+        "Great Peng Bird"
+    ],
+    "primary_sources": [
+        "Zhuangzi",
+        "Shuowen Jiezi",
+        "Erya"
+    ],
+    "visual_attributes": {
+        "morphology": "giant bird with a back like Mount Tai",
+        "distinctive_features": [
+            "wings like clouds filling the sky",
+            "transforms from a giant fish called Kun"
+        ],
+        "color_palette": [
+            "blue",
+            "white",
+            "gray"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "thousands of li across",
+        "structural_arrangement": "massive wingspan, cloud-like wings",
+        "domain_specific_visual": {
+            "transformation": "from fish to bird",
+            "flight": "rises ninety thousand li"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of great understanding and freedom",
+        "secondary_functions": [
+            "epitome of the highest Daoist ideal"
+        ],
+        "domain_specific_functional": {
+            "journey": "travels to the southern darkness, the Lake of Heaven",
+            "wind": "beats the whirlwind to rise"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "TRANSFORMS_FROM",
+                "target": "Kun",
+                "description": "Peng transforms from a giant fish called Kun"
+            }
+        ],
+        "associated_entities": [
+            "Kun"
+        ],
+        "symbolic_items": [
+            "whirlwind",
+            "Lake of Heaven"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "mythical regions of northern and southern darkness",
+        "cultural_significance": "represents great understanding and the Daoist ideal of freedom",
+        "primary_sources": [
+            "Zhuangzi",
+            "Shuowen Jiezi",
+            "Erya"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common bird",
+        "NOT a small or average-sized bird",
+        "NOT a non-transforming entity"
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "name": "Yan Luo Wang",
+    "domain": "chinese_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Yama",
+        "Yanluo Wang",
+        "Yan Wang",
+        "Master Yan Wang",
+        "Lord Yan",
+        "Yanluo, Son of Heaven"
+    ],
+    "primary_sources": [
+        "Pali Canon",
+        "Majjhima Nikaya",
+        "Chinese Buddhist texts"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with a stern and authoritative presence",
+        "distinctive_features": [
+            "Crown of skulls",
+            "Buffalo head with sharp horns",
+            "Three round eyes",
+            "Flames entwined with horns"
+        ],
+        "color_palette": [
+            "Dark red",
+            "Black",
+            "Gold"
+        ],
+        "texture": "Smooth skin with fiery and ethereal elements",
+        "size_and_scale": "Larger than a typical human, imposing stature",
+        "structural_arrangement": "Standing on a recumbent bull, often crushing a man",
+        "domain_specific_visual": {
+            "WEAPON": "Stick with a skull",
+            "ACCESSORY": "Lasso in left hand"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Judge of the dead and ruler of the underworld",
+        "secondary_functions": [
+            "Guardian of spiritual practice",
+            "Enforcer of karmic justice"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTHOLOGY": "Presides over the cycle of life and rebirth",
+            "CULTURAL_ROLE": "Symbol of justice and retribution"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_COUNTERPART",
+                "target": "Kṣitigarbha",
+                "description": "Taoist counterpart of Bodhisattva Kṣitigarbha"
+            },
+            {
+                "type": "HAS_CONSORT",
+                "target": "Chamundi",
+                "description": "Sometimes depicted with a consort named Chamundi"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Yami",
+                "description": "Sometimes depicted with a sister named Yami"
+            }
+        ],
+        "associated_entities": [
+            "Bao Zheng",
+            "Fan Zhongyan",
+            "Zhang Binglin"
+        ],
+        "symbolic_items": [
+            "Crown of skulls",
+            "Stick with a skull"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "East Asian and Buddhist mythology",
+        "historical_period": "Tang dynasty and later",
+        "geographic_range": "China, Korea, Japan, Vietnam, Tibet",
+        "cultural_significance": "Represents justice, retribution, and the cycle of rebirth",
+        "primary_sources": [
+            "Pali Canon",
+            "Majjhima Nikaya"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT a benevolent deity",
+        "NOT a purely Taoist figure"
+    ]
+}

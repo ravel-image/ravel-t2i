@@ -1,0 +1,74 @@
+{
+    "name": "Baize",
+    "domain": "chinese_mythology",
+    "entity_type": "Mythological Cloth",
+    "alternative_names": [
+        "Bays"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Histories of ale and beer brewing in England"
+    ],
+    "visual_attributes": {
+        "morphology": "Flat textile surface",
+        "distinctive_features": [
+            "Coarse texture",
+            "Durable material",
+            "Available with or without nap"
+        ],
+        "color_palette": [
+            "Green",
+            "Various table colors"
+        ],
+        "texture": "Coarse",
+        "size_and_scale": "Typically covers large surfaces like tables",
+        "structural_arrangement": "Uniformly woven",
+        "domain_specific_visual": {
+            "Gaming_table_cover": "Used on billiard and gaming tables",
+            "Writing_surface": "Used on pedestal desks"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Covering for gaming and writing surfaces",
+        "secondary_functions": [
+            "Noise reduction",
+            "Aesthetic mimicry of lawns"
+        ],
+        "domain_specific_functional": {
+            "Rolling_resistance": "Increases rolling resistance for billiard balls",
+            "Nap_effects": "Used in snooker for nap effects"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SIMILAR_TO",
+                "target": "Bay",
+                "description": "Bay is a similar material but lighter and with a shorter nap"
+            }
+        ],
+        "associated_entities": [
+            "Billiard tables",
+            "Pedestal desks"
+        ],
+        "symbolic_items": [
+            "Green baize door",
+            "Baize aprons"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "England",
+        "historical_period": "Mid-17th century",
+        "geographic_range": "Primarily England",
+        "cultural_significance": "Associated with gaming and domestic service",
+        "primary_sources": [
+            "Wikipedia",
+            "Histories of ale and beer brewing in England"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Felt",
+        "NOT Smooth texture",
+        "NOT Modern synthetic materials"
+    ]
+}

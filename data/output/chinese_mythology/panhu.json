@@ -1,0 +1,79 @@
+{
+    "name": "Panhu",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological figure",
+    "alternative_names": [
+        "King Pan"
+    ],
+    "primary_sources": [
+        "Christie, Anthony (1968). Chinese Mythology. Feltham: Hamlyn Publishing.",
+        "Yang, Lihui, et al. (2005). Handbook of Chinese Mythology. New York: Oxford University Press."
+    ],
+    "visual_attributes": {
+        "morphology": "dragon-dog with human transformation",
+        "distinctive_features": [
+            "five-colored fur",
+            "dragon-like features",
+            "human body with dog head in some variants"
+        ],
+        "color_palette": [
+            "gold",
+            "multicolored"
+        ],
+        "texture": "furry",
+        "size_and_scale": "dog-sized initially, human-sized after transformation",
+        "structural_arrangement": "quadrupedal initially, bipedal after transformation",
+        "domain_specific_visual": {
+            "transformation_stage": "dog to human transformation",
+            "incomplete_transformation": "human body with dog head"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "origin myth figure",
+        "secondary_functions": [
+            "symbol of transformation",
+            "protector and progenitor of clans"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "married a princess and fathered 12 clans",
+            "cultural_hero": "worshiped by She and Yao people"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MARRIED_TO",
+                "target": "Princess",
+                "description": "Panhu married the princess after fulfilling the king's challenge."
+            },
+            {
+                "type": "PARENT_OF",
+                "target": "12 Clans",
+                "description": "Panhu and the princess had six sons and six daughters who became the 12 clans."
+            }
+        ],
+        "associated_entities": [
+            "Princess",
+            "12 Clans"
+        ],
+        "symbolic_items": [
+            "golden worm",
+            "gourd"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Han and Yao mythologies",
+        "historical_period": "ancient Chinese mythology",
+        "geographic_range": "China",
+        "cultural_significance": "important origin myth for various ethnic groups",
+        "primary_sources": [
+            "Christie, Anthony (1968). Chinese Mythology. Feltham: Hamlyn Publishing.",
+            "Yang, Lihui, et al. (2005). Handbook of Chinese Mythology. New York: Oxford University Press."
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a typical dog",
+        "NOT a purely human figure"
+    ]
+}

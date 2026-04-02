@@ -1,0 +1,90 @@
+{
+    "name": "Huangdi",
+    "domain": "chinese_mythology",
+    "entity_type": "legendary sovereign and culture hero",
+    "alternative_names": [
+        "Yellow Emperor",
+        "Yellow Thearch",
+        "Xuanyuan",
+        "Youxiong",
+        "Gongsun",
+        "Yellow God",
+        "Great Emperor of the Central Peak",
+        "Yellow Emperor with Four Faces"
+    ],
+    "primary_sources": [
+        "Records of the Grand Historian",
+        "Huangdi Neijing",
+        "Huangdi Sijing",
+        "Shuowen Jiezi",
+        "Lüshi Chunqiu"
+    ],
+    "visual_attributes": {
+        "morphology": "human-like with divine features",
+        "distinctive_features": [
+            "Yellow Dragon form",
+            "Four Faces",
+            "Chariot Shaft symbol"
+        ],
+        "color_palette": [
+            "yellow",
+            "gold",
+            "earth tones"
+        ],
+        "texture": "radiant and luminous",
+        "size_and_scale": "larger than life, godly stature",
+        "structural_arrangement": "central figure with cosmic significance",
+        "domain_specific_visual": {
+            "COSMIC_ASSOCIATION": "associated with the earth phase and the center",
+            "ANIMAL_FORM": "Yellow Dragon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "initiator of Chinese culture",
+        "secondary_functions": [
+            "cosmic ruler",
+            "patron of esoteric arts"
+        ],
+        "domain_specific_functional": {
+            "INNOVATIONS": "credited with the traditional Chinese calendar, Taoism, wooden houses, boats, carts, the compass needle, early writing, and cuju"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PART_OF",
+                "target": "Five Regions Highest Deities",
+                "description": "Huangdi is revered as part of this group in Chinese folk religion."
+            },
+            {
+                "type": "HAS_FORM",
+                "target": "Yellow Dragon",
+                "description": "Huangdi is associated with the Yellow Dragon as his animal form."
+            }
+        ],
+        "associated_entities": [
+            "Shangdi",
+            "Thunder God",
+            "Five Sacred Mountains"
+        ],
+        "symbolic_items": [
+            "Chariot Shaft",
+            "Compass Needle"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Warring States period to early Han dynasty",
+        "geographic_range": "China",
+        "cultural_significance": "symbol of Chinese nationalism and cultural origin",
+        "primary_sources": [
+            "Records of the Grand Historian",
+            "Huangdi Neijing"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic emperor",
+        "NOT a purely historical figure",
+        "NOT limited to human form"
+    ]
+}

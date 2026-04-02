@@ -1,0 +1,78 @@
+{
+    "name": "Nian",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_beast",
+    "alternative_names": [
+        "Nian Shou",
+        "Nien Shou"
+    ],
+    "primary_sources": [
+        "early 20th-century texts",
+        "local oral traditions"
+    ],
+    "visual_attributes": {
+        "morphology": "resembles a flat-faced lion with the body of a dog",
+        "distinctive_features": [
+            "flat face",
+            "prominent incisors",
+            "two long horns",
+            "many sharp teeth"
+        ],
+        "color_palette": [
+            "gray",
+            "red accents"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "larger than an elephant",
+        "structural_arrangement": "lion-like head with a dog-like body",
+        "domain_specific_visual": {
+            "fear_indicators": "sensitivity to loud noises, fire, and the color red"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of fear and danger during Chinese New Year",
+        "secondary_functions": [
+            "raids villages",
+            "eats crops and villagers"
+        ],
+        "domain_specific_functional": {
+            "cultural_practices": "inspiration for Chinese New Year traditions like firecrackers and red decorations"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "villagers",
+                "description": "The Nian attacks villages during Chinese New Year."
+            },
+            {
+                "type": "CAPTURED_BY",
+                "target": "Hongjun Laozu",
+                "description": "Captured by an ancient Taoist monk and became his mount."
+            }
+        ],
+        "associated_entities": [
+            "Hongjun Laozu"
+        ],
+        "symbolic_items": [
+            "red lanterns",
+            "firecrackers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "early 20th century",
+        "geographic_range": "China",
+        "cultural_significance": "central to Chinese New Year celebrations and traditions",
+        "primary_sources": [
+            "early 20th-century texts",
+            "local oral traditions"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common lion",
+        "NOT a dragon",
+        "NOT a benign creature"
+    ]
+}

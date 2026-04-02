@@ -1,0 +1,93 @@
+{
+    "name": "Leigong",
+    "domain": "chinese_mythology",
+    "entity_type": "Thunder God",
+    "alternative_names": [
+        "Leishen",
+        "Lord of Thunder",
+        "God of Thunder"
+    ],
+    "primary_sources": [
+        "Chinese folk religion",
+        "Taoism",
+        "Chinese mythology"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with animalistic features",
+        "distinctive_features": [
+            "Claws",
+            "Bat wings",
+            "Blue face with a bird's beak",
+            "Loincloth"
+        ],
+        "color_palette": [
+            "Blue",
+            "Brown",
+            "Black"
+        ],
+        "texture": "Smooth skin with leathery wings",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Humanoid body with wings extending from the back",
+        "domain_specific_visual": {
+            "iconography": "Carries a drum and mallet, rides a chariot"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of thunder",
+        "secondary_functions": [
+            "Punisher of evildoers",
+            "Enforcer of divine justice"
+        ],
+        "domain_specific_functional": {
+            "heavenly_order": "Punishes mortals and spirits guilty of secret crimes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_WIFE",
+                "target": "Dianmu",
+                "description": "Dianmu is the goddess of lightning and Leigong's wife."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Yun Tong",
+                "description": "Yun Tong whips up clouds to assist Leigong."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Yu Shi",
+                "description": "Yu Shi causes downpours to assist Leigong."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Fengbo",
+                "description": "Fengbo manipulates winds to assist Leigong."
+            }
+        ],
+        "associated_entities": [
+            "Jade Emperor",
+            "A Xiang"
+        ],
+        "symbolic_items": [
+            "Drum",
+            "Mallet",
+            "Chisel"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Ancient China",
+        "geographic_range": "China",
+        "cultural_significance": "Symbolizes divine retribution and justice",
+        "primary_sources": [
+            "Chinese folk religion",
+            "Taoism"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic thunder god",
+        "NOT a human without animalistic features",
+        "NOT a Western depiction of thunder deities"
+    ]
+}

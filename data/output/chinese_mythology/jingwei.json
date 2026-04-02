@@ -1,0 +1,81 @@
+{
+    "name": "Jingwei",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological bird",
+    "alternative_names": [
+        "Spirit Guardian",
+        "Ching-wei"
+    ],
+    "primary_sources": [
+        "Shanhaijing",
+        "Thirteen Poems upon Reading the Guideways through Mountains and Seas"
+    ],
+    "visual_attributes": {
+        "morphology": "resembles a crow",
+        "distinctive_features": [
+            "patterned head",
+            "white beak",
+            "red feet"
+        ],
+        "color_palette": [
+            "black",
+            "white",
+            "red"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "similar to a crow",
+        "structural_arrangement": "bird with crow-like body and distinctive head pattern",
+        "domain_specific_visual": {
+            "bird_type": "mythological transformation",
+            "head_pattern": "unique to Jingwei"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "fill up the Eastern Sea",
+        "secondary_functions": [
+            "symbol of persistence",
+            "representation of transformation"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "goddess",
+            "symbolic_action": "carrying pebbles and twigs"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Yandi",
+                "description": "Jingwei is the daughter of Yandi."
+            },
+            {
+                "type": "TRANSFORMED_FROM",
+                "target": "Nüwa",
+                "description": "Jingwei was transformed from Nüwa after drowning."
+            }
+        ],
+        "associated_entities": [
+            "Nüwa",
+            "Yandi"
+        ],
+        "symbolic_items": [
+            "pebble",
+            "twig"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient Chinese mythological era",
+        "geographic_range": "Eastern Sea, Western Mountains",
+        "cultural_significance": "symbolizes determination and transformation",
+        "primary_sources": [
+            "Shanhaijing",
+            "Thirteen Poems upon Reading the Guideways through Mountains and Seas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic crow",
+        "NOT without a patterned head",
+        "NOT a non-mythological bird"
+    ]
+}

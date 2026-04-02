@@ -1,0 +1,86 @@
+{
+    "name": "Longma",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Dragon Horse",
+        "龍馬"
+    ],
+    "primary_sources": [
+        "Zhouli",
+        "Yijing",
+        "Bamboo Annals",
+        "Shujing",
+        "Taiping Imperial Reader"
+    ],
+    "visual_attributes": {
+        "morphology": "A horse with dragon scales and wings",
+        "distinctive_features": [
+            "Dragon scales covering the body",
+            "Wings at its sides",
+            "Horse's head and snake's tail"
+        ],
+        "color_palette": [
+            "blue",
+            "red",
+            "green"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "8 chi 5 cun tall",
+        "structural_arrangement": "Horse-like body with dragon features",
+        "domain_specific_visual": {
+            "DRAGON_FEATURES": "Dragon scales and mane",
+            "HORSE_FEATURES": "Horse's head and body"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Omen of a legendary sage-ruler",
+        "secondary_functions": [
+            "Bearer of the Hetu",
+            "Symbol of divine origin"
+        ],
+        "domain_specific_functional": {
+            "OMEN_ROLE": "Appears as a sign of a sage-ruler",
+            "CARRIER_ROLE": "Carries maps or schemes on its back"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REVEALED_TO",
+                "target": "Fu Xi",
+                "description": "Revealed the Hetu to Fu Xi"
+            },
+            {
+                "type": "REVEALED_TO",
+                "target": "Shun",
+                "description": "Revealed the Hetu to Shun"
+            }
+        ],
+        "associated_entities": [
+            "Fu Xi",
+            "Shun",
+            "Yu"
+        ],
+        "symbolic_items": [
+            "Hetu",
+            "Luoshu"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Prehistoric China",
+        "geographic_range": "Yellow River region",
+        "cultural_significance": "Symbolizes divine intervention and sage rulership",
+        "primary_sources": [
+            "Zhouli",
+            "Yijing",
+            "Bamboo Annals"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular horse",
+        "NOT without dragon scales",
+        "NOT a Western Pegasus"
+    ]
+}

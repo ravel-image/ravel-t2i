@@ -1,0 +1,91 @@
+{
+    "name": "Shen Nong",
+    "domain": "chinese_mythology",
+    "entity_type": "Deified Ruler and Culture Hero",
+    "alternative_names": [
+        "Divine Farmer",
+        "Divine Husbandman",
+        "Yan Emperor",
+        "Medicine King"
+    ],
+    "primary_sources": [
+        "Shiji",
+        "Huainanzi",
+        "Lüshi Chunqiu",
+        "Shénnóng Běn Cǎo Jīng",
+        "I Ching"
+    ],
+    "visual_attributes": {
+        "morphology": "Human body with a bull or ox's head",
+        "distinctive_features": [
+            "Bull or ox's head",
+            "Sharp horns",
+            "Bronze forehead",
+            "Iron skull"
+        ],
+        "color_palette": [
+            "Bronze",
+            "Iron",
+            "Earth tones"
+        ],
+        "texture": "Smooth human skin with metallic features",
+        "size_and_scale": "Over eight feet tall",
+        "structural_arrangement": "Human body with animalistic head features",
+        "domain_specific_visual": {
+            "CULTURE_HERO": "Depicted with agricultural tools like plow and hoe",
+            "MEDICINE_KING": "Holding medicinal herbs or a cauldron"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Teaching agriculture and herbal medicine",
+        "secondary_functions": [
+            "Inventor of agricultural tools",
+            "Cultural hero"
+        ],
+        "domain_specific_functional": {
+            "HERBAL_MEDICINE": "Identified 365 medicinal herbs",
+            "AGRICULTURE": "Introduced plowing and irrigation techniques"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_DESCENDANT",
+                "target": "Yellow Emperor",
+                "description": "Considered a progenitor or ancestor of the Yellow Emperor"
+            },
+            {
+                "type": "HAS_MINISTER",
+                "target": "Chiyou",
+                "description": "Sometimes said to have had Chiyou as a minister"
+            }
+        ],
+        "associated_entities": [
+            "Three Sovereigns",
+            "Hou Ji"
+        ],
+        "symbolic_items": [
+            "Plow",
+            "Herbal book",
+            "Cauldron"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Ancient China",
+        "historical_period": "Prehistoric China",
+        "geographic_range": "China",
+        "cultural_significance": "Venerated as a culture hero and deity in Chinese folk religion",
+        "primary_sources": [
+            "Shiji",
+            "Huainanzi",
+            "Lüshi Chunqiu",
+            "Shénnóng Běn Cǎo Jīng",
+            "I Ching"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Farmer",
+        "NOT Human without animalistic features",
+        "NOT Modern agricultural context"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "name": "Yinglong",
+    "domain": "chinese_mythology",
+    "entity_type": "winged dragon deity",
+    "alternative_names": [
+        "Responsive Dragon",
+        "Responding Dragon"
+    ],
+    "primary_sources": [
+        "Chuci",
+        "Classic of Mountains and Seas",
+        "Huainanzi"
+    ],
+    "visual_attributes": {
+        "morphology": "winged dragon with four wings",
+        "distinctive_features": [
+            "wings attached to a serpentine dragon body",
+            "often depicted with four wings",
+            "associated with rain and water"
+        ],
+        "color_palette": [
+            "green",
+            "yellow",
+            "blue"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "large, comparable to a mountain",
+        "structural_arrangement": "elongated body with wings spread out",
+        "domain_specific_visual": {
+            "wing_type": "feathered or membranous",
+            "horns": "may have small horns on the head"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "rain deity",
+        "secondary_functions": [
+            "guide for canal construction",
+            "slayer of celestial beings"
+        ],
+        "domain_specific_functional": {
+            "weather_control": "brings rain to drought-stricken areas",
+            "mythological_role": "helper of legendary figures like King Yu"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Chiyou",
+                "description": "Yinglong killed Chiyou, a rebellious deity against the Yellow Emperor."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Kua Fu",
+                "description": "Yinglong killed Kua Fu, who caused droughts by drinking rivers."
+            },
+            {
+                "type": "ALLY_OF",
+                "target": "King Yu",
+                "description": "Yinglong helped King Yu control the Great Deluge by guiding canal construction."
+            }
+        ],
+        "associated_entities": [
+            "Yellow Emperor",
+            "Nüba"
+        ],
+        "symbolic_items": [
+            "clay images for rainmaking"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient Chinese mythology",
+        "historical_period": "Warring States period to Han dynasty",
+        "geographic_range": "China, particularly southern regions",
+        "cultural_significance": "symbol of rain and water control, associated with legendary rulers",
+        "primary_sources": [
+            "Chuci",
+            "Classic of Mountains and Seas",
+            "Huainanzi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon without wings",
+        "NOT a Western-style dragon with bat-like wings",
+        "NOT a purely decorative or ornamental dragon without functional attributes"
+    ]
+}

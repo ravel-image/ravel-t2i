@@ -1,0 +1,84 @@
+{
+    "name": "Taotie",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological_creature",
+    "alternative_names": [
+        "Four Perils",
+        "sì xiōng"
+    ],
+    "primary_sources": [
+        "Classic of Mountains and Seas",
+        "Zuo Zhuan",
+        "Lüshi Chunqiu"
+    ],
+    "visual_attributes": {
+        "morphology": "zoomorphic mask",
+        "distinctive_features": [
+            "frontal, bilaterally symmetrical design",
+            "pair of raised eyes",
+            "typically no lower jaw area"
+        ],
+        "color_palette": [
+            "bronze",
+            "jade green",
+            "earthy tones"
+        ],
+        "texture": "metallic, smooth",
+        "size_and_scale": "varies depending on artifact size",
+        "structural_arrangement": "centralized face motif on vessels",
+        "domain_specific_visual": {
+            "artifact_type": "ritual bronze vessels",
+            "cultural_style": "Shang and Zhou dynasty motifs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of protection and fear",
+        "secondary_functions": [
+            "ceremonial decoration",
+            "representation of gluttony"
+        ],
+        "domain_specific_functional": {
+            "ritual_use": "used in food sacrifices",
+            "symbolic_role": "communication between people and Heaven"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PART_OF",
+                "target": "Four Perils",
+                "description": "Taotie is one of the Four Perils in Chinese mythology."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Chiyou",
+                "description": "Taotie motif is connected to Chiyou as a warning against greed."
+            }
+        ],
+        "associated_entities": [
+            "Hundun",
+            "Qiongqi",
+            "Taowu"
+        ],
+        "symbolic_items": [
+            "dings",
+            "bronze vessels"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Shang and Zhou dynasties",
+        "geographic_range": "Ancient China",
+        "cultural_significance": "Symbol of protection, fear, and gluttony",
+        "primary_sources": [
+            "Classic of Mountains and Seas",
+            "Zuo Zhuan",
+            "Lüshi Chunqiu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a modern animal depiction",
+        "NOT a non-Chinese cultural motif"
+    ]
+}

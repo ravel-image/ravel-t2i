@@ -1,0 +1,86 @@
+{
+    "name": "Xihe",
+    "domain": "chinese_mythology",
+    "entity_type": "solar_deity",
+    "alternative_names": [
+        "Hsi1-ho2"
+    ],
+    "primary_sources": [
+        "Huainanzi",
+        "Suffering from the Shortness of Days by Li He"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with divine features",
+        "distinctive_features": [
+            "drives a sun chariot",
+            "associated with three-legged crows",
+            "often depicted with a radiant aura"
+        ],
+        "color_palette": [
+            "gold",
+            "red",
+            "orange"
+        ],
+        "texture": "ethereal and glowing",
+        "size_and_scale": "larger than life, celestial scale",
+        "structural_arrangement": "seated on a chariot with sun birds",
+        "domain_specific_visual": {
+            "SUN_CHARIOT": "pulled by legendary dragons",
+            "FUSANG_TREE": "home to the sun birds"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "driving the sun across the sky",
+        "secondary_functions": [
+            "mother of sun birds",
+            "regulating day and night"
+        ],
+        "domain_specific_functional": {
+            "SOLAR_CYCLE": "ensures the sun rises and sets",
+            "MYTHOLOGICAL_EVENT": "involved in the story of the ten suns"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Di Jun",
+                "description": "Xihe is one of the two wives of Di Jun."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Sun Birds",
+                "description": "Xihe is the mother of ten sun birds."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Changxi",
+                "description": "Xihe and Changxi are both wives of Di Jun."
+            }
+        ],
+        "associated_entities": [
+            "Di Jun",
+            "Changxi",
+            "Houyi"
+        ],
+        "symbolic_items": [
+            "sun chariot",
+            "Fusang Tree"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "mythological East Sea",
+        "cultural_significance": "symbolizes the sun and its journey across the sky",
+        "primary_sources": [
+            "Huainanzi",
+            "Suffering from the Shortness of Days by Li He"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic sun deity",
+        "NOT without a chariot",
+        "NOT without three-legged crows"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "name": "Fuxi",
+    "domain": "chinese_mythology",
+    "entity_type": "culture hero",
+    "alternative_names": [
+        "Fu Hsi",
+        "Bao Xi",
+        "Mi Xi"
+    ],
+    "primary_sources": [
+        "Classic of Mountains and Seas",
+        "I Ching",
+        "Fuxi Temple inscriptions"
+    ],
+    "visual_attributes": {
+        "morphology": "human with a serpent's body",
+        "distinctive_features": [
+            "serpent-like lower body",
+            "leaf-wreathed head",
+            "animal skin clothing"
+        ],
+        "color_palette": [
+            "green",
+            "brown",
+            "earth tones"
+        ],
+        "texture": "scaly and smooth",
+        "size_and_scale": "larger than average human, approximately 3 meters long",
+        "structural_arrangement": "upper body of a human with a snake-like lower body",
+        "domain_specific_visual": {
+            "TRIGRAMS": "bagua symbols",
+            "CULTURAL_ITEMS": "Guqin musical instrument"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "creator of humanity and civilization",
+        "secondary_functions": [
+            "inventor of music and writing",
+            "originator of marriage rituals"
+        ],
+        "domain_specific_functional": {
+            "DIVINATION": "originator of the eight trigrams",
+            "CULTURAL_TEACHINGS": "taught cooking, hunting, and fishing"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Nüwa",
+                "description": "Fuxi's sister and wife, co-creator of humanity"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Huaxu",
+                "description": "Mother of Fuxi and Nüwa"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Fufei",
+                "description": "Daughter who became the spirit of the Luo River"
+            }
+        ],
+        "associated_entities": [
+            "Nüwa",
+            "Huaxu",
+            "Fufei"
+        ],
+        "symbolic_items": [
+            "bagua",
+            "Guqin",
+            "He Map"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "c. 2900 BC or 2000 BC",
+        "geographic_range": "Yellow River region, China",
+        "cultural_significance": "Considered a foundational figure in Chinese civilization, credited with numerous cultural innovations",
+        "primary_sources": [
+            "Classic of Mountains and Seas",
+            "I Ching"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human",
+        "NOT a purely snake-like creature",
+        "NOT a modern or contemporary figure"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "name": "Tianlong",
+    "domain": "chinese_mythology",
+    "entity_type": "heavenly_dragon",
+    "alternative_names": [
+        "Heavenly Dragon",
+        "Celestial Dragon",
+        "Divine Dragon"
+    ],
+    "primary_sources": [
+        "Xinxu by Liu Xiang",
+        "Fangyan dictionary by Yang Xiong",
+        "Bencao Gangmu",
+        "Blue Cliff Record"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine dragon with elongated body and wings",
+        "distinctive_features": [
+            "pearl under its chin",
+            "wings for flying",
+            "encircling posture around celestial pole"
+        ],
+        "color_palette": [
+            "azure",
+            "emerald",
+            "gold"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "massive, spanning across constellations",
+        "structural_arrangement": "elongated body with coiled sections and expansive wings",
+        "domain_specific_visual": {
+            "constellation_association": "Azure Dragon",
+            "celestial_position": "encircling the northern pole"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of the heavenly palace",
+        "secondary_functions": [
+            "rain bringer",
+            "protector of the Dharma"
+        ],
+        "domain_specific_functional": {
+            "Buddhist_role": "heavenly Nāga",
+            "astrological_role": "star in the Azure Dragon constellation"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "GUARDS",
+                "target": "Heavenly Palace",
+                "description": "Tianlong guards the Heavenly Palace to prevent it from falling."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Wenchang Wang",
+                "description": "Tianlong is homophonous with Tianlong 'Heavenly Deaf', an attendant to Wenchang Wang."
+            }
+        ],
+        "associated_entities": [
+            "Wenchang Wang",
+            "Azure Dragon"
+        ],
+        "symbolic_items": [
+            "pearl"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Zhou dynasty to Han dynasty",
+        "geographic_range": "China",
+        "cultural_significance": "symbolizes divine power and celestial guardianship",
+        "primary_sources": [
+            "Xinxu by Liu Xiang",
+            "Fangyan dictionary by Yang Xiong"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a Western dragon",
+        "NOT without wings",
+        "NOT a terrestrial creature"
+    ]
+}

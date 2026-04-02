@@ -1,0 +1,84 @@
+{
+    "name": "Kunlun Mountain",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological mountain",
+    "alternative_names": [
+        "Kunlun Shan",
+        "Cavernous Mountain"
+    ],
+    "primary_sources": [
+        "Shanhaijing",
+        "Old Book of Tang",
+        "Li He's poems"
+    ],
+    "visual_attributes": {
+        "morphology": "towering multi-tiered mountain",
+        "distinctive_features": [
+            "pillar of the sky",
+            "gem-like rocks",
+            "towering cliffs of jasper and jade",
+            "exotic jeweled plants",
+            "magical fungi"
+        ],
+        "color_palette": [
+            "jade green",
+            "earthy brown",
+            "sky blue"
+        ],
+        "texture": "rocky and gem-like",
+        "size_and_scale": "immense, reaching into the sky",
+        "structural_arrangement": "multi-tiered with steep cliffs and surrounding waters",
+        "domain_specific_visual": {
+            "axis_mundi": "central pillar connecting Earth and Heaven",
+            "paradisaical_detail": "lavish with paradisaical detail"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "axis mundi and divine dwelling",
+        "secondary_functions": [
+            "source of immortality",
+            "dwelling place of gods"
+        ],
+        "domain_specific_functional": {
+            "SUPREME_DEITY_THRONE": "Palace of Heaven at the top tier",
+            "IMMORTALITY_ASSOCIATION": "means to obtain immortality or longevity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DWELLING_PLACE_OF",
+                "target": "Xiwangmu",
+                "description": "Xiwangmu, the goddess, resides on Kunlun Mountain."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Mount Sumeru",
+                "description": "Kunlun is identified with Mount Sumeru in mythology."
+            }
+        ],
+        "associated_entities": [
+            "Xiwangmu",
+            "Eight Immortals"
+        ],
+        "symbolic_items": [
+            "Palace of Heaven",
+            "immortal repast"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Himalayan region, influenced by Indian cosmology",
+        "historical_period": "ancient Chinese mythology",
+        "geographic_range": "mythical locations in the northwest, center of the Earth, or far west",
+        "cultural_significance": "represents the axis mundi and a divine paradise",
+        "primary_sources": [
+            "Shanhaijing",
+            "Old Book of Tang"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic mountain range",
+        "NOT a simple geographical feature",
+        "NOT a non-mythological location"
+    ]
+}

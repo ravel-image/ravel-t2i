@@ -1,0 +1,95 @@
+{
+    "name": "He Bo",
+    "domain": "chinese_mythology",
+    "entity_type": "River God",
+    "alternative_names": [
+        "Bingyi",
+        "Lord of the River"
+    ],
+    "primary_sources": [
+        "Chu Ci",
+        "Zhuangzi",
+        "Huainanzi",
+        "Shizi",
+        "Jiu Ge",
+        "oracle bone inscriptions"
+    ],
+    "visual_attributes": {
+        "morphology": "Human with a fish body",
+        "distinctive_features": [
+            "White face of a human",
+            "Body of a fish",
+            "Chariot pulled by two dragons"
+        ],
+        "color_palette": [
+            "White",
+            "Blue",
+            "Gold"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Human-sized with a fish tail",
+        "structural_arrangement": "Upper body of a human, lower body of a fish",
+        "domain_specific_visual": {
+            "TRANSPORTATION": "Chariot drawn by dragons",
+            "TRANSFORMATION": "Ability to transform into a white dragon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of the Yellow River",
+        "secondary_functions": [
+            "Personification of the Yellow River",
+            "Symbol of both benevolence and destruction"
+        ],
+        "domain_specific_functional": {
+            "CULTURAL_ROLE": "Subject of poetry and literature",
+            "HISTORICAL_ROLE": "Involved in rituals and sacrifices"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_WIFE",
+                "target": "Luoshen",
+                "description": "Luoshen is considered to be the wife of He Bo."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Hou Yi",
+                "description": "Hou Yi shot He Bo, leading to a mythological conflict."
+            },
+            {
+                "type": "ASSISTED",
+                "target": "Yu the Great",
+                "description": "He Bo provided the River Diagram to Yu the Great to help end the Great Flood."
+            }
+        ],
+        "associated_entities": [
+            "Yu the Great",
+            "Hou Yi",
+            "Luoshen"
+        ],
+        "symbolic_items": [
+            "River Diagram",
+            "Chariot"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Yellow River, China",
+        "historical_period": "Shang dynasty to Han dynasty",
+        "geographic_range": "Northern China",
+        "cultural_significance": "Represents the dual nature of the Yellow River as both life-giving and destructive",
+        "primary_sources": [
+            "Chu Ci",
+            "Zhuangzi",
+            "Huainanzi",
+            "Shizi",
+            "Jiu Ge",
+            "oracle bone inscriptions"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic river deity",
+        "NOT a purely benevolent figure",
+        "NOT a non-transformative entity"
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "name": "Lei Gong",
+    "domain": "chinese_mythology",
+    "entity_type": "god",
+    "alternative_names": [
+        "Leishen",
+        "Lord of Thunder",
+        "God of Thunder"
+    ],
+    "primary_sources": [
+        "Chinese folk religion",
+        "Taoism",
+        "Chinese mythology"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with animalistic features",
+        "distinctive_features": [
+            "claws",
+            "bat wings",
+            "blue face with a bird's beak",
+            "wears only a loincloth"
+        ],
+        "color_palette": [
+            "blue",
+            "black",
+            "gray"
+        ],
+        "texture": "smooth skin with leathery wings",
+        "size_and_scale": "larger than an average human",
+        "structural_arrangement": "humanoid body with wings extending from the back",
+        "domain_specific_visual": {
+            "iconography": "carries a drum and mallet, rides a chariot"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "god of thunder",
+        "secondary_functions": [
+            "punishes evildoers",
+            "creates thunder"
+        ],
+        "domain_specific_functional": {
+            "role_in_mythology": "enforces divine justice",
+            "tools": "drum, mallet, chisel"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_WIFE",
+                "target": "Dianmu",
+                "description": "Dianmu is the goddess of lightning and Lei Gong's wife."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Yun Tong",
+                "description": "Yun Tong whips up clouds to assist Lei Gong."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Yu Shi",
+                "description": "Yu Shi causes downpours to assist Lei Gong."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Fengbo",
+                "description": "Fengbo manipulates winds to assist Lei Gong."
+            }
+        ],
+        "associated_entities": [
+            "Dianmu",
+            "Yun Tong",
+            "Yu Shi",
+            "Fengbo"
+        ],
+        "symbolic_items": [
+            "drum",
+            "mallet",
+            "chisel"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "China",
+        "cultural_significance": "symbolizes divine retribution and justice",
+        "primary_sources": [
+            "Chinese folk religion",
+            "Taoism"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic thunder god",
+        "NOT a human without animalistic features",
+        "NOT a Western depiction of thunder gods"
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "name": "Chiyou",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological being",
+    "alternative_names": [
+        "Txiv Yawg",
+        "God of War",
+        "Demon God"
+    ],
+    "primary_sources": [
+        "Lushi",
+        "Records of the Grand Historian",
+        "Guoyu",
+        "Song dynasty history book"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with bovine and bear features",
+        "distinctive_features": [
+            "bronze head with metal forehead",
+            "four eyes",
+            "six arms wielding weapons",
+            "bull head with two horns",
+            "bear-like hindquarters"
+        ],
+        "color_palette": [
+            "bronze",
+            "metallic grey",
+            "earthy brown"
+        ],
+        "texture": "metallic and fur-like",
+        "size_and_scale": "larger than an average human",
+        "structural_arrangement": "humanoid torso with animalistic head and limbs",
+        "domain_specific_visual": {
+            "WEAPONRY": "sharp weapons in each hand",
+            "HEADGEAR": "metallic forehead"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of chaos and war",
+        "secondary_functions": [
+            "protector in battle",
+            "ancestral figure for Miao people"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_MANIPULATION": "ability to conjure fog and storms",
+            "LEADERSHIP": "leader of the Nine Li tribe"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Yellow Emperor",
+                "description": "Chiyou fought against the Yellow Emperor in the Battle of Zhuolu."
+            },
+            {
+                "type": "DESCENDANT_OF",
+                "target": "Flame Emperor",
+                "description": "Chiyou is considered a descendant of the Flame Emperor."
+            },
+            {
+                "type": "ANCESTOR_OF",
+                "target": "Miao people",
+                "description": "Chiyou is regarded as an ancestral figure for the Miao people."
+            }
+        ],
+        "associated_entities": [
+            "Yellow Emperor",
+            "Flame Emperor",
+            "Nüba"
+        ],
+        "symbolic_items": [
+            "Mount Tai shigandang",
+            "Taotie motif"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient China",
+        "historical_period": "Three Sovereigns and Five Emperors era",
+        "geographic_range": "northern China",
+        "cultural_significance": "represents war, chaos, and protection; revered as a god of war",
+        "primary_sources": [
+            "Lushi",
+            "Records of the Grand Historian"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT a purely human figure",
+        "NOT a peaceful deity"
+    ]
+}

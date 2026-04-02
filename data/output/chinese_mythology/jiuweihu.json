@@ -1,0 +1,81 @@
+{
+    "name": "Jiuweihu",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical fox spirit",
+    "alternative_names": [
+        "Nine-tailed fox",
+        "Húli jīng",
+        "Kitsune",
+        "Kumiho"
+    ],
+    "primary_sources": [
+        "Youyang Zazu",
+        "Guo Pu's writings",
+        "The Cult of the Fox by Xiaofei Kang",
+        "A Chinese Bestiary by Richard E. Strassberg"
+    ],
+    "visual_attributes": {
+        "morphology": "fox-like creature with nine distinct tails",
+        "distinctive_features": [
+            "nine tails",
+            "golden color",
+            "ability to shapeshift into a human form"
+        ],
+        "color_palette": [
+            "golden",
+            "white",
+            "red"
+        ],
+        "texture": "silky and smooth fur",
+        "size_and_scale": "similar to a large fox",
+        "structural_arrangement": "tails fanned out symmetrically",
+        "domain_specific_visual": {
+            "celestial_aura": "radiant glow",
+            "spiritual_markings": "mystical symbols on fur"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "shapeshifting and trickery",
+        "secondary_functions": [
+            "seduction",
+            "sorcery",
+            "divination"
+        ],
+        "domain_specific_functional": {
+            "celestial_role": "serves in the Palace of the Sun and Moon",
+            "ritualistic_function": "associated with jiao rituals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Shang Dynasty",
+                "description": "Believed to bring disaster to the Shang Dynasty"
+            }
+        ],
+        "associated_entities": [
+            "Húli jīng",
+            "Kitsune",
+            "Kumiho"
+        ],
+        "symbolic_items": [
+            "fu (talisman)"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient China",
+        "geographic_range": "East Asia",
+        "cultural_significance": "symbolizes transformation, wisdom, and mischief",
+        "primary_sources": [
+            "Youyang Zazu",
+            "Guo Pu's writings"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular fox",
+        "NOT a single-tailed fox",
+        "NOT a purely malevolent entity"
+    ]
+}

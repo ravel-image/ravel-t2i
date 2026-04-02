@@ -1,0 +1,93 @@
+{
+    "name": "Zhenniao",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_poisonous_bird",
+    "alternative_names": [
+        "zhen",
+        "poison-feather bird"
+    ],
+    "primary_sources": [
+        "Classic of Mountains and Seas",
+        "Guangzhi",
+        "Piya",
+        "Baopuzi",
+        "Sancai Tuhui"
+    ],
+    "visual_attributes": {
+        "morphology": "resembles an eagle with a long neck",
+        "distinctive_features": [
+            "purple abdomen",
+            "green-tipped feathers",
+            "scarlet beak",
+            "copper-colored beak 7–8 cun long"
+        ],
+        "color_palette": [
+            "dark-purple",
+            "green",
+            "scarlet"
+        ],
+        "texture": "feathers tainted with poison",
+        "size_and_scale": "goose-like size",
+        "structural_arrangement": "long neck with eagle-like body",
+        "domain_specific_visual": {
+            "POISONOUS_FEATURE": "feathers and body tainted with zhendu poison",
+            "GEOGRAPHIC_ORIGIN": "southern China mountains"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "source of potent poison",
+        "secondary_functions": [
+            "predator of poisonous vipers",
+            "symbol of short-term gain with long-term consequences"
+        ],
+        "domain_specific_functional": {
+            "POISON_USAGE": "feathers used to create poisonous draughts",
+            "CULTURAL_SYMBOLISM": "metaphor for dangerous short-term solutions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Mount Nüji",
+                "description": "One of the mountains where Zhenniao is said to reside"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Mount Qingu",
+                "description": "Another mountain where Zhenniao is said to reside"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Mount Yaobi",
+                "description": "Another mountain where Zhenniao is said to reside"
+            }
+        ],
+        "associated_entities": [
+            "poisonous vipers",
+            "rhinoceros horn"
+        ],
+        "symbolic_items": [
+            "zhendu poison",
+            "rhinoceros horn hairpins"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "southern China",
+        "historical_period": "ancient China, last seen in Song dynasty",
+        "geographic_range": "Mountains in southern China",
+        "cultural_significance": "Represents the dangers of short-term solutions and is a metaphor for poisoning",
+        "primary_sources": [
+            "Classic of Mountains and Seas",
+            "Guangzhi",
+            "Piya",
+            "Baopuzi",
+            "Sancai Tuhui"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic eagle",
+        "NOT a non-poisonous bird",
+        "NOT a modern zoological species"
+    ]
+}

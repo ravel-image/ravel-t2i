@@ -1,0 +1,83 @@
+{
+    "name": "Kua Fu",
+    "domain": "chinese_mythology",
+    "entity_type": "giant",
+    "alternative_names": [
+        "Kuafu",
+        "夸父"
+    ],
+    "primary_sources": [
+        "Chinese mythology texts",
+        "Wikipedia"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic humanoid",
+        "distinctive_features": [
+            "enormous size",
+            "carrying a wooden club",
+            "associated with peach trees"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "green",
+            "sunlit yellow"
+        ],
+        "texture": "rugged and earthy",
+        "size_and_scale": "colossal, towering over landscapes",
+        "structural_arrangement": "humanoid form with exaggerated proportions",
+        "domain_specific_visual": {
+            "associated_nature": "vast peach forest",
+            "transformation": "mountain range"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "chasing the Sun",
+        "secondary_functions": [
+            "symbol of bravery",
+            "overcoming obstacles"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "symbolizes ambition and determination",
+            "ecological_impact": "creation of peach forest"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_GRANDPARENT",
+                "target": "Houtu",
+                "description": "Kua Fu is the grandson of Houtu."
+            },
+            {
+                "type": "ALLIED_WITH",
+                "target": "Chi You",
+                "description": "Kua Fu's tribe allied with Chi You's tribe."
+            }
+        ],
+        "associated_entities": [
+            "Houtu",
+            "Chi You",
+            "Yan Emperor",
+            "Yellow Emperor"
+        ],
+        "symbolic_items": [
+            "wooden club",
+            "peach trees"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient mythological era",
+        "geographic_range": "regions around the Yellow River and Wei River",
+        "cultural_significance": "represents ambition and the limits of human capability",
+        "primary_sources": [
+            "Chinese mythology texts",
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular human",
+        "NOT a small or average-sized figure",
+        "NOT unrelated to nature or the Sun"
+    ]
+}

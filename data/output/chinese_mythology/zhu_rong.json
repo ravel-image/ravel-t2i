@@ -1,0 +1,86 @@
+{
+    "name": "Lady Zhurong",
+    "domain": "chinese_mythology",
+    "entity_type": "fictional character",
+    "alternative_names": [
+        "Madam Zhurong"
+    ],
+    "primary_sources": [
+        "Romance of the Three Kingdoms",
+        "Beijing opera Dragon and Phoenix Headgear"
+    ],
+    "visual_attributes": {
+        "morphology": "human female warrior",
+        "distinctive_features": [
+            "wields flying daggers",
+            "warrior attire typical of the Three Kingdoms period",
+            "headgear as depicted in Beijing opera"
+        ],
+        "color_palette": [
+            "red",
+            "gold",
+            "black"
+        ],
+        "texture": "smooth fabric with metallic accents",
+        "size_and_scale": "average human female height",
+        "structural_arrangement": "warrior attire with layered armor and flowing robes",
+        "domain_specific_visual": {
+            "opera_costume": "traditional Beijing opera headgear and makeup",
+            "weaponry": "flying daggers"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "warrior and leader",
+        "secondary_functions": [
+            "wife of Meng Huo",
+            "descendant of fire deity Zhurong"
+        ],
+        "domain_specific_functional": {
+            "battle_tactics": "uses flying daggers and strategic traps",
+            "cultural_role": "symbol of female strength and leadership"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_HUSBAND",
+                "target": "Meng Huo",
+                "description": "Lady Zhurong is married to Meng Huo, the Nanman chieftain."
+            },
+            {
+                "type": "HAS_PARENTAGE",
+                "target": "Zhurong",
+                "description": "Claims descent from the Chinese fire deity Zhurong."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Huaman",
+                "description": "Mother of Huaman as depicted in Beijing opera."
+            }
+        ],
+        "associated_entities": [
+            "Meng Huo",
+            "Zhurong",
+            "Huaman"
+        ],
+        "symbolic_items": [
+            "flying daggers",
+            "opera headgear"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Nanzhong region, state of Shu Han",
+        "historical_period": "Three Kingdoms period",
+        "geographic_range": "Nanzhong region",
+        "cultural_significance": "Represents female participation in warfare and leadership",
+        "primary_sources": [
+            "Romance of the Three Kingdoms",
+            "Beijing opera Dragon and Phoenix Headgear"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic female warrior without cultural attire",
+        "NOT without flying daggers",
+        "NOT a historical figure, but a fictional character from a novel"
+    ]
+}

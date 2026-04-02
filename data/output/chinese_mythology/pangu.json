@@ -1,0 +1,93 @@
+{
+    "name": "Pangu",
+    "domain": "chinese_mythology",
+    "entity_type": "primordial being and creation figure",
+    "alternative_names": [
+        "Pan Gu",
+        "Peng Gu",
+        "P’an-ku"
+    ],
+    "primary_sources": [
+        "Xu Zheng's writings",
+        "Guoyu",
+        "Zhou Shu",
+        "Bouyei mythology"
+    ],
+    "visual_attributes": {
+        "morphology": "primitive, hairy giant with horns on his head",
+        "distinctive_features": [
+            "horns on head",
+            "hairy body",
+            "giant stature"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "sky blue",
+            "stone gray"
+        ],
+        "texture": "hairy and rugged",
+        "size_and_scale": "gigantic, grows ten feet taller each day",
+        "structural_arrangement": "standing between heaven and earth, pushing the sky upwards",
+        "domain_specific_visual": {
+            "COSMIC_EGG": "emerged from a cosmic egg symbolizing Taiji",
+            "HOLY_BEASTS": "often depicted with Turtle, Qilin, Phoenix, and Dragon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "creation of the world",
+        "secondary_functions": [
+            "separation of heaven and earth",
+            "transformation into geographic features"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES_TAIJI": "represents the balance of yin and yang",
+            "CREATION_OF_LIFE": "body transforms into all forms of life"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "AIDED_BY",
+                "target": "Four Holy Beasts",
+                "description": "Assisted by Turtle, Qilin, Phoenix, and Dragon in creation tasks"
+            },
+            {
+                "type": "PARENT_OF",
+                "target": "Emperor of the East",
+                "description": "Union with Jade Maiden gave birth to Emperor of the East"
+            },
+            {
+                "type": "PARENT_OF",
+                "target": "Empress of the West",
+                "description": "Union with Jade Maiden gave birth to Empress of the West"
+            }
+        ],
+        "associated_entities": [
+            "Jade Maiden",
+            "Celestial Lord",
+            "Terrestrial Lord",
+            "Lord of Humanity"
+        ],
+        "symbolic_items": [
+            "giant axe",
+            "Seven Treasures Peak",
+            "Jade Terrace of the Mysterious City"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology, Taoism",
+        "historical_period": "Three Kingdoms period",
+        "geographic_range": "China",
+        "cultural_significance": "Represents the creation of the world and balance of cosmic forces",
+        "primary_sources": [
+            "Xu Zheng's writings",
+            "Guoyu",
+            "Zhou Shu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common giant",
+        "NOT without horns",
+        "NOT a modern human figure"
+    ]
+}

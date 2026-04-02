@@ -1,0 +1,93 @@
+{
+    "name": "Qilin",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Kirin",
+        "Girin",
+        "Gilen"
+    ],
+    "primary_sources": [
+        "Classic of Poetry",
+        "Spring and Autumn Annals",
+        "Zuo Zhuan",
+        "Shuowen Jiezi"
+    ],
+    "visual_attributes": {
+        "morphology": "chimerical creature with dragon-like features",
+        "distinctive_features": [
+            "antlers",
+            "thick eyelashes",
+            "upward flowing mane",
+            "beard",
+            "cloven hooves"
+        ],
+        "color_palette": [
+            "golden",
+            "various colors",
+            "jewel-like brilliance"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "similar to an ox, deer, or horse",
+        "structural_arrangement": "body shaped like an ox, deer, or horse with dragon-like head",
+        "domain_specific_visual": {
+            "FIRE_DECORATION": "parts of the body on fire",
+            "JEWEL_LIKE_APPEARANCE": "bejeweled or jewel-like brilliance"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of good fortune and prosperity",
+        "secondary_functions": [
+            "foreteller of sage's arrival",
+            "symbol of illustrious ruler"
+        ],
+        "domain_specific_functional": {
+            "SYMBOL_OF_BENEVOLENCE": "appears in the presence of benevolent rulers",
+            "FORETELLER_OF_BIRTH": "foretold the birth of Confucius"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Confucius",
+                "description": "Foretold the birth of Confucius"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Yellow Emperor",
+                "description": "Appeared in the garden of the Yellow Emperor"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Emperor Yao",
+                "description": "Appeared in the capital of Emperor Yao"
+            }
+        ],
+        "associated_entities": [
+            "Yellow Emperor",
+            "Emperor Yao",
+            "Confucius"
+        ],
+        "symbolic_items": [
+            "Qilin Dance costume"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "11th – 7th century BCE",
+        "geographic_range": "China, Japan, Korea, Thailand",
+        "cultural_significance": "Symbolizes good fortune, prosperity, and harmony",
+        "primary_sources": [
+            "Classic of Poetry",
+            "Spring and Autumn Annals",
+            "Zuo Zhuan",
+            "Shuowen Jiezi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a giraffe",
+        "NOT a Western unicorn",
+        "NOT a purely dragon-like creature"
+    ]
+}

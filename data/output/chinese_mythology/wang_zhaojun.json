@@ -1,0 +1,92 @@
+{
+    "name": "Wang Zhaojun",
+    "domain": "chinese_mythology",
+    "entity_type": "Legendary Figure",
+    "alternative_names": [
+        "Wang Qiang",
+        "Fells Geese",
+        "Drops Birds"
+    ],
+    "primary_sources": [
+        "Han Shu, Xiongnu Zhuan",
+        "Qin Cao by Cai Yong",
+        "Xijing Zaji",
+        "Han Gong Qiu by Ma Zhiyuan",
+        "Wang Zhaojun by Guo Moruo",
+        "Wang Zhaojun by Cao Yu"
+    ],
+    "visual_attributes": {
+        "morphology": "Human female with elegant and graceful posture",
+        "distinctive_features": [
+            "Dazzling beauty",
+            "Playing a pipa",
+            "Riding a horse"
+        ],
+        "color_palette": [
+            "Soft white",
+            "Rich brown",
+            "Golden accents"
+        ],
+        "texture": "Smooth and delicate skin",
+        "size_and_scale": "Average human female height",
+        "structural_arrangement": "Seated on a horse, holding a pipa",
+        "domain_specific_visual": {
+            "CLOTHING_STYLE": "Han dynasty attire",
+            "HAIRSTYLE": "Traditional Han dynasty style"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbol of peace and diplomacy",
+        "secondary_functions": [
+            "Cultural icon of beauty",
+            "Inspiration for art and literature"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS": "Harmony between Han and Xiongnu",
+            "SYMBOLIZES": "Tragic beauty and sacrifice"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MARRIED_TO",
+                "target": "Huhanye Chanyu",
+                "description": "Married to establish peace between Han and Xiongnu"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Yituzhiyashi",
+                "description": "Son with Huhanye Chanyu"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Yun",
+                "description": "Daughter who became a powerful figure in Xiongnu politics"
+            }
+        ],
+        "associated_entities": [
+            "Emperor Yuan of Han",
+            "Mao Yanshou"
+        ],
+        "symbolic_items": [
+            "Pipa",
+            "Horse"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Baoping Village, Zigui County, Western Han dynasty",
+        "historical_period": "c. 51–15 BCE",
+        "geographic_range": "Han dynasty China and Xiongnu Empire",
+        "cultural_significance": "Represents the ideal of beauty and the sacrifice for peace",
+        "primary_sources": [
+            "Han Shu, Xiongnu Zhuan",
+            "Qin Cao by Cai Yong",
+            "Xijing Zaji"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic concubine",
+        "NOT without a pipa",
+        "NOT in modern attire"
+    ]
+}

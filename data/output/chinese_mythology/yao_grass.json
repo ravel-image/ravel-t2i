@@ -1,0 +1,72 @@
+{
+    "name": "Yao Grass",
+    "domain": "chinese_mythology",
+    "entity_type": "mythical_plant",
+    "alternative_names": [
+        "瑶草"
+    ],
+    "primary_sources": [
+        "Shanhaijing"
+    ],
+    "visual_attributes": {
+        "morphology": "herbaceous plant with lush foliage",
+        "distinctive_features": [
+            "yellow flowers and dodder-like fruit for Guyao Mountain type",
+            "white flowers and black fruits for Taishi Mountain type"
+        ],
+        "color_palette": [
+            "green",
+            "yellow",
+            "white",
+            "black"
+        ],
+        "texture": "smooth leaves with varied flower textures",
+        "size_and_scale": "medium-sized plant",
+        "structural_arrangement": "clustered leaves with prominent flowers",
+        "domain_specific_visual": {
+            "MYTHICAL_TRANSFORMATION": "originated from Yan Di's daughter Yaoji"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "love attraction and mental clarity",
+        "secondary_functions": [
+            "transformation",
+            "mythical symbolism"
+        ],
+        "domain_specific_functional": {
+            "LOVE_POTION": "Guyao Mountain type attracts love",
+            "MENTAL_CLARITY": "Taishi Mountain type prevents confusion"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "TRANSFORMED_FROM",
+                "target": "Yaoji",
+                "description": "Yao Grass originated from the transformation of Yan Di's daughter Yaoji"
+            }
+        ],
+        "associated_entities": [
+            "Yan Di",
+            "Yaoji"
+        ],
+        "symbolic_items": [
+            "love potion",
+            "clarity herb"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient Chinese mythological era",
+        "geographic_range": "Guyao Mountain and Taishi Mountain",
+        "cultural_significance": "represents love and mental clarity in Chinese mythology",
+        "primary_sources": [
+            "Shanhaijing"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic grass",
+        "NOT non-mythical plant",
+        "NOT unrelated to Chinese mythology"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "name": "Bixia Yuanjun",
+    "domain": "chinese_mythology",
+    "entity_type": "Goddess",
+    "alternative_names": [
+        "Taishan Niangniang",
+        "Tianxian Yünu",
+        "Tianxian Shengmu",
+        "Tianxian niangniang",
+        "Taishan Laomu",
+        "Lao nainai"
+    ],
+    "primary_sources": [
+        "History of Mount Tai",
+        "Taoist Canon",
+        "1635 guidebook"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid female deity",
+        "distinctive_features": [
+            "Three-phoenix headdress",
+            "Regal attire typical of Taoist goddesses"
+        ],
+        "color_palette": [
+            "Azure",
+            "Gold",
+            "White"
+        ],
+        "texture": "Smooth and ethereal",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Headdress prominently displayed, often surrounded by clouds",
+        "domain_specific_visual": {
+            "HEADDRESS": "Three-phoenix",
+            "CLOUDS": "Colored clouds of dawn"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Goddess of Mount Tai, childbirth, and destiny",
+        "secondary_functions": [
+            "Judges the dead",
+            "Heeds pleas for children"
+        ],
+        "domain_specific_functional": {
+            "GOVERN_LIFE_SPAN": "Controls human life-span",
+            "FIX_DESTINY": "Fixes destiny of newborns"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DAUGHTER_OF",
+                "target": "Dongyue Dadi",
+                "description": "Considered a daughter of the Grand Emperor of Mount Tai"
+            },
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "Guanyin",
+                "description": "Northern China's equivalent to the bodhisattva Guanyin"
+            }
+        ],
+        "associated_entities": [
+            "Dongyue Dadi",
+            "Guanyin",
+            "Zhusheng Niangniang",
+            "Yanguang Niangniang"
+        ],
+        "symbolic_items": [
+            "Headdress",
+            "Clouds"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mount Tai, Shandong Province, China",
+        "historical_period": "Ming and Qing dynasties",
+        "geographic_range": "Northern China, Lower Yangzi region",
+        "cultural_significance": "Represents dawn, childbirth, and destiny; venerated for good fortune and fertility",
+        "primary_sources": [
+            "History of Mount Tai",
+            "Taoist Canon"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic goddess without specific headdress",
+        "NOT Modern or non-traditional attire",
+        "NOT Non-Chinese cultural context"
+    ]
+}

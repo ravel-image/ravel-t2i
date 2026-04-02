@@ -1,0 +1,96 @@
+{
+    "name": "Nüwa",
+    "domain": "chinese_mythology",
+    "entity_type": "goddess",
+    "alternative_names": [
+        "Nügua",
+        "Wahuang",
+        "Empress Wa"
+    ],
+    "primary_sources": [
+        "Huainanzi",
+        "Classic of Mountains and Seas",
+        "Liezi",
+        "Songs of Chu",
+        "Shuowen Jiezi",
+        "Duyi Zhi",
+        "Yuchuan Ziji",
+        "Siku Quanshu",
+        "Four Great Books of Song"
+    ],
+    "visual_attributes": {
+        "morphology": "snake-like body with a human face or head",
+        "distinctive_features": [
+            "snake-like tail",
+            "holding a compass",
+            "intertwined with Fuxi in some depictions"
+        ],
+        "color_palette": [
+            "yellow",
+            "five-colored stones",
+            "azure"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "human-sized upper body with a long snake-like tail",
+        "structural_arrangement": "upper body of a human with a lower body of a snake",
+        "domain_specific_visual": {
+            "SYMBOL_OF_SKY": "compass",
+            "SYMBOL_OF_CREATION": "yellow clay"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "creator of humanity",
+        "secondary_functions": [
+            "repairer of Heaven",
+            "goddess of marital affairs"
+        ],
+        "domain_specific_functional": {
+            "REPAIR_HEAVEN": "patched the sky with five-colored stones",
+            "CREATE_HUMANS": "molded humans from yellow clay"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Fuxi",
+                "description": "Nüwa is often depicted as the wife or sister of Fuxi."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Fuxi",
+                "description": "Nüwa is sometimes described as the sister of Fuxi."
+            }
+        ],
+        "associated_entities": [
+            "Fuxi",
+            "Shennong"
+        ],
+        "symbolic_items": [
+            "compass",
+            "five-colored stones"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "Ancient China",
+        "geographic_range": "China",
+        "cultural_significance": "venerated as a creator and protector of humanity",
+        "primary_sources": [
+            "Huainanzi",
+            "Classic of Mountains and Seas",
+            "Liezi",
+            "Songs of Chu",
+            "Shuowen Jiezi",
+            "Duyi Zhi",
+            "Yuchuan Ziji",
+            "Siku Quanshu",
+            "Four Great Books of Song"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human goddess",
+        "NOT without a snake-like tail",
+        "NOT without a compass or five-colored stones"
+    ]
+}

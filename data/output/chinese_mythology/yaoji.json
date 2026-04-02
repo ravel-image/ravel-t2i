@@ -1,0 +1,90 @@
+{
+    "name": "Yaoji",
+    "domain": "chinese_mythology",
+    "entity_type": "goddess",
+    "alternative_names": [
+        "Princess Beautiful Jade",
+        "Fairy Yunhua",
+        "Wushan Goddess",
+        "Miaoyong Zhenren"
+    ],
+    "primary_sources": [
+        "Classic of Mountains and Seas",
+        "Yongcheng Jixianlu",
+        "The Ode of Gaotang",
+        "The Ode of the Divine Maiden"
+    ],
+    "visual_attributes": {
+        "morphology": "ethereal and graceful feminine form",
+        "distinctive_features": [
+            "translucent jade-like skin",
+            "flowing robes resembling clouds",
+            "crown of medicinal herbs"
+        ],
+        "color_palette": [
+            "jade green",
+            "cloud white",
+            "golden yellow"
+        ],
+        "texture": "smooth and luminous",
+        "size_and_scale": "human-sized, approximately 5 to 6 feet tall",
+        "structural_arrangement": "robes and hair flowing as if in a gentle breeze",
+        "domain_specific_visual": {
+            "goddess_peak_representation": "embodiment of a mountain peak",
+            "herbalist_symbolism": "adorned with herbal motifs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "weather control and protection",
+        "secondary_functions": [
+            "herbal medicine creation",
+            "flood control"
+        ],
+        "domain_specific_functional": {
+            "mountain_transformation": "ability to transform into a mountain peak",
+            "dragon_defeat": "capability to defeat dragons causing natural disasters"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Yan Emperor",
+                "description": "In some myths, Yaoji is the daughter of the Yan Emperor."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Queen Mother of the West",
+                "description": "In Daoist myths, Yaoji is the daughter of the Queen Mother of the West."
+            },
+            {
+                "type": "AIDED",
+                "target": "Yu the Great",
+                "description": "Helped Yu the Great in controlling floods by creating a passage through the Three Gorges."
+            }
+        ],
+        "associated_entities": [
+            "Jingwei",
+            "Yu the Great"
+        ],
+        "symbolic_items": [
+            "book bound in yellow brocade",
+            "herbal crown"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Wu Mountain, China",
+        "historical_period": "Warring States period",
+        "geographic_range": "Three Gorges, Yangtze River",
+        "cultural_significance": "Symbolizes beauty, protection, and transformation; revered in Daoist and Chinese folklore.",
+        "primary_sources": [
+            "Classic of Mountains and Seas",
+            "Yongcheng Jixianlu"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic mountain goddess",
+        "NOT devoid of herbal motifs",
+        "NOT unrelated to Chinese mythology"
+    ]
+}

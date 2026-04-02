@@ -1,0 +1,73 @@
+{
+    "name": "Gong Gong",
+    "domain": "chinese_mythology",
+    "entity_type": "mythological deity",
+    "alternative_names": [
+        "Gònggōng"
+    ],
+    "primary_sources": [
+        "Chinese mythological texts",
+        "Wikipedia entry on Gonggong"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine body with a human head or torso",
+        "distinctive_features": [
+            "copper-and-iron red hair",
+            "serpent-like body or tail"
+        ],
+        "color_palette": [
+            "red",
+            "copper",
+            "iron"
+        ],
+        "texture": "smooth and metallic",
+        "size_and_scale": "gigantic, deity-sized",
+        "structural_arrangement": "human head or torso transitioning into a serpent body",
+        "domain_specific_visual": {
+            "deity_symbolism": "chaos and floods",
+            "cultural_iconography": "Chinese mythological motifs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "god of water and chaos",
+        "secondary_functions": [
+            "causes floods",
+            "tilts the Earth"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "responsible for chaos and catastrophe",
+            "cultural_impact": "symbolizes natural disasters"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ACCOMPANIED_BY",
+                "target": "Xiangliu",
+                "description": "Gong Gong is often accompanied by Xiangliu, a nine-headed snake monster."
+            }
+        ],
+        "associated_entities": [
+            "Xiangliu"
+        ],
+        "symbolic_items": [
+            "snake tail",
+            "red hair"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Chinese mythology",
+        "historical_period": "ancient Chinese mythological era",
+        "geographic_range": "China",
+        "cultural_significance": "represents chaos and natural disasters in Chinese mythology",
+        "primary_sources": [
+            "Chinese mythological texts",
+            "Wikipedia entry on Gonggong"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a Western-style serpent",
+        "NOT a benevolent water deity"
+    ]
+}
