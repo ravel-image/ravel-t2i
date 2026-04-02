@@ -1,19 +1,28 @@
 """
 src/generation/prompt_synth.py
 ───────────────────────────────
-Contrastive Chain-of-Thought prompt synthesis (Section 3.2).
+Contrastive Chain-of-Thought prompt synthesis (Section 3.2, Table 11).
 
-Takes a ContextPacket from the retriever and produces an enriched
-prompt P' that:
-    - Encodes all visual, functional, relational attributes
-    - Uses explicit NOT-X contrastive constraints to prevent
-      semantic collapse into generic category priors
-    - Weaves in relational context (POLLINATED_BY, RIDES, etc.)
+Implements the paper's exact 3-step pipeline:
 
-Also exposes a refine() method used by the SRD module to produce
-P_{t+1} from P_t by emphasising missing attributes.
+    Step 1 — Resolve all subjects from query + KG
+              "Yama and his sister" → Yama, Yami
 
-Paper reference: Section 3.2, Figure 12 (Red Ginger example)
+    Step 2 — Per-entity contrastive sub-prompt covering all 8 attribute
+              categories from Figure 16:
+                - Unique Facts
+                - Functional Properties
+                - Physical Properties
+                - Taxonomic Info (biology) / Personality Traits (mythology)
+                - Material & Composition
+                - Usage Context
+                - Origin & History
+                - Distinctive Features (NOT-X constraints)
+
+    Step 3 — CoT merge: fuse all sub-prompts into one coherent scene prompt
+              that expresses ALL entities with equal visual fidelity
+
+Paper reference: Section 3.2, Table 11, Figure 16
 """
 
 import os
@@ -26,78 +35,109 @@ from src.kg.retriever import ContextPacket
 logger = logging.getLogger(__name__)
 
 
-# ── Output dataclass ──────────────────────────────────────────────────────────
-
 @dataclass
 class EnrichedPrompt:
-    """
-    Output of the prompt synthesizer.
-
-    original  : user's raw prompt
-    enriched  : final context-dense prompt for the T2I model
-    contrastive_cues : NOT-X constraints included in the prompt
-    """
     original:         str
     enriched:         str
-    contrastive_cues: list[str] = field(default_factory=list)
+    entity_prompts:   dict[str, str] = field(default_factory=dict)  # per-entity sub-prompts
+    contrastive_cues: list[str]      = field(default_factory=list)
 
-
-# ── Synthesizer ───────────────────────────────────────────────────────────────
 
 class PromptSynthesizer:
     """
-    Converts a ContextPacket into an enriched contrastive prompt.
+    Three-step contrastive CoT synthesizer matching Table 11 of the paper.
 
-    The LLM is instructed to:
-        1. Describe each entity's unique structural features in detail
-        2. Explicitly contrast against generic category priors using NOT-X
-        3. Weave in relational context (habitat, symbolic items, associations)
-        4. Produce ONE coherent T2I prompt ~150-250 words
+    Step 2 generates one contrastive sub-prompt per entity covering all
+    8 attribute categories from Figure 16. Step 3 merges them into one
+    scene with correct relational composition.
     """
 
-    # ── System prompt (paper Figure 12 style) ────────────────────────────────
-    _SYNTHESIS_SYSTEM = """\
-You are an expert at generating precise, detailed text-to-image prompts
-for rare, culturally nuanced, and visually distinctive concepts.
+    # ── Step 2: per-entity contrastive sub-prompt ────────────────────────────
 
-Your goal is to prevent "semantic collapse" — where a diffusion model
-defaults to a generic visual prior instead of the specific rare concept.
+    _ENTITY_SYSTEM = """\
+You write a precise contrastive visual sub-prompt for a single rare entity
+for use in a text-to-image generation pipeline.
 
-Given structured knowledge graph attributes for one or more entities:
+Cover ALL of the following attribute categories (skip only if genuinely N/A):
 
-1. Write detailed visual descriptors for each entity's unique morphological
-   features — shape, structure, color, texture, size, spatial arrangement.
+1. PHYSICAL PROPERTIES — exact body structure, number of arms/heads/limbs,
+   overall form, size, proportions
+2. APPEARANCE / MORPHOLOGY — colors (be specific: "storm-cloud dark blue",
+   not "dark"), texture (smooth/scaly/feathered), surface quality
+3. UNIQUE FACTS — what makes this entity visually unlike anything common
+4. FUNCTIONAL PROPERTIES — what it does, its role, powers, ecological function
+5. PERSONALITY TRAITS / BEHAVIOR — emotional expression, posture, demeanor
+   (important for mythological figures and animals)
+6. MATERIAL & COMPOSITION — what it is made of or composed of (for artifacts)
+   or biological makeup (for organisms)
+7. USAGE CONTEXT / SYMBOLIC ITEMS — what it carries, wears, is associated with
+8. ORIGIN & HISTORY — cultural/geographic grounding, era, tradition
+9. DISTINCTIVE FEATURES with NOT-X constraints — at least 2 explicit
+   "NOT [generic alternative]" phrases that prevent the model defaulting
+   to a common prior. Example: "NOT a western grim reaper", "NOT a generic deer"
 
-2. Add explicit CONTRASTIVE constraints using "NOT [generic alternative]"
-   phrasing to steer the model away from common priors.
-   Example: "NOT edible ginger", "NOT a Western grim reaper",
-            "NOT a generic deer", "NOT a plain wooden bowl"
+Write a dense, vivid paragraph (60-100 words) covering as many of these
+as possible. Do NOT use numbered lists — write as flowing descriptive prose.
+Return ONLY the sub-prompt text."""
 
-3. Include relevant relational and contextual elements that add narrative
-   grounding — habitat, symbolic items, associated entities, cultural origin.
+    _ENTITY_USER = """\
+Entity: {name}
+Domain: {domain}
+Type: {entity_type}
 
-4. Fuse everything into ONE coherent, vivid prompt suitable for a
-   text-to-image diffusion model. Around 150-250 words.
+Physical / Visual attributes:
+  Morphology: {morphology}
+  Distinctive features: {distinctive_features}
+  Colors: {colors}
+  Texture: {texture}
+  Size: {size}
+  Structure: {structure}
 
-Return ONLY the final prompt — no preamble, no explanation, no JSON."""
+Functional / Contextual:
+  Primary function: {primary_function}
+  Origin: {origin}
+  Cultural significance: {significance}
+  Historical period: {period}
 
-    # ── User message template ─────────────────────────────────────────────────
-    _SYNTHESIS_USER = """\
-ORIGINAL PROMPT:
-"{original}"
+Contrastive constraints (must appear as NOT-X in your sub-prompt):
+{contrastive}
 
-ENTITY ATTRIBUTES:
-{entity_block}
+Write the contrastive sub-prompt for {name} now."""
 
-RELATIONAL CONTEXT:
-{relational_block}
+    # ── Step 3: CoT merge ─────────────────────────────────────────────────────
 
-CONTRASTIVE CONSTRAINTS (must include these):
-{constraints_block}
+    _MERGE_SYSTEM = """\
+You are composing a final text-to-image prompt by merging per-entity
+contrastive sub-prompts into one coherent scene.
 
-Write the enriched prompt now."""
+Rules:
+1. Every entity sub-prompt below must be fully represented — do not drop
+   any entity's visual details or NOT-X constraints
+2. Describe how the entities relate to each other visually in the scene,
+   based on their relationship type
+3. Maintain the original query's intent — if the query asks for
+   "Yama and his sister", both Yama AND Yami must be prominent
+4. Compose as ONE flowing paragraph of vivid, specific imagery
+5. Keep all NOT-X constraints from all sub-prompts
+6. Do NOT add generic quality tags like "8k masterpiece" or "photorealistic"
+   unless they are domain-appropriate
 
-    # ── Refinement system prompt (SRD module) ────────────────────────────────
+Return ONLY the final merged prompt."""
+
+    _MERGE_USER = """\
+ORIGINAL QUERY: "{query}"
+
+RELATIONSHIP CONTEXT:
+{relationship_block}
+
+PER-ENTITY SUB-PROMPTS:
+{sub_prompts_block}
+
+Merge these into one coherent scene prompt that captures all entities
+as described above with their relationship visually expressed."""
+
+    # ── SRD refinement ───────────────────────────────────────────────────────
+
     _REFINEMENT_SYSTEM = """\
 You refine a text-to-image prompt to fix missing visual attributes.
 
@@ -128,71 +168,69 @@ Write the refined prompt now."""
 
     def synthesize(self, ctx: ContextPacket) -> EnrichedPrompt:
         """
-        Build enriched prompt from a ContextPacket.
+        Three-step contrastive CoT synthesis per Table 11 of the paper.
 
-        Args:
-            ctx : ContextPacket from KGRetriever
-
-        Returns:
-            EnrichedPrompt with original + enriched prompts
+        Step 1: entities already resolved by retriever (primary_entities)
+        Step 2: generate per-entity contrastive sub-prompt
+        Step 3: CoT merge into final scene prompt
         """
         if ctx.is_empty():
             logger.warning("Empty ContextPacket — returning original prompt unchanged.")
             return EnrichedPrompt(original=ctx.query, enriched=ctx.query)
 
-        entity_block      = self._build_entity_block(ctx)
-        relational_block  = self._build_relational_block(ctx)
-        constraints_block = self._build_constraints_block(ctx)
+        # Step 2 — per-entity contrastive sub-prompts
+        entity_prompts: dict[str, str] = {}
+        for entity in ctx.primary_entities:
+            name = entity.get("name", "")
+            if not name:
+                continue
+            sub = self._generate_entity_subprompt(entity)
+            entity_prompts[name] = sub
+            logger.info(f"  Sub-prompt for '{name}': {sub[:80]}...")
 
-        user_msg = self._SYNTHESIS_USER.format(
-            original=ctx.query,
-            entity_block=entity_block,
-            relational_block=relational_block,
-            constraints_block=constraints_block,
+        if not entity_prompts:
+            return EnrichedPrompt(original=ctx.query, enriched=ctx.query)
+
+        # Step 3 — CoT merge
+        relationship_block = self._build_relationship_block(ctx)
+        sub_prompts_block  = "\n\n".join(
+            f"[{name}]\n{sub}" for name, sub in entity_prompts.items()
+        )
+
+        merge_user = self._MERGE_USER.format(
+            query=ctx.query,
+            relationship_block=relationship_block,
+            sub_prompts_block=sub_prompts_block,
         )
 
         enriched = self._call_llm(
-            system=self._SYNTHESIS_SYSTEM,
-            user=user_msg,
-            max_tokens=512,
+            system=self._MERGE_SYSTEM,
+            user=merge_user,
+            max_tokens=600,
         )
 
         logger.info(f"  Enriched prompt synthesised ({len(enriched)} chars)")
-        logger.debug(f"  Enriched prompt:\n{enriched}")
 
         return EnrichedPrompt(
             original=ctx.query,
             enriched=enriched,
+            entity_prompts=entity_prompts,
             contrastive_cues=ctx.contrastive_constraints,
         )
 
-    # ── Public: refine (called by SRD) ───────────────────────────────────────
+    # ── Public: refine (SRD) ─────────────────────────────────────────────────
 
     def refine(
         self,
-        current_prompt: str,
+        current_prompt:     str,
         missing_attributes: list[str],
-        decay: float,
-        round_idx: int,
+        decay:              float,
+        round_idx:          int,
     ) -> str:
-        """
-        Produce P_{t+1} by emphasising missing attributes.
-        Called by the SRD refiner each iteration.
-
-        Args:
-            current_prompt     : prompt used in the last generation
-            missing_attributes : attributes not found in last image
-            decay              : weight controlling emphasis strength
-            round_idx          : current SRD round (for logging)
-
-        Returns:
-            Refined prompt string.
-        """
         if not missing_attributes:
             return current_prompt
 
         missing_str = "\n".join(f"- {a}" for a in missing_attributes)
-
         user_msg = self._REFINEMENT_USER.format(
             current_prompt=current_prompt,
             missing_attrs=missing_str,
@@ -202,7 +240,7 @@ Write the refined prompt now."""
         refined = self._call_llm(
             system=self._REFINEMENT_SYSTEM,
             user=user_msg,
-            max_tokens=512,
+            max_tokens=600,
         )
 
         logger.info(
@@ -211,85 +249,76 @@ Write the refined prompt now."""
         )
         return refined
 
-    # ── Block builders ────────────────────────────────────────────────────────
+    # ── Step 2 helper ─────────────────────────────────────────────────────────
 
-    def _build_entity_block(self, ctx: ContextPacket) -> str:
-        """Format entity attributes into a readable block for the LLM."""
-        blocks = []
+    def _generate_entity_subprompt(self, entity: dict) -> str:
+        """Generate one contrastive sub-prompt for a single entity."""
+        visual      = {}
+        functional  = {}
+        contextual  = {}
 
-        for entity in ctx.primary_entities:
-            name = entity.get("name", "")
-            etype = entity.get("entity_type", "")
-            domain = entity.get("domain", "")
+        # Support both flat (loaded from Neo4j) and nested (raw JSON) formats
+        if "visual_attributes" in entity:
+            visual     = entity.get("visual_attributes", {})
+            functional = entity.get("functional_attributes", {})
+            contextual = entity.get("contextual_attributes", {})
+        else:
+            visual     = entity  # flat Neo4j node
+            contextual = entity
+            functional = entity
 
-            lines = [f"Entity: {name} ({etype}, {domain})"]
+        name = entity.get("name", "")
+        contrastive_list = entity.get("contrastive_constraints", []) or []
+        contrastive_str  = "\n".join(f"  - {c}" for c in contrastive_list) \
+                           if contrastive_list else "  (derive from domain context)"
 
-            morphology = entity.get("morphology", "")
-            if morphology:
-                lines.append(f"  Morphology       : {morphology}")
+        user_msg = self._ENTITY_USER.format(
+            name=name,
+            domain=entity.get("domain", ""),
+            entity_type=entity.get("entity_type", ""),
+            morphology=visual.get("morphology", entity.get("morphology", "")),
+            distinctive_features="; ".join(
+                visual.get("distinctive_features", entity.get("distinctive_features", [])) or []
+            ),
+            colors=", ".join(
+                visual.get("color_palette", entity.get("color_palette", [])) or []
+            ),
+            texture=visual.get("texture", entity.get("texture", "")),
+            size=visual.get("size_and_scale", entity.get("size_and_scale", "")),
+            structure=visual.get("structural_arrangement", entity.get("structural_arrangement", "")),
+            primary_function=functional.get("primary_function", entity.get("primary_function", "")),
+            origin=contextual.get("origin", entity.get("origin", "")),
+            significance=contextual.get("cultural_significance", entity.get("cultural_significance", "")),
+            period=contextual.get("historical_period", entity.get("historical_period", "")),
+            contrastive=contrastive_str,
+        )
 
-            features = entity.get("distinctive_features", []) or []
-            if features:
-                lines.append(f"  Distinctive      : {'; '.join(features)}")
+        return self._call_llm(
+            system=self._ENTITY_SYSTEM,
+            user=user_msg,
+            max_tokens=250,
+        )
 
-            colors = entity.get("color_palette", []) or []
-            if colors:
-                lines.append(f"  Colors           : {', '.join(colors)}")
+    # ── Helpers ───────────────────────────────────────────────────────────────
 
-            texture = entity.get("texture", "")
-            if texture:
-                lines.append(f"  Texture          : {texture}")
+    def _build_relationship_block(self, ctx: ContextPacket) -> str:
+        """Format the most relevant relationships for the merge step."""
+        if not ctx.relationships:
+            return "No explicit relationships retrieved."
 
-            size = entity.get("size_and_scale", "")
-            if size:
-                lines.append(f"  Size             : {size}")
+        # Filter to relationships between primary entities only
+        primary_names = {e.get("name") for e in ctx.primary_entities}
+        relevant = [
+            r for r in ctx.relationships
+            if r.get("from") in primary_names and r.get("to") in primary_names
+        ]
 
-            structure = entity.get("structural_arrangement", "")
-            if structure:
-                lines.append(f"  Structure        : {structure}")
+        # Fall back to all relationships if none between primaries
+        if not relevant:
+            relevant = ctx.relationships[:6]
 
-            primary_fn = entity.get("primary_function", "")
-            if primary_fn:
-                lines.append(f"  Function         : {primary_fn}")
-
-            origin = entity.get("origin", "")
-            if origin:
-                lines.append(f"  Origin           : {origin}")
-
-            period = entity.get("historical_period", "")
-            if period:
-                lines.append(f"  Period           : {period}")
-
-            significance = entity.get("cultural_significance", "")
-            if significance:
-                lines.append(f"  Significance     : {significance}")
-
-            blocks.append("\n".join(lines))
-
-        return "\n\n".join(blocks) if blocks else "No entity attributes available."
-
-    def _build_relational_block(self, ctx: ContextPacket) -> str:
-        """Format relationships and neighbour context for the LLM."""
-        lines = []
-
-        # Typed edges
-        for rel in ctx.relationships[:10]:
-            lines.append(f"  ({rel['from']}) --[{rel['type']}]--> ({rel['to']})")
-
-        # Neighbour entity names
-        if ctx.neighbour_entities:
-            nb_names = [e.get("name", "") for e in ctx.neighbour_entities[:5]]
-            lines.append(f"  Related entities : {', '.join(nb_names)}")
-
-        return "\n".join(lines) if lines else "No relational context available."
-
-    def _build_constraints_block(self, ctx: ContextPacket) -> str:
-        """Format contrastive constraints."""
-        if not ctx.contrastive_constraints:
-            return "None specified."
-        return "\n".join(f"  {c}" for c in ctx.contrastive_constraints)
-
-    # ── LLM call ──────────────────────────────────────────────────────────────
+        lines = [f"  ({r['from']}) --[{r['type']}]--> ({r['to']})" for r in relevant[:8]]
+        return "\n".join(lines)
 
     def _call_llm(self, system: str, user: str, max_tokens: int = 512) -> str:
         response = self.client.chat.completions.create(
@@ -299,6 +328,6 @@ Write the refined prompt now."""
                 {"role": "user",   "content": user},
             ],
             temperature=0.3,
-            max_completion_tokens=max_tokens,
+            max_tokens=max_tokens,
         )
         return (response.choices[0].message.content or "").strip()
