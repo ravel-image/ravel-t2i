@@ -1,0 +1,40 @@
+{
+  "concept_name": "Zulu Isicholo",
+  "base_image_model": "glm-image",
+  "base_llm": "gpt-5.2",
+  "conditions": {
+    "zero_shot_concept_completion": {
+      "prompt": "A portrait of a woman wearing a large flat circular hat, wide disc-shaped design resting on her head, simple neutral tones, minimal decoration, traditional clothing, natural outdoor lighting, soft background, photorealistic, highly detailed"
+    },
+    "cot_prompt_expansion": {
+      "prompt": "A Zulu woman wearing an isicholo, a large flat circular hat with a raised dome center and wide symmetrical disc shape, balanced precisely on the head, made from woven fiber material with smooth curvature, paired with traditional attire, calm expression, natural outdoor setting, soft lighting, photorealistic, highly detailed textures"
+    },
+    "search_enabled_cot": {
+      "prompt": "Isicholo, a traditional Zulu hat worn by married women, characterized by a wide flat circular disc shape with a raised dome center, historically made from woven grass and coated with natural materials. Generate a photorealistic portrait of a Zulu woman wearing an isicholo, with accurate structure, smooth earthy finish, balanced on the head, accompanied by traditional beadwork and attire, natural lighting, highly detailed textures"
+    },
+    "iterative_correction": {
+      "corrections": [
+        {
+          "iteration": 1,
+          "prompt": "A Zulu woman wearing a large flat circular hat with a clearly defined wide disc shape and slightly raised central dome, symmetrical and balanced on the head, simple earthy tones, traditional attire, natural lighting, photorealistic, highly detailed"
+        },
+        {
+          "iteration": 2,
+          "prompt": "A Zulu woman wearing an isicholo with a wide flat disc-shaped brim and a smooth rounded dome center, proportionally large and balanced on the head, structured and symmetrical design, natural earthy tones, traditional clothing, outdoor setting, soft lighting, photorealistic"
+        },
+        {
+          "iteration": 3,
+          "prompt": "A highly detailed portrait of a Zulu woman wearing an isicholo made from woven fiber material with a smooth coated surface, showing realistic handcrafted texture and subtle imperfections, wide flat disc shape with raised dome center, natural earthy colors, traditional attire, shallow depth of field, photorealistic"
+        },
+        {
+          "iteration": 4,
+          "prompt": "A Zulu woman wearing a traditional isicholo, a large flat circular hat with a raised dome center made from woven fiber and natural coating, symbolizing marital status, paired with intricate Zulu beadwork jewelry and traditional attire, natural skin tones, outdoor rural setting, soft natural lighting, highly detailed, photorealistic"
+        },
+        {
+          "iteration": 5,
+          "prompt": "A photorealistic portrait of a Zulu woman wearing an isicholo, a large flat disc-shaped traditional hat with a smooth raised dome center, made from woven fiber coated with natural materials giving a refined earthy finish, precisely balanced on the head, accompanied by intricate Zulu beadwork and traditional attire, warm natural lighting, realistic skin tones, subtle background blur, ultra-detailed textures, 8k resolution"
+        }
+      ]
+    }
+  }
+}
