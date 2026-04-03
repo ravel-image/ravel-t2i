@@ -1,0 +1,40 @@
+{
+  "concept_name": "Velvet worm",
+  "base_image_model": "glm-image",
+  "base_llm": "gpt-5.2",
+  "conditions": {
+    "zero_shot_concept_completion": {
+      "prompt": "A velvet worm in a natural forest environment, small soft-bodied creature with a segmented elongated form, multiple short stubby legs, moist textured skin, crawling slowly on a damp surface, surrounded by leaves and organic debris, soft natural lighting, shallow depth of field, highly detailed, photorealistic, macro photography style"
+    },
+    "cot_prompt_expansion": {
+      "prompt": "A highly detailed macro photograph of a velvet worm (onychophoran) in its natural habitat, showing its elongated soft segmented body with numerous short lobopod legs evenly spaced along both sides, moist velvety skin texture with subtle surface shine, small antennae at the front, crawling slowly across a damp forest floor covered with moss and decaying leaves, shallow depth of field, natural soft lighting, photorealistic, ultra-detailed, 8k"
+    },
+    "search_enabled_cot": {
+      "prompt": "Velvet worm, a rare invertebrate with a soft elongated body, many short legs, and antennae, known for living in humid forest ecosystems and having a velvety textured surface. Create a photorealistic macro image showing the organism crawling across a mossy surface, with accurate anatomical proportions, moist skin details, and natural environmental context, ultra-detailed, high resolution, realistic lighting"
+    },
+    "iterative_correction": {
+      "corrections": [
+        {
+          "iteration": 1,
+          "prompt": "A soft-bodied worm-like organism resembling a velvet worm, with a smooth flexible cylindrical body and many short stubby unjointed legs along both sides, no rigid segmentation or insect-like features, small rounded head, crawling slowly on a damp forest floor with soil, leaves, and moss, macro photography perspective, shallow depth of field, natural lighting, highly detailed, photorealistic"
+        },
+        {
+          "iteration": 2,
+          "prompt": "A velvet worm (onychophoran) with an elongated soft cylindrical body, evenly spaced short lobopod legs along both sides, smooth velvety skin, small head with simple antennae, no insect-like segmentation or mandibles, crawling across a moist forest floor covered with moss, soil, and decaying leaves, macro photography, shallow depth of field, natural colors, highly detailed, photorealistic"
+        },
+        {
+          "iteration": 3,
+          "prompt": "A highly detailed macro photograph of a velvet worm with a soft elongated body covered in velvety textured skin, subtle surface moisture giving a slight shine, many short unjointed legs evenly spaced along both sides, small rounded head with antennae, natural organic curvature of the body, crawling across damp soil and moss with water droplets, shallow depth of field, natural lighting, ultra-realistic textures, photorealistic"
+        },
+        {
+          "iteration": 4,
+          "prompt": "A biologically accurate velvet worm (onychophora) with a soft flexible elongated body, fine velvety texture, numerous short stubby lobopod legs along both sides, small head with forward-pointing antennae and simple features, no insect-like characteristics, natural earthy coloration, crawling slowly on a humid forest floor with moss, wet leaves, and organic debris, macro photography, shallow depth of field, cinematic natural lighting, highly detailed, 8k"
+        },
+        {
+          "iteration": 5,
+          "prompt": "A photorealistic macro image of a velvet worm (onychophoran) in its natural rainforest habitat, featuring a soft elongated cylindrical body with velvety textured moist skin, numerous short unjointed lobopod legs evenly spaced along both sides, a small rounded head with delicate antennae, natural earthy brown tones, subtle surface sheen from humidity, crawling across a damp moss-covered forest floor with decaying leaves and soil, shallow depth of field, soft diffused natural lighting, ultra-detailed textures, 8k resolution"
+        }
+      ]
+    }
+  }
+}
