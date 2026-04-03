@@ -1,1 +1,96 @@
-
+{
+  "prompt": "Velvet worm",
+  "enriched_prompt": "A highly detailed macro depiction of a velvet worm (Onychophora) crawling slowly across a damp forest floor. The creature has a soft, segmented, caterpillar-like body with a velvety texture and numerous short stubby legs (lobopods) running along its underside. Its body is brightly colored in shades of orange, reddish-brown, or blue-green, often with subtle iridescence or soft gradients. The head features two small antennae and simple eyes, giving it a primitive yet distinct appearance. The skin appears moist and slightly glossy, reflecting the humid environment. The forest floor is rich with moss, soil, small pebbles, and green foliage, creating a lush micro-ecosystem. Lighting is soft and diffused, emphasizing the moist textures and biological realism. The creature is clearly not an insect or centipede but has a unique, soft-bodied appearance.",
+  "final_prompt": "Ultra-realistic macro shot of a velvet worm (Onychophora) crawling across a damp mossy forest floor. The creature has a soft, elongated, segmented body with a velvety, moist texture and numerous stubby lobopod legs evenly spaced underneath. Its coloration is vibrant orange with subtle gradients of reddish-brown and slight bluish undertones, with a faint glossy sheen indicating moisture. The head features two short antennae and tiny simple eyes. The body is smooth and not armored, clearly distinct from insects or centipedes. The surrounding environment includes wet soil, moss, small stones, and green leaves, with shallow depth of field. Soft natural lighting highlights the texture and biological realism, emphasizing the damp forest habitat.",
+  "backbone": "glm_image",
+  "seed": 42,
+  "domain": "biological_organism",
+  "entities": [
+    "Velvet worm"
+  ],
+  "attributes": [
+    "soft elongated segmented body with velvety texture",
+    "multiple short stubby legs (lobopods) along the underside",
+    "bright orange or reddish coloration with gradients",
+    "moist slightly glossy skin surface",
+    "small head with antennae and simple eyes",
+    "non-armored soft body (not insect-like exoskeleton)",
+    "caterpillar-like but distinct morphology",
+    "damp forest floor habitat with moss and soil",
+    "macro-scale biological realism",
+    "subtle iridescence or color variation",
+    "short rounded legs evenly spaced",
+    "organic smooth skin without sharp segments"
+  ],
+  "contrastive": [
+    "NOT a centipede — no long articulated legs or hard exoskeleton",
+    "NOT an insect — lacks segmented rigid body and jointed limbs",
+    "NOT spiky or armored — must be soft and smooth",
+    "NOT dry environment — must be moist forest floor",
+    "NOT exaggerated fantasy creature — should look biologically plausible"
+  ],
+  "srd_enabled": true,
+  "images": {
+    "00_base": "raw prompt, no KG enrichment",
+    "01_ravel": "KG-enriched prompt, no SRD",
+    "final": "best image after SRD (round 2)"
+  },
+  "srd": {
+    "converged": true,
+    "convergence_round": 2,
+    "final_gsi": 0.9167,
+    "gsi_trajectory": [
+      0.5833,
+      0.9167
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "image": "02_srd_r1_gsi0.58.png",
+        "gsi": 0.5833,
+        "decay": 0.9,
+        "converged": false,
+        "escape": false,
+        "present_attrs": [
+          "soft elongated segmented body with velvety texture",
+          "multiple short stubby legs (lobopods) along the underside",
+          "bright orange or reddish coloration with gradients",
+          "small head with antennae and simple eyes",
+          "caterpillar-like but distinct morphology",
+          "damp forest floor habitat with moss and soil",
+          "macro-scale biological realism"
+        ],
+        "missing_attrs": [
+          "moist slightly glossy skin surface",
+          "non-armored soft body (not insect-like exoskeleton)",
+          "subtle iridescence or color variation",
+          "short rounded legs evenly spaced",
+          "organic smooth skin without sharp segments"
+        ]
+      },
+      {
+        "round": 2,
+        "image": "03_srd_r2_gsi0.92.png",
+        "gsi": 0.9167,
+        "decay": 0.5,
+        "converged": true,
+        "escape": false,
+        "present_attrs": [
+          "soft elongated segmented body with velvety texture",
+          "multiple short stubby legs (lobopods) along the underside",
+          "bright orange or reddish coloration with gradients",
+          "moist slightly glossy skin surface",
+          "small head with antennae and simple eyes",
+          "non-armored soft body (not insect-like exoskeleton)",
+          "caterpillar-like but distinct morphology",
+          "damp forest floor habitat with moss and soil",
+          "macro-scale biological realism",
+          "subtle iridescence or color variation",
+          "short rounded legs evenly spaced",
+          "organic smooth skin without sharp segments"
+        ],
+        "missing_attrs": []
+      }
+    ]
+  }
+}
