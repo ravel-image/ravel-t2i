@@ -1,0 +1,134 @@
+{
+  "prompt": "Zulu Isicholo",
+  "enriched_prompt": "In a vibrant depiction of Zulu culture, a married Zulu woman stands proudly, embodying the essence of traditional Zulu attire. Her head is adorned with a magnificent Zulu Isicholo, a large, flat disc-shaped headdress that extends dramatically beyond her head, measuring between 30 to 60 centimeters in diameter. The Isicholo, with its basketry foundation of tightly woven grass or cotton string, is coated in a smooth, matte reddish-ochre finish from a mixture of red oxide and animal fat. Beaded strips known as umqhwazi elegantly line the lower rim, with occasional beaded rosettes adding to its intricate design. This headdress, tilted at an angle, signifies her marital status and respect for her husband's family. She is dressed in a traditional isidwaba, a black, pleated skirt that complements the headdress, and her ensemble is further enhanced by the vibrant Zulu beadwork she wears, showcasing the rich cultural heritage of the KwaZulu-Natal province. The scene captures the essence of the Ukukhehla ceremony, where the Isicholo plays a central role, highlighting its significance and beauty. The setting is a celebration of Zulu tradition, with the Isicholo as a focal point, NOT resembling a rounded dome or bowl-shaped hat, and NOT worn flat on the head, emphasizing its unique cultural identity.",
+  "final_prompt": "In a vibrant depiction of Zulu culture, a married Zulu woman stands proudly, embodying the essence of traditional Zulu attire. Her head is adorned with a magnificent Zulu Isicholo, a large, flat disc-shaped headdress that extends dramatically beyond her head, measuring between 30 to 60 centimeters in diameter. The Isicholo is constructed by overlaying dyed string over a coiled basketry foundation, resulting in a tightly woven, smooth, and rigid surface. It is coated in a deep red-ochre, burnt sienna, and earthy brown matte finish from a mixture of red oxide and animal fat, with subtle hints of natural straw yellow woven into the design. Beaded decorative strips known as umqhwazi or isembozo elegantly line the lower rim edge, with beaded rosettes attached to the sides or top, reflecting later 20th-century versions. This headdress is worn tilted at an angle, not flat on the head, signifying her marital status and respect for her husband's family. She is dressed in a traditional isidwaba, a black, pleated skirt that complements the headdress, and her ensemble is further enhanced by the vibrant Zulu beadwork she wears, showcasing the rich cultural heritage of the KwaZulu-Natal province. The scene captures the essence of the Ukukhehla ceremony, where the Isicholo plays a central role, highlighting its significance and beauty. The setting is a celebration of Zulu tradition, with the Isicholo as a focal point, emphasizing its unique cultural identity.",
+  "backbone": "glm_image",
+  "seed": 42,
+  "domain": "cultural_artifact",
+  "entities": [
+    "Zulu Isicholo"
+  ],
+  "attributes": [
+    "large flat disc-shaped hat with dramatically flared wide brim, constructed over a basketry foundation of woven grass, cotton string, or human hair",
+    "extraordinarily wide flat circular disc brim extending 30–60cm in diameter, far beyond the width of the head",
+    "tilted at an angle when worn rather than sitting flat on top",
+    "constructed by overlaying dyed string over a coiled basketry foundation",
+    "reddish-ochre coloration from red oxide and animal fat mixture applied to surface",
+    "beaded decorative strips along lower rim edge known as umqhwazi or isembozo",
+    "beaded rosettes attached to sides or top in later 20th century versions",
+    "rigid structured form that maintains its disc shape permanently",
+    "deep red-ochre",
+    "burnt sienna",
+    "black",
+    "natural straw yellow",
+    "earthy brown",
+    "tightly woven basketry surface, smooth and rigid, with matte ochre finish from red oxide coating",
+    "brim diameter 30–60cm, worn tilted at an angle on top of the head; historically larger, evolved to smaller sizes by mid-20th century"
+  ],
+  "contrastive": [
+    "NOT a rounded dome or bowl-shaped hat — must be a dramatically wide flat disc",
+    "NOT worn straight on the head — always tilted at an angle to one side",
+    "NOT a small hat — the brim extends dramatically wide, far beyond the head width",
+    "NOT a generic African hat or turban — specific to married Zulu women with basketry-woven disc structure",
+    "NOT decorated with feathers — surface decorated with ochre coating and beadwork strips"
+  ],
+  "srd_enabled": true,
+  "images": {
+    "00_base": "raw prompt, no KG enrichment",
+    "01_ravel": "KG-enriched prompt, no SRD",
+    "final": "best image after SRD (or ravel if SRD disabled)"
+  },
+  "srd": {
+    "converged": false,
+    "convergence_round": null,
+    "final_gsi": 0.6667,
+    "gsi_trajectory": [
+      0.2667,
+      0.5333,
+      0.6667
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "image": "02_srd_r1_gsi0.27.png",
+        "gsi": 0.2667,
+        "decay": 0.9,
+        "converged": false,
+        "escape": false,
+        "present_attrs": [
+          "large flat disc-shaped hat with dramatically flared wide brim, constructed over a basketry foundation of woven grass, cotton string, or human hair",
+          "extraordinarily wide flat circular disc brim extending 30–60cm in diameter, far beyond the width of the head",
+          "rigid structured form that maintains its disc shape permanently",
+          "natural straw yellow"
+        ],
+        "missing_attrs": [
+          "tilted at an angle when worn rather than sitting flat on top",
+          "constructed by overlaying dyed string over a coiled basketry foundation",
+          "reddish-ochre coloration from red oxide and animal fat mixture applied to surface",
+          "beaded decorative strips along lower rim edge known as umqhwazi or isembozo",
+          "beaded rosettes attached to sides or top in later 20th century versions",
+          "deep red-ochre",
+          "burnt sienna",
+          "black",
+          "earthy brown",
+          "tightly woven basketry surface, smooth and rigid, with matte ochre finish from red oxide coating",
+          "brim diameter 30–60cm, worn tilted at an angle on top of the head; historically larger, evolved to smaller sizes by mid-20th century"
+        ]
+      },
+      {
+        "round": 2,
+        "image": "03_srd_r2_gsi0.53.png",
+        "gsi": 0.5333,
+        "decay": 0.5,
+        "converged": false,
+        "escape": false,
+        "present_attrs": [
+          "large flat disc-shaped hat with dramatically flared wide brim, constructed over a basketry foundation of woven grass, cotton string, or human hair",
+          "extraordinarily wide flat circular disc brim extending 30–60cm in diameter, far beyond the width of the head",
+          "tilted at an angle when worn rather than sitting flat on top",
+          "constructed by overlaying dyed string over a coiled basketry foundation",
+          "beaded rosettes attached to sides or top in later 20th century versions",
+          "rigid structured form that maintains its disc shape permanently",
+          "black",
+          "brim diameter 30–60cm, worn tilted at an angle on top of the head; historically larger, evolved to smaller sizes by mid-20th century"
+        ],
+        "missing_attrs": [
+          "reddish-ochre coloration from red oxide and animal fat mixture applied to surface",
+          "beaded decorative strips along lower rim edge known as umqhwazi or isembozo",
+          "deep red-ochre",
+          "burnt sienna",
+          "natural straw yellow",
+          "earthy brown",
+          "tightly woven basketry surface, smooth and rigid, with matte ochre finish from red oxide coating"
+        ]
+      },
+      {
+        "round": 3,
+        "image": "04_srd_r3_gsi0.67.png",
+        "gsi": 0.6667,
+        "decay": 0.3333,
+        "converged": false,
+        "escape": false,
+        "present_attrs": [
+          "large flat disc-shaped hat with dramatically flared wide brim, constructed over a basketry foundation of woven grass, cotton string, or human hair",
+          "extraordinarily wide flat circular disc brim extending 30–60cm in diameter, far beyond the width of the head",
+          "tilted at an angle when worn rather than sitting flat on top",
+          "constructed by overlaying dyed string over a coiled basketry foundation",
+          "beaded decorative strips along lower rim edge known as umqhwazi or isembozo",
+          "beaded rosettes attached to sides or top in later 20th century versions",
+          "rigid structured form that maintains its disc shape permanently",
+          "black",
+          "natural straw yellow",
+          "brim diameter 30–60cm, worn tilted at an angle on top of the head; historically larger, evolved to smaller sizes by mid-20th century"
+        ],
+        "missing_attrs": [
+          "reddish-ochre coloration from red oxide and animal fat mixture applied to surface",
+          "deep red-ochre",
+          "burnt sienna",
+          "earthy brown",
+          "tightly woven basketry surface, smooth and rigid, with matte ochre finish from red oxide coating"
+        ]
+      }
+    ]
+  }
+}
