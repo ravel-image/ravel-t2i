@@ -1,0 +1,703 @@
+2026-04-02 21:50:36,929 | DEBUG    | [#0000]  _: <POOL> created, routing address IPv4Address(('0e6d187a.databases.neo4j.io', 7687))
+2026-04-02 21:50:36,929 | DEBUG    | [#0000]  _: <WORKSPACE> resolve home database
+2026-04-02 21:50:36,929 | DEBUG    | [#0000]  _: <POOL> attempting to update routing table from IPv4Address(('0e6d187a.databases.neo4j.io', 7687))
+2026-04-02 21:50:36,929 | DEBUG    | [#0000]  _: <RESOLVE> in: 0e6d187a.databases.neo4j.io:7687
+2026-04-02 21:50:36,960 | DEBUG    | [#0000]  _: <RESOLVE> dns resolver out: 34.31.169.230:7687
+2026-04-02 21:50:36,960 | DEBUG    | [#0000]  _: <POOL> _acquire router connection, database=None, address=ResolvedIPv4Address(('34.31.169.230', 7687))
+2026-04-02 21:50:36,960 | DEBUG    | [#0000]  _: <POOL> trying to hand out new connection
+2026-04-02 21:50:36,969 | DEBUG    | [#0000]  C: <OPEN> 34.31.169.230:7687
+2026-04-02 21:50:37,001 | DEBUG    | [#E31C]  C: <SECURE> 0e6d187a.databases.neo4j.io
+2026-04-02 21:50:37,034 | DEBUG    | [#E31C]  C: <MAGIC> 0x6060B017
+2026-04-02 21:50:37,034 | DEBUG    | [#E31C]  C: <HANDSHAKE> 0x000001FF 0x00080805 0x00020404 0x00000003
+2026-04-02 21:50:37,066 | DEBUG    | [#E31C]  S: <HANDSHAKE> 0x000001FF [4] 0x00040404 0x00040405 0x00020805 0x00000006 0x00
+2026-04-02 21:50:37,066 | DEBUG    | [#E31C]  C: <HANDSHAKE> 0x00000006 0x00
+2026-04-02 21:50:37,066 | DEBUG    | [#E31C]  C: HELLO {'user_agent': 'neo4j-python/6.1.0 Python/3.10.20-final-0 (linux)', 'routing': {'address': '0e6d187a.databases.neo4j.io:7687'}, 'bolt_agent': {'product': 'neo4j-python/6.1.0', 'platform': 'Linux 5.14.0-611.13.1.el9_7.x86_64; x86_64', 'language': 'Python/3.10.20-final-0', 'language_details': 'CPython; 3.10.20-final-0 (main, Mar 11 2026 17:46:40) [GCC 14.3.0]'}}
+2026-04-02 21:50:37,067 | DEBUG    | [#E31C]  _: <CONNECTION> client state: CONNECTED > AUTHENTICATION
+2026-04-02 21:50:37,067 | DEBUG    | [#E31C]  C: LOGON {'scheme': 'basic', 'principal': '0e6d187a', 'credentials': '*******'}
+2026-04-02 21:50:37,067 | DEBUG    | [#E31C]  _: <CONNECTION> client state: AUTHENTICATION > READY
+2026-04-02 21:50:37,099 | DEBUG    | [#E31C]  S: SUCCESS {'server': 'Neo4j/5.27-aura', 'protocol_version': '6.0', 'connection_id': 'bolt-217201', 'hints': {'connection.recv_timeout_seconds': 60, 'ssr.enabled': True}}
+2026-04-02 21:50:37,099 | DEBUG    | [#E31C]  _: <CONNECTION> server state: CONNECTED > AUTHENTICATION
+2026-04-02 21:50:37,100 | DEBUG    | [#E31C]  S: SUCCESS {'advertised_address': 'p-mt-163021453c5e-13-0001.production-orch-0702.neo4j.io:7687'}
+2026-04-02 21:50:37,100 | DEBUG    | [#E31C]  _: <CONNECTION> server state: AUTHENTICATION > READY
+2026-04-02 21:50:37,100 | DEBUG    | [#E31C]  C: ROUTE {'address': '0e6d187a.databases.neo4j.io:7687'} () {}
+2026-04-02 21:50:37,133 | DEBUG    | [#E31C]  S: SUCCESS {'rt': {'servers': [{'addresses': ['p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'], 'role': 'WRITE'}, {'addresses': ['p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'], 'role': 'READ'}, {'addresses': ['p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'], 'role': 'ROUTE'}], 'ttl': 10, 'db': '0e6d187a'}}
+2026-04-02 21:50:37,133 | DEBUG    | [#E31C]  _: <POOL> released bolt-217201
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <ROUTING> updated table=RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10)
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <POOL> update routing table from address=ResolvedIPv4Address(('34.31.169.230', 7687)) (RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10))
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='READ', database=AcquisitionDatabase(name='0e6d187a', guessed=False)
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3227991.628150199, ttl=10, perf_time=3227991.628439848 => False
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=True): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10)
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <POOL> trying to hand out new connection
+2026-04-02 21:50:37,133 | DEBUG    | [#0000]  _: <RESOLVE> in: p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687
+2026-04-02 21:50:37,161 | DEBUG    | [#0000]  _: <RESOLVE> dns resolver out: 34.31.169.230:7687
+2026-04-02 21:50:37,161 | DEBUG    | [#0000]  C: <OPEN> 34.31.169.230:7687
+2026-04-02 21:50:37,192 | DEBUG    | [#E320]  C: <SECURE> p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io
+2026-04-02 21:50:37,225 | DEBUG    | [#E320]  C: <MAGIC> 0x6060B017
+2026-04-02 21:50:37,225 | DEBUG    | [#E320]  C: <HANDSHAKE> 0x000001FF 0x00080805 0x00020404 0x00000003
+2026-04-02 21:50:37,258 | DEBUG    | [#E320]  S: <HANDSHAKE> 0x000001FF [4] 0x00040404 0x00040405 0x00020805 0x00000006 0x00
+2026-04-02 21:50:37,258 | DEBUG    | [#E320]  C: <HANDSHAKE> 0x00000006 0x00
+2026-04-02 21:50:37,258 | DEBUG    | [#E320]  C: HELLO {'user_agent': 'neo4j-python/6.1.0 Python/3.10.20-final-0 (linux)', 'routing': {'address': '0e6d187a.databases.neo4j.io:7687'}, 'bolt_agent': {'product': 'neo4j-python/6.1.0', 'platform': 'Linux 5.14.0-611.13.1.el9_7.x86_64; x86_64', 'language': 'Python/3.10.20-final-0', 'language_details': 'CPython; 3.10.20-final-0 (main, Mar 11 2026 17:46:40) [GCC 14.3.0]'}}
+2026-04-02 21:50:37,258 | DEBUG    | [#E320]  _: <CONNECTION> client state: CONNECTED > AUTHENTICATION
+2026-04-02 21:50:37,258 | DEBUG    | [#E320]  C: LOGON {'scheme': 'basic', 'principal': '0e6d187a', 'credentials': '*******'}
+2026-04-02 21:50:37,258 | DEBUG    | [#E320]  _: <CONNECTION> client state: AUTHENTICATION > READY
+2026-04-02 21:50:37,291 | DEBUG    | [#E320]  S: SUCCESS {'server': 'Neo4j/5.27-aura', 'protocol_version': '6.0', 'connection_id': 'bolt-217459', 'hints': {'connection.recv_timeout_seconds': 60, 'ssr.enabled': True}}
+2026-04-02 21:50:37,291 | DEBUG    | [#E320]  _: <CONNECTION> server state: CONNECTED > AUTHENTICATION
+2026-04-02 21:50:37,291 | DEBUG    | [#E320]  S: SUCCESS {'advertised_address': 'p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'}
+2026-04-02 21:50:37,292 | DEBUG    | [#E320]  _: <CONNECTION> server state: AUTHENTICATION > READY
+2026-04-02 21:50:37,292 | DEBUG    | [#E320]  _: <POOL> released bolt-217459
+2026-04-02 21:50:37,292 | INFO     | Neo4j connected: neo4j+s://0e6d187a.databases.neo4j.io
+2026-04-02 21:50:37,357 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:50:37,358 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:50:37,358 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:50:37,358 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3227991.628150199, ttl=10, perf_time=3227991.853412451 => False
+2026-04-02 21:50:37,358 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:50:37,358 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10)
+2026-04-02 21:50:37,358 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:50:37,358 | DEBUG    | [#E320]  _: <POOL> picked existing connection bolt-217459
+2026-04-02 21:50:37,358 | DEBUG    | [#E320]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:50:37,358 | DEBUG    | [#E320]  _: <POOL> handing out existing connection
+2026-04-02 21:50:37,358 | DEBUG    | [#E320]  C: RUN 'MATCH (e:Entity) WHERE e.domain IS NOT NULL RETURN e.name AS name' {} {}
+2026-04-02 21:50:37,358 | DEBUG    | [#E320]  _: <CONNECTION> client state: READY > STREAMING
+2026-04-02 21:50:37,358 | DEBUG    | [#E320]  C: PULL {'n': 1000}
+2026-04-02 21:50:37,393 | DEBUG    | [#E320]  S: SUCCESS {'t_first': 2, 'fields': ['name'], 'db': '0e6d187a'}
+2026-04-02 21:50:37,393 | DEBUG    | [#E320]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:50:37,393 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:50:37,396 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,396 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,396 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,396 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,396 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,397 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,398 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,399 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,400 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,401 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,402 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,403 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,404 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,405 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,406 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,407 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,408 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,409 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,410 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,411 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,412 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,413 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,414 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,415 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,416 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,417 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,418 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,419 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,420 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,421 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,422 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,423 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,424 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,425 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,426 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,427 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,428 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,429 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,430 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,431 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:37,431 | DEBUG    | [#E320]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 1, 'db': '0e6d187a'}
+2026-04-02 21:50:37,431 | DEBUG    | [#E320]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:50:37,431 | DEBUG    | [#E320]  _: <POOL> released bolt-217459
+2026-04-02 21:50:37,431 | INFO     |   KG name cache: 460 enriched entities loaded
+2026-04-02 21:50:37,438 | INFO     | Retrieving context for: 'Zulu Isicholo'
+2026-04-02 21:50:37,831 | DEBUG    | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-fb7fd168-c370-4347-8d8e-80304423a7aa', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You extract entity names and optional relational intent from a text-to-image prompt.\nThe entity could be a mythological figure, rare animal, plant, artifact, or phenomenon.\n\nRules:\n- Extract the most specific proper name(s) mentioned\n- Handle any capitalization (YAMA, yama, Yama → "Yama")\n- For descriptive references ("the Hindu god of death") resolve to the proper name\n- For relational queries ("Ram\'s wife", "Yama\'s mount", "Krishna\'s enemy")\n  extract BOTH the anchor entity AND a relationship type in UPPERCASE_SNAKE_CASE\n- If the prompt is very long, focus only on the first sentence\n\nReturn ONLY valid JSON:\n{\n  "entities": ["EntityName1", "EntityName2"],\n  "relational_intent": {\n    "anchor": "AnchorEntityName",\n    "relation": "RELATIONSHIP_TYPE"\n  }\n}\nSet relational_intent to null if no relational query detected.\nRelationship type examples: HAS_SPOUSE, RIDES, HAS_CHILD, HAS_PARENT,\nHAS_SIBLING, ENEMY_OF, ALLY_OF, WIELDS, RULES_OVER, TEACHER_OF, STUDENT_OF\nNo explanation, no markdown, just the JSON.'}, {'role': 'user', 'content': 'Zulu Isicholo'}], 'model': 'gpt-4o', 'max_tokens': 150, 'temperature': 0}}
+2026-04-02 21:50:37,838 | DEBUG    | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2026-04-02 21:50:37,839 | DEBUG    | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-04-02 21:50:37,861 | DEBUG    | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd38910>
+2026-04-02 21:50:37,862 | DEBUG    | start_tls.started ssl_context=<ssl.SSLContext object at 0x15552c607840> server_hostname='api.openai.com' timeout=5.0
+2026-04-02 21:50:37,871 | DEBUG    | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd38760>
+2026-04-02 21:50:37,872 | DEBUG    | send_request_headers.started request=<Request [b'POST']>
+2026-04-02 21:50:37,872 | DEBUG    | send_request_headers.complete
+2026-04-02 21:50:37,872 | DEBUG    | send_request_body.started request=<Request [b'POST']>
+2026-04-02 21:50:37,872 | DEBUG    | send_request_body.complete
+2026-04-02 21:50:37,872 | DEBUG    | receive_response_headers.started request=<Request [b'POST']>
+2026-04-02 21:50:38,565 | DEBUG    | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 03 Apr 2026 01:50:38 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9e646c6ebefcc768-IAD'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'experiment-aawniq'), (b'openai-processing-ms', b'529'), (b'openai-project', b'proj_vAjBi7WmgGzFatchM4I8KfPS'), (b'openai-version', b'2020-10-01'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'30000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'29999739'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_d22e0c935e904051955795a5a006130c'), (b'set-cookie', b'__cf_bm=1RI0wVOFWeWt.AcWtDQfztrCR9fBcktutmcN0W6fZQU-1775181037.8788345-1.0.1.1-WyUyxMADyfnSzDcU8BAx692jjrY8EfvqrioAhPOYYe001ZqJQRAO2JcyZT_S3o9IMJSwmpGY9EFruPOuutktK3LCyQ3f63eRrcjlYOpDskIXjaZREM.ahR3LNJNYnTNV; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:20:38 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-04-02 21:50:38,566 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 21:50:38,566 | DEBUG    | receive_response_body.started request=<Request [b'POST']>
+2026-04-02 21:50:38,566 | DEBUG    | receive_response_body.complete
+2026-04-02 21:50:38,566 | DEBUG    | response_closed.started
+2026-04-02 21:50:38,566 | DEBUG    | response_closed.complete
+2026-04-02 21:50:38,566 | DEBUG    | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 03 Apr 2026 01:50:38 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9e646c6ebefcc768-IAD', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'experiment-aawniq', 'openai-processing-ms': '529', 'openai-project': 'proj_vAjBi7WmgGzFatchM4I8KfPS', 'openai-version': '2020-10-01', 'x-openai-proxy-wasm': 'v0.1', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '30000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '29999739', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_d22e0c935e904051955795a5a006130c', 'set-cookie': '__cf_bm=1RI0wVOFWeWt.AcWtDQfztrCR9fBcktutmcN0W6fZQU-1775181037.8788345-1.0.1.1-WyUyxMADyfnSzDcU8BAx692jjrY8EfvqrioAhPOYYe001ZqJQRAO2JcyZT_S3o9IMJSwmpGY9EFruPOuutktK3LCyQ3f63eRrcjlYOpDskIXjaZREM.ahR3LNJNYnTNV; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:20:38 GMT', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2026-04-02 21:50:38,566 | DEBUG    | request_id: req_d22e0c935e904051955795a5a006130c
+2026-04-02 21:50:38,574 | INFO     |   Extracted: ['Zulu Isicholo'], relational: None
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3227991.628150199, ttl=10, perf_time=3227993.069272668 => False
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10)
+2026-04-02 21:50:38,574 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:50:38,574 | DEBUG    | [#E320]  _: <POOL> picked existing connection bolt-217459
+2026-04-02 21:50:38,574 | DEBUG    | [#E320]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:50:38,574 | DEBUG    | [#E320]  _: <POOL> handing out existing connection
+2026-04-02 21:50:38,574 | DEBUG    | [#E320]  C: RUN '\n        MATCH (e:Entity)\n        WHERE e.domain IS NOT NULL\n          AND (\n            toLower(e.name) = toLower($name)\n            OR any(a IN e.alternative_names WHERE toLower(a) = toLower($name))\n          )\n        RETURN e\n        LIMIT 1\n        ' {'name': 'Zulu Isicholo'} {}
+2026-04-02 21:50:38,574 | DEBUG    | [#E320]  C: PULL {'n': 1000}
+2026-04-02 21:50:38,608 | DEBUG    | [#E320]  S: SUCCESS {'t_first': 1, 'fields': ['e'], 'db': '0e6d187a'}
+2026-04-02 21:50:38,608 | DEBUG    | [#E320]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:50:38,608 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 3, 'db': '0e6d187a'}
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  _: <POOL> released bolt-217459
+2026-04-02 21:50:38,613 | INFO     |   Matched 'Zulu Isicholo' → 'Zulu Isicholo'
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3227991.628150199, ttl=10, perf_time=3227993.108549758 => False
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10)
+2026-04-02 21:50:38,613 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  _: <POOL> picked existing connection bolt-217459
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  _: <POOL> handing out existing connection
+2026-04-02 21:50:38,613 | DEBUG    | [#E320]  C: RUN '\n            MATCH (e:Entity {name: $name})-[*1..1]-(nb:Entity)\n            WHERE nb.domain IS NOT NULL AND nb.name <> $name\n            RETURN DISTINCT nb\n            LIMIT 10\n            ' {'name': 'Zulu Isicholo'} {}
+2026-04-02 21:50:38,614 | DEBUG    | [#E320]  C: PULL {'n': 1000}
+2026-04-02 21:50:38,647 | DEBUG    | [#E320]  S: SUCCESS {'t_first': 1, 'fields': ['nb'], 'db': '0e6d187a'}
+2026-04-02 21:50:38,647 | DEBUG    | [#E320]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:50:38,647 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:50:38,648 | DEBUG    | [#E320]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '02000', 'status_description': 'note: no data'}], 'type': 'r', 't_last': 1, 'db': '0e6d187a'}
+2026-04-02 21:50:38,648 | DEBUG    | [#E320]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:50:38,648 | DEBUG    | [#E320]  _: <POOL> released bolt-217459
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3227991.628150199, ttl=10, perf_time=3227993.143730208 => False
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3227991.628150199, ttl=10)
+2026-04-02 21:50:38,648 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:50:38,648 | DEBUG    | [#E320]  _: <POOL> picked existing connection bolt-217459
+2026-04-02 21:50:38,648 | DEBUG    | [#E320]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:50:38,649 | DEBUG    | [#E320]  _: <POOL> handing out existing connection
+2026-04-02 21:50:38,649 | DEBUG    | [#E320]  C: RUN '\n        MATCH (a:Entity)-[r]->(b:Entity)\n        WHERE a.name IN $names OR b.name IN $names\n        RETURN a.name AS from_node, type(r) AS rel_type, b.name AS to_node\n        LIMIT 50\n        ' {'names': ['Zulu Isicholo']} {}
+2026-04-02 21:50:38,649 | DEBUG    | [#E320]  C: PULL {'n': 1000}
+2026-04-02 21:50:38,682 | DEBUG    | [#E320]  S: SUCCESS {'t_first': 1, 'fields': ['from_node', 'rel_type', 'to_node'], 'db': '0e6d187a'}
+2026-04-02 21:50:38,682 | DEBUG    | [#E320]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:50:38,682 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: RECORD * 1
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 7, 'db': '0e6d187a'}
+2026-04-02 21:50:38,690 | DEBUG    | [#E320]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:50:38,691 | DEBUG    | [#E320]  _: <POOL> released bolt-217459
+2026-04-02 21:50:38,691 | INFO     |   ContextPacket: 1 primary, 0 neighbours, 15 attributes, 8 relationships
+2026-04-02 21:50:38,691 | INFO     | ============================================================
+2026-04-02 21:50:38,691 | INFO     | RETRIEVED ENTITIES
+2026-04-02 21:50:38,691 | INFO     | ============================================================
+2026-04-02 21:50:38,691 | INFO     |   Name      : Zulu Isicholo
+2026-04-02 21:50:38,691 | INFO     |   Domain    : cultural_artifact
+2026-04-02 21:50:38,691 | INFO     |   Morphology: large flat disc-shaped hat with dramatically flared wide brim, constructed over a basketry foundation of woven grass, cotton string, or human hair
+2026-04-02 21:50:38,691 | INFO     |   Features  : ['extraordinarily wide flat circular disc brim extending 30–60cm in diameter, far beyond the width of the head', 'tilted at an angle when worn rather than sitting flat on top', 'constructed by overlaying dyed string over a coiled basketry foundation', 'reddish-ochre coloration from red oxide and animal fat mixture applied to surface', 'beaded decorative strips along lower rim edge known as umqhwazi or isembozo', 'beaded rosettes attached to sides or top in later 20th century versions', 'rigid structured form that maintains its disc shape permanently']
+2026-04-02 21:50:38,691 | INFO     |   Colors    : ['deep red-ochre', 'burnt sienna', 'black', 'natural straw yellow', 'earthy brown']
+2026-04-02 21:50:38,691 | INFO     |   Texture   : tightly woven basketry surface, smooth and rigid, with matte ochre finish from red oxide coating
+2026-04-02 21:50:38,691 | INFO     |   Size      : brim diameter 30–60cm, worn tilted at an angle on top of the head; historically larger, evolved to smaller sizes by mid-20th century
+2026-04-02 21:50:38,691 | INFO     | ============================================================
+2026-04-02 21:50:38,691 | INFO     | RELATIONSHIPS
+2026-04-02 21:50:38,691 | INFO     | ============================================================
+2026-04-02 21:50:38,691 | INFO     |   (Zulu Isicholo) -[ASSOCIATED_WITH]-> (Isidwaba)
+2026-04-02 21:50:38,691 | INFO     |   (Zulu Isicholo) -[PART_OF]-> (Zulu traditional attire)
+2026-04-02 21:50:38,691 | INFO     |   (Zulu Isicholo) -[USED_IN]-> (Ukukhehla ceremony)
+2026-04-02 21:50:38,691 | INFO     |   (Zulu Isicholo) -[WORN_WITH]-> (Zulu beadwork)
+2026-04-02 21:50:38,691 | INFO     |   (Zulu traditional attire) -[HAS_PART]-> (Zulu Isicholo)
+2026-04-02 21:50:38,691 | INFO     |   (Ukukhehla ceremony) -[FEATURES]-> (Zulu Isicholo)
+2026-04-02 21:50:38,691 | INFO     |   (Isidwaba) -[ASSOCIATED_WITH]-> (Zulu Isicholo)
+2026-04-02 21:50:38,691 | INFO     |   (Zulu beadwork) -[WORN_WITH]-> (Zulu Isicholo)
+2026-04-02 21:50:38,691 | INFO     | ============================================================
+2026-04-02 21:50:38,691 | INFO     | CONTRASTIVE CONSTRAINTS
+2026-04-02 21:50:38,691 | INFO     | ============================================================
+2026-04-02 21:50:38,691 | INFO     |   NOT a rounded dome or bowl-shaped hat — must be a dramatically wide flat disc
+2026-04-02 21:50:38,691 | INFO     |   NOT worn straight on the head — always tilted at an angle to one side
+2026-04-02 21:50:38,691 | INFO     |   NOT a small hat — the brim extends dramatically wide, far beyond the head width
+2026-04-02 21:50:38,691 | INFO     |   NOT a generic African hat or turban — specific to married Zulu women with basketry-woven disc structure
+2026-04-02 21:50:38,691 | INFO     |   NOT decorated with feathers — surface decorated with ochre coating and beadwork strips
+2026-04-02 21:50:38,692 | DEBUG    | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-edc9b886-3102-4f1d-9862-e03b146ca157', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You write a precise contrastive visual sub-prompt for a single rare entity\nfor use in a text-to-image generation pipeline.\n\nCover ALL of the following attribute categories (skip only if genuinely N/A):\n\n1. PHYSICAL PROPERTIES — exact body structure, number of arms/heads/limbs,\n   overall form, size, proportions\n2. APPEARANCE / MORPHOLOGY — colors (be specific: "storm-cloud dark blue",\n   not "dark"), texture (smooth/scaly/feathered), surface quality\n3. UNIQUE FACTS — what makes this entity visually unlike anything common\n4. FUNCTIONAL PROPERTIES — what it does, its role, powers, ecological function\n5. PERSONALITY TRAITS / BEHAVIOR — emotional expression, posture, demeanor\n   (important for mythological figures and animals)\n6. MATERIAL & COMPOSITION — what it is made of or composed of (for artifacts)\n   or biological makeup (for organisms)\n7. USAGE CONTEXT / SYMBOLIC ITEMS — what it carries, wears, is associated with\n8. ORIGIN & HISTORY — cultural/geographic grounding, era, tradition\n9. DISTINCTIVE FEATURES with NOT-X constraints — at least 2 explicit\n   "NOT [generic alternative]" phrases that prevent the model defaulting\n   to a common prior. Example: "NOT a western grim reaper", "NOT a generic deer"\n\nWrite a dense, vivid paragraph (60-100 words) covering as many of these\nas possible. Do NOT use numbered lists — write as flowing descriptive prose.\nReturn ONLY the sub-prompt text.'}, {'role': 'user', 'content': "Entity: Zulu Isicholo\nDomain: cultural_artifact\nType: traditional headdress\n\nPhysical / Visual attributes:\n  Morphology: large flat disc-shaped hat with dramatically flared wide brim, constructed over a basketry foundation of woven grass, cotton string, or human hair\n  Distinctive features: extraordinarily wide flat circular disc brim extending 30–60cm in diameter, far beyond the width of the head; tilted at an angle when worn rather than sitting flat on top; constructed by overlaying dyed string over a coiled basketry foundation; reddish-ochre coloration from red oxide and animal fat mixture applied to surface; beaded decorative strips along lower rim edge known as umqhwazi or isembozo; beaded rosettes attached to sides or top in later 20th century versions; rigid structured form that maintains its disc shape permanently\n  Colors: deep red-ochre, burnt sienna, black, natural straw yellow, earthy brown\n  Texture: tightly woven basketry surface, smooth and rigid, with matte ochre finish from red oxide coating\n  Size: brim diameter 30–60cm, worn tilted at an angle on top of the head; historically larger, evolved to smaller sizes by mid-20th century\n  Structure: flat wide disc brim with small central crown fitting over the head, always worn tilted to one side, beadwork radiating like spokes on top surface\n\nFunctional / Contextual:\n  Primary function: marital status marker worn exclusively by married Zulu women to signify respect for husband's family and ancestors\n  Origin: KwaZulu-Natal province, South Africa; Zulu Kingdom\n  Cultural significance: embodies married Zulu women's identity, dignity, and ancestral respect; inspired Queen Ramonda's headdress in Black Panther (2018); preserved in museum collections worldwide including Art Institute of Chicago, MFA Boston, and Pacific Lutheran University\n  Historical period: 19th century to present; evolved from hairstyle to hat form circa 1850–1900; beaded decorative additions from 1950s onward\n\nContrastive constraints (must appear as NOT-X in your sub-prompt):\n  - NOT a rounded dome or bowl-shaped hat — must be a dramatically wide flat disc\n  - NOT worn straight on the head — always tilted at an angle to one side\n  - NOT a small hat — the brim extends dramatically wide, far beyond the head width\n  - NOT a generic African hat or turban — specific to married Zulu women with basketry-woven disc structure\n  - NOT decorated with feathers — surface decorated with ochre coating and beadwork strips\n\nWrite the contrastive sub-prompt for Zulu Isicholo now."}], 'model': 'gpt-4o', 'max_tokens': 250, 'temperature': 0.3}}
+2026-04-02 21:50:38,693 | DEBUG    | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2026-04-02 21:50:38,693 | DEBUG    | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-04-02 21:50:38,700 | DEBUG    | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd3a9b0>
+2026-04-02 21:50:38,700 | DEBUG    | start_tls.started ssl_context=<ssl.SSLContext object at 0x15552c494740> server_hostname='api.openai.com' timeout=5.0
+2026-04-02 21:50:38,710 | DEBUG    | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd3a6e0>
+2026-04-02 21:50:38,710 | DEBUG    | send_request_headers.started request=<Request [b'POST']>
+2026-04-02 21:50:38,710 | DEBUG    | send_request_headers.complete
+2026-04-02 21:50:38,710 | DEBUG    | send_request_body.started request=<Request [b'POST']>
+2026-04-02 21:50:38,710 | DEBUG    | send_request_body.complete
+2026-04-02 21:50:38,710 | DEBUG    | receive_response_headers.started request=<Request [b'POST']>
+2026-04-02 21:50:41,697 | DEBUG    | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 03 Apr 2026 01:50:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9e646c73fcc4e60c-IAD'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'experiment-aawniq'), (b'openai-processing-ms', b'2911'), (b'openai-project', b'proj_vAjBi7WmgGzFatchM4I8KfPS'), (b'openai-version', b'2020-10-01'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'30000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'29999004'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'1ms'), (b'x-request-id', b'req_6111add95716439eadc28fd5983eaf9d'), (b'set-cookie', b'__cf_bm=mvNV6g61__xd7bDPv2AXDpIhiETa1BNoi9pot_Awcs4-1775181038.715751-1.0.1.1-JR_NctX0Oq7IYW6RkV5um.Gtg3NdwAki2Al5YOZ0mYRsu4QiD2pi5DaquKIwG2S_UYuqMm0l4ZZA_0X9c_sEDirtQ4kQ2.ATZR2e1fX9O0Eok43ZisYrrPUOBE0Ds49e; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:20:41 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-04-02 21:50:41,697 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 21:50:41,698 | DEBUG    | receive_response_body.started request=<Request [b'POST']>
+2026-04-02 21:50:41,700 | DEBUG    | receive_response_body.complete
+2026-04-02 21:50:41,700 | DEBUG    | response_closed.started
+2026-04-02 21:50:41,700 | DEBUG    | response_closed.complete
+2026-04-02 21:50:41,700 | DEBUG    | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 03 Apr 2026 01:50:41 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9e646c73fcc4e60c-IAD', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'experiment-aawniq', 'openai-processing-ms': '2911', 'openai-project': 'proj_vAjBi7WmgGzFatchM4I8KfPS', 'openai-version': '2020-10-01', 'x-openai-proxy-wasm': 'v0.1', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '30000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '29999004', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '1ms', 'x-request-id': 'req_6111add95716439eadc28fd5983eaf9d', 'set-cookie': '__cf_bm=mvNV6g61__xd7bDPv2AXDpIhiETa1BNoi9pot_Awcs4-1775181038.715751-1.0.1.1-JR_NctX0Oq7IYW6RkV5um.Gtg3NdwAki2Al5YOZ0mYRsu4QiD2pi5DaquKIwG2S_UYuqMm0l4ZZA_0X9c_sEDirtQ4kQ2.ATZR2e1fX9O0Eok43ZisYrrPUOBE0Ds49e; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:20:41 GMT', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2026-04-02 21:50:41,700 | DEBUG    | request_id: req_6111add95716439eadc28fd5983eaf9d
+2026-04-02 21:50:41,700 | INFO     |   Sub-prompt for 'Zulu Isicholo': The Zulu Isicholo is a striking traditional headdress, characterized by its larg...
+2026-04-02 21:50:41,701 | DEBUG    | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-74d5f540-69fa-4e43-990f-65255d891077', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are composing a final text-to-image prompt by merging per-entity\ncontrastive sub-prompts into one coherent scene.\n\nRules:\n1. Every entity sub-prompt below must be fully represented — do not drop\n   any entity\'s visual details or NOT-X constraints\n2. Describe how the entities relate to each other visually in the scene,\n   based on their relationship type\n3. Maintain the original query\'s intent — if the query asks for\n   "Yama and his sister", both Yama AND Yami must be prominent\n4. Compose as ONE flowing paragraph of vivid, specific imagery\n5. Keep all NOT-X constraints from all sub-prompts\n6. Do NOT add generic quality tags like "8k masterpiece" or "photorealistic"\n   unless they are domain-appropriate\n\nReturn ONLY the final merged prompt.'}, {'role': 'user', 'content': 'ORIGINAL QUERY: "Zulu Isicholo"\n\nRELATIONSHIP CONTEXT:\n  (Zulu Isicholo) --[ASSOCIATED_WITH]--> (Isidwaba)\n  (Zulu Isicholo) --[PART_OF]--> (Zulu traditional attire)\n  (Zulu Isicholo) --[USED_IN]--> (Ukukhehla ceremony)\n  (Zulu Isicholo) --[WORN_WITH]--> (Zulu beadwork)\n  (Zulu traditional attire) --[HAS_PART]--> (Zulu Isicholo)\n  (Ukukhehla ceremony) --[FEATURES]--> (Zulu Isicholo)\n\nPER-ENTITY SUB-PROMPTS:\n[Zulu Isicholo]\nThe Zulu Isicholo is a striking traditional headdress, characterized by its large, flat disc-shaped form with a dramatically flared wide brim, extending 30–60cm in diameter. Constructed over a basketry foundation of woven grass, cotton string, or human hair, it features a deep red-ochre coloration achieved through a mixture of red oxide and animal fat, giving it a smooth, matte finish. This headdress is NOT a rounded dome or bowl-shaped hat, but a wide disc that is always worn tilted at an angle, NOT straight on the head. The Isicholo is adorned with beaded decorative strips known as umqhwazi or isembozo along the lower rim, and sometimes beaded rosettes on the sides or top, but NOT feathers. It serves as a marital status marker for married Zulu women, symbolizing respect for their husband\'s family and ancestors, originating from the KwaZulu-Natal province of South Africa. Evolving from a hairstyle to its current hat form between 1850–1900, the Isicholo is NOT a small hat; its brim extends dramatically wide, far beyond the head width, and it is NOT a generic African hat or turban, but a unique\n\nMerge these into one coherent scene prompt that captures all entities\nas described above with their relationship visually expressed.'}], 'model': 'gpt-4o', 'max_tokens': 600, 'temperature': 0.3}}
+2026-04-02 21:50:41,701 | DEBUG    | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2026-04-02 21:50:41,701 | DEBUG    | send_request_headers.started request=<Request [b'POST']>
+2026-04-02 21:50:41,702 | DEBUG    | send_request_headers.complete
+2026-04-02 21:50:41,702 | DEBUG    | send_request_body.started request=<Request [b'POST']>
+2026-04-02 21:50:41,702 | DEBUG    | send_request_body.complete
+2026-04-02 21:50:41,702 | DEBUG    | receive_response_headers.started request=<Request [b'POST']>
+2026-04-02 21:50:47,828 | DEBUG    | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 03 Apr 2026 01:50:47 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9e646c86ae8be60c-IAD'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'experiment-aawniq'), (b'openai-processing-ms', b'5270'), (b'openai-project', b'proj_vAjBi7WmgGzFatchM4I8KfPS'), (b'openai-version', b'2020-10-01'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'30000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'29999389'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'1ms'), (b'x-request-id', b'req_d26d179dc17b438695fffe4df66815d2'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-04-02 21:50:47,829 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 21:50:47,829 | DEBUG    | receive_response_body.started request=<Request [b'POST']>
+2026-04-02 21:50:47,832 | DEBUG    | receive_response_body.complete
+2026-04-02 21:50:47,832 | DEBUG    | response_closed.started
+2026-04-02 21:50:47,832 | DEBUG    | response_closed.complete
+2026-04-02 21:50:47,832 | DEBUG    | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 03 Apr 2026 01:50:47 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9e646c86ae8be60c-IAD', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'experiment-aawniq', 'openai-processing-ms': '5270', 'openai-project': 'proj_vAjBi7WmgGzFatchM4I8KfPS', 'openai-version': '2020-10-01', 'x-openai-proxy-wasm': 'v0.1', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '30000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '29999389', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '1ms', 'x-request-id': 'req_d26d179dc17b438695fffe4df66815d2', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2026-04-02 21:50:47,832 | DEBUG    | request_id: req_d26d179dc17b438695fffe4df66815d2
+2026-04-02 21:50:47,832 | INFO     |   Enriched prompt synthesised (1354 chars)
+2026-04-02 21:50:47,832 | INFO     | ============================================================
+2026-04-02 21:50:47,832 | INFO     | PER-ENTITY SUB-PROMPTS (Step 2 CoT)
+2026-04-02 21:50:47,833 | INFO     | ============================================================
+2026-04-02 21:50:47,833 | INFO     | [Zulu Isicholo]
+2026-04-02 21:50:47,833 | INFO     | The Zulu Isicholo is a striking traditional headdress, characterized by its large, flat disc-shaped form with a dramatically flared wide brim, extending 30–60cm in diameter. Constructed over a basketry foundation of woven grass, cotton string, or human hair, it features a deep red-ochre coloration achieved through a mixture of red oxide and animal fat, giving it a smooth, matte finish. This headdress is NOT a rounded dome or bowl-shaped hat, but a wide disc that is always worn tilted at an angle, NOT straight on the head. The Isicholo is adorned with beaded decorative strips known as umqhwazi or isembozo along the lower rim, and sometimes beaded rosettes on the sides or top, but NOT feathers. It serves as a marital status marker for married Zulu women, symbolizing respect for their husband's family and ancestors, originating from the KwaZulu-Natal province of South Africa. Evolving from a hairstyle to its current hat form between 1850–1900, the Isicholo is NOT a small hat; its brim extends dramatically wide, far beyond the head width, and it is NOT a generic African hat or turban, but a unique
+2026-04-02 21:50:47,833 | INFO     | ============================================================
+2026-04-02 21:50:47,833 | INFO     | FINAL ENRICHED PROMPT (Step 3 Merge)
+2026-04-02 21:50:47,833 | INFO     | ============================================================
+2026-04-02 21:50:47,833 | INFO     | In a vibrant depiction of Zulu culture, a married Zulu woman stands proudly, embodying the essence of traditional attire at an Ukukhehla ceremony. Her head is adorned with the majestic Zulu Isicholo, a striking headdress with a large, flat disc-shaped form and a dramatically flared wide brim, extending 30–60cm in diameter. The Isicholo's deep red-ochre hue, achieved through a mixture of red oxide and animal fat, gives it a smooth, matte finish, contrasting beautifully against her skin. This headdress is tilted at an angle, showcasing its unique design and adorned with beaded decorative strips known as umqhwazi or isembozo along the lower rim, with occasional beaded rosettes on the sides, but notably absent of feathers. The woman’s attire is completed with an Isidwaba, a traditional Zulu skirt, and intricate Zulu beadwork that complements the headdress, each bead meticulously placed to enhance the ceremonial ensemble. The scene captures the essence of the Ukukhehla ceremony, where the Isicholo plays a central role, symbolizing the woman's marital status and respect for her husband's family and ancestors, deeply rooted in the cultural heritage of the KwaZulu-Natal province of South Africa. The setting is vibrant and festive, with the Isicholo serving as a focal point, emphasizing its significance and beauty in Zulu traditional attire.
+2026-04-02 21:50:47,833 | DEBUG    | [#0000]  _: <POOL> close
+2026-04-02 21:50:47,833 | DEBUG    | [#E31C]  C: GOODBYE
+2026-04-02 21:50:47,833 | DEBUG    | [#E31C]  C: <CLOSE>
+2026-04-02 21:50:47,833 | DEBUG    | [#E320]  C: GOODBYE
+2026-04-02 21:50:47,833 | DEBUG    | [#E320]  C: <CLOSE>
+2026-04-02 21:50:47,833 | INFO     | Neo4j: driver closed.
+2026-04-02 21:50:47,833 | INFO     | Done. Log saved to logs/zulu_isicholo_pipeline.log
+2026-04-02 21:50:47,901 | DEBUG    | close.started
+2026-04-02 21:50:47,902 | DEBUG    | close.complete
+2026-04-02 21:50:47,902 | DEBUG    | close.started
+2026-04-02 21:50:47,902 | DEBUG    | close.complete
